@@ -37,7 +37,11 @@
          <form method="post" action="{{ url('teachers/insert_image/') }}"  enctype="multipart/form-data">
           @csrf
           <div class="form-group">
-         
+          <div class="row">
+           <label class="col-md-4" align="right">Enter Name</label>
+           <div class="col-md-8">
+            <input type="text" name="name" class="form-control" />
+           </div>
           </div>
              <div class="row">
            <label class="col-md-4" align="right">Enter Name</label>
