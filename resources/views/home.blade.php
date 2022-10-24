@@ -14,7 +14,7 @@
                             <a href="/teachers">techears</a>
                         </li>
                         <li>
-                            <a href="dynamic/teacher/teachers">students</a>
+                            <a href="/student">students</a>
                         </li>
                         
                     </ul>

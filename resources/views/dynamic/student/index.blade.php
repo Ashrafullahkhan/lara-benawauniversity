@@ -12,7 +12,7 @@
 <body>
  <div class="container">    
   <br />
-  <h3 align="center">Insert Image into Mysql Database in Laravel 6</h3>
+  <h3 align="center">Insert Student information in  Mysql Database in Laravel 6</h3>
     <br />
     @if($errors->any())
     <div class="alert alert-danger">
@@ -46,12 +46,17 @@
             <input type="text" name="name" class="form-control" />
            </div>
           </div>
-             <div class="row">
+          <div class="row">
            <label class="col-md-4" align="right">Enter Name</label>
            <div class="col-md-8">
-            <input type="text" name="job" class="form-control" />
-           </div
+            <input type="text" name="name" class="form-control" />
+           </div>
           </div>
+          <div class="row">
+           <label class="col-md-4" align="right">Enter F/Name</label>
+           <div class="col-md-8">
+            <input type="text" name="job" class="form-control" />
+           </div>
          </div>
          <div class="form-group">
           <div class="row">
