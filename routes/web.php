@@ -136,5 +136,14 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 
+Auth::routes();
 
-Route::resource('/student',App\Http\Controllers\dynamic\StudentController::class);
+
+
+//rout for dinamic admin.
+// Route::get('admin/teachers',function()
+// {
+//      return view('admin/teachers/index');
+// });
+
+Route::resource('admin/teachers',App\Http\Controllers\admin\TeachersController::class)->parameters(['teachers'=>'id']);

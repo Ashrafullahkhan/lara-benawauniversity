@@ -11,10 +11,10 @@
                 <div class="card-body">
                     <ul>
                         <li>
-                            <a href="/teachers">techears</a>
+                        <a href="{{route('teachers.index')}}">teachers</a>
                         </li>
                         <li>
-                            <a href="/student">students</a>
+                            <a href="">students</a>
                         </li>
                         
                     </ul>

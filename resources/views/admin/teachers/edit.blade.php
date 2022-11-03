@@ -1,4 +1,6 @@
 
+
+
 @extends('layouts.app')
 
 @section('content')
@@ -12,7 +14,7 @@
 <body>
  <div class="container">    
   <br />
-  <h3 align="center">Insert Student information in  Mysql Database in Laravel 6</h3>
+  <h3 align="center">Insert teacher information in  Mysql Database in Laravel 6</h3>
     <br />
     @if($errors->any())
     <div class="alert alert-danger">
@@ -37,32 +39,37 @@
          </div>
          <div class="panel-body">
          <br />
-         <form method="post" action="{{ url('teachers/insert_image/') }}"  enctype="multipart/form-data">
-          <!-- @csrf -->
+         
+         
+         <form method="POST" action="{{ route('teachers.update',$data->id) }}"  enctype="multipart/form-data">
+          @csrf 
+          @method('PUT')
           <div class="form-group">
           <div class="row">
-           <label class="col-md-4" align="right">Enter Name</label>
+           <label class="col-md-4" align="right">Enter First  Name</label>
            <div class="col-md-8">
-            <input type="text" name="name" class="form-control" />
+            <input type="text" name="name" class="form-control" value='{{$data->name}}'/>
+            @error('name')
+                        <div class="alert alert-danger" >{{$message}}</div>
+                        @enderror
            </div>
           </div>
           <div class="row">
-           <label class="col-md-4" align="right">Enter Name</label>
+           <label class="col-md-4" align="right">job</label>
            <div class="col-md-8">
-            <input type="text" name="name" class="form-control" />
+            <input type="text" name="job" class="form-control" value='{{$data->job}}'/>
+            @error('job')
+                        <div class="alert alert-danger" >{{$message}}</div>
+                        @enderror
            </div>
-          </div>
-          <div class="row">
-           <label class="col-md-4" align="right">Enter F/Name</label>
-           <div class="col-md-8">
-            <input type="text" name="job" class="form-control" />
-           </div>
+         
          </div>
          <div class="form-group">
           <div class="row">
            <label class="col-md-4" align="right">Select Profile Image</label>
            <div class="col-md-8">
             <input type="file" name="pic" />
+            <p><img src="{{ asset('admin/images/teacher_pic/'.$data->pic)  }}" width="80"></p>
            </div>
           </div>
          </div>
@@ -75,29 +82,26 @@
       </div>
      </div>
 
-     
-     <div class="panel panel-default">
-         <div class="panel-heading">
-             <h3 class="panel-title">User Data</h3>
-         </div>
-         <div class="panel-body">
-         <div class="table-responsive">
-                <table class="table table-bordered table-striped">
-                  <tr>
-                     <th width="30%">Image</th>
-                     <th width="70%">Name</th>
- 
-                  </tr>
-                
+    
+               
                  
               </table>
-             
-             </div>
-            <li> <h2>  <a href="">edite</a></h2></li>
-                     <li><h2>  <a href="">delete</a></h2></li>
+            
+
+
+
+
+                  
+
+          
+                     
          </div>
-     </div>
+  
+  
+        </div>
     </div>
  </body>
 </html>
 @endsection
+
+
