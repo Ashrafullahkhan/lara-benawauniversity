@@ -37,9 +37,21 @@
          <form method="post" action="{{ url('teachers/insert_image/') }}"  enctype="multipart/form-data">
           @csrf
           <div class="form-group">
+
           <div class="row">
            <label class="col-md-4" align="right">Enter Name</label>
-           <div class="col-md-8">
+           <div class="col-md-8">      
+             <select class="form-control" id="selectUser" name="lang" required focus>
+    <option value="" disabled selected>Please select user</option>        
+    
+    <option value="en">english</option>
+        
+    <option value="pa">pashto</option>
+        
+    <option value="da">dari</option>
+
+  </select>
+
             <input type="text" name="name" class="form-control" />
            </div>
           </div>
@@ -84,6 +96,14 @@
                    </td>
                    <td>{{ $row->name }}</td>
                     <td>{{ $row->job }}</td>
+                    <td> <a href="teachers/{{$row->id}}">Edit </a></td>
+                       <td>       <form action="/teachers/delete/{{ $row->id }}" method="POST">
+                        @csrf
+                        @method('DELETE')
+<button>Delete</button>
+                    </form>
+                  </td>
+        
                   </tr>
                   @endforeach
               </table>

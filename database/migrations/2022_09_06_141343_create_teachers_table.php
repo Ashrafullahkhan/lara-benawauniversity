@@ -17,6 +17,7 @@ return new class extends Migration
            $table->bigIncrements('id');
             $table->string('name');
             $table->string('job');
+            $table->string('lang');
             $table->binary('pic');
             $table->timestamps();
         });

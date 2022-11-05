@@ -2,10 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TeachersController;
+use App\Http\Controllers\PdfController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
-|--------------------------------------------------------------------------
+|--------------------u------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
@@ -14,7 +15,11 @@ use App\Http\Controllers\TeachersController;
 */
 
 
+// pashto views
 
+Route::get('/pashto', function () {
+    return view('pashto/index2');
+});
 
 //main views
 Route::get('/', function () {
@@ -33,15 +38,21 @@ Route::get('/scholarships', function () {
 Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
+Route::get('/teacher', function () {
+    return view('teacher');
+});
+
 
 // Academic ------ programmes
 
 Route::get('/Programme-CS', function () {
-    return view('Programmes-CS');
+    return view('programmes-CS');
 });
 Route::get('/Programme-EN', function () {
-    return view('programme-EN');
+    return view('programmes-EN');
 });
+Route::get('/policies/Ethics_policy.pdf',[PdfController::class, "index"]);
+
 
 //students 
 
@@ -99,9 +110,9 @@ Route::get('/teachers', [TeachersController::class, "index"]);
 Route::post('teachers/insert_image',  [TeachersController::class, "insert_image"]);
 
 Route::get('teachers/fetch_image/{id}', [TeachersController::class, "fetch_image"]);
-
-
-
+Route::get('teachers/{teacher}', [TeachersController::class, "update"]);
+Route::patch('teachers/update/{id}', [TeachersController::class, "edit"]);
+Route::delete('teachers/delete/{teacher}', [TeachersController::class, "destroy"]);
 
 
 //admin views 
