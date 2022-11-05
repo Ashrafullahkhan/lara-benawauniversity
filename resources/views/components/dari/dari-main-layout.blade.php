@@ -83,7 +83,7 @@
     <div class="page-wraper">
       <div id="loading-icon-bx"></div>
       <!-- Header Top ==== -->
-      <header class="header rs-nav ">
+      <header class="header rs-nav header-transparent">
         <div class="top-bar">
           <div class="container">
             <div class="row d-flex justify-content-between">
@@ -106,9 +106,10 @@
                 <ul>
                   <li>
                     <select class="header-lang-bx" name="languages" id="languages"onchange="location = this.value;">
-                      <option data-icon="flag flag-uk" value="index.html">English</option>
+                                <option data-icon="flag flag-afg" value="/dr">Dari</option>
+                      <option data-icon="flag flag-uk" value="/">English</option>
                       <option data-icon="flag flag-afg" value="/pashto">pashto</option> 
-                      <option data-icon="flag flag-afg" value="/dr">Dari</option>
+            
                     </select>
                   </li>
                  
@@ -261,7 +262,7 @@
 								<li><a href="faq-2.html">Conflicts of Intrest in Research Policy</a></li>
 								<li><a href="faq-2.html">Employees Grievance Policy</a></li>
 								<li><a href="faq-2.html">Ethics in Research Policy</a></li>
-								<li><a href="faq-2.html">Ethics Policy</a></li>
+								<li><a href="/policies/Ethics_policy.pdf">Ethics Policy</a></li>
 							</ul>
 						</li>
 						</ul>
@@ -389,6 +390,7 @@
 						<li><a href="founder-of-benawa">Founder of BIHE</a></li>
 						<li><a href="chacelor-message">Chancellor's Message</a></li>
 						<li><a href="management-team">Management Team</a></li>
+            <li><a href="teacher">Our Teachers</a></li>
 						<li><a href="admin/teacher-profile">Our Students</a></li>
                 </ul>
 				

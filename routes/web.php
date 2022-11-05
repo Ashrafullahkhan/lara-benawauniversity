@@ -14,12 +14,100 @@ use App\Http\Controllers\PdfController;
 |
 */
 
+// dari views
+
+Route::get('/dr', function () {
+    return view('dari/index');
+});
+
+Route::get('/dr/admission-info', function () {
+    return view('/dari/admission-info');
+});
+Route::get('/fee-structure', function () {
+    return view('fee-structure');
+});
+Route::get('/scholarships', function () {
+    return view('scholarships');
+});
+Route::get('/financial-assistant', function () {
+    return view('financial-assistant');
+});
+Route::get('/teacher', function () {
+    return view('teacher');
+});
+
+
+// Academic ------ programmes
+
+Route::get('/Programme-CS', function () {
+    return view('programmes-CS');
+});
+Route::get('/Programme-EN', function () {
+    return view('programmes-EN');
+});
+Route::get('/policies/Ethics_policy.pdf',[PdfController::class, "index"]);
+
+
+//students 
+
+Route::get('/student-affairs', function () {
+    return view('student-affairs');
+});
+
+Route::get('/financial-assistant', function () {
+    return view('financial-assistant');
+});
+
+
+//facilities
+
+
+Route::get('/computer-lab', function () {
+    return view('computer-lab');
+});
+
+Route::get('/engineering-lab', function () {
+    return view('engineering-lab');
+});
+Route::get('/library', function () {
+    return view('library');
+});
+Route::get('/cafeteria', function () {
+    return view('cafeteria');
+});
+
+// about us
+
+Route::get('/why-benawa', function () {
+    return view('why-benawa');
+});
+Route::get('/founder-of-benawa', function () {
+    return view('founder-of-benawa');
+});
+Route::get('/chancellor-message', function () {
+    return view('chancellor-message');
+});
+Route::get('/management-team', function () {
+    return view('management-team');
+});
+Route::get('/cafeteria', function () {
+    return view('cafeteria');
+});
+
+
+
+
 
 // pashto views
 
 Route::get('/pashto', function () {
     return view('pashto/index2');
 });
+
+
+
+
+
 
 //main views
 Route::get('/', function () {

@@ -107,8 +107,8 @@
                   <li>
                     <select class="header-lang-bx" name="languages" id="languages"onchange="location = this.value;">
                       <option data-icon="flag flag-uk" value="index.html">English</option>
-                      <option data-icon="flag flag-afg" value="/pashto">pashto</option> 
-                      <option data-icon="flag flag-afg" value="/dr">Dari</option>
+                      <option data-icon="flag flag-afg" value="./pashto/index.html">pashto</option> 
+                      <option data-icon="flag flag-afg" value="#">Dari</option>
                     </select>
                   </li>
                  
@@ -122,7 +122,7 @@
             <div class="container clearfix">
               <!-- Header Logo ==== -->
               <div class="menu-logo">
-                <a href="/"
+                <a href="index.html"
                   ><img src="assets/images/logo-white.png" alt=""
                 /></a>
               </div>
@@ -222,7 +222,7 @@
                         >
                       </li>
                       <li>
-                        <a href="fee-structure">Fee Structure</a>
+                        <a href="fee-structure">سیبسیبسیب</a>
                       </li>
                       <li>
                         <a href="scholarships"

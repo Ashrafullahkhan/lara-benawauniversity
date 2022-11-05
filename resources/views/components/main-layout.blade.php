@@ -108,7 +108,7 @@
                     <select class="header-lang-bx" name="languages" id="languages"onchange="location = this.value;">
                       <option data-icon="flag flag-uk" value="/">English</option>
                       <option data-icon="flag flag-afg" value="/pashto">pashto</option> 
-                      <option data-icon="flag flag-afg" value="/dari">Dari</option>
+                      <option data-icon="flag flag-afg" value="/dr">Dari</option>
                     </select>
                   </li>
                  
