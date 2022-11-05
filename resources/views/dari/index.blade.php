@@ -121,7 +121,7 @@
                       white-space: normal;
                     "
                   >
-                  Benawa Institute Of Higher Education
+                   مو سسه تحصیلات عالی بینوا
                   </div>
 
                   <!-- LAYER NR. 3 -->
