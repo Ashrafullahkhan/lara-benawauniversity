@@ -29,7 +29,7 @@
     />
 
     <!-- PAGE TITLE HERE ============================================= -->
-    <title>Benawa Institute of Higher Studies</title>
+    <title>موسسه تحصیلات عالی بینوا</title>
 
     <!-- MOBILE SPECIFIC ============================================= -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -107,8 +107,8 @@
                   <li>
                     <select class="header-lang-bx" name="languages" id="languages"onchange="location = this.value;">
                       <option data-icon="flag flag-uk" value="index.html">English</option>
-                      <option data-icon="flag flag-afg" value="./pashto/index.html">pashto</option> 
-                      <option data-icon="flag flag-afg" value="#">Dari</option>
+                      <option data-icon="flag flag-afg" value="./pashto/index.html">پشتو</option> 
+                      <option data-icon="flag flag-afg" value="#">دری</option>
                     </select>
                   </li>
                  
@@ -237,16 +237,16 @@
                     </ul>
                   </li>
                  
-				  <li><a href="javascript:;"> Academic <i class="fa fa-chevron-down"></i></a>
+				  <li><a href="javascript:;"> علمي <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="javascript:;">Programmes<i class="fa fa-angle-right"></i></a>
+						<li><a href="javascript:;">برنامه ها<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="Programme-CS">Computer Science</a></li>
-								<li><a href="Programme-EN">Engineering</a></li>
+								<li><a href="Programme-CS"> کمپیوتر ساینس</a></li>
+								<li><a href="Programme-EN">انجینری</a></li>
 							</ul>
 						</li>
 								
-						<li><a href="javascript:;">Faculty</a>
+						<li><a href="javascript:;">پوهنځی</a>
 						<!--	<ul class="sub-menu">
 								<li><a href="event.html">Event</a></li>
 								<li><a href="events-details.html">Events Details</a></li>

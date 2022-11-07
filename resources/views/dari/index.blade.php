@@ -222,7 +222,7 @@
                       margin-right: 5px;
                     "
                   >
-                    READ MORE ادامه مطلب
+                    ادامه مطلب
                   </div>
                   <div
                     class="tp-caption Newspaper-Button rev-btn"
@@ -492,7 +492,7 @@
                       border-radius: 30px;
                     "
                   >
-                    CONTACT US
+                    ارطباط باما
                   </div>
                 </li>
                 <!-- SLIDE  -->
@@ -516,8 +516,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-bank text-primary"></i>
                       </div>
-                      <h4><a href="#">Computer Lab</a></h4>
-                      <a href="computer-lab.html" class="btn radius-xl">View More</a>
+                      <h4><a href="#">Computer Lab کمپیوتر لیب</a></h4>
+                      <a href="computer-lab.html" class="btn radius-xl">View More بسشتر مشاهده نماید</a>
                     </div>
                   </div>
                 </div>
@@ -574,7 +574,7 @@
                     <div class="cours-bx">
                       <div class="action-box">
                         <img src="assets/images/courses/machine leranig.jpg" alt="" />
-                        <a href="#" class="btn">Read More</a>
+                        <a href="#" class="btn">بیشتربخوانید </a>
                       </div>
                       <div class="info-bx text-center">
                         <h5>
@@ -604,7 +604,7 @@
                     <div class="cours-bx">
                       <div class="action-box">
                         <img src="assets/images/courses/Database.jpg" alt="" />
-                        <a href="#" class="btn">Read More</a>
+                        <a href="#" class="btn"> بیشتربخوانید</a>
                       </div>
                       <div class="info-bx text-center">
                         <h5>
@@ -634,7 +634,7 @@
                     <div class="cours-bx">
                       <div class="action-box">
                         <img src="assets/images/courses/Mobile App.jpg" alt="" />
-                        <a href="#" class="btn">Read More</a>
+                        <a href="#" class="btn">بیشتربخوانید </a>
                       </div>
                       <div class="info-bx text-center">
                         <h5>
@@ -664,7 +664,7 @@
                     <div class="cours-bx">
                       <div class="action-box">
                         <img src="assets/images/courses/ali ullah.jpg" alt="" />
-                        <a href="#" class="btn">Read More</a>
+                        <a href="#" class="btn">بیشتر</a>
                       </div>
                       <div class="info-bx text-center">
                         <h5>
@@ -674,7 +674,7 @@
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 Review</span>
+                          <span>3 تکرار</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -700,7 +700,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12 text-center heading-bx">
-                  <h2 class="title-head m-b0">Upcoming <span>Events</span></h2>
+                  <h2 class="title-head m-b0">رویدادهای <span>آینده</span></h2>
                   <p class="m-b0">Upcoming Education Events To Feed Brain.</p>
                 </div>
               </div>
@@ -825,7 +825,7 @@
                 </div>
               </div>
               <div class="text-center">
-                <a href="#" class="btn">View All Event</a>
+                <a href="#" class="btn">مشاهده تمام رویدادها </a>
               </div>
             </div>
           </div>
@@ -839,7 +839,7 @@
               <div class="row">
                 <div class="col-md-12 text-white heading-bx left">
                   <h2 class="title-head text-uppercase">
-                    what people <span>say</span>
+                   نظریات <span>کاربران</span>
                   </h2>
                   <p>
                     It is a long established fact that a reader will be
@@ -898,7 +898,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12 heading-bx left">
-                  <h2 class="title-head">Recent <span>News</span></h2>
+                  <h2 class="title-head"> اخبار<span>اخیر</span></h2>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page
@@ -938,9 +938,9 @@
                         amount of times, written tons.
                       </p>
                       <div class="post-extra">
-                        <a href="#" class="btn-link">READ MORE</a>
+                        <a href="#" class="btn-link">بیشتربخوانید</a>
                         <a href="#" class="comments-bx"
-                          ><i class="fa fa-comments-o"></i>20 Comment</a
+                          ><i class="fa fa-comments-o"></i>20 نظریات</a
                         >
                       </div>
                     </div>
@@ -975,9 +975,9 @@
                         everything you can on your.
                       </p>
                       <div class="post-extra">
-                        <a href="#" class="btn-link">READ MORE</a>
+                        <a href="#" class="btn-link">ادامه مطلب</a>
                         <a href="#" class="comments-bx"
-                          ><i class="fa fa-comments-o"></i>14 Comment</a
+                          ><i class="fa fa-comments-o"></i>14 نظریات</a
                         >
                       </div>
                     </div>
@@ -1012,9 +1012,9 @@
                         experience together with.
                       </p>
                       <div class="post-extra">
-                        <a href="#" class="btn-link">READ MORE</a>
+                        <a href="#" class="btn-link">مطلب ادامه</a>
                         <a href="#" class="comments-bx"
-                          ><i class="fa fa-comments-o"></i>23 Comment</a
+                          ><i class="fa fa-comments-o"></i>23 نظریات</a
                         >
                       </div>
                     </div>
@@ -1031,8 +1031,8 @@
               <div class="row">
                 <div class="col-lg-5">
                   <div class="heading-bx left">
-                    <h5>Featured Teachers</h5>
-                    <h1 class="title-head">Meet Our teachers</h1>
+                    <h5>استادان آینده </h5>
+                    <h1 class="title-head">ملا قات با استادان</h1>
                   </div>
                   <!-- section title -->
                   <div class="teachers-cont">
@@ -1062,8 +1062,8 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Baqi Bellah</h6>
-                              <span>Teacher</span></a
+                              ><h6>Baqi Bellah باقی بالله</h6>
+                              <span>استاد</span></a
                             >
                           </div>
                         </div>
@@ -1076,9 +1076,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Noor Ahmad Noori</h6></a
+                              ><h6>نوراحمد نوری  </h6></a
                             >
-                            <span>Teacher</span>
+                            <span>استاد</span>
                           </div>
                         </div>
                         <!-- singel teachers -->
@@ -1090,9 +1090,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Aliullah Matawakil</h6></a
+                              ><h6> علی الله متوکل</h6></a
                             >
-                            <span>Teacher</span>
+                            <span>استاد</span>
                           </div>
                         </div>
                         <!-- singel teachers -->
@@ -1104,9 +1104,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Ahmad Khan</h6></a
+                              ><h6>Ahmad Khan احمدخان</h6></a
                             >
-                            <span>Teacher</span>
+                            <span> استاد</span>
                           </div>
                         </div>
                         <!-- singel teachers -->
