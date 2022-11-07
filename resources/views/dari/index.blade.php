@@ -152,7 +152,7 @@
                       font-weight: 400;
                     "
                   >
-                    Where Your Future Begins
+                    جایی که آینده شما آغاز می شود
                   </div>
 
                   <!-- LAYER NR. 3 -->
@@ -185,7 +185,7 @@
                       font-weight: 400;
                     "
                   >
-                    Where Your Future Begin!
+                  جایی که آینده شما آغاز می شود
                   </div>
                   <!-- LAYER NR. 4 -->
                   <div
@@ -222,7 +222,7 @@
                       margin-right: 5px;
                     "
                   >
-                    READ MORE
+                    READ MORE ادامه مطلب
                   </div>
                   <div
                     class="tp-caption Newspaper-Button rev-btn"
@@ -255,7 +255,7 @@
                       border-radius: 30px;
                     "
                   >
-                 سیسی
+                   ارطباط با ما
                   </div>
                 </li>
                 <li
@@ -357,7 +357,7 @@
                       
                     "
                   >
-                    Benawa Institute Of Higher Education
+                  مو سسه تحصیلات عالی بینوا
                   </div>
 
                   <!-- LAYER NR. 3 -->
