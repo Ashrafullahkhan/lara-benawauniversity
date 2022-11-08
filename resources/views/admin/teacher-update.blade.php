@@ -64,7 +64,73 @@
     <main class="ttr-wrapper">
         <div class="container-fluid">
 
+            <div class="col-lg-12 m-b30">
 
+
+
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+
+                @if (session()->has('success'))
+                    <div class="alert alert-success">
+                        {{ session()->get('success') }}
+                    </div>
+                @endif
+                <br />
+
+                <div class="col-lg-12 m-b30">
+                    <div class="widget-box">
+                        <div class="wc-title">
+                            <h4>Update Teacher</h4>
+                        </div>
+                        <div class="widget-inner">
+                            <form method="post" action="/teachers/update/{{ $teacher->id }}"
+                                enctype="multipart/form-data">
+                                @csrf
+                                @method('PATCH')
+                                <div class="row">
+                                    <div class="form-group col-6">
+                                        <label class="col-form-label">Teacher Name</label>
+                                        <div>
+                                            <input type="text" name="name" value="{{ $teacher->name }}"
+                                                class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <label class="col-form-label">Job</label>
+                                        <div>
+                                            <input class="form-control" name="job" type="text"
+                                                value="{{ $teacher->job }}">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-12">
+                                        <label>Select Profile Image</label>
+                                        <div>
+                                            <input type="file" name="pic" value="{{ $teacher->pic }}" />
+                                        </div>
+                                        <img src="/storage/{{ $teacher->pic }}" class="img-thumbnail" width="75" />
+                                    </div>
+                                    <div class="form-group col-12">
+
+                                        <input type="submit" name="teachers" class="btn btn-primary" value="Save" />
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
             <!-- Your Profile Views Chart END-->
         </div>
         </div>

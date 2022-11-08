@@ -99,6 +99,7 @@
                                 <td>{{ $row->job }}</td>
                                 <td> <a href="teachers/{{ $row->id }}">Edit </a></td>
                                 <td>
+
                                     <form action="/teachers/delete/{{ $row->id }}" method="POST">
                                         @csrf
                                         @method('DELETE')

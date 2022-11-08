@@ -168,7 +168,7 @@
                                             <td>{{ $row->job }}</td>
 
                                             <td>
-                                                <div> <a class="" href="/admin/teachers/{{ $row->id }}"><i
+                                                <div> <a href="/admin/teachers/{{ $row->id }}"><i
                                                             class="fa fa-edit"></i></a>
                                                 </div>
 

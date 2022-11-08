@@ -224,7 +224,7 @@ Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
 Route::get('/admin/teacher', [TeachersController::class, "index"]);
-Route::get('/admin/teachers/{id}', [TeachersController::class, "update"]);
+Route::get('/admin/teachers/{teacher}', [TeachersController::class, "update"]);
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
