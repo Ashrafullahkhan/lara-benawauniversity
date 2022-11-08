@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TeachersController;
 use App\Http\Controllers\PdfController;
+use App\Models\Teacher;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -127,7 +128,7 @@ Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
 Route::get('/teacher', function () {
-    return view('teacher');
+    return view('teacher',['teacher' =>Teacher::all()]);
 });
 
 
@@ -152,7 +153,11 @@ Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
 
+//event details 
 
+Route::get('/event-details', function () {
+    return view('event-details');
+});
 //facilities
 
 
@@ -197,8 +202,8 @@ Route::get('/teachers', [TeachersController::class, "index"]);
 
 Route::post('teachers/insert_image',  [TeachersController::class, "insert_image"]);
 
-Route::get('teachers/fetch_image/{id}', [TeachersController::class, "fetch_image"]);
-Route::get('teachers/{teacher}', [TeachersController::class, "update"]);
+
+
 Route::patch('teachers/update/{id}', [TeachersController::class, "edit"]);
 Route::delete('teachers/delete/{teacher}', [TeachersController::class, "destroy"]);
 
@@ -213,14 +218,13 @@ Route::get('/admin/courses', function () {
     return view('admin/courses');
 });
 Route::get('/admin/add-listing', function () {
-    return view('admin/listing');
+    return view('admin/add-listing');
 });
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
-Route::get('/teacher-profile', function () {
-    return view('admin/teacher-profile');
-});
+Route::get('/admin/teacher', [TeachersController::class, "index"]);
+Route::get('/admin/teachers/{id}', [TeachersController::class, "update"]);
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
