@@ -91,7 +91,7 @@
                 <ul>
                   <li>
                     <a href="faq-1.html"
-                      ><i class="fa fa-question-circle"></i>Ask a Question</a
+                      ><i class="fa fa-question-circle"></i>پوښتنه وکړي</a
                     >
                   </li>
                   <li>

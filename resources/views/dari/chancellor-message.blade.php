@@ -8,8 +8,9 @@
           <div class="container">
             <div class="page-banner-entry">
               <h1 class="text-white">
-                Chancellor of Benawa Institute of higher studies
-              </h1>
+                ریس موسسه آموزشی عالی بینوا
+
+            </h1>
             </div>
           </div>
         </div>
@@ -27,7 +28,7 @@
               </div>
               <div class="cont">
                 <a href="teachers-singel.html"
-                  ><h6>Eng. Abdul Hadi Muzzammil</h6></a
+                  ><h6>انجینر عبدالهادی مزمل</h6></a
                 >
                 <span>Chancellor's Message</span>
               </div>

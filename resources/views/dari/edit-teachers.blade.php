@@ -9,7 +9,7 @@
 <body>
  <div class="container">    
   <br />
-  <h3 align="center">edit post</h3>
+  <h3 align="center">ویرایش پست</h3>
     <br />
     @if($errors->any())
     <div class="alert alert-danger">
@@ -30,7 +30,7 @@
 
     <div class="panel panel-default">
          <div class="panel-heading">
-             <h3 class="panel-title">Edit Form</h3>
+             <h3 class="panel-title">ویرایش فورم</h3>
          </div>
          <div class="panel-body">
          <br />
@@ -39,13 +39,13 @@
           @method('PATCH')
           <div class="form-group">
           <div class="row">
-           <label class="col-md-4" align="right">Enter Name</label>
+           <label class="col-md-4" align="right">نام را وارد نمایًد</label>
            <div class="col-md-8">
             <input type="text" name="name" value="{{$teacher->name}}" class="form-control" />
            </div>
           </div>
              <div class="row">
-           <label class="col-md-4" align="right">job</label>
+           <label class="col-md-4" align="right">شغل</label>
            <div class="col-md-8">
             <input type="text" name="job" value="{{$teacher->job}}" class="form-control" />
            </div
@@ -53,7 +53,7 @@
          </div>
          <div class="form-group">
           <div class="row">
-           <label class="col-md-4" align="right">Select Profile Image</label>
+           <label class="col-md-4" align="right">انتخاب عکس </label>
            <div class="col-md-8">
             <input type="file" name="pic"  value="{{$teacher->pic}}" />
 

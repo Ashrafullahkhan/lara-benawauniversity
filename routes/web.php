@@ -21,7 +21,7 @@ Route::get('/dr', function () {
 });
 
 Route::get('/dr/admission-info', function () {
-    return view('/dari/admission-info');
+    return view('/dari/dr-admission-info');
 });
 Route::get('/fee-structure', function () {
     return view('fee-structure');

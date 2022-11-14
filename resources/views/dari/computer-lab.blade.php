@@ -7,7 +7,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Computer Lab</h1>
+              <h1 class="text-white"> لیب کمپیوتر (لابراتوار)</h1>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Computer Lab</h2>
+                    <h2 class="title-head"> لیب کمپیوتر(لابراتوار)</h2>
                   </div>
                   <p>
                     BIHE has high performance computer lab for computer science

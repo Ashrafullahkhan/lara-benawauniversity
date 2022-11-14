@@ -7,9 +7,10 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Scholarships</h1>
+              <h1 class="text-white">بورس تحصیلی</h1>
               <p class="text-white">
                 We offer you the best Scholarships in all our the world
+                مادر همه جهان برای شما بورس تحصیلی را اماده می کنیم
               </p>
             </div>
           </div>
@@ -28,7 +29,7 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Scholarship</h2>
+                    <h2 class="title-head">بورس تحصیلی</h2>
                   </div>
                   <p>
                     BIHE offers a “Haji Nadir” Scholarship for female, which
