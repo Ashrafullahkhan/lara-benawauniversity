@@ -1,9 +1,11 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TeachersController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PdfController;
+use App\Http\Controllers\TeachersController;
 use App\Models\Teacher;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,7 +15,7 @@ use App\Models\Teacher;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 // dari views
 
@@ -37,7 +39,6 @@ Route::get('/teacher', function () {
     return view('teacher');
 });
 
-
 // Academic ------ programmes
 
 Route::get('/Programme-CS', function () {
@@ -46,10 +47,9 @@ Route::get('/Programme-CS', function () {
 Route::get('/Programme-EN', function () {
     return view('programmes-EN');
 });
-Route::get('/policies/Ethics_policy.pdf',[PdfController::class, "index"]);
+Route::get('/policies/Ethics_policy.pdf', [PdfController::class, "index"]);
 
-
-//students 
+//students
 
 Route::get('/student-affairs', function () {
     return view('student-affairs');
@@ -59,9 +59,7 @@ Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
 
-
 //facilities
-
 
 Route::get('/computer-lab', function () {
     return view('computer-lab');
@@ -95,20 +93,11 @@ Route::get('/cafeteria', function () {
     return view('cafeteria');
 });
 
-
-
-
-
 // pashto views
 
 Route::get('/pashto', function () {
     return view('pashto/index2');
 });
-
-
-
-
-
 
 //main views
 Route::get('/', function () {
@@ -128,9 +117,8 @@ Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
 Route::get('/teacher', function () {
-    return view('teacher',['teacher' =>Teacher::all()]);
+    return view('teacher', ['teacher' => Teacher::all()]);
 });
-
 
 // Academic ------ programmes
 
@@ -140,10 +128,9 @@ Route::get('/Programme-CS', function () {
 Route::get('/Programme-EN', function () {
     return view('programmes-EN');
 });
-Route::get('/policies/Ethics_policy.pdf',[PdfController::class, "index"]);
+Route::get('/policies/Ethics_policy.pdf', [PdfController::class, "index"]);
 
-
-//students 
+//students
 
 Route::get('/student-affairs', function () {
     return view('student-affairs');
@@ -153,13 +140,12 @@ Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
 
-//event details 
+//event details
 
 Route::get('/event-details', function () {
     return view('event-details');
 });
 //facilities
-
 
 Route::get('/computer-lab', function () {
     return view('computer-lab');
@@ -193,22 +179,11 @@ Route::get('/cafeteria', function () {
     return view('cafeteria');
 });
 
-
-
 Route::get('/courses', function () {
     return view('courses');
 });
-Route::get('/teachers', [TeachersController::class, "index"]);
 
-Route::post('teachers/insert_image',  [TeachersController::class, "insert_image"]);
-
-
-
-Route::patch('teachers/update/{id}', [TeachersController::class, "edit"]);
-Route::delete('teachers/delete/{teacher}', [TeachersController::class, "destroy"]);
-
-
-//admin views 
+//admin views
 
 Route::get('/dashboard', function () {
     return view('admin/admin');
@@ -223,8 +198,31 @@ Route::get('/admin/add-listing', function () {
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
-Route::get('/admin/teacher', [TeachersController::class, "index"]);
+
+// admin/teachers routes
+
+Route::get('/admin/teachers', [TeachersController::class, "index"]);
+Route::post('admin/teachers/insert_data', [TeachersController::class, "insert_data"]);
 Route::get('/admin/teachers/{teacher}', [TeachersController::class, "update"]);
+Route::patch('teachers/update/{id}', [TeachersController::class, "edit"]);
+Route::delete('teachers/delete/{teacher}', [TeachersController::class, "destroy"]);
+
+// ENDS OF admin/teachers routes
+
+// admin/news routes
+
+Route::get('/admin/news', [NewsController::class, "index"]);
+Route::post('admin/news/insert_data', [NewsController::class, "insert_data"]);
+Route::get('/admin/create-news', function () {
+    return view('admin/news/create-news');
+});
+
+Route::get('/admin/news/{news}', [NewsController::class, "update"]);
+Route::patch('news/update/{id}', [NewsController::class, "edit"]);
+Route::delete('news/delete/{news}', [NewsController::class, "destroy"]);
+
+// ENDS OF admin/news routes
+
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });

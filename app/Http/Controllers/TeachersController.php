@@ -11,14 +11,17 @@ class TeachersController extends Controller
 
     public function index()
     {
-        $data = Teacher::latest()->paginate(5);
-        return view('admin/teachers', compact('data'))
-            ->with('i', (request()->input('page', 1) - 1) * 5);
+        $data = Teacher::latest();
+
+        if (request('search')) {
+            $data->where('name', 'like', '%' . request('search') . '%');
+
+        }
+        return view('admin/teachers', ['data' => $data->paginate(5)]);
     }
 
-    public function insert_image(Request $request)
+    public function insert_data(Request $request)
     {
-
         $request->validate([
             'name' => 'required',
             'job' => 'required',
@@ -35,13 +38,14 @@ class TeachersController extends Controller
 
         Teacher::create($form_data);
 
-        return redirect()->back()->with('success', 'Image store in database successfully');
+        return redirect()->back()->with('success', 'post store in database successfully');
     }
 
     public function update(Teacher $teacher)
     {
         return view('/admin/teacher-update', ['teacher' => $teacher]);
     }
+
     public function edit(Request $teacher)
     {
         $data = Teacher::find($teacher->id);
@@ -57,14 +61,14 @@ class TeachersController extends Controller
 
         $data->update();
 
-        return back()->with('success', "post updated");
+        return back()->with('success', "post updated successfully");
     }
 
     public function destroy(Teacher $teacher)
     {
         File::delete(public_path('storage/' . $teacher->pic));
         $teacher->delete();
-        return back()->with('success', "post delete");
+        return back()->with('success', "post delete successfully");
     }
 
 }
