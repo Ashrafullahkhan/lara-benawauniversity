@@ -116,9 +116,9 @@
               ></a>
               <div class="ttr-header-submenu">
                 <ul>
-                  <li><a href="../courses.html">Our Courses</a></li>
-                  <li><a href="../event.html">New Event</a></li>
-                  <li><a href="../membership.html">Membership</a></li>
+                  <li><a href="../courses.html"> دور های ما</a></li>
+                  <li><a href="../event.html">روی داد جدید</a></li>
+                  <li><a href="../membership.html">عضویت</a></li>
                 </ul>
               </div>
             </li>
@@ -139,8 +139,8 @@
               ></a>
               <div class="ttr-header-submenu noti-menu">
                 <div class="ttr-notify-header">
-                  <span class="ttr-notify-text-top">9 New</span>
-                  <span class="ttr-notify-text">User Notifications</span>
+                  <span class="ttr-notify-text-top">9 جدید</span>
+                  <span class="ttr-notify-text">اعلان کاربری</span>
                 </div>
                 <div class="noti-box-list">
                   <ul>
@@ -149,7 +149,8 @@
                         <i class="fa fa-check"></i>
                       </span>
                       <span class="notification-text">
-                        <span>Sneha Jogi</span> sent you a message.
+                        <span>Sneha Jogi</span> sent you a message.یک 
+                        پیام به شما ارسال شده
                       </span>
                       <span class="notification-time">
                         <a href="#" class="fa fa-close"></a>
@@ -165,7 +166,7 @@
                       </span>
                       <span class="notification-time">
                         <a href="#" class="fa fa-close"></a>
-                        <span> 7 Min</span>
+                        <span> 7 دقیقه</span>
                       </span>
                     </li>
                     <li>
@@ -219,10 +220,10 @@
               ></a>
               <div class="ttr-header-submenu">
                 <ul>
-                  <li><a href="user-profile.html">My profile</a></li>
-                  <li><a href="list-view-calendar.html">Activity</a></li>
-                  <li><a href="mailbox.html">Messages</a></li>
-                  <li><a href="../login.html">Logout</a></li>
+                  <li><a href="user-profile.html">پروپایل من</a></li>
+                  <li><a href="list-view-calendar.html">فعالیت</a></li>
+                  <li><a href="mailbox.html">پیام</a></li>
+                  <li><a href="../login.html">خروچ</a></li>
                 </ul>
               </div>
             </li>
@@ -241,11 +242,11 @@
                 </a>
                 <a href="#">
                   <i class="fa fa-envelope"></i>
-                  <span>Emails</span>
+                  <span>ایمیل ها</span>
                 </a>
                 <a href="#">
                   <i class="fa fa-book"></i>
-                  <span>Reports</span>
+                  <span>گزارش</span>
                 </a>
                 <a href="#">
                   <i class="fa fa-smile-o"></i>
@@ -253,7 +254,7 @@
                 </a>
                 <a href="#">
                   <i class="fa fa-picture-o"></i>
-                  <span>Pictures</span>
+                  <span>تصاوير</span>
                 </a>
               </div>
             </li>
@@ -306,19 +307,19 @@
             <li>
               <a href="index.html" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-home"></i></span>
-                <span class="ttr-label">Dashborad</span>
+                <span class="ttr-label">دشبورد </span>
               </a>
             </li>
             <li>
               <a href="courses.html" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-book"></i></span>
-                <span class="ttr-label">Courses</span>
+                <span class="ttr-label">دوره های آموزشی</span>
               </a>
             </li>
             <li>
               <a href="#" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-email"></i></span>
-                <span class="ttr-label">Mailbox</span>
+                <span class="ttr-label">صندوق پستی</span>
                 <span class="ttr-arrow-icon"
                   ><i class="fa fa-angle-down"></i
                 ></span>
@@ -326,7 +327,7 @@
               <ul>
                 <li>
                   <a href="mailbox.html" class="ttr-material-button"
-                    ><span class="ttr-label">Mail Box</span></a
+                    ><span class="ttr-label">صندوق پستی </span></a
                   >
                 </li>
                 <li>
@@ -336,7 +337,7 @@
                 </li>
                 <li>
                   <a href="mailbox-read.html" class="ttr-material-button"
-                    ><span class="ttr-label">Mail Read</span></a
+                    ><span class="ttr-label">پست الکترنیکی خواندن </span></a
                   >
                 </li>
               </ul>
@@ -344,7 +345,7 @@
             <li>
               <a href="#" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-calendar"></i></span>
-                <span class="ttr-label">Calendar</span>
+                <span class="ttr-label">جنتری</span>
                 <span class="ttr-arrow-icon"
                   ><i class="fa fa-angle-down"></i
                 ></span>
@@ -352,12 +353,12 @@
               <ul>
                 <li>
                   <a href="basic-calendar.html" class="ttr-material-button"
-                    ><span class="ttr-label">Basic Calendar</span></a
+                    ><span class="ttr-label">جنتری اساسی</span></a
                   >
                 </li>
                 <li>
                   <a href="list-view-calendar.html" class="ttr-material-button"
-                    ><span class="ttr-label">List View</span></a
+                    ><span class="ttr-label">نمایش لیست</span></a
                   >
                 </li>
               </ul>
@@ -371,7 +372,7 @@
             <li>
               <a href="review.html" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-comments"></i></span>
-                <span class="ttr-label">Review</span>
+                <span class="ttr-label">مورور</span>
               </a>
             </li>
             <li>
@@ -379,13 +380,13 @@
                 <span class="ttr-icon"
                   ><i class="ti-layout-accordion-list"></i
                 ></span>
-                <span class="ttr-label">Add listing</span>
+                <span class="ttr-label">اضافه کردن لیست</span>
               </a>
             </li>
             <li>
               <a href="#" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-user"></i></span>
-                <span class="ttr-label">My Profile</span>
+                <span class="ttr-label">فروفایل من</span>
                 <span class="ttr-arrow-icon"
                   ><i class="fa fa-angle-down"></i
                 ></span>
@@ -393,12 +394,12 @@
               <ul>
                 <li>
                   <a href="user-profile.html" class="ttr-material-button"
-                    ><span class="ttr-label">User Profile</span></a
+                    ><span class="ttr-label">فروفایل کاربری</span></a
                   >
                 </li>
                 <li>
                   <a href="teacher-profile.html" class="ttr-material-button"
-                    ><span class="ttr-label">Teacher Profile</span></a
+                    ><span class="ttr-label">فروفایل استادان</span></a
                   >
                 </li>
               </ul>
@@ -416,12 +417,12 @@
     <main class="ttr-wrapper">
       <div class="container-fluid">
         <div class="db-breadcrumb">
-          <h4 class="breadcrumb-title">Courses</h4>
+          <h4 class="breadcrumb-title">دوره های آموزشی</h4>
           <ul class="db-breadcrumb-list">
             <li>
-              <a href="#"><i class="fa fa-home"></i>Home</a>
+              <a href="#"><i class="fa fa-home"></i>خانه</a>
             </li>
-            <li>Courses</li>
+            <li>دروه های آموزشی</li>
           </ul>
         </div>
         <div class="row">
@@ -450,12 +451,12 @@
                             />
                           </div>
                           <div class="card-courses-user-info">
-                            <h5>Teacher</h5>
+                            <h5>اسناد</h5>
                             <h4>Keny White</h4>
                           </div>
                         </li>
                         <li class="card-courses-categories">
-                          <h5>3 Categories</h5>
+                          <h5>3 دسته</h5>
                           <h4>Backend</h4>
                         </li>
                         <li class="card-courses-review">
@@ -481,7 +482,7 @@
                     </div>
                     <div class="row card-courses-dec">
                       <div class="col-md-12">
-                        <h6 class="m-b10">Course Description</h6>
+                        <h6 class="m-b10">شرح دوره </h6>
                         <p>
                           Lorem ipsum dolor sit amet, est ei idque voluptua
                           copiosae, pro detracto disputando reformidans at, ex
@@ -495,9 +496,9 @@
                       </div>
                       <div class="col-md-12">
                         <a href="#" class="btn green radius-xl outline"
-                          >Approve</a
+                          > تایید</a
                         >
-                        <a href="#" class="btn red outline radius-xl">Cancel</a>
+                        <a href="#" class="btn red outline radius-xl">لغوه کردن</a>
                       </div>
                     </div>
                   </div>
@@ -520,16 +521,16 @@
                             />
                           </div>
                           <div class="card-courses-user-info">
-                            <h5>Teacher</h5>
+                            <h5>استاد</h5>
                             <h4>Keny White</h4>
                           </div>
                         </li>
                         <li class="card-courses-categories">
-                          <h5>3 Categories</h5>
+                          <h5>3 دسته</h5>
                           <h4>Backend</h4>
                         </li>
                         <li class="card-courses-review">
-                          <h5>3 Review</h5>
+                          <h5>3 مورور</h5>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -540,7 +541,7 @@
                         </li>
                         <li class="card-courses-stats">
                           <a href="#" class="btn button-sm green radius-xl"
-                            >Pending</a
+                            >درحال بررسی</a
                           >
                         </li>
                         <li class="card-courses-price">
@@ -551,7 +552,7 @@
                     </div>
                     <div class="row card-courses-dec">
                       <div class="col-md-12">
-                        <h6 class="m-b10">Course Description</h6>
+                        <h6 class="m-b10">شرح دور </h6>
                         <p>
                           Lorem ipsum dolor sit amet, est ei idque voluptua
                           copiosae, pro detracto disputando reformidans at, ex
@@ -565,9 +566,9 @@
                       </div>
                       <div class="col-md-12">
                         <a href="#" class="btn green radius-xl outline"
-                          >Approve</a
+                          >تایید</a
                         >
-                        <a href="#" class="btn red outline radius-xl">Cancel</a>
+                        <a href="#" class="btn red outline radius-xl">لغوه کردن</a>
                       </div>
                     </div>
                   </div>
@@ -590,16 +591,16 @@
                             />
                           </div>
                           <div class="card-courses-user-info">
-                            <h5>Teacher</h5>
+                            <h5>استاد</h5>
                             <h4>Keny White</h4>
                           </div>
                         </li>
                         <li class="card-courses-categories">
-                          <h5>3 Categories</h5>
+                          <h5>3 دسته</h5>
                           <h4>Backend</h4>
                         </li>
                         <li class="card-courses-review">
-                          <h5>3 Review</h5>
+                          <h5>3 مورور</h5>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -610,7 +611,7 @@
                         </li>
                         <li class="card-courses-stats">
                           <a href="#" class="btn button-sm green radius-xl"
-                            >Pending</a
+                            >درحال بررسی</a
                           >
                         </li>
                         <li class="card-courses-price">
@@ -621,7 +622,7 @@
                     </div>
                     <div class="row card-courses-dec">
                       <div class="col-md-12">
-                        <h6 class="m-b10">Course Description</h6>
+                        <h6 class="m-b10">شرح دوره</h6>
                         <p>
                           Lorem ipsum dolor sit amet, est ei idque voluptua
                           copiosae, pro detracto disputando reformidans at, ex
@@ -635,9 +636,9 @@
                       </div>
                       <div class="col-md-12">
                         <a href="#" class="btn green radius-xl outline"
-                          >Approve</a
+                          >تایید</a
                         >
-                        <a href="#" class="btn red outline radius-xl">Cancel</a>
+                        <a href="#" class="btn red outline radius-xl">لغوه</a>
                       </div>
                     </div>
                   </div>
@@ -660,7 +661,7 @@
                             />
                           </div>
                           <div class="card-courses-user-info">
-                            <h5>Teacher</h5>
+                            <h5>استاد</h5>
                             <h4>Keny White</h4>
                           </div>
                         </li>
@@ -680,7 +681,7 @@
                         </li>
                         <li class="card-courses-stats">
                           <a href="#" class="btn button-sm green radius-xl"
-                            >Pending</a
+                            >درحال بررسی</a
                           >
                         </li>
                         <li class="card-courses-price">
@@ -691,7 +692,7 @@
                     </div>
                     <div class="row card-courses-dec">
                       <div class="col-md-12">
-                        <h6 class="m-b10">Course Description</h6>
+                        <h6 class="m-b10">شرح دوره </h6>
                         <p>
                           Lorem ipsum dolor sit amet, est ei idque voluptua
                           copiosae, pro detracto disputando reformidans at, ex
@@ -705,9 +706,9 @@
                       </div>
                       <div class="col-md-12">
                         <a href="#" class="btn green radius-xl outline"
-                          >Approve</a
+                          >تایید</a
                         >
-                        <a href="#" class="btn red outline radius-xl">Cancel</a>
+                        <a href="#" class="btn red outline radius-xl">لغوه کردن</a>
                       </div>
                     </div>
                   </div>

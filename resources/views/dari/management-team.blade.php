@@ -7,7 +7,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Management Team</h1>
+              <h1 class="text-white">تیم مدریت</h1>
             </div>
           </div>
         </div>
@@ -26,8 +26,8 @@
                   />
                 </div>
                 <div class="cont">
-                  <a href="#"><h6>Eng. Abdul Hadi Muzzammil</h6></a>
-                  <span>Chancellor of BIHE</span>
+                  <a href="#"><h6> انجینر عبدالهادی مزمل</h6></a>
+                  <span>Chancellor of BIHE ریس پوهنتون بینوا</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -92,8 +92,9 @@
                   />
                 </div>
                 <div class="cont">
-                  <a href="teachers-singel.html"><h6>Mr. Haqpal</h6></a>
-                  <span>Dean of Computer Science Faculty</span>
+                  <a href="teachers-singel.html"><h6>حقپال
+                  </h6></a>
+                  <span>Dean of Computer Science Faculty ریس پوهنځی کمپیو ساینس</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -154,9 +155,9 @@
                       <i class="fa fa-angle-left"></i>
                     </a>
                   </li>
-                  <li class="page-item"><a class="active" href="#">1</a></li>
-                  <li class="page-item"><a href="#">2</a></li>
-                  <li class="page-item"><a href="#">3</a></li>
+                  <li class="page-item"><a class="active" href="#">۱</a></li>
+                  <li class="page-item"><a href="#">۲</a></li>
+                  <li class="page-item"><a href="#">۳</a></li>
                   <li class="page-item">
                     <a href="#" aria-label="Next">
                       <i class="fa fa-angle-right"></i>

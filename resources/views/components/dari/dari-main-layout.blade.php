@@ -29,7 +29,7 @@
     />
 
     <!-- PAGE TITLE HERE ============================================= -->
-    <title>Benawa Institute of Higher Studies</title>
+    <title>موسیسه تحصیلات عالی بینوا</title>
 
     <!-- MOBILE SPECIFIC ============================================= -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -91,7 +91,7 @@
                 <ul>
                   <li>
                     <a href="faq-1.html"
-                      ><i class="fa fa-question-circle"></i>Ask a Question</a
+                      ><i class="fa fa-question-circle"></i>سوال بپرسید</a
                     >
                   </li>
                   <li>
@@ -106,9 +106,9 @@
                 <ul>
                   <li>
                     <select class="header-lang-bx" name="languages" id="languages"onchange="location = this.value;">
-                                <option data-icon="flag flag-afg" value="/dr">Dari</option>
-                      <option data-icon="flag flag-uk" value="/">English</option>
-                      <option data-icon="flag flag-afg" value="/pashto">pashto</option> 
+                                <option data-icon="flag flag-afg" value="/dr">دری</option>
+                      <option data-icon="flag flag-uk" value="/">انگلیسی</option>
+                      <option data-icon="flag flag-afg" value="/pashto">پشتو</option> 
             
                     </select>
                   </li>
@@ -210,59 +210,59 @@
 
                   <li>
                     <a href="javascript:;"
-                      >Admission<i class="fa fa-chevron-down"></i
+                      >ثبت نام<i class="fa fa-chevron-down"></i
                     ></a>
                     <ul class="sub-menu">
                       <li>
-                        <a href="admission-info">Admission Information</a>
+                        <a href="admission-info">معلومات درباره ثبت نام</a>
                       </li>
 
                       <li>
                         <a href="https://admission.benawa.edu.af/Result.php"
-                          >Online Admission</a
+                          >ثبت نام آنلاین</a
                         >
                       </li>
                       <li>
-                        <a href="fee-structure">Fee Structure</a>
+                        <a href="fee-structure">ساختار فیس(هزینه)</a>
                       </li>
                       <li>
                         <a href="scholarships"
-                          >Scholarships & Refund Policy</a
+                          > برنامه های بورس تحصیلی و بازپرداخت</a
                         >
                       </li>
                       <li>
                         <a href="financial-assistant"
-                          >Financial Asistance</a
+                          >کمک مالی</a
                         >
                       </li>
                     </ul>
                   </li>
                  
-				  <li><a href="javascript:;"> Academic <i class="fa fa-chevron-down"></i></a>
+				  <li><a href="javascript:;"> علمی <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="javascript:;">Programmes<i class="fa fa-angle-right"></i></a>
+						<li><a href="javascript:;">برنامه ها<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="Programme-CS">Computer Science</a></li>
-								<li><a href="Programme-EN">Engineering</a></li>
+								<li><a href="Programme-CS">کمپیوترساینس</a></li>
+								<li><a href="Programme-EN">انجینری</a></li>
 							</ul>
 						</li>
 								
-						<li><a href="javascript:;">Faculty</a>
+						<li><a href="javascript:;">پوهنځی</a>
 						<!--	<ul class="sub-menu">
 								<li><a href="event.html">Event</a></li>
 								<li><a href="events-details.html">Events Details</a></li>
 							</ul>
 							-->
 						</li>
-						<li><a href="javascript:;">Proc.& Policies<i class="fa fa-angle-right"></i></a>
+						<li><a href="javascript:;">پالیسی و پروسیجر<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="faq-1.html">Academic Staff Recruitment Policy</a></li>
-								<li><a href="faq-2.html">Benawa Research Policy</a></li>
-								<li><a href="faq-2.html">Compiliation And Translation Policy</a></li>
-								<li><a href="faq-2.html">Conflicts of Intrest in Research Policy</a></li>
-								<li><a href="faq-2.html">Employees Grievance Policy</a></li>
-								<li><a href="faq-2.html">Ethics in Research Policy</a></li>
-								<li><a href="/policies/Ethics_policy.pdf">Ethics Policy</a></li>
+								<li><a href="faq-1.html"> استخدام کارمندان علمی و اکادمیک</a></li>
+								<li><a href="faq-2.html">پالیسی تحقیقاتی بینوا</a></li>
+								<li><a href="faq-2.html">پالیسی تدوین و ترجمه</a></li>
+								<li><a href="faq-2.html"> پالیسی منازعات تحقیقاتی</a></li>
+								<li><a href="faq-2.html"> پالیسی شکایات کارمندان</a></li>
+								<li><a href="faq-2.html">اخلاق در پالیسی تحقیقاتی</a></li>
+								<li><a href="/policies/Ethics_policy.pdf">پالیسی اخلاق</a></li>
 							</ul>
 						</li>
 						</ul>
@@ -288,18 +288,18 @@
                       </li>
                     </ul>
                   </li> -->
-				  <li class="add-mega-menu"><a href="javascript:;">Students <i class="fa fa-chevron-down"></i></a>
+				  <li class="add-mega-menu"><a href="javascript:;">شاگردان <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu add-menu">
 						<li class="add-menu-left">
 						<!--	<h5 class="menu-adv-title">Our Courses</h5> -->
 							<ul>
-								<li><a href="courses.html">Time Table </a></li>
-								<li><a href="https://student.benawa.edu.af/Login.php">Student Portal</a></li>
-								<li><a href="student-affairs">Student Affairs</a></li>
-								<li><a href="event.html">Examination Schedule</a></li>
-								<li><a href="membership.html">Handbook</a></li>
-								<li><a href="membership.html">Academic Rules & Regulations</a></li>
-								<li><a href="membership.html">Student Document Verification</a></li>
+								<li><a href="courses.html">تقسیم اوقات </a></li>
+								<li><a href="https://student.benawa.edu.af/Login.php">پورتال شاگردان</a></li>
+								<li><a href="student-affairs">اموری محصلان</a></li>
+								<li><a href="event.html">تقسیم اوقات امتحانات</a></li>
+								<li><a href="membership.html">کتاب رهنما</a></li>
+								<li><a href="membership.html">نقش علمی و مقررات</a></li>
+								<li><a href="membership.html">ناًیید اسناد محصلان</a></li>
 							</ul>
 						</li>
 						</ul>
@@ -325,12 +325,12 @@
                       <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
                   </li> -->
-				  <li><a href="javascript:;">Facilites<i class="fa fa-chevron-down"></i></a>
+				  <li><a href="javascript:;">امکانات<i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="computer-lab">Computer Lab</a></li>
-						<li><a href="engineering-lab">Engineering Lab</a></li>
-						<li><a href="Library">Library</a></li>
-						<li><a href="Cafeteria">Cafeteria</a></li>
+						<li><a href="computer-lab">کمپیوترلیب</a></li>
+						<li><a href="engineering-lab">لیب انجینری</a></li>
+						<li><a href="Library">کتاب خانه</a></li>
+						<li><a href="Cafeteria">Cafeteria کافه تریا</a></li>
 						
 					</ul>
 				</li>
@@ -383,15 +383,15 @@
                       </li>
                     </ul>
                   </li> -->
-				  <li class="nav-dashboard"><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
+				  <li class="nav-dashboard"><a href="javascript:;">دربارهً ما <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="why-benawa">Why BIHE?</a></li>
-						<li><a href="admin/add-listing">Vision, Mission and Objectives</a></li>
-						<li><a href="founder-of-benawa">Founder of BIHE</a></li>
-						<li><a href="chacelor-message">Chancellor's Message</a></li>
-						<li><a href="management-team">Management Team</a></li>
-            <li><a href="teacher">Our Teachers</a></li>
-						<li><a href="admin/teacher-profile">Our Students</a></li>
+						<li><a href="why-benawa">?چرا بینوا</a></li>
+						<li><a href="admin/add-listing"> چشم انداز،ماموریت و اهداف</a></li>
+						<li><a href="founder-of-benawa">بنیاد گذاربینوا</a></li>
+						<li><a href="chacelor-message">پیام های صدور گواهی نامه</a></li>
+						<li><a href="management-team">تیم اداری</a></li>
+            <li><a href="teacher">استادان ما</a></li>
+						<li><a href="admin/teacher-profile">شاگردان ما</a></li>
                 </ul>
 				
                 <div class="nav-social-link">
@@ -441,7 +441,7 @@
                   </ul>
                 </div>
                 <div class="pt-btn-join">
-                  <a href="#" class="btn">Join Now</a>
+                  <a href="#" class="btn">حالابپیوندید</a>
                 </div>
               </div>
             </div>
@@ -450,7 +450,7 @@
             <div class="row">
               <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
                 <div class="widget">
-                  <h5 class="footer-title">Sign Up For A Newsletter</h5>
+                  <h5 class="footer-title"> برای خبرنامه ها بخوانید</h5>
                   <p class="text-capitalize m-b20">
                     Weekly Breaking news analysis and cutting edge advices on
                     job searching.
@@ -467,7 +467,7 @@
                           name="email"
                           required="required"
                           class="form-control"
-                          placeholder="Your Email Address"
+                          placeholder="ایمیل آدرس شما"
                           type="email"
                         />
                         <span class="input-group-btn">
@@ -489,39 +489,39 @@
                 <div class="row">
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Company</h5>
+                      <h5 class="footer-title">شرکت</h5>
                       <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-1.html">About</a></li>
+                        <li><a href="index.html">خانه</a></li>
+                        <li><a href="about-1.html">درباره</a></li>
                         <li><a href="faq-1.html">FAQs</a></li>
-                        <li><a href="contact-1.html">Contact</a></li>
+                        <li><a href="contact-1.html">تماس</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Get In Touch</h5>
+                      <h5 class="footer-title">در تماس بودن</h5>
                       <ul>
                         <li>
                           <a
                             href="http://educhamp.themetrades.com/admin/index.html"
-                            >Dashboard</a
+                            >دشبورد</a
                           >
                         </li>
-                        <li><a href="blog-classic-grid.html">Blog</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="event.html">Event</a></li>
+                        <li><a href="blog-classic-grid.html">بلاک</a></li>
+                        <li><a href="portfolio.html">مقام</a></li>
+                        <li><a href="event.html">واقعه</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Courses</h5>
+                      <h5 class="footer-title">دوره های آموزشی</h5>
                       <ul>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="courses-details.html">Details</a></li>
-                        <li><a href="membership.html">Membership</a></li>
-                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="courses.html">دوره های آموزشی</a></li>
+                        <li><a href="courses-details.html">جزیًات</a></li>
+                        <li><a href="membership.html">عضویت</a></li>
+                        <li><a href="profile.html">پروفایل</a></li>
                       </ul>
                     </div>
                   </div>
@@ -529,7 +529,7 @@
               </div>
               <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                 <div class="widget widget_gallery gallery-grid-4">
-                  <h5 class="footer-title">Our Gallery</h5>
+                  <h5 class="footer-title">گالری  </h5>
                   <ul class="magnific-image">
                     <li>
                       <a

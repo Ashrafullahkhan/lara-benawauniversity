@@ -9,7 +9,7 @@
           <div class="container">
             <div class="page-banner-entry">
               <h1 class="text-white">
-                Why Benawa Institute of higher studies ?
+              چرا موسسه آموزشی عالی بینوا؟
               </h1>
             </div>
           </div>
@@ -24,17 +24,17 @@
               <div class="row">
                 <div class="col-lg-6 m-b30">
                   <h2 class="title-head">
-                    Learn a new skill<br />
-                    <span class="text-primary"> on your time</span>
+                    مهار جدید را بیاموزید<br />
+                    <span class="text-primary"> در زمان خود</span>
                   </h2>
-                  <h4><span class="counter">5400 </span> Students</h4>
+                  <h4><span class="counter">5400 </span> شاگردان</h4>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type.
                   </p>
-                  <a href="#" class="btn button-md">Join Now</a>
+                  <a href="#" class="btn button-md"> حالا بپیوندید</a>
                 </div>
                 <div class="col-lg-6">
                   <div class="row">
@@ -76,7 +76,7 @@
                           /></a>
                         </div>
                         <div class="icon-content">
-                          <h5 class="ttr-tilte">Key Of Success</h5>
+                          <h5 class="ttr-tilte">راز کامیابی</h5>
                           <p>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing.
                           </p>

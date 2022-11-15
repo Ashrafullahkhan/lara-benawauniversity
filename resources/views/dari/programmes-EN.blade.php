@@ -8,7 +8,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Engineering Faculty</h1>
+              <h1 class="text-white">پوهنځی انجینری</h1>
               <p class="text-white"></p>
             </div>
           </div>
@@ -96,7 +96,7 @@
               <div class="row">
                 <div class="col-lg-8 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Engineering Programmes :</h2>
+                    <h2 class="title-head">برنامه های انجینری :</h2>
                   </div>
                   <ul class="course-features">
                     <li>
@@ -310,7 +310,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        1st Semester
+                        سمستراول
                       </td>
                     </tr>
                     <tr id="th">
@@ -365,7 +365,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        2nd Semester
+                        سمستردوم
                       </td>
                     </tr>
                     <tr id="th">
@@ -410,7 +410,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        3rd Semester
+                        سمسترسوم
                       </td>
                     </tr>
                     <tr id="th">
@@ -460,7 +460,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        4th Semester
+                        سمسترچهارم
                       </td>
                     </tr>
                     <tr id="th">
@@ -510,7 +510,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        5th Semester
+                        سمسترپنجم
                       </td>
                     </tr>
                     <tr id="th">
@@ -555,7 +555,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        6th Semester
+                        سمسترششم
                       </td>
                     </tr>
                     <tr id="th">
@@ -610,7 +610,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        7th Semester
+                        سمسترهفتم
                       </td>
                     </tr>
                     <tr id="th">
@@ -660,7 +660,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        8th Semester
+                        سمسترهشتم
                       </td>
                     </tr>
                     <tr id="th">
@@ -715,7 +715,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        1st Semester
+                        سمستراول
                       </td>
                     </tr>
                     <tr id="th">
@@ -770,7 +770,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        2nd Semester
+                        سمستردوم
                       </td>
                     </tr>
                     <tr id="th">
@@ -815,7 +815,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        3rd Semester
+                        سمسترسوم
                       </td>
                     </tr>
                     <tr id="th">
@@ -865,7 +865,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        4th Semester
+                        سمسترچهارم
                       </td>
                     </tr>
                     <tr id="th">
@@ -915,7 +915,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        5th Semester
+                        سمسترپنجم
                       </td>
                     </tr>
                     <tr id="th">
@@ -960,7 +960,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        6th Semester
+                        سمسترششم
                       </td>
                     </tr>
                     <tr id="th">
@@ -1005,7 +1005,7 @@
                   <tbody>
                     <tr>
                       <td colspan="3" style="text-align: center">
-                        7th Semester
+                        سمسترهفتم
                       </td>
                     </tr>
                     <tr id="th">
@@ -1067,7 +1067,7 @@
                 <div class="col-lg-4 col-md-12">
                   <div class="bg-primary text-white contact-info-bx">
                     <h2 class="m-b10 title-head">
-                      Contact <span>Information</span>
+                      تماس <span>معلومات</span>
                     </h2>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -1132,7 +1132,7 @@
                         <span class="counter" class="text-center">350</span
                         ><span>+</span>
                       </div>
-                      <span class="counter-text">Graduates Students</span>
+                      <span class="counter-text">شاگردان فارغ التحصیل</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -1140,7 +1140,7 @@
                       <div class="text-black">
                         <span class="counter">2500</span><span>+</span>
                       </div>
-                      <span class="counter-text">Students</span>
+                      <span class="counter-text">شاگردان</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -1148,7 +1148,7 @@
                       <div class="text-primary">
                         <span class="counter">150</span><span>+</span>
                       </div>
-                      <span class="counter-text">Teachers</span>
+                      <span class="counter-text">استادان</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -1156,7 +1156,7 @@
                       <div class="text-black">
                         <span class="counter">1000</span><span>+</span>
                       </div>
-                      <span class="counter-text">Alumni</span>
+                      <span class="counter-text">قارغ التحصیلان</span>
                     </div>
                   </div>
                 </div>

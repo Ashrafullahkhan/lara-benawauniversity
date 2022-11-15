@@ -7,7 +7,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Engineering Lab</h1>
+              <h1 class="text-white">لیب انجینری</h1>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Engineering Lab</h2>
+                    <h2 class="title-head">لیب انجینری</h2>
                   </div>
                   <p>
                     In Engineering Education, Laboratories are the link between

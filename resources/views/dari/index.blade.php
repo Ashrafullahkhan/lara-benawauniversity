@@ -1,3 +1,4 @@
+
 <x-dari.dari-main-layout>
  <div class="page-content bg-white">
         <!-- Main Slider -->
@@ -389,7 +390,7 @@
                       font-weight: 400;
                     "
                   >
-                    Batter Education For A Better
+                    آموزش بهتر برای بهتر
                   </div>
 
                   <!-- LAYER NR. 3 -->
@@ -422,7 +423,7 @@
                       font-weight: 400;
                     "
                   >
-                  Where Your Future Begin!
+               جایی که آینده شما آغاز مشود
                   </div>
                   <!-- LAYER NR. 4 -->
                   <div
@@ -459,7 +460,7 @@
                       margin-right: 5px;
                     "
                   >
-                    READ MORE
+                    ادامه مطلب
                   </div>
                   <div
                     class="tp-caption Newspaper-Button rev-btn"
@@ -516,8 +517,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-bank text-primary"></i>
                       </div>
-                      <h4><a href="#">Computer Lab کمپیوتر لیب</a></h4>
-                      <a href="computer-lab.html" class="btn radius-xl">View More بسشتر مشاهده نماید</a>
+                      <h4><a href="#"> کمپیوتر لیب</a></h4>
+                      <a href="computer-lab.html" class="btn radius-xl">مشاهده بیشتر </a>
                     </div>
                   </div>
                 </div>
@@ -530,8 +531,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-book text-primary"></i>
                       </div>
-                      <h4><a href="#">Engineering Lab</a></h4>
-                      <a href="Engineering-lab.html" class="btn radius-xl">View More</a>
+                      <h4><a href="#"> لیب انجینری</a></h4>
+                      <a href="Engineering-lab.html" class="btn radius-xl">مشاهده بیشتر</a>
                     </div>
                   </div>
                 </div>
@@ -544,8 +545,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-file-text-o text-primary"></i>
                       </div>
-                      <h4><a href="#">Book Library & Store</a></h4>
-                      <a href="Library.html" class="btn radius-xl">View More</a>
+                      <h4><a href="#">کتاب خانه</a></h4>
+                      <a href="Library.html" class="btn radius-xl">مشاهده بسشتر</a>
                     </div>
                   </div>
                 </div>
@@ -559,7 +560,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12 heading-bx left">
-                  <h2 class="title-head">Popular <span>Courses</span></h2>
+                  <h2 class="title-head">برنامه های <span>مشهور </span></h2>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page
@@ -578,13 +579,13 @@
                       </div>
                       <div class="info-bx text-center">
                         <h5>
-                          <a href="#">Machine – Learning</a>
+                          <a href="#">ماشین لرنینگ(فراګیری ماشین)</a>
                         </h5>
-                        <span>Programming</span>
+                        <span>برنامه نویسی</span>
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 Review</span>
+                          <span>3 مرور</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -608,13 +609,13 @@
                       </div>
                       <div class="info-bx text-center">
                         <h5>
-                          <a href="#">Database</a>
+                          <a href="#">دیتا بیس</a>
                         </h5>
-                        <span>Programming</span>
+                        <span>برنامه نویسی</span>
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 Review</span>
+                          <span>3 مرور</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -638,13 +639,13 @@
                       </div>
                       <div class="info-bx text-center">
                         <h5>
-                          <a href="#">Mobile App Development</a>
+                          <a href="#">تو سعه یی برنامه های موبایل</a>
                         </h5>
-                        <span>Programming</span>
+                        <span>برنامه نویسی</span>
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 Review</span>
+                          <span>3 مرور</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -668,13 +669,13 @@
                       </div>
                       <div class="info-bx text-center">
                         <h5>
-                          <a href="#">Learning</a>
+                          <a href="#">آموزشی</a>
                         </h5>
-                        <span>Programming</span>
+                        <span>برنامه نویسی</span>
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 تکرار</span>
+                          <span>3 مرور</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -938,7 +939,7 @@
                         amount of times, written tons.
                       </p>
                       <div class="post-extra">
-                        <a href="#" class="btn-link">بیشتربخوانید</a>
+                        <a href="#" class="btn-link">ادامه مطلب</a>
                         <a href="#" class="comments-bx"
                           ><i class="fa fa-comments-o"></i>20 نظریات</a
                         >
@@ -1012,7 +1013,7 @@
                         experience together with.
                       </p>
                       <div class="post-extra">
-                        <a href="#" class="btn-link">مطلب ادامه</a>
+                        <a href="#" class="btn-link">ادامه مطلب</a>
                         <a href="#" class="comments-bx"
                           ><i class="fa fa-comments-o"></i>23 نظریات</a
                         >
@@ -1062,7 +1063,7 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Baqi Bellah باقی بالله</h6>
+                              ><h6> باقی بالله</h6>
                               <span>استاد</span></a
                             >
                           </div>
@@ -1104,7 +1105,7 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Ahmad Khan احمدخان</h6></a
+                              ><h6> احمدخان</h6></a
                             >
                             <span> استاد</span>
                           </div>

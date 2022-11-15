@@ -7,7 +7,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Student Affairs</h1>
+              <h1 class="text-white">امور دانش جویی</h1>
               <p class="text-white"></p>
             </div>
           </div>
@@ -26,7 +26,7 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Student Affairs</h2>
+                    <h2 class="title-head"> اموردانش جویی</h2>
                   </div>
                   <p>
                     Student Affairs Office is an integral component of student
@@ -68,7 +68,7 @@
                   </ul>
 
                   <div class="heading-bx left">
-                    <h2 class="title-head">Student Advisors</h2>
+                    <h2 class="title-head">مشاور دانشجویی</h2>
                   </div>
                   <p>
                     Students joining degree courses are assigned 'Advisors' who

@@ -7,11 +7,13 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Online Admission System</h1>
+              <h1 class="text-white">سیستم پذیرش آنلاین</h1>
               <p class="text-white">
-                For the first time BIHE provides a comprehensive online
-                admission system (admission.benawa.edu.af), where student can
-                apply for admission at any time and from anywhere.
+            
+                سیستم پذیرش آنلاین بینوا برای اولین بار  یک سیستم یک سیستم جامع 
+                است که محصلین می تواند برای پذیرش درهر زمان و 
+                از هر کجا درخواست کند
+
               </p>
             </div>
           </div>
@@ -34,7 +36,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Our Philosophy</h5>
+                      <h5 class="ttr-tilte"> فلسفه</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -66,7 +68,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Key Of Success</h5>
+                      <h5 class="ttr-tilte">راز کامیابی</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -99,25 +101,28 @@
               <div class="row">
                 <div class="col-lg-8 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Eligibility:</h2>
+                    <h2 class="title-head">شایستګی:</h2>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
                         >Student passed higher secondary school with a minimum
-                        of 60 percentage.</span
+                        of 60 percentage.
+                        شاگردان واجد شرایت که فارغ لیسه به او سط حد اقل ۶۰ در صد می باشد</span
                       >
                     </li>
                     <li>
                       <span>
                         Student should clear all Medical Test prior to admission
-                        in BIHE.</span
+                        in BIHE.
+                        شاگرد باید تمام از مایش های صحی را تکمیل نماید</span
                       >
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
                       Documents Required with the Application Form:
+                      اسناد مورد نیاز با فورم درخواست
                     </h2>
                   </div>
                   <ul class="course-features">
@@ -131,17 +136,19 @@
                       <span>Verification Letter from Board</span>
                     </li>
                     <li>
-                      <span> National ID Card (Taskira)</span>
+                      <span> 
+                        تذکره
+                      </span>
                     </li>
                     <li>
-                      <span>Admission Form</span>
+                      <span>فورم پذیرش</span>
                     </li>
                     <li>
-                      <span> 8 Photographs</span>
+                      <span> ۸دانه عکس</span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h2 class="title-head">Photograph Specification</h2>
+                    <h2 class="title-head">مشخصات عکس </h2>
                   </div>
                   <ul class="course-features">
                     <li>
@@ -150,35 +157,39 @@
                     <li>
                       <span>
                         Background should be on plain white or off white.</span
-                      >
+                      >تصویر باید به شکل واضح قابل مشاهده باشد
                     </li>
                     <li>
                       <span
                         >the contrast and lighting in the photo should be
-                        normal</span
+                        normal
+                        کنتراست وروشتایًی در عکس باید طبعی باشد</span
                       >
                     </li>
                     <li>
                       <span>
                         the picture should have a minimum resolution of 600
-                        pixels x 450 pixels</span
+                        pixels x 450 pixels
+                        عکس حداقل دارای ریزولیشن ۶۰۰ در۴۰۰ پیکسیل باشد</span
                       >
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h2 class="title-head">Entrance Test Scores:</h2>
+                    <h2 class="title-head">نمرات آزمون وردی</h2>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
                         >Applicants are required to pass Institute’s Entrance
                         Test (Kankor) with score at least 50% in all
-                        sections</span
+                        sections
+                        درخواست برای تصویب آزمون وردی موسسه با نمرات
+                         حداقل ۵۰ در صد در تمام بخش ها مورد نیاز است</span
                       >
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h2 class="title-head">Merit Criteria:</h2>
+                    <h2 class="title-head">معیارهای شایستگی</h2>
                   </div>
                   <ul class="course-features">
                     <li>
@@ -220,7 +231,7 @@
                 <div class="col-lg-4 col-md-12">
                   <div class="bg-primary text-white contact-info-bx">
                     <h2 class="m-b10 title-head">
-                      Contact <span>Information</span>
+                      تماس <span>معلومات</span>
                     </h2>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -229,17 +240,17 @@
                     <div class="widget widget_getintuch">
                       <ul>
                         <li>
-                          <i class="ti-location-pin"></i>District-11, Aino Meena
-                          Near Ministry of Business, Kandahar, Afghanistan
+                          <i class="ti-location-pin"></i>
+                          ناحیه یازده(۱۱) درنزدیکی ریاست تجارت کندهار افغانستان
                         </li>
                         <li>
                           <i class="ti-mobile"></i>0093(0)7000(35-38)222 (24/7
-                          Support Line)
+                          خط حمایت)
                         </li>
                         <li><i class="ti-email"></i>info@benawa.edu.af</li>
                       </ul>
                     </div>
-                    <h5 class="m-t0 m-b20">Follow Us</h5>
+                    <h5 class="m-t0 m-b20">مارا دنبال نمایًد</h5>
                     <ul class="list-inline contact-social-bx">
                       <li>
                         <a href="#" class="btn outline radius-xl"
@@ -285,7 +296,7 @@
                         <span class="counter" class="text-center">350</span
                         ><span>+</span>
                       </div>
-                      <span class="counter-text">Graduates Students</span>
+                      <span class="counter-text">شاگردان فارغ التحصیل</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -293,7 +304,7 @@
                       <div class="text-black">
                         <span class="counter">2500</span><span>+</span>
                       </div>
-                      <span class="counter-text">Students</span>
+                      <span class="counter-text">شاگردان</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -301,7 +312,7 @@
                       <div class="text-primary">
                         <span class="counter">150</span><span>+</span>
                       </div>
-                      <span class="counter-text">Teachers</span>
+                      <span class="counter-text">استادان</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -309,7 +320,7 @@
                       <div class="text-black">
                         <span class="counter">1000</span><span>+</span>
                       </div>
-                      <span class="counter-text">Alumni</span>
+                      <span class="counter-text">فارغ التحصیلان</span>
                     </div>
                   </div>
                 </div>

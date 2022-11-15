@@ -5,7 +5,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Meet our Teachers</h1>
+              <h1 class="text-white">ملا قات با استادان ما</h1>
          
             </div>
           </div>
@@ -20,8 +20,8 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Baqi Bellah</h6>
-                              <span>Teacher</span></a
+                              ><h6>باقی بالا</h6>
+                              <span>استاد</span></a
                             >
                           </div>
                         </div>
@@ -34,9 +34,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Noor Ahmad Noori</h6></a
+                              ><h6>نوراحمدنوری</h6></a
                             >
-                            <span>Teacher</span>
+                            <span>استاد</span>
                           </div>
                         </div>
                         <!-- singel teachers -->
@@ -48,9 +48,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Aliullah Matawakil</h6></a
+                              ><h6> علی والله متوکیل</h6></a
                             >
-                            <span>Teacher</span>
+                            <span>استاد</span>
                           </div>
                         </div>
                         <!-- singel teachers -->
@@ -62,9 +62,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Ahmad Khan</h6></a
+                              ><h6>احمد خان</h6></a
                             >
-                            <span>Teacher</span>
+                            <span>استاد</span>
                           </div>
                         </div>
                         <!-- singel teachers -->

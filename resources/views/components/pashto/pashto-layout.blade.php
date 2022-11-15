@@ -91,7 +91,7 @@
                 <ul>
                   <li>
                     <a href="faq-1.html"
-                      ><i class="fa fa-question-circle"></i>Ask a Question</a
+                      ><i class="fa fa-question-circle"></i>پوښتنه وکړي</a
                     >
                   </li>
                   <li>
@@ -106,9 +106,9 @@
                 <ul>
                   <li>
                     <select class="header-lang-bx" name="languages" id="languages"onchange="location = this.value;">
-                      <option data-icon="flag flag-uk" value="index.html">English</option>
-                      <option data-icon="flag flag-afg" value="./pashto/index.html">pashto</option> 
-                      <option data-icon="flag flag-afg" value="#">Dari</option>
+                      <option data-icon="flag flag-uk" value="index.html">انګلیسی</option>
+                      <option data-icon="flag flag-afg" value="./pashto/index.html">پښتو</option> 
+                      <option data-icon="flag flag-afg" value="#">دری</option>
                     </select>
                   </li>
                  
@@ -209,16 +209,16 @@
 
                   <li>
                     <a href="javascript:;"
-                      >Admission<i class="fa fa-chevron-down"></i
+                      >داخله<i class="fa fa-chevron-down"></i
                     ></a>
                     <ul class="sub-menu">
                       <li>
-                        <a href="admission-info">Admission Information</a>
+                        <a href="admission-info">د داخیلې معلومات</a>
                       </li>
 
                       <li>
                         <a href="https://admission.benawa.edu.af/Result.php"
-                          >Online Admission</a
+                          >آنلاین داخله </a
                         >
                       </li>
                       <li>
@@ -226,42 +226,42 @@
                       </li>
                       <li>
                         <a href="scholarships"
-                          >Scholarships & Refund Policy</a
+                          >بور سونه او بیرته ستنیدو پالیسی</a
                         >
                       </li>
                       <li>
                         <a href="financial-assistant"
-                          >Financial Asistance</a
+                          >مالی مرسته</a
                         >
                       </li>
                     </ul>
                   </li>
                  
-				  <li><a href="javascript:;"> Academic <i class="fa fa-chevron-down"></i></a>
+				  <li><a href="javascript:;"> علمی <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="javascript:;">Programmes<i class="fa fa-angle-right"></i></a>
+						<li><a href="javascript:;">پروګرامونه<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="Programme-CS">Computer Science</a></li>
-								<li><a href="Programme-EN">Engineering</a></li>
+								<li><a href="Programme-CS"> کمپیو تر ساینس</a></li>
+								<li><a href="Programme-EN">انجینری</a></li>
 							</ul>
 						</li>
 								
-						<li><a href="javascript:;">Faculty</a>
+						<li><a href="javascript:;">پوحنځی</a>
 						<!--	<ul class="sub-menu">
 								<li><a href="event.html">Event</a></li>
 								<li><a href="events-details.html">Events Details</a></li>
 							</ul>
 							-->
 						</li>
-						<li><a href="javascript:;">Proc.& Policies<i class="fa fa-angle-right"></i></a>
+						<li><a href="javascript:;">پروسیجر او پالیسی<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="faq-1.html">Academic Staff Recruitment Policy</a></li>
-								<li><a href="faq-2.html">Benawa Research Policy</a></li>
-								<li><a href="faq-2.html">Compiliation And Translation Policy</a></li>
+								<li><a href="faq-1.html">داکاډمیک کارمندانواړتیا پالیسی</a></li>
+								<li><a href="faq-2.html">د بینوا د تحقیقاتو پالیسی</a></li>
+								<li><a href="faq-2.html">درترجمی او تالیف پالیسی</a></li>
 								<li><a href="faq-2.html">Conflicts of Intrest in Research Policy</a></li>
-								<li><a href="faq-2.html">Employees Grievance Policy</a></li>
-								<li><a href="faq-2.html">Ethics in Research Policy</a></li>
-								<li><a href="faq-2.html">Ethics Policy</a></li>
+								<li><a href="faq-2.html">د کارمندانو د شکایاتو پالیسی</a></li>
+								<li><a href="faq-2.html">په څیړنه کی د اخلاقو پالیسی</a></li>
+								<li><a href="faq-2.html">د اخلاقو پالیسی</a></li>
 							</ul>
 						</li>
 						</ul>
@@ -287,18 +287,18 @@
                       </li>
                     </ul>
                   </li> -->
-				  <li class="add-mega-menu"><a href="javascript:;">Students <i class="fa fa-chevron-down"></i></a>
+				  <li class="add-mega-menu"><a href="javascript:;">زده کونکی <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu add-menu">
 						<li class="add-menu-left">
 						<!--	<h5 class="menu-adv-title">Our Courses</h5> -->
 							<ul>
-								<li><a href="courses.html">Time Table </a></li>
-								<li><a href="https://student.benawa.edu.af/Login.php">Student Portal</a></li>
-								<li><a href="student-affairs">Student Affairs</a></li>
-								<li><a href="event.html">Examination Schedule</a></li>
-								<li><a href="membership.html">Handbook</a></li>
-								<li><a href="membership.html">Academic Rules & Regulations</a></li>
-								<li><a href="membership.html">Student Document Verification</a></li>
+								<li><a href="courses.html">مهال ویش </a></li>
+								<li><a href="https://student.benawa.edu.af/Login.php">د زده کونکو فورتال</a></li>
+								<li><a href="student-affairs">د زده کونکو چارو</a></li>
+								<li><a href="event.html">د ازموینی مهال ویش</a></li>
+								<li><a href="membership.html">علمی کتاب</a></li>
+								<li><a href="membership.html">اکاډمیک رول او مقررات</a></li>
+								<li><a href="membership.html">د زده کونکی سند تصدیق</a></li>
 							</ul>
 						</li>
 						</ul>
@@ -324,11 +324,11 @@
                       <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
                   </li> -->
-				  <li><a href="javascript:;">Facilites<i class="fa fa-chevron-down"></i></a>
+				  <li><a href="javascript:;">اسانتیاوی<i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="computer-lab">Computer Lab</a></li>
-						<li><a href="engineering-lab">Engineering Lab</a></li>
-						<li><a href="Library">Library</a></li>
+						<li><a href="computer-lab">د کمپیوټر لابراتوار</a></li>
+						<li><a href="engineering-lab"> د انجینری لابراتوار</a></li>
+						<li><a href="Library">کتاب تون</a></li>
 						<li><a href="Cafeteria">Cafeteria</a></li>
 						
 					</ul>
@@ -382,14 +382,14 @@
                       </li>
                     </ul>
                   </li> -->
-				  <li class="nav-dashboard"><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
+				  <li class="nav-dashboard"><a href="javascript:;"> زموږ په اړه <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="why-benawa">Why BIHE?</a></li>
-						<li><a href="admin/add-listing">Vision, Mission and Objectives</a></li>
-						<li><a href="founder-of-benawa">Founder of BIHE</a></li>
-						<li><a href="chacelor-message">Chancellor's Message</a></li>
-						<li><a href="management-team">Management Team</a></li>
-						<li><a href="admin/teacher-profile">Our Students</a></li>
+						<li><a href="why-benawa">ولی بینوا؟</a></li>
+						<li><a href="admin/add-listing">لید ،تحول او موخی</a></li>
+						<li><a href="founder-of-benawa">د بینوا بنسټ ایښودنکی</a></li>
+						<li><a href="chacelor-message">د ریس پیغام</a></li>
+						<li><a href="management-team">اداری ټیم</a></li>
+						<li><a href="admin/teacher-profile">زموږ زده کونکی</a></li>
                 </ul>
 				
                 <div class="nav-social-link">
@@ -439,7 +439,7 @@
                   </ul>
                 </div>
                 <div class="pt-btn-join">
-                  <a href="#" class="btn">Join Now</a>
+                  <a href="#" class="btn">همدااوس یوځای شی</a>
                 </div>
               </div>
             </div>
@@ -448,7 +448,7 @@
             <div class="row">
               <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
                 <div class="widget">
-                  <h5 class="footer-title">Sign Up For A Newsletter</h5>
+                  <h5 class="footer-title">د خبرلیکونو لپاره یی ووایاست</h5>
                   <p class="text-capitalize m-b20">
                     Weekly Breaking news analysis and cutting edge advices on
                     job searching.
@@ -487,39 +487,39 @@
                 <div class="row">
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Company</h5>
+                      <h5 class="footer-title">شرکت</h5>
                       <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-1.html">About</a></li>
+                        <li><a href="index.html">کور</a></li>
+                        <li><a href="about-1.html">په اړه</a></li>
                         <li><a href="faq-1.html">FAQs</a></li>
-                        <li><a href="contact-1.html">Contact</a></li>
+                        <li><a href="contact-1.html">اړیکه</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Get In Touch</h5>
+                      <h5 class="footer-title">اړیکه ونیسی</h5>
                       <ul>
                         <li>
                           <a
                             href="http://educhamp.themetrades.com/admin/index.html"
-                            >Dashboard</a
+                            >دشبورد</a
                           >
                         </li>
-                        <li><a href="blog-classic-grid.html">Blog</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="event.html">Event</a></li>
+                        <li><a href="blog-classic-grid.html">بلاګ</a></li>
+                        <li><a href="portfolio.html">فورفایل</a></li>
+                        <li><a href="event.html">پیښه</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Courses</h5>
+                      <h5 class="footer-title">کورسونه</h5>
                       <ul>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="courses-details.html">Details</a></li>
-                        <li><a href="membership.html">Membership</a></li>
-                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="courses.html">کورسونه</a></li>
+                        <li><a href="courses-details.html">تفصسلات</a></li>
+                        <li><a href="membership.html">عضویت</a></li>
+                        <li><a href="profile.html">فورفایل</a></li>
                       </ul>
                     </div>
                   </div>
@@ -527,7 +527,7 @@
               </div>
               <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                 <div class="widget widget_gallery gallery-grid-4">
-                  <h5 class="footer-title">Our Gallery</h5>
+                  <h5 class="footer-title">ګالری</h5>
                   <ul class="magnific-image">
                     <li>
                       <a

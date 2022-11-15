@@ -91,7 +91,7 @@
                 <ul>
                   <li>
                     <a href="faq-1.html"
-                      ><i class="fa fa-question-circle"></i>Ask a Question</a
+                      ><i class="fa fa-question-circle"></i>پوښتنه وکړی</a
                     >
                   </li>
                   <li>
@@ -106,10 +106,10 @@
                 <ul>
                 <li>
                   <select class="header-lang-bx" name="languages" id="languages" onchange="location = this.value;">
-                      <option data-icon="flag flag-afg" value="./pashto/index.html">pashto</option>
-                    <option data-icon="flag flag-uk" value="../index.html">English</option>
+                      <option data-icon="flag flag-afg" value="./pashto/index.html">پښتو</option>
+                    <option data-icon="flag flag-uk" value="../index.html">انګلیسی</option>
                   
-                    <option data-icon="flag flag-afg" value="#">Dari</option>
+                    <option data-icon="flag flag-afg" value="#">دری</option>
                   </select>
                 </li>
                  
@@ -210,29 +210,29 @@
 
                   <li>
                     <a href="javascript:;"
-                      >Admission  داخله<i class="fa fa-chevron-down"></i
+                      >  داخله<i class="fa fa-chevron-down"></i
                     ></a>
                     <ul class="sub-menu">
                       <li>
-                        <a href="admission-info.html">Admission Information  د داخلیدو معلومات</a>
+                        <a href="admission-info.html">   د داخلی معلومات</a>
                       </li>
 
                       <li>
                         <a href="https://admission.benawa.edu.af/Result.php"
-                          >Online Admission  آنلاین داخله</a
+                          >   آنلاین داخله</a
                         >
                       </li>
                       <li>
-                        <a href="fee-structure.html">Fee Structure  د فیس جوړښت</a>
+                        <a href="fee-structure.html">  د فیس جوړښت</a>
                       </li>
                       <li>
                         <a href="scholarships.html"
-                          >Scholarships & Refund Policy  د بورسونو او د بیرته ورکولو پالیسي</a
+                          >  د بورسونو او د بیرته ورکولو پالیسي</a
                         >
                       </li>
                       <li>
                         <a href="financial-assistant.html"
-                          >Financial Asistance  مالي مرسته</a
+                          >  مالي مرسته</a
                         >
                       </li>
                     </ul>
@@ -286,12 +286,12 @@
                       <li><a href="error-404.html">404 Page</a></li>
                     </ul>
                   </li> -->
-				  <li><a href="javascript:;"> Academic  علمي<i class="fa fa-chevron-down"></i></a>
+				  <li><a href="javascript:;">   علمي<i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="javascript:;">Programmes  پروګرامونه<i class="fa fa-angle-right"></i></a>
+						<li><a href="javascript:;">  پروګرامونه<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="Programme-CS.html">Computer Science   کمپیوټر ساینس</a></li>
-								<li><a href="about-2.html">Engineering  انجینری</a></li>
+								<li><a href="Programme-CS.html">   کمپیوټر ساینس</a></li>
+								<li><a href="about-2.html">  انجینری</a></li>
 							</ul>
 						</li>
 								
@@ -302,15 +302,15 @@
 							</ul>
 							-->
 						</li>
-						<li><a href="javascript:;">Proc.& Policies  پروسیجر او پالیسي<i class="fa fa-angle-right"></i></a>
+						<li><a href="javascript:;">  پروسیجر او پالیسي<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="faq-1.html">Academic Staff Recruitment Policy  د اکادمیک کارمندانو استخدام پالیسي</a></li>
-								<li><a href="faq-2.html">Benawa Research Policy  د بینوا تحقیق پالیسي</a></li>
-								<li><a href="faq-2.html">Compiliation And Translation Policy  د تالیف او ژباړې پالیسي</a></li>
-								<li><a href="faq-2.html">Conflicts of Intrest in Research Policy  د څیړنې په پالیسۍ کې د ګټو شخړې</a></li>
-								<li><a href="faq-2.html">Employees Grievance Policy  د کارمندانو د شکایتونو پالیسي</a></li>
-								<li><a href="faq-2.html">Ethics in Research Policy  د څیړنې په پالیسۍ کې اخلاق</a></li>
-								<li><a href="faq-2.html">Ethics Policy  د اخلاقو پالیسي</a></li>
+								<li><a href="faq-1.html">  د اکادمیک کارمندانو استخدام پالیسي</a></li>
+								<li><a href="faq-2.html"> د بینوا تحقیق پالیسي</a></li>
+								<li><a href="faq-2.html"> د تالیف او ژباړې پالیسي</a></li>
+								<li><a href="faq-2.html">  د څیړنې په پالیسۍ کې د ګټو شخړې</a></li>
+								<li><a href="faq-2.html">  د کارمندانو د شکایتونو پالیسي</a></li>
+								<li><a href="faq-2.html"> د څیړنې په پالیسۍ کې اخلاق</a></li>
+								<li><a href="faq-2.html">  د اخلاقو پالیسي</a></li>
 							</ul>
 						</li>
 						</ul>
@@ -336,18 +336,18 @@
                       </li>
                     </ul>
                   </li> -->
-				  <li class="add-mega-menu"><a href="javascript:;">Students  زده کوونکي <i class="fa fa-chevron-down"></i></a>
+				  <li class="add-mega-menu"><a href="javascript:;">  زده کوونکي <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu add-menu">
 						<li class="add-menu-left">
 						<!--	<h5 class="menu-adv-title">Our Courses</h5> -->
 							<ul>
-								<li><a href="courses.html">Time Table تقسم اوقات </a></li>
-								<li><a href="courses-details.html">Student Portal  د زده کونکي پورټل</a></li>
-								<li><a href="profile.html">Student Affairs د محصلینو چارو</a></li>
-								<li><a href="event.html">Examination Schedule  د ازموینې مهالویش</a></li>
-								<li><a href="membership.html">Handbook  لاسي کتاب</a></li>
-								<li><a href="membership.html">Academic Rules & Regulations  اکادمیک اصول او مقررات</a></li>
-								<li><a href="membership.html">Student Document Verification  د زده کونکي اسناد تصدیق</a></li>
+								<li><a href="courses.html"> تقسم اوقات </a></li>
+								<li><a href="courses-details.html">  د زده کونکي پورټل</a></li>
+								<li><a href="profile.html">  د محصلینو چارو</a></li>
+								<li><a href="event.html">  د ازموینې مهالویش</a></li>
+								<li><a href="membership.html">  لاسي کتاب</a></li>
+								<li><a href="membership.html">  اکادمیک اصول او مقررات</a></li>
+								<li><a href="membership.html">  د زده کونکي اسناد تصدیق</a></li>
 							</ul>
 						</li>
 						</ul>
@@ -373,12 +373,12 @@
                       <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
                   </li> -->
-				  <li><a href="javascript:;">Facilites  اسانتیاوې<i class="fa fa-chevron-down"></i></a>
+				  <li><a href="javascript:;">  اسانتیاوې<i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="computer-lab.html">Computer Lab  د کمپیوټر لابراتوار</a></li>
-						<li><a href="Engineering-lab.html">Engineering Lab  د انجینرۍ لابراتوار</a></li>
-						<li><a href="Library.html">Library  کتابتون</a></li>
-						<li><a href="Cafeteria.html">Cafeteria  کیفیټیریا</a></li>
+						<li><a href="computer-lab.html">  د کمپیوټر لابراتوار</a></li>
+						<li><a href="Engineering-lab.html"> د انجینرۍ لابراتوار</a></li>
+						<li><a href="Library.html"> کتابتون</a></li>
+						<li><a href="Cafeteria.html">  کیفیټیریا</a></li>
 						
 					</ul>
 				</li>
@@ -431,14 +431,14 @@
                       </li>
                     </ul>
                   </li> -->
-				  <li class="nav-dashboard"><a href="javascript:;">About Us  زموږ په اړه <i class="fa fa-chevron-down"></i></a>
+				  <li class="nav-dashboard"><a href="javascript:;">   زموږ په اړه <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="why-benawa.html">Why BIHE?  ولې BIHE؟</a></li>
-						<li><a href="admin/add-listing.html">Vision, Mission and Objectives  لید، ماموریت او موخې</a></li>
-						<li><a href="founder-of-benawa.html">Founder of BIHE  د BIHE بنسټ ایښودونکی</a></li>
-						<li><a href="chacelor-message.html">Chancellor's Message  د ولسمشر پیغام</a></li>
-						<li><a href="management-team.html">Management Team  مدیریت ټیم</a></li>
-						<li><a href="admin/teacher-profile.html">Our Students  زموږ زده کوونکي</a></li>
+						<li><a href="why-benawa.html">ولی بینوا؟</a></li>
+						<li><a href="admin/add-listing.html">  لید، ماموریت او موخې</a></li>
+						<li><a href="founder-of-benawa.html"> د بینوا بنسټ ایښودونکی</a></li>
+						<li><a href="chacelor-message.html"> د ولسمشر پیغام</a></li>
+						<li><a href="management-team.html">  مدیریت ټیم</a></li>
+						<li><a href="admin/teacher-profile.html">  زموږ زده کوونکي</a></li>
                 </ul>
 				
                 <div class="nav-social-link">
@@ -677,7 +677,7 @@
                       margin-right: 5px;
                     "
                   >
-                    READ MORE  نور ولولئ
+                      نور ولولئ
                   </div>
                   <div
                     class="tp-caption Newspaper-Button rev-btn"
@@ -710,7 +710,7 @@
                       border-radius: 30px;
                     "
                   >
-                    CONTACT US  موږ سره اړیکه ونیسئ
+                      موږ سره اړیکه ونیسئ
                   </div>
                 </li>
                 <li
@@ -915,7 +915,7 @@
                       margin-right: 5px;
                     "
                   >
-                    READ MORE  نور ولولئ
+                      نور ولولئ
                   </div>
                   <div
                     class="tp-caption Newspaper-Button rev-btn"
@@ -948,7 +948,7 @@
                       border-radius: 30px;
                     "
                   >
-                    CONTACT US  موږ سره اړیکه ونیسئ
+                      موږ سره اړیکه ونیسئ
                   </div>
                 </li>
                 <!-- SLIDE  -->
@@ -972,8 +972,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-bank text-primary"></i>
                       </div>
-                      <h4><a href="#">Computer Lab  د کمپیوټر لابراتوار</a></h4>
-                      <a href="#" class="btn radius-xl">View More  نور وګوره</a>
+                      <h4><a href="#">  د کمپیوټر لابراتوار</a></h4>
+                      <a href="#" class="btn radius-xl">  نور وګوره</a>
                     </div>
                   </div>
                 </div>
@@ -986,8 +986,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-book text-primary"></i>
                       </div>
-                      <h4><a href="#">Engineering Lab  د انجینرۍ لابراتوار</a></h4>
-                      <a href="#" class="btn radius-xl">View More  نور وګوره</a>
+                      <h4><a href="#">  د انجینرۍ لابراتوار</a></h4>
+                      <a href="#" class="btn radius-xl">  نور وګوره</a>
                     </div>
                   </div>
                 </div>
@@ -1000,8 +1000,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-file-text-o text-primary"></i>
                       </div>
-                      <h4><a href="#">Book Library & Store  کتابتون او پلورنځی</a></h4>
-                      <a href="#" class="btn radius-xl">View More  نور وګوره</a>
+                      <h4><a href="#">  کتابتون او پلورنځی</a></h4>
+                      <a href="#" class="btn radius-xl">  نور وګوره</a>
                     </div>
                   </div>
                 </div>
@@ -1015,7 +1015,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12 heading-bx left">
-                  <h2 class="title-head">Popular مشهور <span>Courses  کورسونه</span></h2>
+                  <h2 class="title-head"> مشهور <span>  کورسونه</span></h2>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page
@@ -1030,17 +1030,17 @@
                     <div class="cours-bx">
                       <div class="action-box">
                         <img src="assets/images/courses/machine leranig.jpg" alt="" />
-                        <a href="#" class="btn">Read More </a>
+                        <a href="#" class="btn">نورواولۍ </a>
                       </div>
                       <div class="info-bx text-center">
                         <h5>
-                          <a href="#">Machine – Learning</a>
+                          <a href="#">د ماشین زدګړه(مشین الرنینګ)</a>
                         </h5>
-                        <span>Programming</span>
+                        <span>پروګرامینګ</span>
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 Review</span>
+                          <span>3 بیاکتنه</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -1060,17 +1060,17 @@
                     <div class="cours-bx">
                       <div class="action-box">
                         <img src="assets/images/courses/Database.jpg" alt="" />
-                        <a href="#" class="btn">Read More</a>
+                        <a href="#" class="btn">نورولولۍ</a>
                       </div>
                       <div class="info-bx text-center">
                         <h5>
-                          <a href="#">Database</a>
+                          <a href="#">دیټا بیس</a>
                         </h5>
-                        <span>Programming</span>
+                        <span>پروګرامینګ</span>
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 Review</span>
+                          <span>3 بیاکتنه</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -1090,17 +1090,17 @@
                     <div class="cours-bx">
                       <div class="action-box">
                         <img src="assets/images/courses/Mobile App.jpg" alt="" />
-                        <a href="#" class="btn">Read More</a>
+                        <a href="#" class="btn">نورولولۍ</a>
                       </div>
                       <div class="info-bx text-center">
                         <h5>
-                          <a href="#">Mobile App Development</a>
+                          <a href="#">د موبایل اپلکیشن پراختیا</a>
                         </h5>
-                        <span>Programming</span>
+                        <span>پروګرامینګ</span>
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 Review</span>
+                          <span>3 بیاکتنه</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -1120,17 +1120,17 @@
                     <div class="cours-bx">
                       <div class="action-box">
                         <img src="assets/images/courses/ali ullah.jpg" alt="" />
-                        <a href="#" class="btn">Read More</a>
+                        <a href="#" class="btn">نورولولۍ</a>
                       </div>
                       <div class="info-bx text-center">
                         <h5>
-                          <a href="#">Learning</a>
+                          <a href="#">زده کړه</a>
                         </h5>
-                        <span>Programming</span>
+                        <span>پروګرامینګ</span>
                       </div>
                       <div class="cours-more-info">
                         <div class="review">
-                          <span>3 Review</span>
+                          <span>3 بیاکتنه</span>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -1156,8 +1156,8 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12 text-center heading-bx">
-                  <h2 class="title-head m-b0">Upcoming  راتلونکی <span>Events  پیښې</span></h2>
-                  <p class="m-b0">Upcoming Education Events To Feed Brain.   د مغز تغذیه کولو لپاره راتلونکي تعلیمي پیښې.</p>
+                  <h2 class="title-head m-b0">  راتلونکی <span>  پیښې</span></h2>
+                  <p class="m-b0">  د مغز تغذیه کولو لپاره راتلونکي تعلیمي پیښې.</p>
                 </div>
               </div>
               <div class="row">
@@ -1281,7 +1281,7 @@
                 </div>
               </div>
               <div class="text-center">
-                <a href="#" class="btn">View All Event</a>
+                <a href="#" class="btn">ټولی پیښې وګورۍ</a>
               </div>
             </div>
           </div>
@@ -1295,7 +1295,7 @@
               <div class="row">
                 <div class="col-md-12 text-white heading-bx left">
                   <h2 class="title-head text-uppercase">
-                    what people  خلګ څه<span>say  وایی</span>
+                      خلګ څه<span>  وایی</span>
                   </h2>
                   <p>
                     It is a long established fact that a reader will be
@@ -1354,7 +1354,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12 heading-bx left">
-                  <h2 class="title-head">Recent  وروستي <span>News  خبرونه</span></h2>
+                  <h2 class="title-head">  وروستي <span>  خبرونه</span></h2>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page
@@ -1468,9 +1468,9 @@
                         experience together with.
                       </p>
                       <div class="post-extra">
-                        <a href="#" class="btn-link">READ MORE</a>
+                        <a href="#" class="btn-link">نورولولۍ</a>
                         <a href="#" class="comments-bx"
-                          ><i class="fa fa-comments-o"></i>23 Comment</a
+                          ><i class="fa fa-comments-o"></i>23 تبصري</a
                         >
                       </div>
                     </div>
@@ -1487,8 +1487,8 @@
               <div class="row">
                 <div class="col-lg-5">
                   <div class="heading-bx left">
-                    <h5>Featured Teachers  ښوونکي ښوونکي</h5>
-                    <h1 class="title-head">Meet Our teachers  زموږ د ښوونکو سره لیدنه وکړئ</h1>
+                    <h5>ښوونکي ښوونکي</h5>
+                    <h1 class="title-head">  زموږ د ښوونکو سره لیدنه وکړئ</h1>
                   </div>
                   <!-- section title -->
                   <div class="teachers-cont">
@@ -1518,8 +1518,8 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Baqi Bellah  باقی بالله</h6>
-                              <span>Teacher  ښوونکی</span></a
+                              ><h6>  باقی بالله</h6>
+                              <span>  ښوونکی</span></a
                             >
                           </div>
                         </div>
@@ -1532,9 +1532,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Noor Ahmad Noori  نور احمد نوري</h6></a
+                              ><h6>  نور احمد نوري</h6></a
                             >
-                            <span>Teacher  ښوونکی</span>
+                            <span>  ښوونکی</span>
                           </div>
                         </div>
                         <!-- singel teachers -->
@@ -1546,9 +1546,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Aliullah Matawakil  علی الله متوکل </h6></a
+                              ><h6>  علی الله متوکل </h6></a
                             >
-                            <span>Teacher  ښوونکی</span>
+                            <span>  ښوونکی</span>
                           </div>
                         </div>
                         <!-- singel teachers -->
@@ -1560,9 +1560,9 @@
                           </div>
                           <div class="cont">
                             <a href="teachers-singel.html"
-                              ><h6>Ahmad Khan  احمد خان</h6></a
+                              ><h6>  احمد خان</h6></a
                             >
-                            <span>Teacher  ښوونکی</span>
+                            <span>  ښوونکی</span>
                           </div>
                         </div>
                         <!-- singel teachers -->
@@ -1615,7 +1615,7 @@
                   </ul>
                 </div>
                 <div class="pt-btn-join">
-                  <a href="#" class="btn">Join Now  اوس ګډون وکړئ</a>
+                  <a href="#" class="btn">  اوس ګډون وکړئ</a>
                 </div>
               </div>
             </div>
@@ -1624,10 +1624,9 @@
             <div class="row">
               <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
                 <div class="widget">
-                  <h5 class="footer-title">Sign Up For A Newsletter  د یوې خبرپاڼې لپاره لاسلیک وکړئ</h5>
+                  <h5 class="footer-title">  د یوې خبرپاڼې لپاره لاسلیک وکړئ</h5>
                   <p class="text-capitalize m-b20">
-                    Weekly Breaking news analysis and cutting edge advices on
-                    job searching.  د اوونیز تازه خبرونو تحلیلونه او په اړه مشورې د کار لټون.
+                    د اوونیز تازه خبرونو تحلیلونه او په اړه مشورې د کار لټون.
 
                   </p>
                   <div class="subscribe-form m-b20">
@@ -1642,7 +1641,7 @@
                           name="email"
                           required="required"
                           class="form-control"
-                          placeholder="Your Email Address"
+                          placeholder="ستاسو ایمیل ادرس"
                           type="email"
                         />
                         <span class="input-group-btn">
@@ -1664,39 +1663,39 @@
                 <div class="row">
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Company  شرکت</h5>
+                      <h5 class="footer-title">  شرکت</h5>
                       <ul>
-                        <li><a href="index.html">Home  کور</a></li>
-                        <li><a href="about-1.html">About  په اړه</a></li>
+                        <li><a href="index.html">  کور</a></li>
+                        <li><a href="about-1.html">  په اړه</a></li>
                         <li><a href="faq-1.html">FAQs</a></li>
-                        <li><a href="contact-1.html">Contact  اړیکه</a></li>
+                        <li><a href="contact-1.html">  اړیکه</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Get In Touch  په تماس کې شئ</h5>
+                      <h5 class="footer-title">  په تماس کې شئ</h5>
                       <ul>
                         <li>
                           <a
                             href="http://educhamp.themetrades.com/admin/index.html"
-                            >Dashboard  ډشبورډ</a
+                            >  ډشبورډ</a
                           >
                         </li>
-                        <li><a href="blog-classic-grid.html">Blog  بلاګ</a></li>
-                        <li><a href="portfolio.html">Portfolio  پورټ فولیو</a></li>
-                        <li><a href="event.html">Event  پیښه</a></li>
+                        <li><a href="blog-classic-grid.html">  بلاګ</a></li>
+                        <li><a href="portfolio.html">  پورټ فولیو</a></li>
+                        <li><a href="event.html">  پیښه</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Courses  کورسونه</h5>
+                      <h5 class="footer-title">  کورسونه</h5>
                       <ul>
-                        <li><a href="courses.html">Courses  کورسونه</a></li>
-                        <li><a href="courses-details.html">Details  جزیات</a></li>
-                        <li><a href="membership.html">Membership  غړیتوب</a></li>
-                        <li><a href="profile.html">Profile  پروفایل</a></li>
+                        <li><a href="courses.html">  کورسونه</a></li>
+                        <li><a href="courses-details.html">  جزیات</a></li>
+                        <li><a href="membership.html">  غړیتوب</a></li>
+                        <li><a href="profile.html">  پروفایل</a></li>
                       </ul>
                     </div>
                   </div>
@@ -1704,7 +1703,7 @@
               </div>
               <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                 <div class="widget widget_gallery gallery-grid-4">
-                  <h5 class="footer-title">Our Gallery  زموږ ګالری</h5>
+                  <h5 class="footer-title">  زموږ ګالری</h5>
                   <ul class="magnific-image">
                     <li>
                       <a
