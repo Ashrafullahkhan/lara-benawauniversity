@@ -324,11 +324,11 @@
                       <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
                   </li> -->
-				  <li><a href="javascript:;">Facilites<i class="fa fa-chevron-down"></i></a>
+				  <li><a href="javascript:;">اسانتیاوی<i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="computer-lab">Computer Lab</a></li>
-						<li><a href="engineering-lab">Engineering Lab</a></li>
-						<li><a href="Library">Library</a></li>
+						<li><a href="computer-lab">د کمپیوساینس لابراتوار</a></li>
+						<li><a href="engineering-lab">د انجینری لابراتوار</a></li>
+						<li><a href="Library">کتاب تون</a></li>
 						<li><a href="Cafeteria">Cafeteria</a></li>
 						
 					</ul>
@@ -382,14 +382,14 @@
                       </li>
                     </ul>
                   </li> -->
-				  <li class="nav-dashboard"><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
+				  <li class="nav-dashboard"><a href="javascript:;">زموږپه اړه <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="why-benawa">Why BIHE?</a></li>
-						<li><a href="admin/add-listing">Vision, Mission and Objectives</a></li>
-						<li><a href="founder-of-benawa">Founder of BIHE</a></li>
+						<li><a href="why-benawa">ولی بینوا</a></li>
+						<li><a href="admin/add-listing">لید،تحول او موخی</a></li>
+						<li><a href="founder-of-benawa"> د بینوا بنسټ ایښودنکی</a></li>
 						<li><a href="chacelor-message">Chancellor's Message</a></li>
-						<li><a href="management-team">Management Team</a></li>
-						<li><a href="admin/teacher-profile">Our Students</a></li>
+						<li><a href="management-team">اداری ټیم</a></li>
+						<li><a href="admin/teacher-profile">زموږ زده کونکی</a></li>
                 </ul>
 				
                 <div class="nav-social-link">
@@ -439,7 +439,7 @@
                   </ul>
                 </div>
                 <div class="pt-btn-join">
-                  <a href="#" class="btn">Join Now</a>
+                  <a href="#" class="btn">همدااوس یوځای شی</a>
                 </div>
               </div>
             </div>
@@ -448,7 +448,7 @@
             <div class="row">
               <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
                 <div class="widget">
-                  <h5 class="footer-title">Sign Up For A Newsletter</h5>
+                  <h5 class="footer-title">د خبرلیکونواپاره یی ووایاست</h5>
                   <p class="text-capitalize m-b20">
                     Weekly Breaking news analysis and cutting edge advices on
                     job searching.
@@ -487,39 +487,39 @@
                 <div class="row">
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Company</h5>
+                      <h5 class="footer-title">شرکت</h5>
                       <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-1.html">About</a></li>
+                        <li><a href="index.html">کور</a></li>
+                        <li><a href="about-1.html">په اړه</a></li>
                         <li><a href="faq-1.html">FAQs</a></li>
-                        <li><a href="contact-1.html">Contact</a></li>
+                        <li><a href="contact-1.html">اړیکه</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Get In Touch</h5>
+                      <h5 class="footer-title">اړیکه ونیسی</h5>
                       <ul>
                         <li>
                           <a
                             href="http://educhamp.themetrades.com/admin/index.html"
-                            >Dashboard</a
+                            >دشبورد</a
                           >
                         </li>
-                        <li><a href="blog-classic-grid.html">Blog</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="event.html">Event</a></li>
+                        <li><a href="blog-classic-grid.html">بلاګ</a></li>
+                        <li><a href="portfolio.html">فورفایل</a></li>
+                        <li><a href="event.html">پیښه</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-4 col-lg-4 col-md-4 col-sm-4">
                     <div class="widget footer_widget">
-                      <h5 class="footer-title">Courses</h5>
+                      <h5 class="footer-title">کورسونه</h5>
                       <ul>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="courses-details.html">Details</a></li>
-                        <li><a href="membership.html">Membership</a></li>
-                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="courses.html">کورسونه</a></li>
+                        <li><a href="courses-details.html">تفصیلات</a></li>
+                        <li><a href="membership.html">عضویت</a></li>
+                        <li><a href="profile.html">فورفایل</a></li>
                       </ul>
                     </div>
                   </div>
@@ -527,7 +527,7 @@
               </div>
               <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                 <div class="widget widget_gallery gallery-grid-4">
-                  <h5 class="footer-title">Our Gallery</h5>
+                  <h5 class="footer-title">ګالری</h5>
                   <ul class="magnific-image">
                     <li>
                       <a

@@ -384,8 +384,8 @@
                   </li> -->
 				  <li class="nav-dashboard"><a href="javascript:;"> درباره ما <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="why-benawa"> ?چرا بینوا</a></li>
-						<li><a href="admin/add-listing">چشم انداز،ماموریت و اهداف</a></li>
+						<li><a href="/dari/dr-why-benawa"> ?چرا بینوا</a></li>
+						<li><a href="/dr/add-listing">چشم انداز،ماموریت و اهداف</a></li>
 						<li><a href="founder-of-benawa"> بنیاد گذاربینوا</a></li>
 						<li><a href="chacelor-message">پیام های صدور گواهی نامه</a></li>
 						<li><a href="management-team"> تیم اداری</a></li>
