@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Event extends Model
+class Alumuni extends Model
 {
     use HasFactory;
-    protected $fillable = ['title', 'body', 'lang', 'location', 'main_pic', 'pic2', 'pic3'];
+    protected $fillable = ['name', 'body', 'lang', 'main_pic'];
 }

@@ -88,7 +88,7 @@
                 <div class="col-lg-12 m-b30">
                     <div class="widget-box">
                         <div class="wc-title">
-                            <h4>Add Teachers</h4>
+                            <h4>Add News</h4>
                         </div>
                         <div class="widget-inner">
                             <form method="post" action="{{ url('admin/news/insert_data/') }}"

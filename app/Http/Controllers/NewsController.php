@@ -14,7 +14,7 @@ class NewsController extends Controller
         $data = News::latest();
 
         if (request('search')) {
-            $data->where('name', 'like', '%' . request('search') . '%');
+            $data->where('title', 'like', '%' . request('search') . '%');
 
         }
         return view('/admin/news/news', ['data' => $data->paginate(5)]);

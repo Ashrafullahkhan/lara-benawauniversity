@@ -65,7 +65,7 @@
                 <div class="col-lg-12 m-b30">
                     <div class="widget-box">
                         <div class="wc-title row">
-                            <h4>News</h4>
+                            <h4>Alumuni</h4>
                             <div class=" offset-lg-6 col-lg-4 ">
                                 <form method="GET" action="#">
 
@@ -83,7 +83,7 @@
                                     </div>
                                     <div class="card-courses-full-dec">
                                         <div class="card-courses-title">
-                                            <h4>{{ $row->title }}</h4>
+                                            <h4>{{ $row->name }}</h4>
                                         </div>
                                         <div class="card-courses-list-bx">
                                             <ul class="card-courses-view">
@@ -101,7 +101,7 @@
                                         </div>
                                         <div class="row card-courses-dec">
                                             <div class="col-md-12">
-                                                <h6 class="m-b10">News Description</h6>
+                                                <h6 class="m-b10">Description</h6>
                                                 <p>
                                                     {{ $row->body }}
                                                 </p>
@@ -113,11 +113,12 @@
                                                 <ul class="card-courses-view">
 
                                                     <li>
-                                                        <a href="/admin/news/{{ $row->id }}"
+                                                        <a href="/admin/alumuni/{{ $row->id }}"
                                                             class="btn green radius-xl outline">Edit</a>
                                                     </li>
                                                     <li>
-                                                        <form action="/news/delete/{{ $row->id }}" method="POST">
+                                                        <form action="/alumuni/delete/{{ $row->id }}"
+                                                            method="POST">
                                                             @csrf
                                                             @method('DELETE')
                                                             <button class="btn red outline radius-xl">Delete </button>

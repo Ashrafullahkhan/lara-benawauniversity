@@ -88,61 +88,69 @@
                 <div class="col-lg-12 m-b30">
                     <div class="widget-box">
                         <div class="wc-title">
-                            <h4>Update News</h4>
+                            <h4>Update Events</h4>
                         </div>
                         <div class="widget-inner">
-                            <form method="post" action="/news/update/{{ $news->id }}"
+                            <form method="post" action="/event/update/{{ $event->id }}"
                                 enctype="multipart/form-data">
                                 @csrf
                                 @method('PATCH')
                                 <div class="row">
                                     <div class="form-group col-6">
-                                        <label class="col-form-label">News Title</label>
+                                        <label class="col-form-label">Event Title</label>
                                         <div>
                                             <input class="form-control" name="title" type="text"
-                                                value="{{ $news->title }}">
+                                                value="{{ $event->title }}">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <label class="col-form-label">Set Location</label>
+                                        <div>
+                                            <input class="form-control" name="location" type="text"
+                                                value="{{ $event->location }}">
                                         </div>
                                     </div>
 
                                     <div class="form-group col-12">
-                                        <label class="col-form-label">News description</label>
+                                        <label class="col-form-label">Event description</label>
                                         <div>
-                                            <textarea class="form-control" name="body">{{ $news->body }} </textarea>
+                                            <textarea class="form-control" name="body">{{ $event->body }} </textarea>
                                         </div>
                                     </div>
 
                                     <div class="form-group col-4">
                                         <label>Select Main Image</label>
                                         <div>
-                                            <input type="file" name="main_pic" value="{{ $news->main_pic }} " />
+                                            <input type="file" name="main_pic" value="{{ $event->main_pic }} " />
                                         </div>
 
                                     </div>
                                     <div class="form-group col-4">
                                         <label>Select Second Image</label>
                                         <div>
-                                            <input type="file" name="pic2" value="{{ $news->pic2 }}" />
+                                            <input type="file" name="pic2" value="{{ $event->pic2 }}" />
                                         </div>
 
                                     </div>
                                     <div class="form-group col-4">
                                         <label>Select Third Image</label>
                                         <div>
-                                            <input type="file" name="pic3" value="{{ $news->pic3 }}" />
+                                            <input type="file" name="pic3" value="{{ $event->pic3 }}" />
                                         </div>
 
                                     </div>
 
                                     <div class="form-group col-4">
-                                        <img src="/storage/{{ $news->main_pic }}" class="img-thumbnail"
+                                        <img src="/storage/{{ $event->main_pic }}" class="img-thumbnail"
                                             width="100" />
 
                                     </div>
                                     <div class="form-group col-4">
-                                        <img src="/storage/{{ $news->pic2 }}" class="img-thumbnail" width="100" />
+                                        <img src="/storage/{{ $event->pic2 }}" class="img-thumbnail" width="100" />
                                     </div>
                                     <div class="form-group col-4">
-                                        <img src="/storage/{{ $news->pic3 }}" class="img-thumbnail" width="100" />
+                                        <img src="/storage/{{ $event->pic3 }}" class="img-thumbnail"
+                                            width="100" />
 
                                     </div>
                                     <div class="form-group col-12">

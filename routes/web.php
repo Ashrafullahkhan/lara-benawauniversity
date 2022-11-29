@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\AlumuniController;
+use App\Http\Controllers\EventsController;
 use App\Http\Controllers\NewsController;
-use App\Http\Controllers\PdfController;
 use App\Http\Controllers\TeachersController;
+use App\Models\News;
 use App\Models\Teacher;
 use Illuminate\Support\Facades\Route;
 
@@ -47,17 +49,17 @@ Route::get('/Programme-CS', function () {
 Route::get('/Programme-EN', function () {
     return view('programmes-EN');
 });
-Route::get('/policies/Ethics_policy.pdf', [PdfController::class, "index"]);
+Route::get('/policies/{pdf}');
 
-//students
+// //students
 
-Route::get('/student-affairs', function () {
-    return view('student-affairs');
-});
+// Route::get('/student-affairs', function () {
+//     return view('student-affairs');
+// });
 
-Route::get('/financial-assistant', function () {
-    return view('financial-assistant');
-});
+// Route::get('/financial-assistant', function () {
+//     return view('financial-assistant');
+// });
 
 //facilities
 
@@ -101,7 +103,7 @@ Route::get('/pashto', function () {
 
 //main views
 Route::get('/', function () {
-    return view('index');
+    return view('index', ['news' => News::all(), 'teacher' => Teacher::all()]);
 });
 
 Route::get('/admission-info', function () {
@@ -122,13 +124,13 @@ Route::get('/teacher', function () {
 
 // Academic ------ programmes
 
-Route::get('/Programme-CS', function () {
-    return view('programmes-CS');
-});
-Route::get('/Programme-EN', function () {
-    return view('programmes-EN');
-});
-Route::get('/policies/Ethics_policy.pdf', [PdfController::class, "index"]);
+// Route::get('/Programme-CS', function () {
+//     return view('programmes-CS');
+// });
+// Route::get('/Programme-EN', function () {
+//     return view('programmes-EN');
+// });
+// Route::get('/policies/Ethics_policy.pdf', [PdfController::class, "index"]);
 
 //students
 
@@ -139,6 +141,12 @@ Route::get('/student-affairs', function () {
 Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
+
+Route::get('/academic_rules_and_regulation', function () {
+    return view('academic_rules_and_regulation');
+});
+
+Route::get('/files/{pdf}');
 
 //event details
 
@@ -183,6 +191,11 @@ Route::get('/courses', function () {
     return view('courses');
 });
 
+//contacts
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 //admin views
 
 Route::get('/dashboard', function () {
@@ -220,8 +233,44 @@ Route::get('/admin/create-news', function () {
 Route::get('/admin/news/{news}', [NewsController::class, "update"]);
 Route::patch('news/update/{id}', [NewsController::class, "edit"]);
 Route::delete('news/delete/{news}', [NewsController::class, "destroy"]);
+Route::get('news_details/{news}', function (News $news) {
+    $data = News::all();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+
+    return view('news_details', ['news' => $news, 'allnews' => $data]);
+});
 
 // ENDS OF admin/news routes
+
+// admin/Events routes
+
+Route::get('/admin/events', [EventsController::class, "index"]);
+Route::post('admin/event/insert_data', [EventsController::class, "insert_data"]);
+Route::get('/admin/create-event', function () {
+    return view('admin/events/create-event');
+});
+Route::get('/admin/event/{event}', [EventsController::class, "update"]);
+Route::patch('event/update/{id}', [EventsController::class, "edit"]);
+Route::delete('event/delete/{event}', [EventsController::class, "destroy"]);
+
+// ENDS OF admin/Events routes
+
+// admin/Alumuni routes
+
+Route::get('/admin/alumuni', [AlumuniController::class, "index"]);
+Route::post('admin/alumuni/insert_data', [AlumuniController::class, "insert_data"]);
+Route::get('/admin/add-alumuni', function () {
+    return view('admin/alumuni/add-alumuni');
+});
+Route::get('/admin/alumuni/{alumuni}', [AlumuniController::class, "update"]);
+Route::patch('alumuni/update/{id}', [AlumuniController::class, "edit"]);
+Route::delete('alumuni/delete/{alumuni}', [AlumuniController::class, "destroy"]);
+
+// ENDS OF admin/Alumuni routes
 
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');

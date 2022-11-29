@@ -65,7 +65,7 @@
                 <div class="col-lg-12 m-b30">
                     <div class="widget-box">
                         <div class="wc-title row">
-                            <h4>News</h4>
+                            <h4>Events</h4>
                             <div class=" offset-lg-6 col-lg-4 ">
                                 <form method="GET" action="#">
 
@@ -113,11 +113,11 @@
                                                 <ul class="card-courses-view">
 
                                                     <li>
-                                                        <a href="/admin/news/{{ $row->id }}"
+                                                        <a href="/admin/event/{{ $row->id }}"
                                                             class="btn green radius-xl outline">Edit</a>
                                                     </li>
                                                     <li>
-                                                        <form action="/news/delete/{{ $row->id }}" method="POST">
+                                                        <form action="/event/delete/{{ $row->id }}" method="POST">
                                                             @csrf
                                                             @method('DELETE')
                                                             <button class="btn red outline radius-xl">Delete </button>
