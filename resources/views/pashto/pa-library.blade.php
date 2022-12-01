@@ -1,7 +1,6 @@
-<x-dari.dari-layout>
 <x-pashto.pashto-layout>
-
     <div class="page-content bg-white">
+  
         <!-- inner page banner -->
         <div
           class="page-banner ovbl-dark"
@@ -9,7 +8,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">کتاب خانه</h1>
+              <h1 class="text-white">Library</h1>
             </div>
           </div>
         </div>
@@ -27,7 +26,7 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">کتاب خانه</h2>
+                    <h2 class="title-head">Library</h2>
                   </div>
                   <p>
                     Library & Learning Resource Center is the backbone of an
@@ -58,4 +57,4 @@
         </div>
         <!-- contact area END -->
       </div>
-</x-dari.dari-layout>
+</x-pashto.pashto-layout>

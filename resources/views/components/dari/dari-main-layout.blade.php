@@ -19,6 +19,26 @@
     />
     <meta property="og:image" content="" />
     <meta name="format-detection" content="telephone=no" />
+    
+    <!--font style-->
+    <style type="text/css">
+@font-face {
+    font-family: OptimusPrinceps;
+    src: url('{{ public_path('fonts/OptimusPrinceps.tff') }}');
+
+    @font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../public/css/fonts/proxima-nova-light-59f99460e7b28.otf');
+}
+}
+</style>
+
+<link href="{{ asset('bootstrap.rtl.min.css') }}" rel="stylesheet">
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- FAVICONS ICON ============================================= -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />

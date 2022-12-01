@@ -20,6 +20,16 @@
     <meta property="og:image" content="" />
     <meta name="format-detection" content="telephone=no" />
 
+       <!--font style-->
+    
+
+<link href="{{ asset('bootstrap.rtl.min.css') }}" rel="stylesheet">
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+<link rel="stylesheet" href="bootstrap.rtl.min.css" />
+
     <!-- FAVICONS ICON ============================================= -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <link

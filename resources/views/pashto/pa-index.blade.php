@@ -214,7 +214,7 @@
                     ></a>
                     <ul class="sub-menu">
                       <li>
-                        <a href="admission-info.html">   د داخلی معلومات</a>
+                        <a href="pa-admission">   د داخلی معلومات</a>
                       </li>
 
                       <li>
@@ -223,15 +223,15 @@
                         >
                       </li>
                       <li>
-                        <a href="fee-structure.html">  د فیس جوړښت</a>
+                        <a href="pa-fee-structure">  د فیس جوړښت</a>
                       </li>
                       <li>
-                        <a href="scholarships.html"
+                        <a href="pa-scholarships"
                           >  د بورسونو او د بیرته ورکولو پالیسي</a
                         >
                       </li>
                       <li>
-                        <a href="financial-assistant.html"
+                        <a href="pa-financial"
                           >  مالي مرسته</a
                         >
                       </li>
@@ -290,8 +290,8 @@
 					<ul class="sub-menu">
 						<li><a href="javascript:;">  پروګرامونه<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="Programme-CS.html">   کمپیوټر ساینس</a></li>
-								<li><a href="about-2.html">  انجینری</a></li>
+								<li><a href="pa-Programmes-CS"> کمپیوټر ساینس</a></li>
+								<li><a href="pa-programmes-EN">  انجینری</a></li>
 							</ul>
 						</li>
 								
@@ -341,8 +341,8 @@
 						<li class="add-menu-left">
 						<!--	<h5 class="menu-adv-title">Our Courses</h5> -->
 							<ul>
-								<li><a href="courses.html"> تقسم اوقات </a></li>
-								<li><a href="courses-details.html">  د زده کونکي پورټل</a></li>
+								<li><a href="pa-courses"> تقسم اوقات </a></li>
+								<li><a href="pa-courses-details">  د زده کونکي پورټل</a></li>
 								<li><a href="profile.html">  د محصلینو چارو</a></li>
 								<li><a href="event.html">  د ازموینې مهالویش</a></li>
 								<li><a href="membership.html">  لاسي کتاب</a></li>
@@ -375,10 +375,10 @@
                   </li> -->
 				  <li><a href="javascript:;">  اسانتیاوې<i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="computer-lab.html">  د کمپیوټر لابراتوار</a></li>
-						<li><a href="Engineering-lab.html"> د انجینرۍ لابراتوار</a></li>
-						<li><a href="Library.html"> کتابتون</a></li>
-						<li><a href="Cafeteria.html">  کیفیټیریا</a></li>
+						<li><a href="pa-computer-lab">  د کمپیوټر لابراتوار</a></li>
+						<li><a href="pa-Engineering-lab"> د انجینرۍ لابراتوار</a></li>
+						<li><a href="pa-Library"> کتابتون</a></li>
+						<li><a href="pa-Cafeteria">کیفیټیریا</a></li>
 						
 					</ul>
 				</li>
@@ -433,12 +433,12 @@
                   </li> -->
 				  <li class="nav-dashboard"><a href="javascript:;">   زموږ په اړه <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="why-benawa.html">ولی بینوا؟</a></li>
-						<li><a href="admin/add-listing.html">  لید، ماموریت او موخې</a></li>
-						<li><a href="founder-of-benawa.html"> د بینوا بنسټ ایښودونکی</a></li>
-						<li><a href="chacelor-message.html"> د ولسمشر پیغام</a></li>
-						<li><a href="management-team.html">  مدیریت ټیم</a></li>
-						<li><a href="admin/teacher-profile.html">  زموږ زده کوونکي</a></li>
+						<li><a href="pa-why-benawa">ولی بینوا؟</a></li>
+						<li><a href="admin/add-listing.html"> لید، ماموریت او موخې</a></li>
+						<li><a href="pa-founder-of-benawa">د بینوا بنسټ ایښودونکی</a></li>
+						<li><a href="pa-chancellor-message">د ولسمشر پیغام</a></li>
+						<li><a href="pa-management-team">مدیریت ټیم</a></li>
+						<li><a href="admin/teacher-profile.html">زموږ زده کوونکي</a></li>
                 </ul>
 				
                 <div class="nav-social-link">
@@ -574,6 +574,8 @@
                       font-weight: 700;
                       text-align: center;
                       white-space: normal;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                   بینوا د لوړو زده کړو موسسه
@@ -605,6 +607,8 @@
                       font-family: rubik;
                       font-size: 18px;
                       font-weight: 400;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                     چیري چي ستاسو راتلونکی شروع کیژي
@@ -638,6 +642,9 @@
                       font-size: 18px;
                       line-height: 28px;
                       font-weight: 400;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
+
                     "
                   >
                   چیري چي ستاسو راتلونکی شروع کیژي
@@ -675,6 +682,8 @@
                       border: 0;
                       border-radius: 30px;
                       margin-right: 5px;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                       نور ولولئ
@@ -708,6 +717,8 @@
                       -webkit-box-sizing: border-box;
                       cursor: pointer;
                       border-radius: 30px;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                       موږ سره اړیکه ونیسئ
@@ -809,7 +820,8 @@
                       font-weight: 700;
                       text-align: center;
                       white-space: normal;
-                      
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                   بینوا د لوړو زده کړو موسسه
@@ -842,6 +854,8 @@
                       font-family: rubik;
                       font-size: 18px;
                       font-weight: 400;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                  <!--   Batter Education For A Better -->
@@ -876,6 +890,8 @@
                       font-size: 18px;
                       line-height: 28px;
                       font-weight: 400;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                   چیري چي ستاسو راتلونکی شروع کیژي
@@ -913,6 +929,8 @@
                       border: 0;
                       border-radius: 30px;
                       margin-right: 5px;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                       نور ولولئ
@@ -946,6 +964,8 @@
                       -webkit-box-sizing: border-box;
                       cursor: pointer;
                       border-radius: 30px;
+                      font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
                     "
                   >
                       موږ سره اړیکه ونیسئ

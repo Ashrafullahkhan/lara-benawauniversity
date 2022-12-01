@@ -111,8 +111,76 @@ Route::get('/dr/cafeteria', function () {
 // pashto views
 
 Route::get('/pashto', function () {
-    return view('pashto/index2');
+    return view('pashto/pa-index');
 });
+
+Route::get('/pa-admission-info', function () {
+    return view('pashto/pa-admission-info');
+});
+
+Route::get('/pa-fee-structure', function () {
+    return view('pashto/pa-fee-structure');
+});
+
+Route::get('/pa-scholarships', function () {
+    return view('pashto/pa-scholarships');
+});
+
+Route::get('/pa-financial', function () {
+    return view('pashto/pa-financial-assistant');
+});
+
+Route::get('/pa-Programmes-CS', function () {
+    return view('pashto/pa-Programmes-CS');
+});
+
+Route::get('/pa-programmes-EN', function () {
+    return view('pashto/pa-programmes-EN');
+});
+
+Route::get('/pa-courses', function () {
+    return view('pashto/pa-courses');
+});
+
+Route::get('/pa-computer-lab', function () {
+    return view('pashto/pa-computer-lab');
+});
+
+Route::get('/pa-Engineering-lab', function () {
+    return view('pashto/pa-Engineering-lab');
+});
+
+Route::get('/pa-Library', function () {
+    return view('pashto/pa-Library');
+});
+
+
+Route::get('/pa-Cafeteria', function () {
+    return view('pashto/pa-Cafeteria');
+});
+
+
+Route::get('/pa-why-benawa', function () {
+    return view('pashto/pa-why-benawa');
+});
+
+Route::get('/pa-founder-of-benawa', function () {
+    return view('pashto/pa-founder-of-benawa');
+});
+
+Route::get('/pa-chancellor-message', function () {
+    return view('pashto/pa-chancellor-message');
+});
+
+Route::get('/pa-management-team', function () {
+    return view('pashto/pa-management-team');
+});
+
+// Route::get('/pa-founder-of-benawa', function () {
+//     return view('pashto/pa-founder-of-benawa');
+// });
+
+
 
 
 
