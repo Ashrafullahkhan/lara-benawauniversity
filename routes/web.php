@@ -1,9 +1,13 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AlumuniController;
+use App\Http\Controllers\EventsController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\TeachersController;
-use App\Http\Controllers\PdfController;
+use App\Models\News;
 use App\Models\Teacher;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,7 +17,7 @@ use App\Models\Teacher;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 // dari views
 
@@ -45,7 +49,6 @@ Route::get('/dr/teacher', function () {
     return view('/dari/dr-teacher');
 });
 
-
 // Academic ------ programmes
 
 Route::get('/dr/Programme-CS', function () {
@@ -54,9 +57,15 @@ Route::get('/dr/Programme-CS', function () {
 Route::get('/dr/dr-Programme-EN', function () {
     return view('/dari/dr-programmes-EN');
 });
+<<<<<<< HEAD
 Route::get('/dari/dr-policies/Ethics_policy.pdf',[PdfController::class, "index"]);
+=======
+Route::get('/policies/{pdf}');
+>>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 
+// //students
 
+<<<<<<< HEAD
 //students 
 
 Route::get('/dar/student-affairs', function () {
@@ -66,13 +75,26 @@ Route::get('/dar/student-affairs', function () {
 Route::get('/dr/financial-assistant', function () {
     return view('/dari/dr-financial-assistant');
 });
+=======
+// Route::get('/student-affairs', function () {
+//     return view('student-affairs');
+// });
+>>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 
+// Route::get('/financial-assistant', function () {
+//     return view('financial-assistant');
+// });
 
 //facilities
 
+<<<<<<< HEAD
 
 Route::get('/dr/computer-lab', function () {
     return view('/dari/dr-computer-lab');
+=======
+Route::get('/computer-lab', function () {
+    return view('computer-lab');
+>>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 });
 
 Route::get('/dr/engineering-lab', function () {
@@ -105,15 +127,19 @@ Route::get('/dr/cafeteria', function () {
     return view('/dari/cafeteria');
 });
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 // pashto views
 
 Route::get('/pashto', function () {
     return view('pashto/pa-index');
 });
 
+<<<<<<< HEAD
 Route::get('/pa-admission-info', function () {
     return view('pashto/pa-admission-info');
 });
@@ -187,9 +213,11 @@ Route::get('/pa-management-team', function () {
 
 
 
+=======
+>>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 //main views
 Route::get('/', function () {
-    return view('index');
+    return view('index', ['news' => News::all(), 'teacher' => Teacher::all()]);
 });
 
 Route::get('/admission-info', function () {
@@ -205,22 +233,20 @@ Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
 Route::get('/teacher', function () {
-    return view('teacher',['teacher' =>Teacher::all()]);
+    return view('teacher', ['teacher' => Teacher::all()]);
 });
-
 
 // Academic ------ programmes
 
-Route::get('/Programme-CS', function () {
-    return view('programmes-CS');
-});
-Route::get('/Programme-EN', function () {
-    return view('programmes-EN');
-});
-Route::get('/policies/Ethics_policy.pdf',[PdfController::class, "index"]);
+// Route::get('/Programme-CS', function () {
+//     return view('programmes-CS');
+// });
+// Route::get('/Programme-EN', function () {
+//     return view('programmes-EN');
+// });
+// Route::get('/policies/Ethics_policy.pdf', [PdfController::class, "index"]);
 
-
-//students 
+//students
 
 Route::get('/student-affairs', function () {
     return view('student-affairs');
@@ -230,13 +256,18 @@ Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
 
-//event details 
+Route::get('/academic_rules_and_regulation', function () {
+    return view('academic_rules_and_regulation');
+});
+
+Route::get('/files/{pdf}');
+
+//event details
 
 Route::get('/event-details', function () {
     return view('event-details');
 });
 //facilities
-
 
 Route::get('/computer-lab', function () {
     return view('computer-lab');
@@ -270,22 +301,16 @@ Route::get('/cafeteria', function () {
     return view('cafeteria');
 });
 
-
-
 Route::get('/courses', function () {
     return view('courses');
 });
-Route::get('/teachers', [TeachersController::class, "index"]);
 
-Route::post('teachers/insert_image',  [TeachersController::class, "insert_image"]);
+//contacts
+Route::get('/contact', function () {
+    return view('contact');
+});
 
-
-
-Route::patch('teachers/update/{id}', [TeachersController::class, "edit"]);
-Route::delete('teachers/delete/{teacher}', [TeachersController::class, "destroy"]);
-
-
-//admin views 
+//admin views
 
 Route::get('/dashboard', function () {
     return view('admin/admin');
@@ -300,8 +325,67 @@ Route::get('/admin/add-listing', function () {
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
-Route::get('/admin/teacher', [TeachersController::class, "index"]);
+
+// admin/teachers routes
+
+Route::get('/admin/teachers', [TeachersController::class, "index"]);
+Route::post('admin/teachers/insert_data', [TeachersController::class, "insert_data"]);
 Route::get('/admin/teachers/{teacher}', [TeachersController::class, "update"]);
+Route::patch('teachers/update/{id}', [TeachersController::class, "edit"]);
+Route::delete('teachers/delete/{teacher}', [TeachersController::class, "destroy"]);
+
+// ENDS OF admin/teachers routes
+
+// admin/news routes
+
+Route::get('/admin/news', [NewsController::class, "index"]);
+Route::post('admin/news/insert_data', [NewsController::class, "insert_data"]);
+Route::get('/admin/create-news', function () {
+    return view('admin/news/create-news');
+});
+
+Route::get('/admin/news/{news}', [NewsController::class, "update"]);
+Route::patch('news/update/{id}', [NewsController::class, "edit"]);
+Route::delete('news/delete/{news}', [NewsController::class, "destroy"]);
+Route::get('news_details/{news}', function (News $news) {
+    $data = News::all();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+
+    return view('news_details', ['news' => $news, 'allnews' => $data]);
+});
+
+// ENDS OF admin/news routes
+
+// admin/Events routes
+
+Route::get('/admin/events', [EventsController::class, "index"]);
+Route::post('admin/event/insert_data', [EventsController::class, "insert_data"]);
+Route::get('/admin/create-event', function () {
+    return view('admin/events/create-event');
+});
+Route::get('/admin/event/{event}', [EventsController::class, "update"]);
+Route::patch('event/update/{id}', [EventsController::class, "edit"]);
+Route::delete('event/delete/{event}', [EventsController::class, "destroy"]);
+
+// ENDS OF admin/Events routes
+
+// admin/Alumuni routes
+
+Route::get('/admin/alumuni', [AlumuniController::class, "index"]);
+Route::post('admin/alumuni/insert_data', [AlumuniController::class, "insert_data"]);
+Route::get('/admin/add-alumuni', function () {
+    return view('admin/alumuni/add-alumuni');
+});
+Route::get('/admin/alumuni/{alumuni}', [AlumuniController::class, "update"]);
+Route::patch('alumuni/update/{id}', [AlumuniController::class, "edit"]);
+Route::delete('alumuni/delete/{alumuni}', [AlumuniController::class, "destroy"]);
+
+// ENDS OF admin/Alumuni routes
+
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });

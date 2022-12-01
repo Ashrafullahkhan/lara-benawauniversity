@@ -93,7 +93,7 @@
                                 <h4>Add Teachers</h4>
                             </div>
                             <div class="widget-inner">
-                                <form method="post" action="{{ url('teachers/insert_image/') }}"
+                                <form method="post" action="{{ url('admin/teachers/insert_data/') }}"
                                     enctype="multipart/form-data">
                                     @csrf
 
@@ -142,59 +142,77 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-12 m-b30">
                     <div class="widget-box">
                         <div class="wc-title">
-                            <h4>Add Teachers</h4>
-                        </div>
-                        <div class="widget-inner">
+                            <div class="wc-title">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h4>Teachers</h4>
+                                    </div>
+                                    <div class=" offset-lg-2 col-lg-4 ">
+                                        <form method="GET" action="#">
 
+                                            <input class="form-control" name="search" type="text"
+                                                placeholder="Search" value="{{ request('search') }}">
+                                        </form>
+                                    </div>
+                                </div>
 
-                            <div class="table-responsive">
-                                <table class="table  ">
-                                    <tr>
-                                        <th width="30%">Image</th>
-                                        <th width="30%">Name</th>
-                                        <th width="30%">Job</th>
-                                        <th width="30%">Action</th>
-                                    </tr>
-                                    @foreach ($data as $row)
-                                        <tr>
-                                            <td>
-                                                <img src="/storage/{{ $row->pic }}" class="img-thumbnail"
-                                                    width="90" />
-                                            </td>
-                                            <td>{{ $row->name }}</td>
-                                            <td>{{ $row->job }}</td>
-
-                                            <td>
-                                                <div> <a href="/admin/teachers/{{ $row->id }}"><i
-                                                            class="fa fa-edit"></i></a>
-                                                </div>
-
-                                                <form float="right" action="/teachers/delete/{{ $row->id }}"
-                                                    method="POST">
-                                                    @csrf
-                                                    @method('DELETE')
-                                                    <button class="delete"> <i class="fa fa-close"></i></button>
-                                                </form>
-                                            </td>
-
-                                        </tr>
-                                    @endforeach
-                                </table>
-                                {!! $data->links() !!}
                             </div>
 
+                            <div class="widget-inner">
+
+
+                                <div class="table-responsive">
+                                    <table class="table  ">
+                                        <tr>
+                                            <th width="30%">Image</th>
+                                            <th width="30%">Name</th>
+                                            <th width="30%">Job</th>
+                                            <th width="30%">Action</th>
+                                        </tr>
+                                        @foreach ($data as $row)
+                                            <tr>
+                                                <td>
+                                                    <img src="/storage/{{ $row->pic }}" class="img-thumbnail"
+                                                        width="90" />
+                                                </td>
+                                                <td>{{ $row->name }}</td>
+                                                <td>{{ $row->job }}</td>
+
+                                                <td>
+                                                    <div> <a href="/admin/teachers/{{ $row->id }}"><i
+                                                                class="fa fa-edit"></i></a>
+                                                    </div>
+
+                                                    <form float="right" action="/teachers/delete/{{ $row->id }}"
+                                                        method="POST">
+                                                        @csrf
+                                                        @method('DELETE')
+                                                        <button class="delete"> <i class="fa fa-close"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        @endforeach
+                                    </table>
+                                    <div class="d-flex justify-content-center">
+                                        {!! $data->links('pagination::bootstrap-4') !!}
+                                    </div>
+
+                                </div>
+
+                            </div>
                         </div>
+
                     </div>
 
+
                 </div>
-
-
+                <!-- Your Profile Views Chart END-->
             </div>
-            <!-- Your Profile Views Chart END-->
-        </div>
         </div>
     </main>
     <div class="ttr-overlay"></div>
