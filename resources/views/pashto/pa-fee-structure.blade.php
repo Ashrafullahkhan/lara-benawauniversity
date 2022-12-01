@@ -16,7 +16,7 @@
 
         <!-- Breadcrumb row END -->
         <!-- inner page banner END -->
-        <div class="content-block">
+        <div class="content-block"> 
           <!-- About Us -->
           <div class="section-area section-sp2">
             <div class="container">

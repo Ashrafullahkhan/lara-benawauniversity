@@ -19,7 +19,7 @@
       property="og:description"
       content="EduChamp : Education HTML Template"
     />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="" /> 
     <meta name="format-detection" content="telephone=no" />
 
     <!-- FAVICONS ICON ============================================= -->

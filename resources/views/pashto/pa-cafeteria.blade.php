@@ -13,7 +13,7 @@
         </div>
         <!-- Breadcrumb row -->
 
-        <!-- Breadcrumb row END -->
+        <!-- Breadcrumb row END --> 
         <!-- contact area -->
         <div class="content-block">
           <!-- Your Faq -->

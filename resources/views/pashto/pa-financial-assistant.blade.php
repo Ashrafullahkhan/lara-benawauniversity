@@ -15,7 +15,7 @@
         <!-- Breadcrumb row -->
 
         <!-- Breadcrumb row END -->
-        <!-- contact area -->
+        <!-- contact area --> 
         <div class="content-block">
           <!-- Your Faq -->
           <!-- About Us -->

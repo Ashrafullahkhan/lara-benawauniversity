@@ -14,7 +14,7 @@
 				<ul class="list-inline">
 					<li><a href="#">Home</a></li>
 					<li>Courses Details</li>
-				</ul>
+				</ul> 
 			</div>
 		</div>
 	
