@@ -13,6 +13,10 @@ class EventsController extends Controller
     {
         $data = Event::latest();
 
+        $day = Carbon::createFromFormat('d/m/Y', $data->start_date)->format('l');
+        dd($day);
+        $data->start_date = $day;
+
         if (request('search')) {
             $data->where('title', 'like', '%' . request('search') . '%');
 
@@ -27,6 +31,8 @@ class EventsController extends Controller
             'body' => 'required',
             'lang' => 'required',
             'location' => 'required',
+            'start_date' => 'required',
+            'end_date' => 'required',
             'main_pic' => 'required|image',
             'pic2' => 'image',
             'pic3' => 'image',
@@ -41,6 +47,8 @@ class EventsController extends Controller
             'body' => $request->body,
             'lang' => $request->lang,
             'location' => $request->location,
+            'start_date' => $request->start_date,
+            'end_date' => $request->end_date,
             'main_pic' => $main_pic,
             'pic2' => $pic2,
             'pic3' => $pic3);
@@ -83,6 +91,10 @@ class EventsController extends Controller
         }
 
         $data->title = $event->title;
+        $data->location = $event->location;
+        $data->start_date = $event->start_date;
+        $data->end_date = $event->end_date;
+
         $data->body = $event->body;
 
         $data->update();

@@ -13,17 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('events', function (Blueprint $table) {
+        Schema::create('staff', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->text('title');
-            $table->text('body');
+            $table->string('name');
+            $table->string('job');
             $table->string('lang');
-            $table->string('location');
-            $table->string('main_pic');
-            $table->string('pic2')->nullable();
-            $table->string('pic3')->nullable();
-            $table->date('start_date')->nullable();
-            $table->date('end_date')->nullable();
+            $table->string('pic');
             $table->timestamps();
 
         });
@@ -36,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('events');
+        Schema::dropIfExists('staff');
     }
 };

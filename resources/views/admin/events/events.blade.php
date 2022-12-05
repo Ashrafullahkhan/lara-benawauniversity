@@ -89,12 +89,21 @@
                                             <ul class="card-courses-view">
 
                                                 <li class="card-courses-categories">
-                                                    <h5>Date</h5>
+                                                    <h5>Start Date</h5>
 
                                                 </li>
                                                 <li class="card-courses-categories">
 
-                                                    <h4>{{ $row->created_at }}</h4>
+                                                    <h4>{{ $row->start_date }}</h4>
+                                                </li>
+
+                                                <li class="card-courses-categories">
+                                                    <h5>End Date</h5>
+
+                                                </li>
+                                                <li class="card-courses-categories">
+
+                                                    <h4>{{ $row->end_date }}</h4>
                                                 </li>
 
                                             </ul>

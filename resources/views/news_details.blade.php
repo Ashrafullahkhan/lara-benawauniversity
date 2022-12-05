@@ -249,7 +249,7 @@
                                                         class="fa fa-calendar"></i>{{ $news->created_at }}</a></li>
                                         </ul>
                                         <h5 class="post-title"><a href="#">{{ $news->title }}</a></h5>
-                                        <p>{{ $news->title }}</p>
+                                        <p>{{ $news->body }}</p>
                                         <div class="ttr-divider bg-gray"><i class="icon-dot c-square"></i></div>
 
                                         <div class="ttr-divider bg-gray"><i class="icon-dot c-square"></i></div>

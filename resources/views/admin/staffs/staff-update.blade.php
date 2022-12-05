@@ -63,11 +63,7 @@
     <!--Main container start -->
     <main class="ttr-wrapper">
         <div class="container-fluid">
-
             <div class="col-lg-12 m-b30">
-
-
-
                 @if ($errors->any())
                     <div class="alert alert-danger">
                         <ul>
@@ -88,85 +84,46 @@
                 <div class="col-lg-12 m-b30">
                     <div class="widget-box">
                         <div class="wc-title">
-                            <h4>Add Event</h4>
+                            <h4>Update Staff</h4>
                         </div>
                         <div class="widget-inner">
-                            <form method="post" action="{{ url('admin/event/insert_data/') }}"
+                            <form method="post" action="/staffs/update/{{ $staff->id }}"
                                 enctype="multipart/form-data">
                                 @csrf
-
+                                @method('PATCH')
                                 <div class="row">
                                     <div class="form-group col-6">
-                                        <label class="col-form-label">Event Title</label>
+                                        <label class="col-form-label">Staff Name</label>
                                         <div>
-                                            <input class="form-control" name="title" type="text" value="">
+                                            <input type="text" name="name" value="{{ $staff->name }}"
+                                                class="form-control" />
                                         </div>
                                     </div>
                                     <div class="form-group col-6">
-                                        <label class="col-form-label">Set Location</label>
+                                        <label class="col-form-label">Job</label>
                                         <div>
-                                            <input class="form-control" name="location" type="text" value="">
+                                            <input class="form-control" name="job" type="text"
+                                                value="{{ $staff->job }}">
                                         </div>
                                     </div>
-                                    <div class="form-group col-6">
-                                        <label class="col-form-label">Start Date</label>
-                                        <div>
-                                            <input class="form-control" name="start_date" type="date" value="">
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-6">
-                                        <label class="col-form-label">End Date</label>
-                                        <div>
-                                            <input class="form-control" name="end_date" type="date" value="">
-                                        </div>
-                                    </div>
+
                                     <div class="form-group col-12">
-                                        <label class="col-form-label">Event description</label>
+                                        <label>Select Profile Image</label>
                                         <div>
-                                            <textarea class="form-control" name="body"> </textarea>
+                                            <input type="file" name="pic" value="{{ $staff->pic }}" />
                                         </div>
-                                    </div>
-                                    <div class="form-group col-12">
-                                        <label>Select language</label>
-                                        <select id="selectLang" name="lang" required>
-                                            <option value="" disabled selected>Please select language</option>
-                                            <option value="en">english</option>
-                                            <option value="pa">pashto</option>
-                                            <option value="da">dari</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group col-4">
-                                        <label>Select Main Image</label>
-                                        <div>
-                                            <input type="file" name="main_pic" />
-                                        </div>
-
-                                    </div>
-                                    <div class="form-group col-4">
-                                        <label>Select Second Image</label>
-                                        <div>
-                                            <input type="file" name="pic2" />
-                                        </div>
-
-                                    </div>
-                                    <div class="form-group col-4">
-                                        <label>Select Third Image</label>
-                                        <div>
-                                            <input type="file" name="pic3" />
-                                        </div>
-
+                                        <img src="/storage/{{ $staff->pic }}" class="img-thumbnail" width="75" />
                                     </div>
                                     <div class="form-group col-12">
 
-                                        <button type="submit" name="news" value="Save" class="btn">Save
-                                        </button>
+                                        <input type="submit" name="staff" class="btn btn-primary" value="Save" />
 
                                     </div>
                                 </div>
-
+                            </form>
                         </div>
 
-                        </form>
+
                     </div>
                 </div>
             </div>
