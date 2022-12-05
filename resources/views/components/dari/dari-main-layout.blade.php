@@ -19,6 +19,26 @@
     />
     <meta property="og:image" content="" />
     <meta name="format-detection" content="telephone=no" />
+    
+    <!--font style-->
+    <style type="text/css">
+@font-face {
+    font-family: OptimusPrinceps;
+    src: url('{{ public_path('fonts/OptimusPrinceps.tff') }}');
+
+    @font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../public/css/fonts/proxima-nova-light-59f99460e7b28.otf');
+}
+}
+</style>
+
+<link href="{{ asset('bootstrap.rtl.min.css') }}" rel="stylesheet">
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- FAVICONS ICON ============================================= -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
@@ -214,7 +234,7 @@
                     ></a>
                     <ul class="sub-menu">
                       <li>
-                        <a href="admission-info">معلومات درباره ثبت نام</a>
+                        <a href="/dr/admission-info">معلومات درباره ثبت نام</a>
                       </li>
 
                       <li>
@@ -223,15 +243,15 @@
                         >
                       </li>
                       <li>
-                        <a href="fee-structure">ساختار فیس(هزینه)</a>
+                        <a href="/dr/fee-structure">ساختار فیس(هزینه)</a>
                       </li>
                       <li>
-                        <a href="scholarships"
+                        <a href="/dr/scholarships"
                           > برنامه های بورس تحصیلی و بازپرداخت</a
                         >
                       </li>
                       <li>
-                        <a href="financial-assistant"
+                        <a href="/dr/financial-assistant"
                           >کمک مالی</a
                         >
                       </li>
@@ -295,7 +315,7 @@
 							<ul>
 								<li><a href="courses.html">تقسیم اوقات </a></li>
 								<li><a href="https://student.benawa.edu.af/Login.php">پورتال شاگردان</a></li>
-								<li><a href="student-affairs">اموری محصلان</a></li>
+								<li><a href="/dr/student-affairs">اموری محصلان</a></li>
 								<li><a href="event.html">تقسیم اوقات امتحانات</a></li>
 								<li><a href="membership.html">کتاب رهنما</a></li>
 								<li><a href="membership.html">نقش علمی و مقررات</a></li>
@@ -327,10 +347,10 @@
                   </li> -->
 				  <li><a href="javascript:;">امکانات<i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="computer-lab">کمپیوترلیب</a></li>
-						<li><a href="engineering-lab">لیب انجینری</a></li>
-						<li><a href="Library">کتاب خانه</a></li>
-						<li><a href="Cafeteria">Cafeteria کافه تریا</a></li>
+						<li><a href="/dr/computer-lab">کمپیوترلیب</a></li>
+						<li><a href="/dr/engineering-lab">لیب انجینری</a></li>
+						<li><a href="/dr/Library">کتاب خانه</a></li>
+						<li><a href="/dr/Cafeteria">Cafeteria کافه تریا</a></li>
 						
 					</ul>
 				</li>
@@ -385,13 +405,13 @@
                   </li> -->
 				  <li class="nav-dashboard"><a href="javascript:;">دربارهً ما <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="why-benawa">?چرا بینوا</a></li>
-						<li><a href="admin/add-listing"> چشم انداز،ماموریت و اهداف</a></li>
-						<li><a href="founder-of-benawa">بنیاد گذاربینوا</a></li>
-						<li><a href="chacelor-message">پیام های صدور گواهی نامه</a></li>
-						<li><a href="management-team">تیم اداری</a></li>
-            <li><a href="teacher">استادان ما</a></li>
-						<li><a href="admin/teacher-profile">شاگردان ما</a></li>
+						<li><a href="/dr/why-benawa">?چرا بینوا</a></li>
+						<li><a href="/dr/add-listing"> چشم انداز،ماموریت و اهداف</a></li>
+						<li><a href="/dr/founder-of-benawa">بنیاد گذاربینوا</a></li>
+						<li><a href="/dr/chacelor-message">پیام های صدور گواهی نامه</a></li>
+						<li><a href="/dr/management-team">تیم اداری</a></li>
+            <li><a href="/dr/teacher">استادان ما</a></li>
+						<li><a href="/dr/teacher-profile">شاگردان ما</a></li>
                 </ul>
 				
                 <div class="nav-social-link">
@@ -491,7 +511,7 @@
                     <div class="widget footer_widget">
                       <h5 class="footer-title">شرکت</h5>
                       <ul>
-                        <li><a href="index.html">خانه</a></li>
+                        <li><a href="/dr/index.html">خانه</a></li>
                         <li><a href="about-1.html">درباره</a></li>
                         <li><a href="faq-1.html">FAQs</a></li>
                         <li><a href="contact-1.html">تماس</a></li>
@@ -518,10 +538,10 @@
                     <div class="widget footer_widget">
                       <h5 class="footer-title">دوره های آموزشی</h5>
                       <ul>
-                        <li><a href="courses.html">دوره های آموزشی</a></li>
-                        <li><a href="courses-details.html">جزیًات</a></li>
-                        <li><a href="membership.html">عضویت</a></li>
-                        <li><a href="profile.html">پروفایل</a></li>
+                        <li><a href="/dr/courses.html">دوره های آموزشی</a></li>
+                        <li><a href="/dr/courses-details.html">جزیًات</a></li>
+                        <li><a href="/dr/membership.html">عضویت</a></li>
+                        <li><a href="/dr/profile.html">پروفایل</a></li>
                       </ul>
                     </div>
                   </div>
@@ -529,7 +549,7 @@
               </div>
               <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                 <div class="widget widget_gallery gallery-grid-4">
-                  <h5 class="footer-title">گالری  </h5>
+                  <h5 class="/dr/footer-title">گالری  </h5>
                   <ul class="magnific-image">
                     <li>
                       <a

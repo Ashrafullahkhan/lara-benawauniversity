@@ -20,6 +20,16 @@
     <meta property="og:image" content="" />
     <meta name="format-detection" content="telephone=no" />
 
+       <!--font style-->
+    
+
+<link href="{{ asset('bootstrap.rtl.min.css') }}" rel="stylesheet">
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+<link rel="stylesheet" href="bootstrap.rtl.min.css" />
+
     <!-- FAVICONS ICON ============================================= -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <link
@@ -384,8 +394,8 @@
                   </li> -->
 				  <li class="nav-dashboard"><a href="javascript:;"> درباره ما <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="why-benawa"> ?چرا بینوا</a></li>
-						<li><a href="admin/add-listing">چشم انداز،ماموریت و اهداف</a></li>
+						<li><a href="/dari/dr-why-benawa"> ?چرا بینوا</a></li>
+						<li><a href="/dr/add-listing">چشم انداز،ماموریت و اهداف</a></li>
 						<li><a href="founder-of-benawa"> بنیاد گذاربینوا</a></li>
 						<li><a href="chacelor-message">پیام های صدور گواهی نامه</a></li>
 						<li><a href="management-team"> تیم اداری</a></li>

@@ -20,13 +20,11 @@
     <meta property="og:image" content="" />
     <meta name="format-detection" content="telephone=no" />
 
-    <!-- font ============================================= -->
-
     <!-- FAVICONS ICON ============================================= -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <link
       rel="shortcut icon"
-      type="image/x-icon" 
+      type="image/x-icon"
       href="assets/images/favicon.png"
     />
 
@@ -102,7 +100,7 @@
                       </a
                     >
                   </li>
-                </ul>
+                </ul> 
               </div>
               <div class="topbar-right">  
                 <ul>
