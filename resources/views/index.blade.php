@@ -326,28 +326,28 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="service-bx">
                                 <div class="action-box">
-                                    <img src="assets/images/our-services/pic2.jpg" alt="" />
+                                    <img src="assets/images/lab.jpg" alt="" />
                                 </div>
                                 <div class="info-bx text-center">
                                     <div class="feature-box-sm radius bg-white">
-                                        <i class="fa fa-bank text-primary"></i>
+                                        <i class="fa fa-laptop text-primary"></i>
                                     </div>
-                                    <h4><a href="#">Computer Lab</a></h4>
-                                    <a href="computer-lab.html" class="btn radius-xl">View More</a>
+                                    <h4><a href="/computer-lab">Computer Lab</a></h4>
+                                    <a href="/computer-lab" class="btn radius-xl">View More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="service-bx">
                                 <div class="action-box">
-                                    <img src="assets/images/our-services/pic2.jpg" alt="" />
+                                    <img src="assets/images/banner/E-lab.jpg" alt="" />
                                 </div>
                                 <div class="info-bx text-center">
                                     <div class="feature-box-sm radius bg-white">
-                                        <i class="fa fa-book text-primary"></i>
+                                        <i class="fa fa-cogs text-primary"></i>
                                     </div>
-                                    <h4><a href="#">Engineering Lab</a></h4>
-                                    <a href="Engineering-lab.html" class="btn radius-xl">View More</a>
+                                    <h4><a href="/engineering-lab">Engineering Lab</a></h4>
+                                    <a href="/engineering-lab" class="btn radius-xl">View More</a>
                                 </div>
                             </div>
                         </div>
@@ -358,10 +358,10 @@
                                 </div>
                                 <div class="info-bx text-center">
                                     <div class="feature-box-sm radius bg-white">
-                                        <i class="fa fa-file-text-o text-primary"></i>
+                                        <i class="fa fa-book text-primary"></i>
                                     </div>
-                                    <h4><a href="#">Book Library & Store</a></h4>
-                                    <a href="Library.html" class="btn radius-xl">View More</a>
+                                    <h4><a href="/library">Book Library</a></h4>
+                                    <a href="/library" class="btn radius-xl">View More</a>
                                 </div>
                             </div>
                         </div>
@@ -702,6 +702,7 @@
                             </p>
                         </div>
                     </div>
+
                     <div class="recent-news-carousel owl-carousel owl-btn-1 col-12 p-lr0">
                         @foreach ($news as $row)
                             <div class="item">
@@ -721,8 +722,10 @@
                                             <a href="blog-details.html">{{ $row->title }}</a>
                                         </h5>
                                         <p>
-                                            {{ $row->body }}
+                                            {{ substr($row->body, 0, 100) }}
+                                            <span>...</span>
                                         </p>
+
                                         <div class="post-extra">
                                             <a href="/news_details/{{ $row->id }}" class="btn-link">READ MORE</a>
 
@@ -734,6 +737,9 @@
 
 
 
+                    </div>
+                    <div class="text-center" style="margin-top:40px">
+                        <a href="/list_of_news" class="btn">View All News</a>
                     </div>
                 </div>
             </div>
@@ -769,62 +775,22 @@
                         <div class="col-lg-6 offset-lg-1">
                             <div class="teachers mt-20">
                                 <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="singel-teachers mt-30 text-center">
-                                            <div class="image">
-                                                <img src="assets/images/t-1.jpg" alt="Teachers" />
+                                    @foreach ($teachers as $row)
+                                        <div class="col-sm-6">
+                                            <div class="singel-teachers mt-30 text-center">
+                                                <div class="image">
+                                                    <img src="/storage/{{ $row->pic }}" alt="Teachers" />
+                                                </div>
+                                                <div class="cont">
+                                                    <a href="teachers-singel.html">
+                                                        <h6>{{ $row->name }}</h6>
+                                                        <span>{{ $row->job }}</span>
+                                                    </a>
+                                                </div>
                                             </div>
-                                            <div class="cont">
-                                                <a href="teachers-singel.html">
-                                                    <h6>Baqi Bellah</h6>
-                                                    <span>Teacher</span>
-                                                </a>
-                                            </div>
+                                            <!-- singel teachers -->
                                         </div>
-                                        <!-- singel teachers -->
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="singel-teachers mt-30 text-center">
-                                            <div class="image">
-                                                <img src="assets/images/t-2.jpg" alt="Teachers" />
-                                            </div>
-                                            <div class="cont">
-                                                <a href="teachers-singel.html">
-                                                    <h6>Noor Ahmad Noori</h6>
-                                                </a>
-                                                <span>Teacher</span>
-                                            </div>
-                                        </div>
-                                        <!-- singel teachers -->
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="singel-teachers mt-30 text-center">
-                                            <div class="image">
-                                                <img src="assets/images/t-3.jpg" alt="Teachers" />
-                                            </div>
-                                            <div class="cont">
-                                                <a href="teachers-singel.html">
-                                                    <h6>Aliullah Matawakil</h6>
-                                                </a>
-                                                <span>Teacher</span>
-                                            </div>
-                                        </div>
-                                        <!-- singel teachers -->
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="singel-teachers mt-30 text-center">
-                                            <div class="image">
-                                                <img src="assets/images/t-4.jpg" alt="Teachers" />
-                                            </div>
-                                            <div class="cont">
-                                                <a href="teachers-singel.html">
-                                                    <h6>Ahmad Khan</h6>
-                                                </a>
-                                                <span>Teacher</span>
-                                            </div>
-                                        </div>
-                                        <!-- singel teachers -->
-                                    </div>
+                                    @endforeach
                                 </div>
                                 <!-- row -->
                             </div>

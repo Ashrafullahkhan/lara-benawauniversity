@@ -81,8 +81,14 @@
                  </li>
                  <li>
                      <a href="/admin/teachers" class="ttr-material-button">
-                         <span class="ttr-icon"><i class="ti-people"></i></span>
+                         <span class="ttr-icon"><i class="ti-person"></i></span>
                          <span class="ttr-label">Teachers</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href="/admin/staffs" class="ttr-material-button">
+                         <span class="ttr-icon"><i class="ti-people"></i></span>
+                         <span class="ttr-label">Staffs</span>
                      </a>
                  </li>
                  <li>

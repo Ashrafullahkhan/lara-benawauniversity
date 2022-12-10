@@ -110,7 +110,20 @@
                                                 value="{{ $event->location }}">
                                         </div>
                                     </div>
-
+                                    <div class="form-group col-6">
+                                        <label class="col-form-label">Start Date</label>
+                                        <div>
+                                            <input class="form-control" name="start_date" type="date"
+                                                value={{ $event->start_date }}>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <label class="col-form-label">End Date</label>
+                                        <div>
+                                            <input class="form-control" name="end_date" type="date"
+                                                value={{ $event->end_date }}>
+                                        </div>
+                                    </div>
                                     <div class="form-group col-12">
                                         <label class="col-form-label">Event description</label>
                                         <div>
@@ -146,7 +159,8 @@
 
                                     </div>
                                     <div class="form-group col-4">
-                                        <img src="/storage/{{ $event->pic2 }}" class="img-thumbnail" width="100" />
+                                        <img src="/storage/{{ $event->pic2 }}" class="img-thumbnail"
+                                            width="100" />
                                     </div>
                                     <div class="form-group col-4">
                                         <img src="/storage/{{ $event->pic3 }}" class="img-thumbnail"

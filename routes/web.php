@@ -3,6 +3,7 @@
 use App\Http\Controllers\AlumuniController;
 use App\Http\Controllers\EventsController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\StaffsController;
 use App\Http\Controllers\TeachersController;
 use App\Models\News;
 use App\Models\Teacher;
@@ -190,7 +191,8 @@ Route::get('/pa-management-team', function () {
 // >>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 //main views
 Route::get('/', function () {
-    return view('index', ['news' => News::all(), 'teacher' => Teacher::all()]);
+    return view('index', ['news' => News::all(), 'teachers' => Teacher::take(4)->get(),
+    ]);
 });
 
 Route::get('/admission-info', function () {
@@ -298,6 +300,15 @@ Route::get('/admin/add-listing', function () {
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
+// admin/staff routes
+
+Route::get('/admin/staffs', [StaffsController::class, "index"]);
+Route::post('admin/staffs/insert_data', [StaffsController::class, "insert_data"]);
+Route::get('/admin/staffs/{staffs}', [StaffsController::class, "update"]);
+Route::patch('staffs/update/{id}', [StaffsController::class, "edit"]);
+Route::delete('staffs/delete/{staff}', [StaffsController::class, "destroy"]);
+
+// ENDS OF admin/staff routes
 
 // admin/teachers routes
 
@@ -328,7 +339,16 @@ Route::get('news_details/{news}', function (News $news) {
 
     }
 
-    return view('news_details', ['news' => $news, 'allnews' => $data]);
+    return view('news_details', ['news' => $news, 'allnews' => News::take(4)->get()]);
+});
+Route::get('list_of_news', function () {
+    $data = News::latest();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+    return view('list_of_news', ['data' => $data->paginate(5), 'news' => News::take(4)->get()]);
 });
 
 // ENDS OF admin/news routes
