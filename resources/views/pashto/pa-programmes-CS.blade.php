@@ -8,7 +8,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Computer Science Faculty</h1>
+              <h1 class="text-white">د کمپیوتر ساینس پوهنځی</h1>
               <p class="text-white"></p>
             </div>
           </div>
@@ -31,7 +31,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Our Philosophy</h5>
+                      <h5 class="ttr-tilte">زموږ فلسفه</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -63,7 +63,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Key Of Success</h5>
+                      <h5 class="ttr-tilte">د کامیابی راز</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -96,7 +96,7 @@
               <div class="row">
                 <div class="col-lg-8 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Computer Science:</h2>
+                    <h2 class="title-head">کمپیوتر ساینس</h2>
                   </div>
                   <ul class="course-features">
                     <li>
@@ -119,7 +119,7 @@
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h3 class="title-head">Vision:</h3>
+                    <h3 class="title-head">لید:</h3>
                   </div>
                   <ul class="course-features">
                     <li>
@@ -132,7 +132,7 @@
                   </ul>
 
                   <div class="heading-bx left">
-                    <h3 class="title-head">Mission:</h3>
+                    <h3 class="title-head">هدف:</h3>
                   </div>
                   <ul class="course-features">
                     <li>
@@ -196,7 +196,7 @@
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h3 class="title-head">Vision</h3>
+                    <h3 class="title-head">لید</h3>
                   </div>
                   <ul class="course-features">
                     <li>
@@ -208,7 +208,7 @@
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h3 class="title-head">Mission</h3>
+                    <h3 class="title-head">هدف</h3>
                   </div>
 
                   <ul class="course-features">
@@ -244,7 +244,7 @@
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h3 class="title-head">Vision:</h3>
+                    <h3 class="title-head">لید:</h3>
                   </div>
                   <ul class="course-features">
                     <li>
@@ -256,7 +256,7 @@
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h2 class="title-head">Mission:</h2>
+                    <h2 class="title-head">هدف:</h2>
                   </div>
                   <ul class="course-features">
                     <li>

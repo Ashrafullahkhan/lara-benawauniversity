@@ -8,9 +8,9 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Scholarships</h1>
+              <h1 class="text-white">بورسونه</h1>
               <p class="text-white">
-                We offer you the best Scholarships in all our the world
+                 موږتاسو ته بهترین بورسونه په ټوله نړی کی اماده کوو
               </p>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Scholarship</h2>
+                    <h2 class="title-head">بورس</h2>
                   </div>
                   <p>
                     BIHE offers a “Haji Nadir” Scholarship for female, which
@@ -52,8 +52,7 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >1. Applicant must pass pre-admission test (Kankoor) of
-                        BIHE on merit base.</span
+                        >1.  غوښتونکی باید دکانکور د وړتیا په اساس پاس شی.</span
                       >
                     </li>
                     <li>
@@ -71,14 +70,11 @@
                     </li>
                     <li>
                       <span>
-                        4. Applicants must successfully complete a minimum of 34
-                        semester’s credits per year</span
+                         غوښتونکی باید لږترلږ ۳۴ کریډیټه په کال کی پاس کړی ۴</span
                       >
                     </li>
                     <li>
-                      <span
-                        >5. Scholarship amount doesn’t apply to repeated
-                        courses</span
+                      <span > د بورس اندازه په تکراری کورسونو کی نه پلی کیږی ۵</span
                       >
                     </li>
                     <li>
