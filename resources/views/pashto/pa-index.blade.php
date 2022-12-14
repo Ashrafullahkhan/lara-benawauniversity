@@ -156,7 +156,7 @@
                                     <a href="javascript:;"> داخله<i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="pa-admission"> د داخلی معلومات</a>
+                                            <a href="pa-admission-info"> د داخلی معلومات</a>
                                         </li>
 
                                         <li>
@@ -595,7 +595,7 @@
                                 </div>
 
                                 <!-- LAYER NR. 2 -->
-                                <div class="tp-caption Newspaper-Title tp-resizeme" id="slide-200-layer-2"
+                                <div class="tp-caption pashto-font Newspaper-Title tp-resizeme" id="slide-200-layer-2"
                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                     data-y="['top','top','top','top']" data-voffset="['250','250','250','240']"
                                     data-fontsize="['50','50','50','30']" data-lineheight="['55','55','55','35']"
@@ -742,7 +742,7 @@
                                         <div class="feature-box-sm radius bg-white">
                                             <i class="fa fa-bank text-primary"></i>
                                         </div>
-                                        <h4><a href="#"> د کمپیوټر لابراتوار</a></h4>
+                                        <h4><a href="#" class="pashto-font"> د کمپیوټر لابراتوار</a></h4>
                                         <a href="#" class="btn radius-xl"> نور وګوره</a>
                                     </div>
                                 </div>
@@ -882,7 +882,9 @@
                                                         <div class="action-box">
                                                             <img src="assets/images/courses/Database.jpg"
                                                                 alt="" />
-                                                            <a href="#" class="btn">نورولولۍ</a>
+                                                            <a style=" font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;"
+                                                                href="#" class="btn">نورولولۍ</a>
                                                         </div>
                                                         <div class="info-bx text-center">
                                                             <h5>
@@ -1172,7 +1174,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-12 heading-bx left">
-                                                <h2 class="title-head"> وروستي <span> خبرونه</span></h2>
+                                                <h2 class="title-head pashto-font"> وروستي <span> خبرونه</span></h2>
                                                 <p>
                                                     It is a long established fact that a reader will be
                                                     distracted by the readable content of a page

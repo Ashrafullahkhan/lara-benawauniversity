@@ -5,6 +5,7 @@ use App\Http\Controllers\EventsController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\StaffsController;
 use App\Http\Controllers\TeachersController;
+use App\Models\Event;
 use App\Models\News;
 use App\Models\Teacher;
 use Illuminate\Support\Facades\Route;
@@ -31,8 +32,6 @@ Route::get('/dr/add-listing', function () {
     return view('/dari/admin/dr-add-listing');
 });
 
-
-
 //dari in fo-------------
 Route::get('/dr/admission-info', function () {
     return view('/dari/dr-admission-info');
@@ -58,16 +57,11 @@ Route::get('/dr/Programme-CS', function () {
 Route::get('/dr/dr-Programme-EN', function () {
     return view('/dari/dr-programmes-EN');
 });
-<<<<<<< HEAD
-Route::get('/dari/dr-policies/Ethics_policy.pdf',[PdfController::class, "index"]);
-=======
-Route::get('/policies/{pdf}');
->>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
+Route::get('/dari/dr-policies/Ethics_policy.pdf', [PdfController::class, "index"]);
 
 // //students
 
-<<<<<<< HEAD
-//students 
+//students
 
 Route::get('/dar/student-affairs', function () {
     return view('/dari/dr-student-affairs');
@@ -76,11 +70,6 @@ Route::get('/dar/student-affairs', function () {
 Route::get('/dr/financial-assistant', function () {
     return view('/dari/dr-financial-assistant');
 });
-=======
-// Route::get('/student-affairs', function () {
-//     return view('student-affairs');
-// });
->>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 
 // Route::get('/financial-assistant', function () {
 //     return view('financial-assistant');
@@ -88,14 +77,8 @@ Route::get('/dr/financial-assistant', function () {
 
 //facilities
 
-<<<<<<< HEAD
-
 Route::get('/dr/computer-lab', function () {
     return view('/dari/dr-computer-lab');
-=======
-Route::get('/computer-lab', function () {
-    return view('computer-lab');
->>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 });
 
 Route::get('/dr/engineering-lab', function () {
@@ -107,8 +90,6 @@ Route::get('/dr/library', function () {
 Route::get('/dr/cafeteria', function () {
     return view('/dari/dr-cafeteria');
 });
-
-
 
 // about us
 
@@ -128,19 +109,12 @@ Route::get('/dr/cafeteria', function () {
     return view('/dari/cafeteria');
 });
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 // pashto views
 
 Route::get('/pashto', function () {
     return view('pashto/pa-index');
 });
 
-<<<<<<< HEAD
 Route::get('/pa-admission-info', function () {
     return view('pashto/pa-admission-info');
 });
@@ -181,11 +155,9 @@ Route::get('/pa-Library', function () {
     return view('pashto/pa-Library');
 });
 
-
 Route::get('/pa-Cafeteria', function () {
     return view('pashto/pa-Cafeteria');
 });
-
 
 Route::get('/pa-why-benawa', function () {
     return view('pashto/pa-why-benawa');
@@ -207,18 +179,9 @@ Route::get('/pa-management-team', function () {
 //     return view('pashto/pa-founder-of-benawa');
 // });
 
-
-
-
-
-
-
-
-=======
->>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 //main views
 Route::get('/', function () {
-    return view('index', ['news' => News::all(), 'teachers' => Teacher::take(4)->get(),
+    return view('index', ['news' => News::all(), 'events' => Event::all(), 'teachers' => Teacher::take(4)->get(),
     ]);
 });
 
@@ -237,16 +200,6 @@ Route::get('/financial-assistant', function () {
 Route::get('/teacher', function () {
     return view('teacher', ['teacher' => Teacher::all()]);
 });
-
-// Academic ------ programmes
-
-// Route::get('/Programme-CS', function () {
-//     return view('programmes-CS');
-// });
-// Route::get('/Programme-EN', function () {
-//     return view('programmes-EN');
-// });
-// Route::get('/policies/Ethics_policy.pdf', [PdfController::class, "index"]);
 
 //students
 
@@ -390,6 +343,25 @@ Route::get('/admin/create-event', function () {
 Route::get('/admin/event/{event}', [EventsController::class, "update"]);
 Route::patch('event/update/{id}', [EventsController::class, "edit"]);
 Route::delete('event/delete/{event}', [EventsController::class, "destroy"]);
+Route::get('event_details/{event}', function (Event $event) {
+    $data = Event::all();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+
+    return view('event_details', ['event' => $event, 'allevents' => Event::take(4)->get()]);
+});
+Route::get('list_of_events', function () {
+    $data = Event::latest();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+    return view('list_of_events', ['data' => $data->paginate(5), 'events' => Event::take(4)->get()]);
+});
 
 // ENDS OF admin/Events routes
 

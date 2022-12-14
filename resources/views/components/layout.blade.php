@@ -225,60 +225,11 @@
                       </li>
                     </ul>
                   </li> -->
-<<<<<<< HEAD
-				  <li class="add-mega-menu"><a href="javascript:;">Students <i class="fa fa-chevron-down"></i></a>
-					<ul class="sub-menu add-menu">
-						<li class="add-menu-left">
-						<!--	<h5 class="menu-adv-title">Our Courses</h5> -->
-							<ul>
-								<li><a href="courses.html">Time Table </a></li>
-								<li><a href="https://student.benawa.edu.af/Login.php">Student Portal</a></li>
-								<li><a href="student-affairs">Student Affairs</a></li>
-								<li><a href="event.html">Examination Schedule</a></li>
-								<li><a href="membership.html">Handbook</a></li>
-								<li><a href="membership.html">Academic Rules & Regulations</a></li>
-								<li><a href="membership.html">Student Document Verification</a></li>
-							</ul>
-						</li>
-						</ul>
-                  <!-- <li>
-                    <a href="javascript:;"
-                      >Blog <i class="fa fa-chevron-down"></i
-                    ></a>
-                    <ul class="sub-menu">
-                      <li><a href="blog-classic-grid.html">Blog Classic</a></li>
-                      <li>
-                        <a href="blog-classic-sidebar.html"
-                          >Blog Classic Sidebar</a
-                        >
-                      </li>
-                      <li>
-                        <a href="blog-list-sidebar.html">Blog List Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="blog-standard-sidebar.html"
-                          >Blog Standard Sidebar</a
-                        >
-                      </li>
-                      <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                  </li> -->
-				  <li><a href="javascript:;">اسانتیاوی<i class="fa fa-chevron-down"></i></a>
-					<ul class="sub-menu">
-						<li><a href="computer-lab">د کمپیوساینس لابراتوار</a></li>
-						<li><a href="engineering-lab">د انجینری لابراتوار</a></li>
-						<li><a href="Library">کتاب تون</a></li>
-						<li><a href="Cafeteria">Cafeteria</a></li>
-						
-					</ul>
-				</li>
-                  <!-- <li class="nav-dashboard">
-=======
                                 <li class="add-mega-menu"><a href="javascript:;">Students <i
                                             class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu add-menu">
                                         <li class="add-menu-left">
-                                         
+
                                             <ul>
                                                 <li><a href="{{ url('files', ['pdf' => 'TimeTable.pdf']) }}">Time
                                                         Table
@@ -313,7 +264,6 @@
                                     </ul>
                                 </li>
                                 <!-- <li class="nav-dashboard">
->>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
                     <a href="javascript:;"
                       >Dashboard <i class="fa fa-chevron-down"></i
                     ></a>
@@ -362,214 +312,6 @@
                       </li>
                     </ul>
                   </li> -->
-<<<<<<< HEAD
-				  <li class="nav-dashboard"><a href="javascript:;">زموږپه اړه <i class="fa fa-chevron-down"></i></a>
-					<ul class="sub-menu">
-						<li><a href="why-benawa">ولی بینوا</a></li>
-						<li><a href="admin/add-listing">لید،تحول او موخی</a></li>
-						<li><a href="founder-of-benawa"> د بینوا بنسټ ایښودنکی</a></li>
-						<li><a href="chacelor-message">Chancellor's Message</a></li>
-						<li><a href="management-team">اداری ټیم</a></li>
-						<li><a href="admin/teacher-profile">زموږ زده کونکی</a></li>
-                </ul>
-				
-                <div class="nav-social-link">
-                  <a href="javascript:;"><i class="fa fa-facebook"></i></a>
-                  <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-                  <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-              <!-- Navigation Menu END ==== -->
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- Header Top END ==== -->
-      <!-- Content -->
-     {{$slot}}
-      <!-- Content END-->
-      <!-- Footer ==== -->
-      <footer>
-        <div class="footer-top">
-          <div class="pt-exebar">
-            <div class="container">
-              <div class="d-flex align-items-stretch">
-                <div class="pt-logo mr-auto">
-                  <a href="index.html"
-                    ><img src="assets/images/logo-white.png" alt=""
-                  /></a>
-                </div>
-                <div class="pt-social-link">
-                  <ul class="list-inline m-a0">
-                    <li>
-                      <a href="#" class="btn-link"
-                        ><i class="fa fa-facebook"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#" class="btn-link"
-                        ><i class="fa fa-twitter"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#" class="btn-link"
-                        ><i class="fa fa-linkedin"></i
-                      ></a>
-                    </li>
-                   
-                  </ul>
-                </div>
-                <div class="pt-btn-join">
-                  <a href="#" class="btn">همدااوس یوځای شی</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
-                <div class="widget">
-                  <h5 class="footer-title">د خبرلیکونواپاره یی ووایاست</h5>
-                  <p class="text-capitalize m-b20">
-                    Weekly Breaking news analysis and cutting edge advices on
-                    job searching.
-                  </p>
-                  <div class="subscribe-form m-b20">
-                    <form
-                      class="subscription-form"
-                      action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php"
-                      method="post"
-                    >
-                      <div class="ajax-message"></div>
-                      <div class="input-group">
-                        <input
-                          name="email"
-                          required="required"
-                          class="form-control"
-                          placeholder="Your Email Address"
-                          type="email"
-                        />
-                        <span class="input-group-btn">
-                          <button
-                            name="submit"
-                            value="Submit"
-                            type="submit"
-                            class="btn"
-                          >
-                            <i class="fa fa-arrow-right"></i>
-                          </button>
-                        </span>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-5 col-md-7 col-sm-12">
-                <div class="row">
-                  <div class="col-4 col-lg-4 col-md-4 col-sm-4">
-                    <div class="widget footer_widget">
-                      <h5 class="footer-title">شرکت</h5>
-                      <ul>
-                        <li><a href="index.html">کور</a></li>
-                        <li><a href="about-1.html">په اړه</a></li>
-                        <li><a href="faq-1.html">FAQs</a></li>
-                        <li><a href="contact-1.html">اړیکه</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-4 col-lg-4 col-md-4 col-sm-4">
-                    <div class="widget footer_widget">
-                      <h5 class="footer-title">اړیکه ونیسی</h5>
-                      <ul>
-                        <li>
-                          <a
-                            href="http://educhamp.themetrades.com/admin/index.html"
-                            >دشبورد</a
-                          >
-                        </li>
-                        <li><a href="blog-classic-grid.html">بلاګ</a></li>
-                        <li><a href="portfolio.html">فورفایل</a></li>
-                        <li><a href="event.html">پیښه</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-4 col-lg-4 col-md-4 col-sm-4">
-                    <div class="widget footer_widget">
-                      <h5 class="footer-title">کورسونه</h5>
-                      <ul>
-                        <li><a href="courses.html">کورسونه</a></li>
-                        <li><a href="courses-details.html">تفصیلات</a></li>
-                        <li><a href="membership.html">عضویت</a></li>
-                        <li><a href="profile.html">فورفایل</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
-                <div class="widget widget_gallery gallery-grid-4">
-                  <h5 class="footer-title">ګالری</h5>
-                  <ul class="magnific-image">
-                    <li>
-                      <a
-                        href="assets/images/gallery/pic1.jpg"
-                        class="magnific-anchor"
-                        ><img src="assets/images/gallery/pic1.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a
-                        href="assets/images/gallery/pic2.jpg"
-                        class="magnific-anchor"
-                        ><img src="assets/images/gallery/pic2.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a
-                        href="assets/images/gallery/pic3.jpg"
-                        class="magnific-anchor"
-                        ><img src="assets/images/gallery/pic3.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a
-                        href="assets/images/gallery/pic4.jpg"
-                        class="magnific-anchor"
-                        ><img src="assets/images/gallery/pic4.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a
-                        href="assets/images/gallery/pic5.jpg"
-                        class="magnific-anchor"
-                        ><img src="assets/images/gallery/pic5.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a
-                        href="assets/images/gallery/pic6.jpg"
-                        class="magnific-anchor"
-                        ><img src="assets/images/gallery/pic6.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a
-                        href="assets/images/gallery/pic7.jpg"
-                        class="magnific-anchor"
-                        ><img src="assets/images/gallery/pic7.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a
-                        href="assets/images/gallery/pic8.jpg"
-                        class="magnific-anchor"
-                        ><img src="assets/images/gallery/pic8.jpg" alt=""
-                      /></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-=======
                                 <li class="nav-dashboard"><a href="javascript:;">About Us <i
                                             class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
@@ -593,7 +335,6 @@
                         <!-- Navigation Menu END ==== -->
                     </div>
                 </div>
->>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
             </div>
         </header>
         <!-- Header Top END ==== -->
