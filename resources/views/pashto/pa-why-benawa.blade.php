@@ -10,7 +10,7 @@
           <div class="container">
             <div class="page-banner-entry">
               <h1 class="text-white">
-                Why Benawa Institute of higher studies ?
+               ولی بینوا د لوړو زدکړو مؤ سسه
               </h1>
             </div>
           </div>
@@ -25,10 +25,10 @@
               <div class="row">
                 <div class="col-lg-6 m-b30">
                   <h2 class="title-head">
-                    Learn a new skill<br />
+                    د یو نوی مهارت زدکړه<br />
                     <span class="text-primary"> on your time</span>
                   </h2>
-                  <h4><span class="counter">5400 </span> Students</h4>
+                  <h4><span class="counter">5400 </span> زده کونکی</h4>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -77,7 +77,7 @@
                           /></a>
                         </div>
                         <div class="icon-content">
-                          <h5 class="ttr-tilte">Key Of Success</h5>
+                          <h5 class="ttr-tilte">د کامیابی راز</h5>
                           <p>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing.
                           </p>
@@ -111,7 +111,7 @@
               <div class="row">
                 <div class="col-md-12 heading-bx text-center">
                   <h2 class="title-head text-uppercase m-b0">
-                    Why Choose <span> Our Institution</span>
+                    ولی مو انتخاب کړ <span> زموږ انستیتوت</span>
                   </h2>
                   <p>
                     High Quality Technical Education: Electrical Engineering and
@@ -130,8 +130,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-bank text-primary"></i>
                       </div>
-                      <h4><a href="#">Computer Lab</a></h4>
-                      <a href="#" class="btn radius-xl">View More</a>
+                      <h4><a href="#">کمپیوټرلیب</a></h4>
+                      <a href="#" class="btn radius-xl">نور وګوری</a>
                     </div>
                   </div>
                 </div>
@@ -144,8 +144,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-book text-primary"></i>
                       </div>
-                      <h4><a href="#">Engineering Lab</a></h4>
-                      <a href="#" class="btn radius-xl">View More</a>
+                      <h4><a href="#">د اجینری لابراتوار</a></h4>
+                      <a href="#" class="btn radius-xl">نور وګوری</a>
                     </div>
                   </div>
                 </div>
@@ -158,8 +158,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-file-text-o text-primary"></i>
                       </div>
-                      <h4><a href="#">Library</a></h4>
-                      <a href="#" class="btn radius-xl">View More</a>
+                      <h4><a href="#">کتاب تون</a></h4>
+                      <a href="#" class="btn radius-xl">نور وګوری</a>
                     </div>
                   </div>
                 </div>
@@ -177,7 +177,7 @@
                       <div class="text-primary">
                         <span class="counter">5400</span><span>+</span>
                       </div>
-                      <span class="counter-text">Students</span>
+                      <span class="counter-text">زده کونکی</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -185,7 +185,7 @@
                       <div class="text-black">
                         <span class="counter">2500</span><span>+</span>
                       </div>
-                      <span class="counter-text">Gradutes</span>
+                      <span class="counter-text">فارغین</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -193,7 +193,7 @@
                       <div class="text-primary">
                         <span class="counter">500</span><span>+</span>
                       </div>
-                      <span class="counter-text">Teachers</span>
+                      <span class="counter-text">ښونکی</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -214,7 +214,7 @@
             <div class="container">
               <div class="row align-items-center d-flex">
                 <div class="col-lg-5 col-md-12 left heading-bx">
-                  <h2 class="m-b10 title-head">Our Story</h2>
+                  <h2 class="m-b10 title-head">زموږ تاریخ چه</h2>
 
                   <p>
                     Benawa Institute of Higher Education (BIHE) remains the hub
@@ -239,7 +239,7 @@
                     co-curricular activities, help them in their projects and
                     groom them to pursue their academic journey smoothly.
                   </p>
-                  <a href="#" class="btn">Read More</a>
+                  <a href="#" class="btn">نور ولولی</a>
                 </div>
                 <div class="col-lg-7 col-md-12 heading-bx p-lr">
                   <div class="video-bx">
@@ -261,7 +261,7 @@
               <div class="row">
                 <div class="col-md-12 heading-bx left">
                   <h2 class="title-head text-uppercase">
-                    what people <span>say</span>
+                    خلک <span>څه وایی</span>
                   </h2>
                   <p>
                     It is a long established fact that a reader will be

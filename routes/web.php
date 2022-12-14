@@ -57,6 +57,7 @@ Route::get('/dr/Programme-CS', function () {
 Route::get('/dr/dr-Programme-EN', function () {
     return view('/dari/dr-programmes-EN');
 });
+<<<<<<< HEAD
 Route::get('/dari/dr-policies/Ethics_policy.pdf', [PdfController::class, "index"]);
 
 // //students
@@ -70,6 +71,9 @@ Route::get('/dar/student-affairs', function () {
 Route::get('/dr/financial-assistant', function () {
     return view('/dari/dr-financial-assistant');
 });
+=======
+
+>>>>>>> ab0738cc686daac4a3a98fbcfea01afa6c8793f5
 
 // Route::get('/financial-assistant', function () {
 //     return view('financial-assistant');
@@ -77,9 +81,21 @@ Route::get('/dr/financial-assistant', function () {
 
 //facilities
 
+<<<<<<< HEAD
 Route::get('/dr/computer-lab', function () {
     return view('/dari/dr-computer-lab');
 });
+=======
+// <<<<<<< HEAD
+
+// Route::get('/dr/computer-lab', function () {
+//     return view('/dari/dr-computer-lab');
+// =======
+// Route::get('/computer-lab', function () {
+//     return view('computer-lab');
+// >>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
+// });
+>>>>>>> ab0738cc686daac4a3a98fbcfea01afa6c8793f5
 
 Route::get('/dr/engineering-lab', function () {
     return view('/dari/engineering-lab');
@@ -109,12 +125,20 @@ Route::get('/dr/cafeteria', function () {
     return view('/dari/cafeteria');
 });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab0738cc686daac4a3a98fbcfea01afa6c8793f5
 // pashto views
 
 Route::get('/pashto', function () {
     return view('pashto/pa-index');
 });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab0738cc686daac4a3a98fbcfea01afa6c8793f5
 Route::get('/pa-admission-info', function () {
     return view('pashto/pa-admission-info');
 });
@@ -179,6 +203,18 @@ Route::get('/pa-management-team', function () {
 //     return view('pashto/pa-founder-of-benawa');
 // });
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+// =======
+// >>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
+>>>>>>> ab0738cc686daac4a3a98fbcfea01afa6c8793f5
 //main views
 Route::get('/', function () {
     return view('index', ['news' => News::all(), 'events' => Event::all(), 'teachers' => Teacher::take(4)->get(),
