@@ -108,18 +108,18 @@
               <a
                 href="../index.html"
                 class="ttr-material-button ttr-submenu-toggle"
-                >HOME</a
+                >کور</a
               >
             </li>
             <li>
               <a href="#" class="ttr-material-button ttr-submenu-toggle"
-                >QUICK MENU <i class="fa fa-angle-down"></i
+                >چټکه مبنیو <i class="fa fa-angle-down"></i
               ></a>
               <div class="ttr-header-submenu">
                 <ul>
-                  <li><a href="../courses.html">Our Courses</a></li>
-                  <li><a href="../event.html">New Event</a></li>
-                  <li><a href="../membership.html">Membership</a></li>
+                  <li><a href="../courses.html">زموږ پروګرامونه</a></li>
+                  <li><a href="../event.html">نوی پیښی</a></li>
+                  <li><a href="../membership.html">غړی توب</a></li>
                 </ul>
               </div>
             </li>
@@ -140,8 +140,8 @@
               ></a>
               <div class="ttr-header-submenu noti-menu">
                 <div class="ttr-notify-header">
-                  <span class="ttr-notify-text-top">9 New</span>
-                  <span class="ttr-notify-text">User Notifications</span>
+                  <span class="ttr-notify-text-top">9 نوی</span>
+                  <span class="ttr-notify-text">دکارکونکی خبرتیا</span>
                 </div>
                 <div class="noti-box-list">
                   <ul>
@@ -150,7 +150,7 @@
                         <i class="fa fa-check"></i>
                       </span>
                       <span class="notification-text">
-                        <span>Sneha Jogi</span> sent you a message.
+                        <span>Sneha Jogi</span> پیغام راستولی
                       </span>
                       <span class="notification-time">
                         <a href="#" class="fa fa-close"></a>
@@ -162,7 +162,7 @@
                         <i class="fa fa-shopping-cart"></i>
                       </span>
                       <span class="notification-text">
-                        <a href="#">Your order is placed</a> sent you a message.
+                        <a href="#">Your order is placed</a> پیغام راستولی
                       </span>
                       <span class="notification-time">
                         <a href="#" class="fa fa-close"></a>
@@ -174,7 +174,7 @@
                         <i class="fa fa-bullhorn"></i>
                       </span>
                       <span class="notification-text">
-                        <span>Your item is shipped</span> sent you a message.
+                        <span>Your item is shipped</span> پیغام راستولی
                       </span>
                       <span class="notification-time">
                         <a href="#" class="fa fa-close"></a>
@@ -186,7 +186,7 @@
                         <i class="fa fa-comments-o"></i>
                       </span>
                       <span class="notification-text">
-                        <a href="#">Sneha Jogi</a> sent you a message.
+                        <a href="#">Sneha Jogi</a> پیغام راستولی
                       </span>
                       <span class="notification-time">
                         <a href="#" class="fa fa-close"></a>
@@ -198,7 +198,7 @@
                         <i class="fa fa-file-word-o"></i>
                       </span>
                       <span class="notification-text">
-                        <span>Sneha Jogi</span> sent you a message.
+                        <span>Sneha Jogi</span> پیغام راستولی
                       </span>
                       <span class="notification-time">
                         <a href="#" class="fa fa-close"></a>
@@ -220,10 +220,11 @@
               ></a>
               <div class="ttr-header-submenu">
                 <ul>
-                  <li><a href="user-profile.html">My profile</a></li>
-                  <li><a href="list-view-calendar.html">Activity</a></li>
-                  <li><a href="mailbox.html">Messages</a></li>
-                  <li><a href="../login.html">Logout</a></li>
+                  <li><a href="user-profile.html">زما پیژندیال
+                  </a></li>
+                  <li><a href="list-view-calendar.html">فعالیت</a></li>
+                  <li><a href="mailbox.html">پیغامونه</a></li>
+                  <li><a href="../login.html">وتل</a></li>
                 </ul>
               </div>
             </li>
@@ -234,27 +235,27 @@
               <div class="ttr-header-submenu ttr-extra-menu">
                 <a href="#">
                   <i class="fa fa-music"></i>
-                  <span>Musics</span>
+                  <span>غږیزی نغمی</span>
                 </a>
                 <a href="#">
                   <i class="fa fa-youtube-play"></i>
-                  <span>Videos</span>
+                  <span>وډیوګانی</span>
                 </a>
                 <a href="#">
                   <i class="fa fa-envelope"></i>
-                  <span>Emails</span>
+                  <span>ایمیل</span>
                 </a>
                 <a href="#">
                   <i class="fa fa-book"></i>
-                  <span>Reports</span>
+                  <span>راپورونه</span>
                 </a>
                 <a href="#">
                   <i class="fa fa-smile-o"></i>
-                  <span>Persons</span>
+                  <span>اشخاس</span>
                 </a>
                 <a href="#">
                   <i class="fa fa-picture-o"></i>
-                  <span>Pictures</span>
+                  <span>تصویرونه</span>
                 </a>
               </div>
             </li>
@@ -307,19 +308,19 @@
             <li>
               <a href="index.html" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-home"></i></span>
-                <span class="ttr-label">Dashborad</span>
+                <span class="ttr-label">ډشبورډ</span>
               </a>
             </li>
             <li>
               <a href="courses.html" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-book"></i></span>
-                <span class="ttr-label">Courses</span>
+                <span class="ttr-label">فرګرامونه</span>
               </a>
             </li>
             <li>
               <a href="#" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-email"></i></span>
-                <span class="ttr-label">Mailbox</span>
+                <span class="ttr-label">میل باکس</span>
                 <span class="ttr-arrow-icon"
                   ><i class="fa fa-angle-down"></i
                 ></span>
@@ -327,17 +328,17 @@
               <ul>
                 <li>
                   <a href="mailbox.html" class="ttr-material-button"
-                    ><span class="ttr-label">Mail Box</span></a
+                    ><span class="ttr-label">میل باکس</span></a
                   >
                 </li>
                 <li>
                   <a href="mailbox-compose.html" class="ttr-material-button"
-                    ><span class="ttr-label">Compose</span></a
+                    ><span class="ttr-label">کمپوس</span></a
                   >
                 </li>
                 <li>
                   <a href="mailbox-read.html" class="ttr-material-button"
-                    ><span class="ttr-label">Mail Read</span></a
+                    ><span class="ttr-label">میل لوستل</span></a
                   >
                 </li>
               </ul>
@@ -345,7 +346,7 @@
             <li>
               <a href="#" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-calendar"></i></span>
-                <span class="ttr-label">Calendar</span>
+                <span class="ttr-label">جنتری</span>
                 <span class="ttr-arrow-icon"
                   ><i class="fa fa-angle-down"></i
                 ></span>
@@ -353,12 +354,12 @@
               <ul>
                 <li>
                   <a href="basic-calendar.html" class="ttr-material-button"
-                    ><span class="ttr-label">Basic Calendar</span></a
+                    ><span class="ttr-label">اساسی تقویم</span></a
                   >
                 </li>
                 <li>
                   <a href="list-view-calendar.html" class="ttr-material-button"
-                    ><span class="ttr-label">List View</span></a
+                    ><span class="ttr-label">لیست لید</span></a
                   >
                 </li>
               </ul>
@@ -372,7 +373,7 @@
             <li>
               <a href="review.html" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-comments"></i></span>
-                <span class="ttr-label">Review</span>
+                <span class="ttr-label">بیا کتنه</span>
               </a>
             </li>
             <li>
@@ -380,13 +381,13 @@
                 <span class="ttr-icon"
                   ><i class="ti-layout-accordion-list"></i
                 ></span>
-                <span class="ttr-label">Add listing</span>
+                <span class="ttr-label">لیست اضافه کړی</span>
               </a>
             </li>
             <li>
               <a href="#" class="ttr-material-button">
                 <span class="ttr-icon"><i class="ti-user"></i></span>
-                <span class="ttr-label">My Profile</span>
+                <span class="ttr-label">زما پیژندیال</span>
                 <span class="ttr-arrow-icon"
                   ><i class="fa fa-angle-down"></i
                 ></span>
@@ -394,12 +395,12 @@
               <ul>
                 <li>
                   <a href="user-profile.html" class="ttr-material-button"
-                    ><span class="ttr-label">User Profile</span></a
+                    ><span class="ttr-label">دکارکونکی پیژندیال</span></a
                   >
                 </li>
                 <li>
                   <a href="teacher-profile.html" class="ttr-material-button"
-                    ><span class="ttr-label">Teacher Profile</span></a
+                    ><span class="ttr-label">د ښونکی پیژندیال</span></a
                   >
                 </li>
               </ul>
@@ -417,12 +418,12 @@
     <main class="ttr-wrapper">
       <div class="container-fluid">
         <div class="db-breadcrumb">
-          <h4 class="breadcrumb-title">Courses</h4>
+          <h4 class="breadcrumb-title">پروګرامونه</h4>
           <ul class="db-breadcrumb-list">
             <li>
-              <a href="#"><i class="fa fa-home"></i>Home</a>
+              <a href="#"><i class="fa fa-home"></i>کور</a>
             </li>
-            <li>Courses</li>
+            <li>پروګرامونه</li>
           </ul>
         </div>
         <div class="row">
@@ -430,7 +431,7 @@
           <div class="col-lg-12 m-b30">
             <div class="widget-box">
               <div class="wc-title">
-                <h4>Your Courses</h4>
+                <h4>ستاسو پروګرامونه</h4>
               </div>
               <div class="widget-inner">
                 <div class="card-courses-list admin-courses">
@@ -451,16 +452,16 @@
                             />
                           </div>
                           <div class="card-courses-user-info">
-                            <h5>Teacher</h5>
+                            <h5>ښونکی</h5>
                             <h4>Keny White</h4>
                           </div>
                         </li>
                         <li class="card-courses-categories">
-                          <h5>3 Categories</h5>
+                          <h5>3 کټګوری</h5>
                           <h4>Backend</h4>
                         </li>
                         <li class="card-courses-review">
-                          <h5>3 Review</h5>
+                          <h5>3 بیا کتنه</h5>
                           <ul class="cours-star">
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -482,7 +483,7 @@
                     </div>
                     <div class="row card-courses-dec">
                       <div class="col-md-12">
-                        <h6 class="m-b10">Course Description</h6>
+                        <h6 class="m-b10">دکورس تفصیل</h6>
                         <p>
                           Lorem ipsum dolor sit amet, est ei idque voluptua
                           copiosae, pro detracto disputando reformidans at, ex
