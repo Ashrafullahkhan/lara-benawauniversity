@@ -69,10 +69,6 @@ Route::get('/dr/financial-assistant', function () {
     return view('/dari/dr-financial-assistant');
 });
 
-// Route::get('/financial-assistant', function () {
-//     return view('financial-assistant');
-// });
-
 //facilities
 
 Route::get('/dr/computer-lab', function () {
