@@ -59,8 +59,6 @@ Route::get('/dr/dr-Programme-EN', function () {
 });
 Route::get('/dari/dr-policies/Ethics_policy.pdf', [PdfController::class, "index"]);
 
-// //students
-
 //students
 
 Route::get('/dar/student-affairs', function () {
