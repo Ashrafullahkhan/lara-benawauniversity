@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('job');
             $table->string('lang');
-            $table->binary('pic');
+            $table->string('pic');
             $table->timestamps();
         });
     }

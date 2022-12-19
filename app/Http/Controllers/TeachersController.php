@@ -2,99 +2,73 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Teacher;
-use Illuminate\Support\Facades\Response;
-use Image;
-
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class TeachersController extends Controller
-
 {
 
-function index()
+    public function index()
     {
-     $data = Teacher::latest()->paginate(5);
-     return view('teachers', compact('data'))
-       ->with('i', (request()->input('page', 1) - 1) * 5);
+        $data = Teacher::latest();
+
+        if (request('search')) {
+            $data->where('name', 'like', '%' . request('search') . '%');
+
+        }
+        return view('admin/teachers', ['data' => $data->paginate(5)]);
     }
 
- function insert_image(Request $request)
-  {
-  $request->validate([
-      'name'  => 'required',
-       'job'  => 'required',
-        'lang'  => 'required',
-      'pic' => 'required|image|max:20000'
-     ]);
-
-     $image_file = $request->pic;
-
-     $image = Image::make($image_file);
-
-     Response::make($image->encode('jpeg'));
-
-
-     $form_data = array(
-      'name'  => $request->name,
-      'job'  => $request->job,
-         'lang'  => $request->lang,
-      'pic' => $image);
-      
-
-     Teacher::create($form_data);
-
-     return redirect()->back()->with('success', 'Image store in database successfully');
-    }
-
-    function fetch_image($image_id)
+    public function insert_data(Request $request)
     {
-     $image = Teacher::findOrFail($image_id);
+        $request->validate([
+            'name' => 'required',
+            'job' => 'required',
+            'lang' => 'required',
+            'pic' => 'required|image',
+        ]);
 
-     $image_file = Image::make($image->pic);
+        $pic = $request->pic->store('teachers');
+        $form_data = array(
+            'name' => $request->name,
+            'job' => $request->job,
+            'lang' => $request->lang,
+            'pic' => $pic);
 
-     $response = Response::make($image_file->encode('jpeg'));
-   
+        Teacher::create($form_data);
 
-     $response->header('Content-Type', 'image/jpeg');
-
-     return $response;
+        return redirect()->back()->with('success', 'post store in database successfully');
     }
 
-
-    function update (Teacher $teacher)
+    public function update(Teacher $teacher)
     {
-        return view ('edit-teachers',['teacher'=>$teacher]);
+        return view('/admin/teacher-update', ['teacher' => $teacher]);
     }
-   public function edit (Request $teacher)
+
+    public function edit(Request $teacher)
     {
-       $data= Teacher::find($teacher->id);
-      $image_file = $teacher->pic;
+        $data = Teacher::find($teacher->id);
+        $image_file = $teacher->pic;
 
-      if ($image_file)
-      {
+        if ($image_file) {
+            File::delete(public_path('storage/' . $data->pic));
+            $data->pic = $teacher->pic->store('teachers');
+        }
 
-       $image = Image::make($image_file);
-    Response::make($image->encode('jpeg'));
-      }
+        $data->name = $teacher->name;
+        $data->job = $teacher->job;
 
+        $data->update();
 
-     
-    
-     $data -> name=$teacher->name;
-     $data -> job=$teacher->job;
-      $image_file ?    $data -> pic= $image: null;
-  
-
-     $data->save();
-
-  return back()->with('success',"post updated");
+        return back()->with('success', "post updated successfully");
     }
 
-    public function destroy(Teacher $teacher){
-      $teacher->delete();
-  return back()->with('success',"post delete");
+    public function destroy(Teacher $teacher)
+    {
+        File::delete(public_path('storage/' . $teacher->pic));
+        $teacher->delete();
+        return back()->with('success', "post delete successfully");
     }
-
 
 }
