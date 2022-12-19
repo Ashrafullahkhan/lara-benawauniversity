@@ -460,6 +460,10 @@ dl dd { margin-bottom: 10px; }
 	list-style:none;
 	margin-bottom: 0;
 }
+.pashto-font{
+	    font-family:'Noto Naskh Arabic',serif;
+                      direction: rtl;
+}
 /*= Section Content Part =*/
 @media only screen and (max-width: 1024px) {
     .section-area {

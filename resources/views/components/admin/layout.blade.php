@@ -73,12 +73,7 @@
          <!-- sidebar menu start -->
          <nav class="ttr-sidebar-navi">
              <ul>
-                 <li>
-                     <a href="index.html" class="ttr-material-button">
-                         <span class="ttr-icon"><i class="ti-home"></i></span>
-                         <span class="ttr-label">Dashboard</span>
-                     </a>
-                 </li>
+
                  <li>
                      <a href="/admin/teachers" class="ttr-material-button">
                          <span class="ttr-icon"><i class="ti-person"></i></span>

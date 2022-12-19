@@ -519,114 +519,60 @@
                         </div>
                     </div>
                     <div class="row">
+
                         <div
                             class="upcoming-event-carousel owl-carousel owl-btn-center-lr owl-btn-1 col-12 p-lr0 m-b30">
-                            <div class="item">
-                                <div class="event-bx">
-                                    <div class="action-box">
-                                        <img src="assets/images/event/pic4.jpg" alt="" />
-                                    </div>
-                                    <div class="info-bx d-flex">
-                                        <div>
-                                            <div class="event-time">
-                                                <div class="event-date">29</div>
-                                                <div class="event-month">October</div>
-                                            </div>
+                            @foreach ($events as $row)
+                                <div class="item">
+                                    <div class="event-bx">
+                                        <div class="action-box">
+                                            <img src="/storage/{{ $row->main_pic }}" alt="" />
                                         </div>
-                                        <div class="event-info">
-                                            <h4 class="event-title">
-                                                <a href="#">Education Autumn Tour 2019</a>
-                                            </h4>
-                                            <ul class="media-post">
-                                                <li>
-                                                    <a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i class="fa fa-map-marker"></i> Berlin,
-                                                        Germany</a>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and
-                                                typesetting industry. Lorem Ipsum has been the
-                                                industry's standard dummy text ever since the..
-                                            </p>
+                                        <div class="info-bx d-flex">
+                                            <div>
+                                                <div class="event-time">
+                                                    <div class="event-date">
+                                                        {{ \Carbon\Carbon::parse($row->start_date)->format('d') }}
+                                                    </div>
+                                                    <div class="event-month">
+                                                        {{ \Carbon\Carbon::parse($row->start_date)->format('F') }}</div>
+                                                </div>
+                                            </div>
+                                            <div class="event-info">
+                                                <h4 class="event-title">
+                                                    <a
+                                                        href="/event_details/{{ $row->id }}">{{ $row->title }}</a>
+                                                </h4>
+                                                <ul class="media-post">
+
+                                                    <li>
+
+                                                        <a href="#"><i class="fa fa-calendar"></i>
+                                                            {{ $row->start_date }}
+                                                            &nbsp;
+                                                            <i class="fa fa-calendar"></i>
+                                                            {{ $row->end_date }}</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/event_details/{{ $row->id }}"><i
+                                                                class="fa fa-map-marker"></i>
+                                                            {{ $row->location }}</a>
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    {{ substr($row->body, 0, 100) }}
+                                                    <span>...</span>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <div class="event-bx">
-                                    <div class="action-box">
-                                        <img src="assets/images/event/pic3.jpg" alt="" />
-                                    </div>
-                                    <div class="info-bx d-flex">
-                                        <div>
-                                            <div class="event-time">
-                                                <div class="event-date">29</div>
-                                                <div class="event-month">October</div>
-                                            </div>
-                                        </div>
-                                        <div class="event-info">
-                                            <h4 class="event-title">
-                                                <a href="#">Education Autumn Tour 2019</a>
-                                            </h4>
-                                            <ul class="media-post">
-                                                <li>
-                                                    <a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i class="fa fa-map-marker"></i> Berlin,
-                                                        Germany</a>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and
-                                                typesetting industry. Lorem Ipsum has been the
-                                                industry's standard dummy text ever since the..
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="event-bx">
-                                    <div class="action-box">
-                                        <img src="assets/images/event/pic2.jpg" alt="" />
-                                    </div>
-                                    <div class="info-bx d-flex">
-                                        <div>
-                                            <div class="event-time">
-                                                <div class="event-date">29</div>
-                                                <div class="event-month">October</div>
-                                            </div>
-                                        </div>
-                                        <div class="event-info">
-                                            <h4 class="event-title">
-                                                <a href="#">Education Autumn Tour 2019</a>
-                                            </h4>
-                                            <ul class="media-post">
-                                                <li>
-                                                    <a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i class="fa fa-map-marker"></i> Berlin,
-                                                        Germany</a>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and
-                                                typesetting industry. Lorem Ipsum has been the
-                                                industry's standard dummy text ever since the..
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
+
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn">View All Event</a>
+                        <a href="/list_of_events" class="btn">View All Event</a>
                     </div>
                 </div>
             </div>
@@ -727,7 +673,8 @@
                                         </p>
 
                                         <div class="post-extra">
-                                            <a href="/news_details/{{ $row->id }}" class="btn-link">READ MORE</a>
+                                            <a href="/news_details/{{ $row->id }}" class="btn-link">READ
+                                                MORE</a>
 
                                         </div>
                                     </div>

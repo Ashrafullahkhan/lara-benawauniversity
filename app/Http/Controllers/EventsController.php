@@ -13,10 +13,6 @@ class EventsController extends Controller
     {
         $data = Event::latest();
 
-        $day = Carbon::createFromFormat('d/m/Y', $data->start_date)->format('l');
-        dd($day);
-        $data->start_date = $day;
-
         if (request('search')) {
             $data->where('title', 'like', '%' . request('search') . '%');
 
