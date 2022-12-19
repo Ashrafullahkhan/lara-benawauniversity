@@ -234,7 +234,7 @@
                     ></a>
                     <ul class="sub-menu">
                       <li>
-                        <a href="/dr/admission-info">معلومات درباره ثبت نام</a>
+                        <a href="/dr-admission-info">معلومات درباره ثبت نام</a>
                       </li>
 
                       <li>
@@ -243,15 +243,15 @@
                         >
                       </li>
                       <li>
-                        <a href="/dr/fee-structure">ساختار فیس(هزینه)</a>
+                        <a href="/dr-fee-structure">ساختار فیس(هزینه)</a>
                       </li>
                       <li>
-                        <a href="/dr/scholarships"
+                        <a href="/dr-scholarships"
                           > برنامه های بورس تحصیلی و بازپرداخت</a
                         >
                       </li>
                       <li>
-                        <a href="/dr/financial-assistant"
+                        <a href="/dr-financial-assistant"
                           >کمک مالی</a
                         >
                       </li>
@@ -262,8 +262,8 @@
 					<ul class="sub-menu">
 						<li><a href="javascript:;">برنامه ها<i class="fa fa-angle-right"></i></a>
 							<ul class="sub-menu">
-								<li><a href="Programme-CS">کمپیوترساینس</a></li>
-								<li><a href="Programme-EN">انجینری</a></li>
+								<li><a href="dr-Programme-CS">کمپیوترساینس</a></li>
+								<li><a href="dr-Programme-EN">انجینری</a></li>
 							</ul>
 						</li>
 								
@@ -315,7 +315,7 @@
 							<ul>
 								<li><a href="courses.html">تقسیم اوقات </a></li>
 								<li><a href="https://student.benawa.edu.af/Login.php">پورتال شاگردان</a></li>
-								<li><a href="/dr/student-affairs">اموری محصلان</a></li>
+								<li><a href="/dr-student-affairs">اموری محصلان</a></li>
 								<li><a href="event.html">تقسیم اوقات امتحانات</a></li>
 								<li><a href="membership.html">کتاب رهنما</a></li>
 								<li><a href="membership.html">نقش علمی و مقررات</a></li>
@@ -347,10 +347,10 @@
                   </li> -->
 				  <li><a href="javascript:;">امکانات<i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="/dr/computer-lab">کمپیوترلیب</a></li>
-						<li><a href="/dr/engineering-lab">لیب انجینری</a></li>
-						<li><a href="/dr/Library">کتاب خانه</a></li>
-						<li><a href="/dr/Cafeteria">Cafeteria کافه تریا</a></li>
+						<li><a href="dr-computer-lab">کمپیوترلیب</a></li>
+						<li><a href="dr-engineering-lab">لیب انجینری</a></li>
+						<li><a href="dr-library">کتاب خانه</a></li>
+						<li><a href="dr-cafeteria">Cafeteria کافه تریا</a></li>
 						
 					</ul>
 				</li>
@@ -405,13 +405,13 @@
                   </li> -->
 				  <li class="nav-dashboard"><a href="javascript:;">دربارهً ما <i class="fa fa-chevron-down"></i></a>
 					<ul class="sub-menu">
-						<li><a href="/dr/why-benawa">?چرا بینوا</a></li>
-						<li><a href="/dr/add-listing"> چشم انداز،ماموریت و اهداف</a></li>
-						<li><a href="/dr/founder-of-benawa">بنیاد گذاربینوا</a></li>
-						<li><a href="/dr/chacelor-message">پیام های صدور گواهی نامه</a></li>
-						<li><a href="/dr/management-team">تیم اداری</a></li>
-            <li><a href="/dr/teacher">استادان ما</a></li>
-						<li><a href="/dr/teacher-profile">شاگردان ما</a></li>
+						<li><a href="/dr-why-benawa">?چرا بینوا</a></li>
+						<li><a href="/dr-add-listing"> چشم انداز،ماموریت و اهداف</a></li>
+						<li><a href="/dr-founder-of-benawa">بنیاد گذاربینوا</a></li>
+						<li><a href="/dr-chancellor-message">پیام های صدور گواهی نامه</a></li>
+						<li><a href="/dr-management-team">تیم اداری</a></li>
+            <li><a href="/dr-teacher">استادان ما</a></li>
+						<li><a href="/dr-teacher-profile">شاگردان ما</a></li>
                 </ul>
 				
                 <div class="nav-social-link">

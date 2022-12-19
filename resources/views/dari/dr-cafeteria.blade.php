@@ -1,13 +1,13 @@
 <x-dari.dari-layout>
-   <div class="page-content bg-white">
+     <div class="page-content bg-white">
         <!-- inner page banner -->
         <div
           class="page-banner ovbl-dark"
-          style="background-image: url(assets/images/banner/banner3.jpg)"
+          style="background-image: url(assets/images/banner/Cafeteria.jpg)"
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">کمک مالی</h1>
+              <h1 class="text-white">Cafeteria</h1>
             </div>
           </div>
         </div>
@@ -25,16 +25,18 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Financial Assistance</h2>
+                    <h2 class="title-head">Cafeteria</h2>
                   </div>
                   <p>
-                    BIHE offers a limited program of Financial Assistance mainly
-                    to help genuinely needy students and to encourage high
-                    performance and merit. The responsibility to establish the
-                    financial 'need' rests with the students. Students are
-                    advised to explore alternate funding sources before applying
-                    to BIHE. An evidence of such an effort should form a part of
-                    application for financial assistance.
+                    The Institute's cafeteria provides students with an avenue
+                    for interval from heavy learning schedules, and a place to
+                    intermingle with fellow students.
+
+                    <br />
+                    <br />
+                    The Institute's cafeteria provides students with an avenue
+                    for interval from heavy learning schedules, and a place to
+                    intermingle with fellow students.
                   </p>
                 </div>
               </div>

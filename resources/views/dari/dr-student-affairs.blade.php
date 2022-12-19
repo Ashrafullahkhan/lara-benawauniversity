@@ -7,7 +7,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">امور دانش جویی</h1>
+              <h1 class="text-white">امورمحصلان</h1>
               <p class="text-white"></p>
             </div>
           </div>
@@ -26,8 +26,7 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head"> اموردانش جویی</h2>
-                  </div>
+                    <h2 class="title-head"> امورمحصلان
                   <p>
                     Student Affairs Office is an integral component of student
                     life on campus. It is a division of service and support to
