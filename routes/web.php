@@ -386,16 +386,7 @@ Route::get('list_of_events', function () {
 
 // admin/Alumuni routes
 
-Route::get('/admin/alumuni', [AlumuniController::class, "index"]);
-Route::post('admin/alumuni/insert_data', [AlumuniController::class, "insert_data"]);
-Route::get('/admin/add-alumuni', function () {
-    return view('admin/alumuni/add-alumuni');
-});
-Route::get('/admin/alumuni/{alumuni}', [AlumuniController::class, "update"]);
-Route::patch('alumuni/update/{id}', [AlumuniController::class, "edit"]);
-Route::delete('alumuni/delete/{alumuni}', [AlumuniController::class, "destroy"]);
 
-// ENDS OF admin/Alumuni routes
 
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
