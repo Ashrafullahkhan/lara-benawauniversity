@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\AlumuniController;
 use App\Http\Controllers\EventsController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\SessionsController;
@@ -75,10 +74,9 @@ Route::get('/dr/financial-assistant', function () {
 
 //<<<<<<< HEAD
 
-
- Route::get('/dr-computer-lab', function () {
+Route::get('/dr-computer-lab', function () {
     return view('/dari/dr-computer-lab');
- });
+});
 // =======
 // Route::get('/computer-lab', function () {
 //     return view('computer-lab');
@@ -396,8 +394,8 @@ Route::get('list_of_news', function () {
 
 // admin/Events routes
 
-Route::get('/admin/events', [EventsController::class, "index"]);
-Route::post('admin/event/insert_data', [EventsController::class, "insert_data"]);
+Route::get('/admin/events', [EventsController::class, "index"])->middleware('auth');
+Route::post('admin/event/insert_data', [EventsController::class, "insert_data"])->middleware('auth');
 Route::get('/admin/create-event', function () {
     return view('admin/events/create-event');
 });
@@ -448,15 +446,13 @@ Route::get('list_of_events', function () {
 
 // admin/Alumuni routes
 
-
-
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
 
 // auth
-Route::get('/userlogin', function () {
+Route::get('login', function () {
     return view('session/login');
 });
 
-Route::post('/login', [SessionsController::class, 'store'])->middleware('guest');
+Route::post('/userlogin', [SessionsController::class, 'store'])->middleware('guest');

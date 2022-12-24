@@ -88,7 +88,7 @@
                             <h4>Login</h4>
                         </div>
                         <div class="widget-inner">
-                            <form method="post" action="{{ url('/login') }}" enctype="multipart/form-data">
+                            <form method="post" action="{{ url('/userlogin') }}" enctype="multipart/form-data">
                                 @csrf
 
                                 <div class="row">
