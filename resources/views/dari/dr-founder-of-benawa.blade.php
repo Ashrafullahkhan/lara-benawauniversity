@@ -5,7 +5,7 @@
           class="page-banner ovbl-dark"
           style="background-image: url(assets/images/banner/banner3.jpg)"
         >
-          <div class="container">
+          <div class="container title-head pashto-font text-right">
             <div class="page-banner-entry">
               <h1 class="text-white">
               موسس موسسه تحصیلات عالی بناوا

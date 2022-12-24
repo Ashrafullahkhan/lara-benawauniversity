@@ -149,7 +149,7 @@
                         <i class="fa fa-check"></i>
                       </span>
                       <span class="notification-text">
-                        <span>Sneha Jogi</span> sent you a message.یک 
+                        <span>Sneha Jogi</span> یک 
                         پیام به شما ارسال شده
                       </span>
                       <span class="notification-time">

@@ -6,7 +6,7 @@
           class="page-banner ovbl-dark"
           style="background-image: url(assets/images/banner/banner3.jpg)"
         >
-          <div class="container">
+          <div class="container title-head pashto-font text-right">
             <div class="page-banner-entry">
               <h1 class="text-white">
               چرا موسسه آموزشی عالی بینوا؟
@@ -256,7 +256,7 @@
           <!-- Our Story END ==== -->
           <!-- Testimonials ==== -->
           <div class="section-area section-sp2">
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-md-12 heading-bx left">
                   <h2 class="title-head text-uppercase">

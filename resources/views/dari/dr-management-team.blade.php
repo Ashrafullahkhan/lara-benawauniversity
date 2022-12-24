@@ -5,7 +5,7 @@
           class="page-banner ovbl-dark"
           style="background-image: url(assets/images/banner/banner3.jpg)"
         >
-          <div class="container">
+          <div class="container title-head pashto-font text-right">
             <div class="page-banner-entry">
               <h1 class="text-white">تیم مدریت</h1>
             </div>
@@ -15,7 +15,7 @@
 
         <!-- Breadcrumb row END -->
         <!-- contact area -->
-        <div class="container">
+        <div class="container title-head pashto-font text-right">
           <div class="row">
             <div class="col-lg-4 col-sm-6">
               <div class="singel-teachers mt-30 text-center">

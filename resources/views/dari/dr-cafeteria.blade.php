@@ -7,7 +7,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Cafeteria</h1>
+              <h1 class="text-white">کافه تریا</h1>
             </div>
           </div>
         </div>
@@ -21,22 +21,22 @@
 
           <!-- Our Services -->
           <div class="section-area section-sp1">
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-lg-12 col-md-12">
-                  <div class="heading-bx left">
-                    <h2 class="title-head">Cafeteria</h2>
+                  <div class="title-head pashto-font text-right">
+                    <h2 class="title-head">کافه تریا</h2>
                   </div>
-                  <p>
-                    The Institute's cafeteria provides students with an avenue
-                    for interval from heavy learning schedules, and a place to
-                    intermingle with fellow students.
+                  <p >
+                  کافه تریا مؤسسه یک خیابان را برای دانشجویان فراهم می کند
+                     برای فاصله زمانی از برنامه های یادگیری سنگین، و یک مکان به
+                     با دانش آموزان همکار شوید
 
                     <br />
                     <br />
-                    The Institute's cafeteria provides students with an avenue
-                    for interval from heavy learning schedules, and a place to
-                    intermingle with fellow students.
+                    کافه تریا مؤسسه یک خیابان را برای دانشجویان فراهم می کند
+                     برای فاصله زمانی از برنامه های یادگیری سنگین، و یک مکان به
+                     با دانش آموزان همکار شوید
                   </p>
                 </div>
               </div>

@@ -5,7 +5,7 @@
           class="page-banner ovbl-dark"
           style="background-image: url(assets/images/banner/banner2.jpg)"
         >
-          <div class="container">
+          <div class="container title-head pashto-font text-right">
             <div class="page-banner-entry">
               <h1 class="text-white">ساختار فیس (هزینه)</h1>
             </div>
@@ -18,7 +18,7 @@
         <div class="content-block">
           <!-- About Us -->
           <div class="section-area section-sp2">
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-md-12 heading-bx text-center">
                   <h2 class="title-head text-uppercase m-b0">
@@ -127,7 +127,7 @@
             class="section-area section-sp2 bg-fix ovbl-dark join-bx"
             style="background-image: url(assets/images/background/bg1.jpg)"
           >
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-md-12 text-center heading-bx text-white">
                   <h2 class="title-head m-b0">چرا ما را انتخاب کنید</span></h2>

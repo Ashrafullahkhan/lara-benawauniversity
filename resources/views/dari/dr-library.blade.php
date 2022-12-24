@@ -7,7 +7,7 @@
           class="page-banner ovbl-dark"
           style="background-image: url(assets/images/banner/Library.jpg)"
         >
-          <div class="container">
+          <div class="container title-head pashto-font text-right">
             <div class="page-banner-entry">
               <h1 class="text-white">کتاب خانه</h1>
             </div>
@@ -23,29 +23,29 @@
 
           <!-- Our Services -->
           <div class="section-area section-sp1">
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
                     <h2 class="title-head">کتاب خانه</h2>
                   </div>
                   <p>
-                    Library & Learning Resource Center is the backbone of an
-                    academic environment. Not only is the actual physical
-                    library one of the main spots where the students enhance
-                    their knowledge and complete their assignment. They also
-                    have a wide range of a services available at this center.
+                  کتابخانه و مرکز منابع یادگیری ستون فقرات یک
+                     محیط دانشگاهی نه تنها فیزیکی واقعی است
+                     کتابخانه یکی از اصلی ترین نقاطی است که دانش آموزان در آن پیشرفت می کنند
+                     دانش آنها و تکمیل تکلیف آنها. انها همچنین
+                     دارای طیف گسترده ای از خدمات در این مرکز هستند.
                     <br />
                     <br />
-                    The BIHE library and Learning Resource Center is designed to
-                    meet the needs of students and faculty. BIHE's library is a
-                    well-stocked, which serves as a catalyst in the learning
-                    process. To ignite the intellectual spirit in young minds, a
-                    stock of the latest books, collection of video/audio CDs,
-                    industry and company information are also available. The
-                    library also has the facility of Book Bank; students who
-                    find it hard to afford expensive books can get these books
-                    for the entire semester, entirely free from this Book Bank.
+                    کتابخانه BIHE و مرکز منابع یادگیری برای
+                     پاسخگویی به نیازهای دانشجویان و اساتید کتابخانه BIHE یک
+                     به خوبی ذخیره می شود، که به عنوان یک کاتالیزور در یادگیری عمل می کند
+                     روند. برای شعله ور شدن روحیه فکری در اذهان جوان، الف
+                     موجودی جدیدترین کتاب ها، مجموعه سی دی های تصویری/صوتی،
+                     اطلاعات صنعت و شرکت نیز موجود است. این
+                     کتابخانه دارای امکانات بانک کتاب نیز می باشد. دانش آموزانی که
+                     به سختی می توان کتاب های گران قیمت را تهیه کرد
+                     برای کل ترم، کاملاً رایگان از این بانک کتاب.
                   </p>
                 </div>
               </div>

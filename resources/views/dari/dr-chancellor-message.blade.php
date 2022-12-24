@@ -36,7 +36,7 @@
 
             <!-- singel teachers -->
           </div>
-          <div class="text-center">
+          <div class="text-center title-head pashto-font text-right">
             <p>
             پس از بیش از 4 سال ساخت یک پایه محکم با کیفیت بالا
                آموزش و پژوهش مهندسی و علوم کامپیوتر، در

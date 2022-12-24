@@ -21,10 +21,10 @@
 
           <!-- Our Services -->
           <div class="section-area section-sp1">
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-lg-12 col-md-12">
-                  <div class="heading-bx left">
+                  <div class="title-head pashto-font text-right">
                     <h2 class="title-head">لیب انجینری</h2>
                   </div>
                   <p>
