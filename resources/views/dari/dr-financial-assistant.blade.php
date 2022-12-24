@@ -25,16 +25,16 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <div class="heading-bx left">
-                    <h2 class="title-head">Financial Assistance</h2>
+                    <h2 class="title-head">کمک مالی</h2>
                   </div>
                   <p>
-                    BIHE offers a limited program of Financial Assistance mainly
-                    to help genuinely needy students and to encourage high
-                    performance and merit. The responsibility to establish the
-                    financial 'need' rests with the students. Students are
-                    advised to explore alternate funding sources before applying
-                    to BIHE. An evidence of such an effort should form a part of
-                    application for financial assistance.
+                  BIHE عمدتاً برنامه محدودی از کمک مالی ارائه می دهد
+                     برای کمک به دانش آموزان نیازمند واقعی و تشویق بالا
+                     عملکرد و شایستگی مسئولیت ایجاد
+                     نیاز مالی به دانش آموزان بستگی دارد. دانش آموزان هستند
+                     توصیه می شود قبل از درخواست، منابع مالی جایگزین را بررسی کنید
+                     به BIHE. شواهدی از چنین تلاشی باید بخشی از آن باشد
+                     درخواست کمک مالی
                   </p>
                 </div>
               </div>

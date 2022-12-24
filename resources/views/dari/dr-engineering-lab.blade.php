@@ -28,30 +28,30 @@
                     <h2 class="title-head">لیب انجینری</h2>
                   </div>
                   <p>
-                    In Engineering Education, Laboratories are the link between
-                    theoretical and practical knowledge. A Civil Engineering
-                    Laboratory has been established by BIHE in order to cater
-                    for the full breadth and depth of Bachelor of Civil
-                    Engineering program.
+                  در آموزش مهندسی، آزمایشگاه ها رابط بین این دو هستند
+                     دانش نظری و عملی. یک مهندسی عمران
+                     آزمایشگاه توسط BIHE به منظور ارائه خدمات ایجاد شده است
+                     برای وسعت و عمق کامل لیسانس عمران
+                     برنامه مهندسی.
 
                     <br />
                     <br />
-                    The survey equipment in this lab is used for surveying
-                    exercises and is equipped with all latest instrumentation
-                    viz levels, total stations, and GPS receivers sets for
-                    conducting ground surveying works.
+                    از تجهیزات نقشه برداری در این آزمایشگاه برای نقشه برداری استفاده می شود
+                     تمرین می کند و مجهز به آخرین ابزار دقیق است
+                     یعنی سطوح، ایستگاه های کل، و گیرنده های GPS را برای
+                     انجام کارهای نقشه برداری زمینی
 
                     <br />
                     <br />
-                    Building planning and drawing lab in civil engineering is
-                    used for make the plan of any building, structure, etc. The
-                    various plan model of this lab are generally Study model of
-                    two story building, Study model of bifurcated stair, Study
-                    model of open well stair, Study model of flush door, Study
-                    model of racking shore, model of ventilated door, Study
-                    model of laced & bracing, Study model of shahs door, Study
-                    model of fully panel door, Study model of half panel & half
-                    glazed door etc.
+                    آزمایشگاه برنامه ریزی و نقشه کشی ساختمان در مهندسی عمران می باشد
+                     برای ساخت پلان هر ساختمان، سازه و غیره استفاده می شود
+                     مدل های مختلف پلان این آزمایشگاه به طور کلی مدل مطالعاتی هستند
+                     ساختمان دو طبقه، مدل مطالعاتی پله دو شاخه، مطالعه
+                     مدل راه پله چاه باز, مدل مطالعه درب فلاش, مطالعه
+                     مدل ساحل قفسه ای، مدل درب تهویه دار، مطالعه
+                     مدل توری و بادبند, مدل مطالعه درب شاهی, مطالعه
+                     مدل درب تمام پنل, مدل مطالعه نیم پنل و نیم
+                     درب لعابدار و غیره
                   </p>
                 </div>
               </div>

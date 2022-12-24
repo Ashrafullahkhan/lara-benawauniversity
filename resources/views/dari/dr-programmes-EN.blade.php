@@ -31,7 +31,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Our Philosophy</h5>
+                      <h5 class="ttr-tilte">فلسفه ما</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -47,7 +47,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Kingster's Principle</h5>
+                      <h5 class="ttr-tilte">اصل کینگستر</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -63,7 +63,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Key Of Success</h5>
+                      <h5 class="ttr-tilte">کلید موفقیت</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -79,7 +79,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Our Philosophy</h5>
+                      <h5 class="ttr-tilte">فلسفه ما</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -101,208 +101,208 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >Welcome to the Department of Electrical and Civil
-                        Engineering at Benawa Institute of Higher Education
-                        (BIHE). The department offers Bachelor of Engineering
-                        program with specializations of Civil Engineering and
-                        Electrical Engineering.
+                        >به بخش برق و عمران خوش آمدید
+                         مهندسی در موسسه آموزش عالی بناوا
+                         (BIHE). این دپارتمان مدرک لیسانس مهندسی ارائه می دهد
+                         برنامه با گرایش های مهندسی عمران و
+                         مهندسی برق.
                       </span>
                     </li>
                     <li>
                       <span>
-                        Today in Science and Engineering, frontiers of knowledge
-                        are being extended on a breathtaking pace. Thus, in
-                        order to impart education in these areas, an institution
-                        has to keep itself ever updated in course curriculum,
-                        laboratory resources and faculty. Alhamdulillah, we at
-                        BIHE are at the cutting edge, as far as the high quality
-                        engineering education is concerned. Our engineering and
-                        computing laboratories are equipped with
-                        state-of-the-art facilities. Our curriculum goes through
-                        regular revisions to incorporate the new developments.
-                        We have got qualified faculty having Bachelor and
-                        Masters degree.
+                      امروز در علم و مهندسی، مرزهای دانش
+                         با سرعتی خیره کننده تمدید می شوند. بنابراین، در
+                         به منظور انتقال آموزش در این مناطق، یک موسسه
+                         باید خود را همیشه در برنامه درسی به روز نگه دارد،
+                         منابع آزمایشگاهی و هیئت علمی الحمدلله ما در
+                         BIHE در لبه برش، تا آنجا که کیفیت بالا هستند
+                         آموزش مهندسی مربوط می شود. مهندسی ما و
+                         آزمایشگاه های محاسباتی مجهز به
+                         امکانات پیشرفته برنامه درسی ما طی می شود
+                         تجدید نظرهای منظم برای ادغام تحولات جدید.
+                         ما هیئت علمی واجد شرایطی داریم که دارای لیسانس و
+                         مدرک کارشناسی ارشد.
                       </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h3 class="title-head">Vision:</h3>
+                    <h3 class="title-head">چشم انداز:</h3>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >To develop professionals in the field of engineering
-                        having the abilities of solving national and
-                        international problems.
+                        >برای توسعه متخصصان در زمینه مهندسی
+                         داشتن توانایی های حل ملی و
+                         مشکلات بین المللی
                       </span>
                     </li>
                   </ul>
 
                   <div class="heading-bx left">
-                    <h3 class="title-head">Mission:</h3>
+                    <h3 class="title-head">ماموریت</h3>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >Providing Educational Services to the new generation in
-                        the field of Engineering and Research to serve for the
-                        betterment of Afghan Society.
+                        >ارائه خدمات آموزشی به نسل جدید در
+                         رشته مهندسی و تحقیقات برای خدمت به
+                         بهبود جامعه افغانستان
                       </span>
                     </li>
                     <li>
                       <span
-                        >A lecture breakup will be prepared by each course
-                        teacher and will be distributed to every student at the
-                        beginning of the session to help students plan their
-                        studies effectively.
+                        >برای هر دوره، یک جلسه سخنرانی آماده خواهد شد
+                         معلم و برای هر دانش آموز در
+                         شروع جلسه برای کمک به دانش آموزان برای برنامه ریزی خود
+                         به طور موثر مطالعه می کند.
                       </span>
                     </li>
                     <li>
                       <span
-                        >Presently the following programmes of study leading to
-                        Bachelor of Engineering are offered at BIHE.
+                        >در حال حاضر برنامه های تحصیلی زیر منجر به
+                         لیسانس مهندسی در BIHE ارائه می شود.
                       </span>
                     </li>
                     <li>
-                      <span>1 - Bachelor of Engineering (Civil) </span>
+                      <span>1 - لیسانس مهندسی (عمران) </span>
                     </li>
                     <li>
-                      <span>2 - Bachelor of Engineering (Electrical) </span>
+                      <span>2 - لیسانس مهندسی (برق) </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
-                      1 - Bachelor of Engineering (Civil)
+                    1 - لیسانس مهندسی (عمران)
                     </h2>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >The Department of Civil Engineering has established in
-                        2014 and has access to some of the greatest engineering
-                        facilities here in Kandahar. Department has all required
-                        resources and facilities, which could reflect a quality
-                        education in civil engineering. Today's civil engineers
-                        deal primarily with public and private infrastructure
-                        and its relation to the environment, which includes
-                        planning, design, construction, and maintenance of
-                        transportation systems, bridges, dams, buildings, water
-                        supply/distribution/treatment systems, wastewater and
-                        storm water collection/treatment/disposal systems,
-                        irrigation systems, and flood control. Civil engineers
-                        also operate public and private works, and design
-                        environmental protection for water, air, and land.
-                        Defining the state-of-the-art in analyzing and designing
-                        structures using computers. Department has following
-                        mission and vision and their objectives.
+                        >گروه مهندسی عمران در
+                         2014 و به برخی از بزرگترین مهندسی ها دسترسی دارد
+                         امکانات اینجا در قندهار. دپارتمان همه موارد مورد نیاز را دارد
+                         منابع و امکانات، که می تواند منعکس کننده یک کیفیت باشد
+                         تحصیل در رشته مهندسی عمران مهندسان عمران امروزی
+                         در درجه اول با زیرساخت های دولتی و خصوصی سروکار دارد
+                         و ارتباط آن با محیط زیست که شامل
+                         برنامه ریزی، طراحی، ساخت و نگهداری
+                         سیستم های حمل و نقل، پل ها، سدها، ساختمان ها، آب
+                         سیستم های تامین/توزیع/تصفیه، فاضلاب و
+                         سیستم های جمع آوری / تصفیه / دفع آب طوفان،
+                         سیستم های آبیاری و کنترل سیل. مهندسین عمران
+                         همچنین کارهای عمومی و خصوصی و طراحی را اجرا کند
+                         حفاظت از محیط زیست برای آب، هوا و زمین.
+                         تعریف آخرین روز در تحلیل و طراحی
+                         سازه ها با استفاده از کامپیوتر دپارتمان موارد زیر را دارد
+                         ماموریت و چشم انداز و اهداف آنها.
                       </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h3 class="title-head">Vision</h3>
+                    <h3 class="title-head">چشم انداز</h3>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >To develop professionals in the field of Civil
-                        Engineering having the abilities of solving national and
-                        international problems.
+                        >برای توسعه متخصصان در زمینه عمران
+                         مهندسی با داشتن توانایی های حل ملی و
+                         مشکلات بین المللی
                       </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h3 class="title-head">Mission</h3>
+                    <h3 class="title-head">ماموریت</h3>
                   </div>
 
                   <ul class="course-features">
                     <li>
                       <span
-                        >Providing Educational Services to the new generation in
-                        the field of Civil Engineering and relevant Research to
-                        serve for the betterment of Afghan Society.
+                        >ارائه خدمات آموزشی به نسل جدید در
+                         رشته مهندسی عمران و تحقیقات مربوطه به
+                         برای بهبود جامعه افغانستان خدمت کنند.
                       </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
-                      2 - Bachelor of Engineering (Electrical)
+                    2 - لیسانس مهندسی (برق)
                     </h2>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >It is the branch of engineering that deals with the
-                        technology of electricity. Electrical engineers work on
-                        a wide range of components, devices and systems, from
-                        tiny microchips to huge power station generators.
-                        Through graduate studies in the Department of Electrical
-                        Engineering at the BIHE, you will join a vibrant
-                        academic community of students, faculty, staff, and
-                        alumni. This community is powering, connecting,
-                        digitizing, and automating a better future through
-                        cutting-edge research and commercialization in the
-                        context of BIHE’s distinctive mission. BIHE is the only
-                        institute in the Kandahar province, which provides
-                        quality education in electrical engineering. The
-                        department has approved and recognized by Ministry of
-                        Higher Education in 2014 during establishment of
-                        institute. Department has following mission and vision
-                        and their objectives.
+                        >> شاخه ای از مهندسی است که به این موضوع می پردازد
+                         تکنولوژی برق مهندسان برق کار می کنند
+                         طیف گسترده ای از قطعات، دستگاه ها و سیستم ها، از
+                         ریزتراشه های کوچک به ژنراتورهای نیروگاه بزرگ.
+                         از طریق تحصیلات تکمیلی در گروه برق
+                         مهندسی در BIHE، به یک پر جنب و جوش خواهید پیوست
+                         جامعه دانشگاهی دانشجویان، اساتید، کارکنان و
+                         فارغ التحصیلان این جامعه نیرو می دهد، وصل می کند،
+                         دیجیتالی کردن، و خودکارسازی آینده بهتر از طریق
+                         تحقیقات پیشرفته و تجاری سازی در
+                         زمینه ماموریت متمایز BIHE. BIHE تنها است
+                         مؤسسه در ولایت قندهار که فراهم می کند
+                         آموزش با کیفیت در مهندسی برق را
+                         بخش مورد تایید و تایید وزارت
+                         آموزش عالی در سال 1393 در حین تأسیس
+                         موسسه دپارتمان دارای ماموریت و چشم انداز زیر است
+                         و اهداف آنهاs
                       </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h3 class="title-head">Vision:</h3>
+                    <h3 class="title-head">چشم انداز</h3>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >To develop professionals in the field of Electrical
-                        Engineering having the abilities of solving national and
-                        international problems.
+                        >برای توسعه متخصصان در زمینه برق
+                         مهندسی با داشتن توانایی های حل ملی و
+                         مشکلات بین المللی
                       </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h2 class="title-head">Mission:</h2>
+                    <h2 class="title-head">ماموریت:</h2>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >Providing Educational Services to the new generation in
-                        the field of Electrical Engineering and relevant
-                        Research to serve for the betterment of Afghan Society.
+                        >ارائه خدمات آموزشی به نسل جدید در
+                         رشته مهندسی برق و مرتبط
+                         تحقیق برای خدمت به بهبود جامعه افغانستان.
                       </span>
                     </li>
                     <li>
                       <span>
-                        Course Numbering System In a course number AB XYZ, AB
-                        are the alphabet and XYZ are the digits. AB denotes the
-                        academic discipline. .
+                      سیستم شماره گذاری دوره در یک دوره شماره AB XYZ, AB
+                         حروف الفبا و XYZ ارقام هستند. AB نشان دهنده
+                         رشته تحصیلی .
                       </span>
                     </li>
                     <li>
-                      <span>• EL Electrical Engineering </span>
+                      <span>• EL مهندسی برق </span>
                     </li>
                     <li>
-                      <span>• CE Civil Engineering </span>
+                      <span>• مهندسی عمران CE </span>
                     </li>
                     <li>
-                      <span>• MA Mathematical Subjects </span>
+                      <span>• رشته های کارشناسی ارشد ریاضی </span>
                     </li>
                     <li>
-                      <span>• IS Islamic Subjects </span>
+                      <span>•  موضوعات اسلامی </span>
                     </li>
                     <li>
-                      <span>• EN English Literature / Language </span>
+                      <span>•EN انگلیسی ادبیات / زبان </span>
                     </li>
                     <li>
-                      <span>• CS Computer Science </span>
+                      <span>• CS علوم کامپیوتر </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
-                      1 - Bachelor of Engineering (Civil)
+                    1 - لیسانس مهندسی (عمران)
                     </h2>
                   </div>
                 </div>

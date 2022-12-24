@@ -27,7 +27,7 @@
                 </div>
                 <div class="cont">
                   <a href="#"><h6> انجینر عبدالهادی مزمل</h6></a>
-                  <span>Chancellor of BIHE ریس پوهنتون بینوا</span>
+                  <span> ریس پوهنتون بینوا</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -42,9 +42,9 @@
                 </div>
                 <div class="cont">
                   <a href="teachers-singel.html"
-                    ><h6>Mr. Hikmathullah Afghan</h6></a
+                    ><h6>آقای حکمت الله افغان</h6></a
                   >
-                  <span>Vice-Chancellor of Academics</span>
+                  <span>معاونت علمی</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -59,9 +59,9 @@
                 </div>
                 <div class="cont">
                   <a href="teachers-singel.html"
-                    ><h6>Eng. Qudrathullah Nusrath</h6></a
+                    ><h6>مهندس قدرت الله نصرت</h6></a
                   >
-                  <span>Vice-Chancellor of Admin & Finance</span>
+                  <span>معاون اداری و مالی</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -76,9 +76,9 @@
                 </div>
                 <div class="cont">
                   <a href="teachers-singel.html"
-                    ><h6>Mr. Nadir Shah Nusrath</h6></a
+                    ><h6>آقای نادرشاه نصرت</h6></a
                   >
-                  <span>Vice-Chancellor of Students Affairs</span>
+                  <span>معاونت دانشجویی</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -94,7 +94,7 @@
                 <div class="cont">
                   <a href="teachers-singel.html"><h6>حقپال
                   </h6></a>
-                  <span>Dean of Computer Science Faculty ریس پوهنځی کمپیو ساینس</span>
+                  <span> ریس پوهنځی کمپیو ساینس</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -108,8 +108,8 @@
                   />
                 </div>
                 <div class="cont">
-                  <a href="teachers-singel.html"><h6>Mark alen</h6></a>
-                  <span>Vice chencelor</span>
+                  <a href="teachers-singel.html"><h6>مارک آلن</h6></a>
+                  <span>معاون صدراعظم</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -123,8 +123,8 @@
                   />
                 </div>
                 <div class="cont">
-                  <a href="teachers-singel.html"><h6>Rebeka alig</h6></a>
-                  <span>Pro chencelor</span>
+                  <a href="teachers-singel.html"><h6>ربکا علیگ</h6></a>
+                  <span>استاد حرفه ای</span>
                 </div>
               </div>
               <!-- singel teachers -->
@@ -138,8 +138,8 @@
                   />
                 </div>
                 <div class="cont">
-                  <a href="teachers-singel.html"><h6>Hanna bein</h6></a>
-                  <span>Aerobics head</span>
+                  <a href="teachers-singel.html"><h6>هانا بین</h6></a>
+                  <span>سر ایروبیک</span>
                 </div>
               </div>
               <!-- singel teachers -->

@@ -30,7 +30,7 @@
                 <a href="teachers-singel.html"
                   ><h6>انجینر عبدالهادی مزمل</h6></a
                 >
-                <span>Chancellor's Message</span>
+                <span>پیام رئیس</span>
               </div>
             </div>
 
@@ -38,22 +38,22 @@
           </div>
           <div class="text-center">
             <p>
-              After over 4 years of building a solid foundation of high quality
-              engineering and computer science education and research, at the
-              Undergraduate level, Benawa Institute of Higher Education (BIHE)
-              is embarking on a journey to reach the next level of excellence.
-              It aims to not just produce high class engineers and computer
-              scientists but professionals and change agents. These agents of
-              change other than being better human beings and better citizens of
-              our beloved country Afghanistan, would be ready to tackle the
-              problems that beset our country with leadership, ingenuity and the
-              highest level of moral and ethical values.
+            پس از بیش از 4 سال ساخت یک پایه محکم با کیفیت بالا
+               آموزش و پژوهش مهندسی و علوم کامپیوتر، در
+               مقطع کارشناسی، موسسه آموزش عالی بنوا (BIHE)
+               سفری را برای رسیدن به سطح بعدی برتری آغاز می کند.
+               هدف آن نه تنها تولید مهندسان و کامپیوتر با کلاس بالا است
+               دانشمندان اما متخصصان و عوامل تغییر. این عوامل از
+               تغییری جز این که انسان های بهتر و شهروندان بهتری باشیم
+               کشور عزیز ما افغانستان آماده مقابله با این موضوع خواهد بود
+               مشکلاتی که کشور ما را با رهبری، هوشمندی و
+               بالاترین سطح از ارزش های اخلاقی و اخلاقی.
             </p>
             <p>
-              I would like to welcome the students’ of 2017 intake to the BIHE
-              family. I am sure that the four years that they spend at this
-              institute will be professionally enriching and enjoyable and they
-              would remember these years throughout their life.
+            من مایلم به ورود دانشجویان سال 2017 به BIHE خوش آمد بگویم
+               خانواده. من مطمئن هستم که چهار سالی که آنها صرف این کار می کنند
+               موسسه از نظر حرفه ای غنی و لذت بخش خواهد بود و آنها
+               این سالها را در طول زندگی خود به یاد خواهند آورد.
             </p>
           </div>
           <!-- Our Services -->

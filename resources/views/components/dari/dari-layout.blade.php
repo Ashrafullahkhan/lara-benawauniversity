@@ -232,10 +232,10 @@
                         >
                       </li>
                       <li>
-                        <a href="fee-structure">ساختار فیس</a>
+                        <a href="dr-fee-structure">ساختار فیس</a>
                       </li>
                       <li>
-                        <a href="scholarships"
+                        <a href="dr-scholarships"
                           > برنامه های بورس تحصیلی و بازپرداخت </a
                         >
                       </li>

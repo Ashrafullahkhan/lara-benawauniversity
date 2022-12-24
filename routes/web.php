@@ -89,7 +89,7 @@ Route::get('/dr/computer-lab', function () {
 //>>>>>>> b308f93ccb418d86a3b22a54270303105c9494ee
 
 Route::get('/dr-engineering-lab', function () {
-    return view('/dari/engineering-lab');
+    return view('/dari/dr-engineering-lab');
 });
 Route::get('/dr-library', function () {
     return view('/dari/dr-library');
