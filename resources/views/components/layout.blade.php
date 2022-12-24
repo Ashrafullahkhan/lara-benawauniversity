@@ -34,22 +34,22 @@
     <![endif]-->
 
     <!-- All PLUGINS CSS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/assets.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/assets.css') }}">
 
     <!-- TYPOGRAPHY ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/typography.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/typography.css') }}">
 
     <!-- SHORTCODES ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/shortcodes/shortcodes.css') }}">
 
     <!-- STYLESHEETS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{ asset('assets/css/color/color-1.css') }}">
 
     <!-- REVOLUTION SLIDER CSS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/layers.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/settings.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/layers.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/settings.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/navigation.css') }}" />
     <!-- REVOLUTION SLIDER END -->
 </head>
 
@@ -77,7 +77,7 @@
                                 <li>
                                     <select class="header-lang-bx" name="languages"
                                         id="languages"onchange="location = this.value;">
-                                        <option data-icon="flag flag-uk" value="index.html">English</option>
+                                        <option data-icon="flag flag-uk" value="/">English</option>
                                         <option data-icon="flag flag-afg" value="/pashto">pashto</option>
                                         <option data-icon="flag flag-afg" value="/dr">Dari</option>
                                     </select>
@@ -93,7 +93,8 @@
                     <div class="container clearfix">
                         <!-- Header Logo ==== -->
                         <div class="menu-logo">
-                            <a href="/"><img src="assets/images/logo-white.png" alt="" /></a>
+                            <a href="/"><img src="{{ asset('assets/images/logo-white.png') }}"
+                                    alt="" /></a>
                         </div>
                         <!-- Mobile Nav Button ==== -->
                         <button class="navbar-toggler collapsed menuicon justify-content-end" type="button"
@@ -155,20 +156,20 @@
                                     <a href="javascript:;">Admission<i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="admission-info">Admission Information</a>
+                                            <a href="/admission-info">Admission Information</a>
                                         </li>
 
                                         <li>
                                             <a href="https://admission.benawa.edu.af/Result.php">Online Admission</a>
                                         </li>
                                         <li>
-                                            <a href="fee-structure">Fee Structure</a>
+                                            <a href="/fee-structure">Fee Structure</a>
                                         </li>
                                         <li>
-                                            <a href="scholarships">Scholarships & Refund Policy</a>
+                                            <a href="/scholarships">Scholarships & Refund Policy</a>
                                         </li>
                                         <li>
-                                            <a href="financial-assistant">Financial Asistance</a>
+                                            <a href="/financial-assistant">Financial Asistance</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -177,8 +178,8 @@
                                     <ul class="sub-menu">
                                         <li><a href="javascript:;">Programmes<i class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="Programme-CS">Computer Science</a></li>
-                                                <li><a href="Programme-EN">Engineering</a></li>
+                                                <li><a href="/Programme-CS">Computer Science</a></li>
+                                                <li><a href="/Programme-EN">Engineering</a></li>
                                             </ul>
                                         </li>
 
@@ -236,8 +237,9 @@
                                                     </a></li>
                                                 <li><a href="https://student.benawa.edu.af/Login.php">Student
                                                         Portal</a></li>
-                                                <li><a href="student-affairs">Student Affairs</a></li>
-                                                <li><a href="{{ url('files', ['pdf' => 'ExaminationSchedule.pdf']) }}">Examination
+                                                <li><a href="/student-affairs">Student Affairs</a></li>
+                                                <li><a
+                                                        href="{{ url('files', ['pdf' => 'ExaminationSchedule.pdf']) }}">Examination
                                                         Schedule
 
                                                     </a></li>
@@ -256,10 +258,10 @@
 
                                 <li><a href="javascript:;">Facilites<i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="computer-lab">Computer Lab</a></li>
-                                        <li><a href="engineering-lab">Engineering Lab</a></li>
-                                        <li><a href="Library">Library</a></li>
-                                        <li><a href="Cafeteria">Cafeteria</a></li>
+                                        <li><a href="/computer-lab">Computer Lab</a></li>
+                                        <li><a href="/engineering-lab">Engineering Lab</a></li>
+                                        <li><a href="/Library">Library</a></li>
+                                        <li><a href="/Cafeteria">Cafeteria</a></li>
 
                                     </ul>
                                 </li>
@@ -315,12 +317,12 @@
                                 <li class="nav-dashboard"><a href="javascript:;">About Us <i
                                             class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="why-benawa">Why BIHE?</a></li>
-                                        <li><a href="admin/add-listing">Vision, Mission and Objectives</a></li>
-                                        <li><a href="founder-of-benawa">Founder of BIHE</a></li>
-                                        <li><a href="chacelor-message">Chancellor's Message</a></li>
-                                        <li><a href="management-team">Management Team</a></li>
-                                        <li><a href="admin/teacher-profile">Our Students</a></li>
+                                        <li><a href="/why-benawa">Why BIHE?</a></li>
+                                        <li><a href="/admin/add-listing">Vision, Mission and Objectives</a></li>
+                                        <li><a href="/founder-of-benawa">Founder of BIHE</a></li>
+                                        <li><a href="/chacelor-message">Chancellor's Message</a></li>
+                                        <li><a href="/management-team">Management Team</a></li>
+                                        <li><a href="/admin/teacher-profile">Our Students</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-dashboard clearfix"><a href="/contact">Contact Us</a></li>
@@ -443,35 +445,43 @@
                                 <ul class="magnific-image">
                                     <li>
                                         <a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic1.jpg" alt="" /></a>
+                                                src="{{ asset('assets/images/gallery/pic1.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
                                         <a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic2.jpg" alt="" /></a>
+                                                src="{{ asset('assets/images/gallery/pic2.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
                                         <a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic3.jpg" alt="" /></a>
+                                                src="{{ asset('assets/images/gallery/pic3.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
                                         <a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic4.jpg" alt="" /></a>
+                                                src="{{ asset('assets/images/gallery/pic4.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
                                         <a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic5.jpg" alt="" /></a>
+                                                src="{{ asset('assets/images/gallery/pic5.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
                                         <a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic6.jpg" alt="" /></a>
+                                                src="{{ asset('assets/images/gallery/pic6.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
                                         <a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic7.jpg" alt="" /></a>
+                                                src="{{ asset('assets/images/gallery/pic7.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
                                         <a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic8.jpg" alt="" /></a>
+                                                src="{{ asset('assets/images/gallery/pic8.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                 </ul>
                             </div>
@@ -485,22 +495,25 @@
         <button class="back-to-top fa fa-chevron-up"></button>
     </div>
 
+    <script src="{{ asset('admin/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/waypoints-min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/counterup.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/masonry.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/filter.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/scroll/scrollbar.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/functions.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/chart/chart.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/admin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/switcher/switcher.js  ') }}"></script>
     <!-- External JavaScripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-    <script src="assets/vendors/magnific-popup/magnific-popup.js"></script>
-    <script src="assets/vendors/counter/waypoints-min.js"></script>
-    <script src="assets/vendors/counter/counterup.min.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.js"></script>
-    <script src="assets/vendors/masonry/masonry.js"></script>
-    <script src="assets/vendors/masonry/filter.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
-    <script src="assets/js/functions.js"></script>
-    <script src="assets/js/contact.js"></script>
-    <script src="assets/vendors/switcher/switcher.js"></script>
+
     <!-- Revolution JavaScripts Files -->
     <script src="assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>

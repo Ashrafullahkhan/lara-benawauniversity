@@ -177,8 +177,8 @@
                                     <ul class="sub-menu">
                                         <li><a href="javascript:;">Programmes<i class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="Programme-CS">Computer Science</a></li>
-                                                <li><a href="Programme-EN">Engineering</a></li>
+                                                <li><a href="programmes-CS">Computer Science</a></li>
+                                                <li><a href="programmes-EN">Engineering</a></li>
                                             </ul>
                                         </li>
 

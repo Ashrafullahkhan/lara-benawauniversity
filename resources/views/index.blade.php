@@ -659,13 +659,13 @@
                                     <div class="info-bx">
                                         <ul class="media-post">
                                             <li>
-                                                <a href="#"><i
+                                                <a href="/news_details/{{ $row->id }}"><i
                                                         class="fa fa-calendar"></i>{{ $row->created_at }}</a>
                                             </li>
 
                                         </ul>
                                         <h5 class="post-title">
-                                            <a href="blog-details.html">{{ $row->title }}</a>
+                                            <a href="/news_details/{{ $row->id }}">{{ $row->title }}</a>
                                         </h5>
                                         <p>
                                             {{ substr($row->body, 0, 100) }}
@@ -681,9 +681,6 @@
                                 </div>
                             </div>
                         @endforeach
-
-
-
                     </div>
                     <div class="text-center" style="margin-top:40px">
                         <a href="/list_of_news" class="btn">View All News</a>
@@ -715,7 +712,7 @@
                                     accumsan ipsum velit. Nam nec tellus a odio tincidunt
                                     mauris
                                 </p>
-                                <a href="#" class="btn">Career with us</a>
+                                <a href="/teacher" class="btn">See More</a>
                             </div>
                             <!-- teachers cont -->
                         </div>

@@ -3,10 +3,12 @@
 use App\Http\Controllers\AlumuniController;
 use App\Http\Controllers\EventsController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\SessionsController;
 use App\Http\Controllers\StaffsController;
 use App\Http\Controllers\TeachersController;
 use App\Models\Event;
 use App\Models\News;
+use App\Models\Staff;
 use App\Models\Teacher;
 use Illuminate\Support\Facades\Route;
 
@@ -36,7 +38,7 @@ Route::get('/dr/add-listing', function () {
 Route::get('/dr/admission-info', function () {
     return view('/dari/dr-admission-info');
 });
-Route::get('/dr/fee-structure', function () {
+Route::get('/dr-fee-structure', function () {
     return view('/dari/dr-fee-structure');
 });
 Route::get('/dr/scholarships', function () {
@@ -106,7 +108,9 @@ Route::get('/dr/cafeteria', function () {
 // pashto views
 
 Route::get('/pashto', function () {
-    return view('pashto/pa-index');
+    return view('pashto/pa-index', ['news' => News::all()->where('lang', 'pa'), 'events' => Event::all()->where('lang', 'pa')
+        , 'teachers' => Teacher::take(4)->get()->where('lang', 'pa'),
+    ]);
 });
 
 Route::get('/pa-admission-info', function () {
@@ -125,8 +129,8 @@ Route::get('/pa-financial', function () {
     return view('pashto/pa-financial-assistant');
 });
 
-Route::get('/pa-Programmes-CS', function () {
-    return view('pashto/pa-Programmes-CS');
+Route::get('/pa-programmes-CS', function () {
+    return view('pashto/pa-programmes-CS');
 });
 
 Route::get('/pa-programmes-EN', function () {
@@ -177,7 +181,8 @@ Route::get('/pa-management-team', function () {
 // >>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 //main views
 Route::get('/', function () {
-    return view('index', ['news' => News::all(), 'events' => Event::all(), 'teachers' => Teacher::take(4)->get(),
+    return view('index', ['news' => News::all()->where('lang', 'en'), 'events' => Event::all()->where('lang', 'en')
+        , 'teachers' => Teacher::take(4)->get()->where('lang', 'en'),
     ]);
 });
 
@@ -194,7 +199,20 @@ Route::get('/financial-assistant', function () {
     return view('financial-assistant');
 });
 Route::get('/teacher', function () {
-    return view('teacher', ['teacher' => Teacher::all()]);
+    return view('teacher', ['teacher' => Teacher::all()->where('lang', 'en')]);
+
+});
+Route::get('/pa_teachers', function () {
+    return view('pashto/pa-teacher', ['teacher' => Teacher::all()->where('lang', 'pa')]);
+
+});
+
+Route::get('/programmes-CS', function () {
+    return view('programmes-CS');
+});
+
+Route::get('/programmes-EN', function () {
+    return view('programmes-EN');
 });
 
 //students
@@ -246,8 +264,12 @@ Route::get('/chancellor-message', function () {
     return view('chancellor-message');
 });
 Route::get('/management-team', function () {
-    return view('management-team');
+    return view('management-team', ['staff' => Staff::all()->where('lang', 'en')]);
 });
+Route::get('/pa-management-team', function () {
+    return view('pashto/pa-management-team', ['staff' => Staff::all()->where('lang', 'pa')]);
+});
+
 Route::get('/cafeteria', function () {
     return view('cafeteria');
 });
@@ -317,6 +339,26 @@ Route::get('news_details/{news}', function (News $news) {
 
     return view('news_details', ['news' => $news, 'allnews' => News::take(4)->get()]);
 });
+Route::get('pa_news_details/{news}', function (News $news) {
+    $data = News::all();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+
+    return view('pashto/pa-news_details', ['news' => $news, 'allnews' => News::take(4)->get()]);
+});
+Route::get('pa_list_of_news', function () {
+    $data = News::latest();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+    return view('pashto/pa_list_of_news', ['data' => $data->paginate(5), 'news' => News::take(4)->get()]);
+});
+
 Route::get('list_of_news', function () {
     $data = News::latest();
 
@@ -349,6 +391,26 @@ Route::get('event_details/{event}', function (Event $event) {
 
     return view('event_details', ['event' => $event, 'allevents' => Event::take(4)->get()]);
 });
+Route::get('pa_event_details/{event}', function (Event $event) {
+    $data = Event::all();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+
+    return view('pashto/pa-event_details', ['event' => $event, 'allevents' => Event::take(4)->get()]);
+});
+
+Route::get('pa_list_of_events', function () {
+    $data = Event::latest();
+
+    if (request('search')) {
+        $data->where('title', 'like', '%' . request('search') . '%');
+
+    }
+    return view('pashto/pa_list_of_events', ['data' => $data->paginate(5), 'events' => Event::take(4)->get()]);
+});
 Route::get('list_of_events', function () {
     $data = Event::latest();
 
@@ -377,3 +439,10 @@ Route::delete('alumuni/delete/{alumuni}', [AlumuniController::class, "destroy"])
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');
 });
+
+// auth
+Route::get('/userlogin', function () {
+    return view('session/login');
+});
+
+Route::post('/login', [SessionsController::class, 'store'])->middleware('guest');

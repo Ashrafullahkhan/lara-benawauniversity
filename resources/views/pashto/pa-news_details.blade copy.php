@@ -115,7 +115,7 @@
 
 
     <!-- Header Top ==== -->
-    <x-layout>
+    <x-pashto.pashto-layout>
         <!-- header END ==== -->
         <!-- Content -->
         <div class="page-content bg-white">
@@ -159,29 +159,37 @@
 
                                     <div style="text-align:center">
                                         <span class="dot" onclick="currentSlide(1)"></span>
-                                        <span class="dot" onclick="currentSlide(2)"></span>
-                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        @if ($news->pic2)
+                                            <span class="dot" onclick="currentSlide(2)"></span>
+                                        @endif
+                                        @if ($news->pic3)
+                                            <span class="dot" onclick="currentSlide(3)"></span>
+                                        @endif
                                     </div>
                                     <div class="info-bx">
                                         <ul class="media-post">
                                             <li><a href="#"><i
                                                         class="fa fa-calendar"></i>{{ $news->created_at }}</a></li>
                                         </ul>
-                                        <h5 class="post-title"><a href="#">{{ $news->title }}</a></h5>
-                                        <p>{{ $news->body }}</p>
+                                        <h5 class="post-title text-right"><a class="pashto-font"
+                                                href="#">{{ $news->title }}</a></h5>
+                                        <p class="pashto-font text-right">{{ $news->body }}</p>
                                         <div class="ttr-divider bg-gray"><i class="icon-dot c-square"></i></div>
 
                                         <div class="ttr-divider bg-gray"><i class="icon-dot c-square"></i></div>
-                                        <h6>SHARE </h6>
-                                        <ul class="list-inline contact-social-bx">
-                                            <li><a href="#" class="btn outline radius-xl"><i
-                                                        class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#" class="btn outline radius-xl"><i
-                                                        class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#" class="btn outline radius-xl"><i
-                                                        class="fa fa-linkedin"></i></a></li>
-                                            <li><a href="#" class="btn outline radius-xl"><i
-                                                        class="fa fa-google-plus"></i></a></li>
+                                        <h6 class="pashto-font">شریک کړئ</h6>
+                                        <ul class="list-inline contact-social-bx ">
+                                            <li><a href="#" style="padding-top:12px"
+                                                    class="btn outline radius-xl"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li><a href="#" style="padding-top:12px"
+                                                    class="btn outline radius-xl"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#" style="padding-top:12px"
+                                                    class="btn outline radius-xl"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                            <li><a href="#"style="padding-top:12px"
+                                                    class="btn outline radius-xl"><i class="fa fa-google-plus"></i></a>
+                                            </li>
                                         </ul>
                                         <div class="ttr-divider bg-gray"><i class="icon-dot c-square"></i></div>
                                     </div>
@@ -195,7 +203,7 @@
                             <div class="col-lg-4 col-xl-4">
                                 <aside class="side-bar sticky-top">
                                     <div class="widget">
-                                        <h6 class="widget-title">Search</h6>
+                                        <h6 class="widget-title pashto-font text-right">لټون</h6>
                                         <div class="search-bx style-1">
                                             <form role="search" method="GET" action="#">
                                                 <div class="input-group">
@@ -210,7 +218,7 @@
                                         </div>
                                     </div>
                                     <div class="widget recent-posts-entry">
-                                        <h6 class="widget-title">Recent Posts</h6>
+                                        <h6 class="widget-title pashto-font text-right">وروستي پوسټونه</h6>
                                         <div class="widget-post-bx">
                                             @foreach ($allnews as $row)
                                                 <div class="widget-post clearfix">
@@ -219,7 +227,7 @@
                                                             height="143" alt=""> </div>
                                                     <div class="ttr-post-info">
                                                         <div class="ttr-post-header">
-                                                            <h6 class="post-title"><a
+                                                            <h6 class="post-title text-right"><a class="pashto-font"
                                                                     href="blog-details.html">{{ $row->title }}</a>
                                                             </h6>
                                                         </div>
@@ -236,7 +244,8 @@
                                     </div>
 
                                     <div class="widget widget_gallery gallery-grid-4">
-                                        <h6 class="widget-title">Our Gallery</h6>
+                                        <h6 class="widget-title pashto-font text-right">زموږ ګالری
+                                        </h6>
                                         <ul>
                                             <li>
                                                 <div><a href="#"><img
@@ -290,7 +299,7 @@
         </div>
         <!-- Content END-->
         <!-- Footer ==== -->
-    </x-layout>
+    </x-pashto.pashto-layout>
     <!-- Footer END ==== -->
     <!-- scroll top button -->
 

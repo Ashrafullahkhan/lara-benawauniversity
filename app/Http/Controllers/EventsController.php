@@ -103,7 +103,6 @@ class EventsController extends Controller
         File::delete(public_path('storage/' . $event->main_pic));
         File::delete(public_path('storage/' . $event->pic2));
         File::delete(public_path('storage/' . $event->pic3));
-
         $event->delete();
         return back()->with('success', "post delete successfully");
     }

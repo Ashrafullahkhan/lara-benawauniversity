@@ -18,8 +18,6 @@
     <meta property="og:image" content="" />
     <meta name="format-detection" content="telephone=no" />
 
-    <!-- font ============================================= -->
-
     <!-- FAVICONS ICON ============================================= -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
@@ -36,22 +34,22 @@
     <![endif]-->
 
     <!-- All PLUGINS CSS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/assets.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/assets.css') }}">
 
     <!-- TYPOGRAPHY ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/typography.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/typography.css') }}">
 
     <!-- SHORTCODES ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/shortcodes/shortcodes.css') }}">
 
     <!-- STYLESHEETS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{ asset('assets/css/color/color-1.css') }}">
 
     <!-- REVOLUTION SLIDER CSS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/layers.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/settings.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/layers.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/settings.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/navigation.css') }}" />
     <!-- REVOLUTION SLIDER END -->
 </head>
 
@@ -66,7 +64,8 @@
                         <div class="topbar-left">
                             <ul>
                                 <li>
-                                    <a href="faq-1.html"><i class="fa fa-question-circle"></i>پوښتنه وکړي</a>
+                                    <a href="faq-1.html" class="pashto-font"><i class="fa fa-question-circle"></i>پوښتنه
+                                        وکړي</a>
                                 </li>
                                 <li>
                                     <a href="javascript:;"><i class="fa fa-envelope-o"></i>info@benawa.edu.af
@@ -77,11 +76,13 @@
                         <div class="topbar-right">
                             <ul>
                                 <li>
-                                    <select class="header-lang-bx" name="languages"
+                                    <select class="header-lang-bx " name="languages"
                                         id="languages"onchange="location = this.value;">
-                                        <option data-icon="flag flag-uk" value="index.html">انګلیسی</option>
-                                        <option data-icon="flag flag-afg" value="./pashto/index.html">پښتو</option>
-                                        <option data-icon="flag flag-afg" value="#">دری</option>
+                                        <option data-icon="flag flag-afg" value="/pashto">Pashto
+                                        </option>
+                                        <option data-icon="flag flag-uk" value="/">English</option>
+
+                                        <option data-icon="flag flag-afg" value="/dari">Dari</option>
                                     </select>
                                 </li>
 
@@ -95,7 +96,8 @@
                     <div class="container clearfix">
                         <!-- Header Logo ==== -->
                         <div class="menu-logo">
-                            <a href="index.html"><img src="assets/images/logo-white.png" alt="" /></a>
+                            <a href="index.html"><img src="{{ asset('assets/images/logo-white.png') }}"
+                                    alt="" /></a>
                         </div>
                         <!-- Mobile Nav Button ==== -->
                         <button class="navbar-toggler collapsed menuicon justify-content-end" type="button"
@@ -154,192 +156,186 @@
                   </li> -->
 
                                 <li>
-                                    <a href="javascript:;">داخله<i class="fa fa-chevron-down"></i></a>
+                                    <a href="javascript:;"
+                                        style="font-family:'Noto Naskh Arabic',serif ;
+                      ">داخله<i
+                                            class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="/pa-admission-info">د داخیلې معلومات</a>
+                                            <a href="/pa-admission-info"
+                                                style="font-family:'Noto Naskh Arabic',serif;" class="text-right">د
+                                                داخیلې
+                                                معلومات</a>
                                         </li>
 
                                         <li>
-                                            <a href="https://admission.benawa.edu.af/Result.php">آنلاین داخله </a>
+                                            <a href="https://admission.benawa.edu.af/Result.php"
+                                                style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">آنلاین
+                                                داخله </a>
                                         </li>
                                         <li>
-                                            <a href="fee-structure">سیبسیبسیب</a>
+                                            <a href="fee-structure" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">سیبسیبسیب</a>
                                         </li>
                                         <li>
-                                            <a href="scholarships">بور سونه او بیرته ستنیدو پالیسی</a>
+                                            <a href="scholarships" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">بور
+                                                سونه او بیرته ستنیدو پالیسی</a>
                                         </li>
                                         <li>
-                                            <a href="financial-assistant">مالی مرسته</a>
+                                            <a href="financial-assistant"
+                                                style="font-family:'Noto Naskh Arabic',serif;" class="text-right">مالی
+                                                مرسته</a>
                                         </li>
                                     </ul>
                                 </li>
 
-                                <li><a href="javascript:;"> علمی <i class="fa fa-chevron-down"></i></a>
+                                <li><a href="javascript:;" style="font-family:'Noto Naskh Arabic',serif;"
+                                        class="text-right"> علمی <i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="javascript:;">پروګرامونه<i class="fa fa-angle-right"></i></a>
+                                        <li><a href="javascript:;"
+                                                style="font-family:'Noto Naskh Arabic',serif; margin-right:17px"class="text-right">پروګرامونه<i
+                                                    class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="Programme-CS"> کمپیو تر ساینس</a></li>
-                                                <li><a href="Programme-EN">انجینری</a></li>
+                                                <li><a href="Programme-CS"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right"> کمپیوتر
+                                                        ساینس</a></li>
+                                                <li><a href="Programme-EN"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">انجینری</a></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="javascript:;">پوحنځی</a>
-                                            <!--	<ul class="sub-menu">
-        <li><a href="event.html">Event</a></li>
-        <li><a href="events-details.html">Events Details</a></li>
-       </ul>
-       -->
+                                        <li><a href="javascript:;"
+                                                style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
+                                                class="text-right">پوحنځی</a>
                                         </li>
-                                        <li><a href="javascript:;">پروسیجر او پالیسی<i
+                                        <li><a href="javascript:;"
+                                                style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
+                                                class="text-right">پروسیجر او پالیسی<i
                                                     class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="faq-1.html">داکاډمیک کارمندانواړتیا پالیسی</a></li>
-                                                <li><a href="faq-2.html">د بینوا د تحقیقاتو پالیسی</a></li>
-                                                <li><a href="faq-2.html">درترجمی او تالیف پالیسی</a></li>
-                                                <li><a href="faq-2.html">Conflicts of Intrest in Research Policy</a>
+                                                <li><a href="faq-1.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">داکاډمیک
+                                                        کارمندانواړتیا پالیسی</a></li>
+                                                <li><a href="faq-2.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">د بینوا د
+                                                        تحقیقاتو پالیسی</a></li>
+                                                <li><a href="faq-2.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">درترجمی او تالیف
+                                                        پالیسی</a></li>
+                                                <li><a href="faq-2.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">Conflicts of
+                                                        Intrest in Research Policy</a>
                                                 </li>
-                                                <li><a href="faq-2.html">د کارمندانو د شکایاتو پالیسی</a></li>
-                                                <li><a href="faq-2.html">په څیړنه کی د اخلاقو پالیسی</a></li>
-                                                <li><a href="faq-2.html">د اخلاقو پالیسی</a></li>
+                                                <li><a href="faq-2.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">د کارمندانو د
+                                                        شکایاتو پالیسی</a></li>
+                                                <li><a href="faq-2.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">په څیړنه کی د
+                                                        اخلاقو پالیسی</a></li>
+                                                <li><a href="faq-2.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">د اخلاقو
+                                                        پالیسی</a></li>
                                             </ul>
                                         </li>
                                     </ul>
-                                    <!-- <li class="add-mega-menu">
-                    <a href="javascript:;"
-                      >Our Courses <i class="fa fa-chevron-down"></i
-                    ></a>
-                    <ul class="sub-menu add-menu">
-                      <li class="add-menu-left">
-                        <h5 class="menu-adv-title">Our Courses</h5>
-                        <ul>
-                          <li><a href="courses.html">Courses </a></li>
-                          <li>
-                            <a href="courses-details.html">Courses Details</a>
-                          </li>
-                          <li><a href="profile.html">Instructor Profile</a></li>
-                          <li><a href="event.html">Upcoming Event</a></li>
-                          <li><a href="membership.html">Membership</a></li>
-                        </ul>
-                      </li>
-                      <li class="add-menu-right">
-                        <img src="assets/images/adv/adv.jpg" alt="" />
-                      </li>
-                    </ul>
-                  </li> -->
-                                <li class="add-mega-menu"><a href="javascript:;">زده کونکی <i
+
+
+                                <li class="add-mega-menu"><a href="javascript:;"
+                                        style="font-family:'Noto Naskh Arabic',serif;">زده کونکی <i
                                             class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu add-menu">
                                         <li class="add-menu-left">
-                                            <!--	<h5 class="menu-adv-title">Our Courses</h5> -->
+
                                             <ul>
-                                                <li><a href="courses.html">مهال ویش </a></li>
-                                                <li><a href="https://student.benawa.edu.af/Login.php">د زده کونکو
+                                                <li><a href="courses.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif; margin-right:17px"
+                                                        class="text-right">مهال ویش </a>
+                                                </li>
+                                                <li><a href="https://student.benawa.edu.af/Login.php"
+                                                        style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
+                                                        class="text-right">د زده کونکو
                                                         فورتال</a></li>
-                                                <li><a href="student-affairs">د زده کونکو چارو</a></li>
-                                                <li><a href="event.html">د ازموینی مهال ویش</a></li>
-                                                <li><a href="membership.html">علمی کتاب</a></li>
-                                                <li><a href="membership.html">اکاډمیک رول او مقررات</a></li>
-                                                <li><a href="membership.html">د زده کونکی سند تصدیق</a></li>
+                                                <li><a href="student-affairs"
+                                                        style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
+                                                        class="text-right">د زده کونکو
+                                                        چارو</a></li>
+                                                <li><a href="event.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
+                                                        class="text-right">د ازموینی مهال
+                                                        ویش</a></li>
+                                                <li><a href="membership.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
+                                                        class="text-right">علمی کتاب</a>
+                                                </li>
+                                                <li><a href="membership.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
+                                                        class="text-right">اکاډمیک رول او
+                                                        مقررات</a></li>
+                                                <li><a href="membership.html"
+                                                        style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
+                                                        class="text-right">د زده کونکی سند
+                                                        تصدیق</a></li>
                                             </ul>
                                         </li>
                                     </ul>
-                                    <!-- <li>
-                    <a href="javascript:;"
-                      >Blog <i class="fa fa-chevron-down"></i
-                    ></a>
-                    <ul class="sub-menu">
-                      <li><a href="blog-classic-grid.html">Blog Classic</a></li>
-                      <li>
-                        <a href="blog-classic-sidebar.html"
-                          >Blog Classic Sidebar</a
-                        >
-                      </li>
-                      <li>
-                        <a href="blog-list-sidebar.html">Blog List Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="blog-standard-sidebar.html"
-                          >Blog Standard Sidebar</a
-                        >
-                      </li>
-                      <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                  </li> -->
-                                <li><a href="javascript:;">اسانتیاوی<i class="fa fa-chevron-down"></i></a>
+
+                                <li><a href="javascript:;" style="font-family:'Noto Naskh Arabic',serif;"
+                                        class="text-right">اسانتیاوی<i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="computer-lab">د کمپیوټر لابراتوار</a></li>
-                                        <li><a href="engineering-lab"> د انجینری لابراتوار</a></li>
-                                        <li><a href="Library">کتاب تون</a></li>
-                                        <li><a href="Cafeteria">Cafeteria</a></li>
+                                        <li><a href="computer-lab" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">د
+                                                کمپیوټر لابراتوار</a></li>
+                                        <li><a href="engineering-lab" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">
+                                                د انجینری لابراتوار</a></li>
+                                        <li><a href="Library" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">کتاب
+                                                تون</a></li>
+                                        <li><a href="Cafeteria" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">Cafeteria</a></li>
 
                                     </ul>
                                 </li>
-                                <!-- <li class="nav-dashboard">
-                    <a href="javascript:;"
-                      >Dashboard <i class="fa fa-chevron-down"></i
-                    ></a>
-                    <ul class="sub-menu">
-                      <li><a href="admin/index.html">Dashboard</a></li>
-                      <li><a href="admin/add-listing.html">Add Listing</a></li>
-                      <li><a href="admin/bookmark.html">Bookmark</a></li>
-                      <li><a href="admin/courses.html">Courses</a></li>
-                      <li><a href="admin/review.html">Review</a></li>
-                      <li>
-                        <a href="admin/teacher-profile.html">Teacher Profile</a>
-                      </li>
-                      <li>
-                        <a href="admin/user-profile.html">User Profile</a>
-                      </li>
-                      <li>
-                        <a href="javascript:;"
-                          >Calendar<i class="fa fa-angle-right"></i
-                        ></a>
-                        <ul class="sub-menu">
-                          <li>
-                            <a href="admin/basic-calendar.html"
-                              >Basic Calendar</a
-                            >
-                          </li>
-                          <li>
-                            <a href="admin/list-view-calendar.html"
-                              >List View Calendar</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="javascript:;"
-                          >Mailbox<i class="fa fa-angle-right"></i
-                        ></a>
-                        <ul class="sub-menu">
-                          <li><a href="admin/mailbox.html">Mailbox</a></li>
-                          <li>
-                            <a href="admin/mailbox-compose.html">Compose</a>
-                          </li>
-                          <li>
-                            <a href="admin/mailbox-read.html">Mail Read</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> -->
-                                <li class="nav-dashboard"><a href="javascript:;"> زموږ په اړه <i
-                                            class="fa fa-chevron-down"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="why-benawa">ولی بینوا؟</a></li>
-                                        <li><a href="admin/add-listing">لید ،تحول او موخی</a></li>
-                                        <li><a href="founder-of-benawa">د بینوا بنسټ ایښودنکی</a></li>
-                                        <li><a href="chacelor-message">د ریس پیغام</a></li>
-                                        <li><a href="management-team">اداری ټیم</a></li>
-                                        <li><a href="admin/teacher-profile">زموږ زده کونکی</a></li>
-                                    </ul>
 
-                                    <div class="nav-social-link">
-                                        <a href="javascript:;"><i class="fa fa-facebook"></i></a>
-                                        <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-                                        <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-                                    </div>
+                                <li class="nav-dashboard"><a href="javascript:;"
+                                        style="font-family:'Noto Naskh Arabic',serif;" class="text-right"> زموږ په اړه
+                                        <i class="fa fa-chevron-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="why-benawa" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">ولی
+                                                بینوا؟</a></li>
+                                        <li><a href="admin/add-listing" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">لید ،تحول او موخی</a>
+                                        </li>SDFFFFFFFFFXVvvvvvvvvvvvvvvvvv abic',serif;"
+                                        class="text-right">د بینوا بنس
+
+                                        ایښودنکی</a>
+                                </li>
+                                <li><a href="chacelor-message" style="font-family:'Noto Naskh Arabic',serif;"
+                                        class="text-right">د ریس پیغام</a></li>
+                                <li><a href="/pa-management-team" style="font-family:'Noto Naskh Arabic',serif;"
+                                        class="text-right">اداری ټیم</a></li>
+                                <li><a href="admin/teacher-profile" style="font-family:'Noto Naskh Arabic',serif;"
+                                        class="text-right">زموږ
+                                        زده کونکی</a></li>
+                            </ul>
+
+                            <div class="nav-social-link">
+                                <a href="javascript:;"><i class="fa fa-facebook"></i></a>
+                                <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+                                <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+                            </div>
                         </div>
                         <!-- Navigation Menu END ==== -->
                     </div>
@@ -492,23 +488,25 @@
         <!-- Footer END ==== -->
         <button class="back-to-top fa fa-chevron-up"></button>
     </div>
-
+    <script src="{{ asset('admin/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/waypoints-min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/counterup.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/masonry.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/filter.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/scroll/scrollbar.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/functions.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/chart/chart.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/admin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/switcher/switcher.js  ') }}"></script>
     <!-- External JavaScripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-    <script src="assets/vendors/magnific-popup/magnific-popup.js"></script>
-    <script src="assets/vendors/counter/waypoints-min.js"></script>
-    <script src="assets/vendors/counter/counterup.min.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.js"></script>
-    <script src="assets/vendors/masonry/masonry.js"></script>
-    <script src="assets/vendors/masonry/filter.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
-    <script src="assets/js/functions.js"></script>
-    <script src="assets/js/contact.js"></script>
-    <script src="assets/vendors/switcher/switcher.js"></script>
+
     <!-- Revolution JavaScripts Files -->
     <script src="assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>

@@ -2221,6 +2221,13 @@ button.back-to-top {
   padding-left: 10px;
   border-left: 5px solid var(--primary);
 }
+.heading-bx.right_line .title-head {
+  margin-bottom: 10px;
+  margin-top: 0;
+  line-height: 32px;
+  padding-right: 10px;
+  border-right: 5px solid var(--primary);
+}
 .heading-bx.left p {
   max-width: 500px;
   margin-bottom: 0;
@@ -2765,6 +2772,16 @@ button.back-to-top {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   font-size: 14px;
+ 
+  align-items: center;
+}
+.pashto-course-features li {
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  font-size: 14px;
+ 
+justify-content: right;
   align-items: center;
 }
 .course-features li i {
