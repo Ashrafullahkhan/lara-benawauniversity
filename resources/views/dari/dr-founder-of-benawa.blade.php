@@ -8,7 +8,7 @@
           <div class="container">
             <div class="page-banner-entry">
               <h1 class="text-white">
-                Founder of Benawa Institute of higher studies
+              موسس موسسه تحصیلات عالی بناوا
               </h1>
             </div>
           </div>
@@ -27,9 +27,9 @@
               </div>
               <div class="cont">
                 <a href="teachers-singel.html"
-                  ><h6>Haji. Muhammad Nadir Noorzai</h6></a
+                  ><h6>حاجی. محمد نادر نورزی</h6></a
                 >
-                <span>Founder of BIHE</span>
+                <span>موسس BIHE</span>
               </div>
             </div>
 
@@ -37,14 +37,14 @@
           </div>
           <div class="text-center">
             <p>
-              Benawa Institute of Higher Education (BIHE) was established by
-              Chairman Muhammad Nadir Noorzai son of Haji Abdul Wahid in 2013.
+            موسسه آموزش عالی بنوا (BIHE) توسط
+               رئیس محمد نادر نورزی فرزند حاجی عبدالوحید در سال 2013.
             </p>
             <p>
-              A befitting acknowledgement to him and his family and a valuable
-              gift to nation, the Benawa Institute of Higher Education upholds
-              the noble mission of service above self in furthering the cause of
-              higher education.
+            قدردانی شایسته و ارزشمند برای او و خانواده اش
+               مؤسسه آموزش عالی Benawa از هدیه به ملت حمایت می کند
+               ماموریت نجیب خدمت بالاتر از خود در پیشبرد هدف
+               آموزش عالی
             </p>
           </div>
           <!-- Our Services -->

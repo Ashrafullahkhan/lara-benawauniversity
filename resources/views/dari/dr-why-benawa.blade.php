@@ -46,7 +46,7 @@
                           /></a>
                         </div>
                         <div class="icon-content">
-                          <h5 class="ttr-tilte">Our Philosophy</h5>
+                          <h5 class="ttr-tilte">فلسفه ما</h5>
                           <p>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing.
                           </p>
@@ -61,7 +61,7 @@
                           /></a>
                         </div>
                         <div class="icon-content">
-                          <h5 class="ttr-tilte">Kingster's Principle</h5>
+                          <h5 class="ttr-tilte">اصل کینگستر</h5>
                           <p>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing.
                           </p>
@@ -91,7 +91,7 @@
                           /></a>
                         </div>
                         <div class="icon-content">
-                          <h5 class="ttr-tilte">Our Philosophy</h5>
+                          <h5 class="ttr-tilte">فلسفه ما</h5>
                           <p>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing.
                           </p>
@@ -110,12 +110,12 @@
               <div class="row">
                 <div class="col-md-12 heading-bx text-center">
                   <h2 class="title-head text-uppercase m-b0">
-                    Why Choose <span> Our Institution</span>
+                  چرا موسسه ما را انتخاب کنید</span>
                   </h2>
                   <p>
-                    High Quality Technical Education: Electrical Engineering and
-                    Computer Science Education at Bachelors Level with qualified
-                    and experienced Faculty
+                  آموزش فنی با کیفیت بالا: مهندسی برق و
+                     آموزش علوم کامپیوتر در سطح لیسانس با واجد شرایط
+                     و دانشکده باتجربه
                   </p>
                 </div>
               </div>
@@ -129,8 +129,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-bank text-primary"></i>
                       </div>
-                      <h4><a href="#">Computer Lab</a></h4>
-                      <a href="#" class="btn radius-xl">View More</a>
+                      <h4><a href="#">لیب کامپیوتر</a></h4>
+                      <a href="#" class="btn radius-xl">بیشتر ببینید</a>
                     </div>
                   </div>
                 </div>
@@ -143,8 +143,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-book text-primary"></i>
                       </div>
-                      <h4><a href="#">Engineering Lab</a></h4>
-                      <a href="#" class="btn radius-xl">View More</a>
+                      <h4><a href="#">آزمایشی مهندسی</a></h4>
+                      <a href="#" class="btn radius-xl">بیشتر ببینید</a>
                     </div>
                   </div>
                 </div>
@@ -157,8 +157,8 @@
                       <div class="feature-box-sm radius bg-white">
                         <i class="fa fa-file-text-o text-primary"></i>
                       </div>
-                      <h4><a href="#">Library</a></h4>
-                      <a href="#" class="btn radius-xl">View More</a>
+                      <h4><a href="#">کتابخانه</a></h4>
+                      <a href="#" class="btn radius-xl">بیشتر ببینید</a>
                     </div>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
                       <div class="text-primary">
                         <span class="counter">5400</span><span>+</span>
                       </div>
-                      <span class="counter-text">Students</span>
+                      <span class="counter-text">شاگردان</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -184,7 +184,7 @@
                       <div class="text-black">
                         <span class="counter">2500</span><span>+</span>
                       </div>
-                      <span class="counter-text">Gradutes</span>
+                      <span class="counter-text">فارغ التحصیلان</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -192,7 +192,7 @@
                       <div class="text-primary">
                         <span class="counter">500</span><span>+</span>
                       </div>
-                      <span class="counter-text">Teachers</span>
+                      <span class="counter-text">استادان</span>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -200,7 +200,7 @@
                       <div class="text-black">
                         <span class="counter">140</span><span>+</span>
                       </div>
-                      <span class="counter-text">Staff</span>
+                      <span class="counter-text">کارکنان</span>
                     </div>
                   </div>
                 </div>
@@ -213,32 +213,32 @@
             <div class="container">
               <div class="row align-items-center d-flex">
                 <div class="col-lg-5 col-md-12 left heading-bx">
-                  <h2 class="m-b10 title-head">Our Story</h2>
+                  <h2 class="m-b10 title-head">داستان ما</h2>
 
                   <p>
-                    Benawa Institute of Higher Education (BIHE) remains the hub
-                    of Engineering and Computer Sciences Education in Kandahar,
-                    ever since its inception in 2013. Offering a truly
-                    transformative and evolved learning experience, it is an
-                    institution that truly redefines higher education in the
-                    country and its nearby regions.<br /><br />
-                    After 4 years of proven excellence, Benawa institute is now
-                    embarking on the journey to reach the next level of
-                    excellence. Some key features of BIHE are highlighted
-                    below:<br /><br />
-                    ⦁ High Quality Technical Education: Electrical Engineering
-                    and Computer Science Education at Bachelors Level with
-                    qualified and experienced Faculty <br /><br />⦁ Benawa
-                    Institute is proud of its faculty who are well qualified and
-                    experienced in their relevant fields. They play a very
-                    important role in the life of a student as teachers,
-                    mentors, counselors and advisors.<br /><br />
-                    ⦁ These dedicated teachers involve students in decision
-                    making at all levels with respect to academic, extra and
-                    co-curricular activities, help them in their projects and
-                    groom them to pursue their academic journey smoothly.
+                  مؤسسه آموزش عالی بنوا (BIHE) همچنان مرکز آن است
+                     آموزش مهندسی و علوم کامپیوتر در قندهار،
+                     از زمان شروع آن در سال 2013. ارائه یک واقعا
+                     تجربه یادگیری تحول آفرین و تکامل یافته است
+                     موسسه ای که واقعاً آموزش عالی را دوباره تعریف می کند
+                     کشور و مناطق مجاور آن<br /><br />
+                     پس از 4 سال برتری اثبات شده، موسسه بناوا اکنون است
+                     شروع به سفر برای رسیدن به سطح بعدی
+                     تعالی برخی از ویژگی های کلیدی BIHE برجسته شده است
+                     زیر:<br /><br />
+                     ⦁ آموزش فنی با کیفیت بالا: مهندسی برق
+                     و آموزش علوم کامپیوتر در مقطع کارشناسی با
+                     هیئت علمی واجد شرایط و با تجربه<br /><br />⦁ بنوا
+                     مؤسسه به اساتیدی که واجد شرایط هستند افتخار می کند
+                     با تجربه در زمینه های مربوطه خود خیلی بازی میکنن
+                     نقش مهمی در زندگی یک دانش آموز به عنوان معلم،
+                     مربیان، مشاوران و مشاوران.<br /><br />
+                     ⦁ این معلمان فداکار دانش آموزان را در تصمیم گیری مشارکت می دهند
+                     ساخت در تمامی سطوح با توجه به تحصیلی، فوق العاده و
+                     فعالیت های مشترک درسی، به آنها در پروژه هایشان کمک کند و
+                     آنها را آماده کنید تا مسیر تحصیلی خود را به آرامی دنبال کنند.
                   </p>
-                  <a href="#" class="btn">Read More</a>
+                  <a href="#" class="btn">ادامه مطلب</a>
                 </div>
                 <div class="col-lg-7 col-md-12 heading-bx p-lr">
                   <div class="video-bx">
@@ -260,11 +260,11 @@
               <div class="row">
                 <div class="col-md-12 heading-bx left">
                   <h2 class="title-head text-uppercase">
-                    what people <span>say</span>
+                  آنچه مردم می گویند</span>
                   </h2>
                   <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page
+                  این یک واقعیت ثابت است که یک خواننده خواهد بود
+                     حواس پرتی از محتوای قابل خواندن یک صفحه
                   </p>
                 </div>
               </div>

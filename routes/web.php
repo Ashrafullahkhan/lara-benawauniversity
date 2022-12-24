@@ -30,33 +30,33 @@ Route::get('/dr', function () {
 });
 
 //dari admin ''''''''''''
-Route::get('/dr/add-listing', function () {
+Route::get('/dr-add-listing', function () {
     return view('/dari/admin/dr-add-listing');
 });
 
 //dari in fo-------------
-Route::get('/dr/admission-info', function () {
+Route::get('/dr-admission-info', function () {
     return view('/dari/dr-admission-info');
 });
 Route::get('/dr-fee-structure', function () {
     return view('/dari/dr-fee-structure');
 });
-Route::get('/dr/scholarships', function () {
+Route::get('/dr-scholarships', function () {
     return view('/dari/dr-scholarships');
 });
-Route::get('/dr/financial-assistant', function () {
+Route::get('/dr-financial-assistant', function () {
     return view('/dari/dr-financial-assistant');
 });
-Route::get('/dr/teacher', function () {
+Route::get('/dr-teacher', function () {
     return view('/dari/dr-teacher');
 });
 
 // Academic ------ programmes
 
-Route::get('/dr/Programme-CS', function () {
+Route::get('/dr-Programme-CS', function () {
     return view('/dari/dr-programmes-CS');
 });
-Route::get('/dr/dr-Programme-EN', function () {
+Route::get('/dr-Programme-EN', function () {
     return view('/dari/dr-programmes-EN');
 });
 Route::get('/dari/dr-policies/Ethics_policy.pdf', [PdfController::class, "index"]);
@@ -73,36 +73,59 @@ Route::get('/dr/financial-assistant', function () {
 
 //facilities
 
+//<<<<<<< HEAD
+
+
+ Route::get('/dr-computer-lab', function () {
+    return view('/dari/dr-computer-lab');
+ });
+// =======
+// Route::get('/computer-lab', function () {
+//     return view('computer-lab');
+// >>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
+// });
+//=======
 Route::get('/dr/computer-lab', function () {
     return view('/dari/dr-computer-lab');
 });
+//>>>>>>> b308f93ccb418d86a3b22a54270303105c9494ee
 
-Route::get('/dr/engineering-lab', function () {
-    return view('/dari/engineering-lab');
+Route::get('/dr-engineering-lab', function () {
+    return view('/dari/dr-engineering-lab');
 });
-Route::get('/dr/library', function () {
+Route::get('/dr-library', function () {
     return view('/dari/dr-library');
 });
-Route::get('/dr/cafeteria', function () {
+Route::get('/dr-cafeteria', function () {
     return view('/dari/dr-cafeteria');
 });
+//<<<<<<< HEAD
+Route::get('/dr-student-affairs', function () {
+    return view('/dari/dr-student-affairs');
+});
+
+//=======
+//>>>>>>> b308f93ccb418d86a3b22a54270303105c9494ee
 
 // about us
 
-Route::get('/dr/why-benawa', function () {
+Route::get('/dr-why-benawa', function () {
     return view('/dari/dr-why-benawa');
 });
-Route::get('/dr/founder-of-benawa', function () {
+Route::get('/dr-founder-of-benawa', function () {
     return view('/dari/dr-founder-of-benawa');
 });
-Route::get('/dr/chancellor-message', function () {
+Route::get('/dr-chancellor-message', function () {
     return view('/dari/dr-chancellor-message');
 });
-Route::get('/dr/management-team', function () {
+Route::get('/dr-management-team', function () {
     return view('/dari/dr-management-team');
 });
-Route::get('/dr/cafeteria', function () {
-    return view('/dari/cafeteria');
+Route::get('/dr-cafeteria', function () {
+    return view('/dari/dr-cafeteria');
+});
+Route::get('/dr-chancellor-message', function () {
+    return view('/dari/dr-chancellor-message');
 });
 
 // pashto views
@@ -425,16 +448,7 @@ Route::get('list_of_events', function () {
 
 // admin/Alumuni routes
 
-Route::get('/admin/alumuni', [AlumuniController::class, "index"]);
-Route::post('admin/alumuni/insert_data', [AlumuniController::class, "insert_data"]);
-Route::get('/admin/add-alumuni', function () {
-    return view('admin/alumuni/add-alumuni');
-});
-Route::get('/admin/alumuni/{alumuni}', [AlumuniController::class, "update"]);
-Route::patch('alumuni/update/{id}', [AlumuniController::class, "edit"]);
-Route::delete('alumuni/delete/{alumuni}', [AlumuniController::class, "destroy"]);
 
-// ENDS OF admin/Alumuni routes
 
 Route::get('/teacher-profile', function () {
     return view('admin/teacher-profile');

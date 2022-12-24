@@ -52,7 +52,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Kingster's Principle</h5>
+                      <h5 class="ttr-tilte">اصل کینگستر</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -84,7 +84,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Our Philosophy</h5>
+                      <h5 class="ttr-tilte">فلسفه ما</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -106,34 +106,32 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >Student passed higher secondary school with a minimum
-                        of 60 percentage.
+                        >
                         شاگردان واجد شرایت که فارغ لیسه به او سط حد اقل ۶۰ در صد می باشد</span
                       >
                     </li>
                     <li>
                       <span>
-                        Student should clear all Medical Test prior to admission
-                        in BIHE.
+                       
                         شاگرد باید تمام از مایش های صحی را تکمیل نماید</span
                       >
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
-                      Documents Required with the Application Form:
-                      اسناد مورد نیاز با فورم درخواست
+                      
+                    مدارک مورد نیاز با فرم درخواست:
                     </h2>
                   </div>
                   <ul class="course-features">
                     <li>
-                      <span>HSC Certificate</span>
+                      <span> HSC سند</span>
                     </li>
                     <li>
                       <span> HSC mark sheet</span>
                     </li>
                     <li>
-                      <span>Verification Letter from Board</span>
+                      <span>تأیید نامه از هیئت مدیر</span>
                     </li>
                     <li>
                       <span> 
@@ -152,24 +150,22 @@
                   </div>
                   <ul class="course-features">
                     <li>
-                      <span>the picture should be clearly visible.</span>
+                      <span>تصویر باید به وضوح قابل مشاهده باشد.</span>
                     </li>
                     <li>
                       <span>
-                        Background should be on plain white or off white.</span
-                      >تصویر باید به شکل واضح قابل مشاهده باشد
+                      پس زمینه تصویر باید روی سفید ساده یا سفید باشد.</span
+                      >
                     </li>
                     <li>
                       <span
-                        >the contrast and lighting in the photo should be
-                        normal
-                        کنتراست وروشتایًی در عکس باید طبعی باشد</span
+                        >  کنتراست و نور در عکس باید باشد
+                         طبیعی</span
                       >
                     </li>
                     <li>
                       <span>
-                        the picture should have a minimum resolution of 600
-                        pixels x 450 pixels
+                       
                         عکس حداقل دارای ریزولیشن ۶۰۰ در۴۰۰ پیکسیل باشد</span
                       >
                     </li>
@@ -180,11 +176,10 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >Applicants are required to pass Institute’s Entrance
-                        Test (Kankor) with score at least 50% in all
-                        sections
-                        درخواست برای تصویب آزمون وردی موسسه با نمرات
-                         حداقل ۵۰ در صد در تمام بخش ها مورد نیاز است</span
+                        >
+                        متقاضیان باید آزمون ورودی موسسه را بگذرانند
+                         آزمون (کانکور) با حداقل نمره 50 درصد در کل
+                         بخش ها</span
                       >
                     </li>
                   </ul>
@@ -194,36 +189,36 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >Merit List is made on the basis of HSC and Entrance
-                        test as per following:</span
+                        >فهرست شایستگی بر اساس HSC و ورودی ساخته شده است
+                         تست به شرح زیر</span
                       >
                     </li>
                     <li>
                       <span>
-                        Share of Marks obtained in the HSC Examination 20%</span
+                      سهم نمرات کسب شده در آزمون HSC 20%</span
                       >
                     </li>
                     <li>
                       <span
-                        >Share of Marks obtained in the Entrance Test 80%</span
+                        >سهم نمرات کسب شده در آزمون ورودی 80%</span
                       >
                     </li>
                   </ul>
                   <div class="heading-bx left">
-                    <h2 class="title-head">Rejection of Application</h2>
+                    <h2 class="title-head">رد درخواست</h2>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >The Chairman Admission Committee can cancel or withdraw
-                        admission of any candidate.</span
+                        >رئیس کمیته پذیرش می تواند لغو یا انصراف دهد
+                         پذیرش هر نامزد.</span
                       >
                     </li>
                     <li>
                       <span>
-                        The application shall be rejected summarily in case the
-                        applicant is found guilty of any suppression or
-                        misrepresentation of material facts at any stage.</span
+                      در صورتی که درخواست به طور خلاصه رد شود
+                         متقاضی به هر گونه سرکوب یا مقصر شناخته می شود
+                         ارائه نادرست حقایق مادی در هر مرحله.</span
                       >
                     </li>
                   </ul>
@@ -234,8 +229,8 @@
                       تماس <span>معلومات</span>
                     </h2>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                    Lorem Ipsum به سادگی متن ساختگی چاپ و
+                       صنعت حروفچینی
                     </p>
                     <div class="widget widget_getintuch">
                       <ul>

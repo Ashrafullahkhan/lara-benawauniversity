@@ -9,8 +9,7 @@
             <div class="page-banner-entry">
               <h1 class="text-white">بورس تحصیلی</h1>
               <p class="text-white">
-                We offer you the best Scholarships in all our the world
-                مادر همه جهان برای شما بورس تحصیلی را اماده می کنیم
+              ما بهترین بورسیه های تحصیلی را در سراسر جهان به شما ارائه می دهیم
               </p>
             </div>
           </div>
@@ -32,118 +31,118 @@
                     <h2 class="title-head">بورس تحصیلی</h2>
                   </div>
                   <p>
-                    BIHE offers a “Haji Nadir” Scholarship for female, which
-                    offers 150 scholarships of 30% tuition fee. BIHE also offers
-                    “Haji Nadir” scholarship for male students, which offers 250
-                    scholarships of 25% tuition fee in each semester. Funds for
-                    these scholarships are provided by Haji- Nadir Noorzai and
-                    other donations from organizations (such as Furkhunda Trust
-                    Scholarship). On Dissolution of funds institute have
-                    alternate sources for the budge and scholarships awards,
-                    these are IT related projects, research etc.
+                  BIHE بورسیه "حاجی نادر" را برای زنان ارائه می دهد که
+                     150 بورسیه تحصیلی 30٪ شهریه ارائه می دهد. BIHE نیز ارائه می دهد
+                     بورسیه “حاجی ندیر” برای دانشجویان پسر که 250 نفر را ارائه می دهد
+                     کمک هزینه تحصیلی 25 درصدی شهریه در هر ترم. بودجه برای
+                     این بورسیه ها توسط حاجی نادر نورزی و
+                     کمک های مالی دیگر از سازمان ها (مانند فورکوندا تراست
+                     بورس تحصیلی). در مورد انحلال وجوه موسسه
+                     منابع جایگزین برای جوایز بودجه و بورس تحصیلی،
+                     اینها پروژه های مرتبط با فناوری اطلاعات، تحقیقات و غیره هستند.
                   </p>
                   <div class="heading-bx left">
                     <h6 class="title-head">
-                      BIHE offer Furthunda Trust scholarships for the students,
-                      he/she must meet specific expectations and conditions,
-                      including:
+                    BIHE بورسیه تحصیلی Furthunda Trust را برای دانشجویان ارائه می دهد،
+                       او باید انتظارات و شرایط خاصی را برآورده کند،
+                       شامل:
                     </h6>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >1. Applicant must pass pre-admission test (Kankoor) of
-                        BIHE on merit base.</span
+                        >1. متقاضی باید در آزمون پیش پذیرش (کنکور) از
+                         BIHE بر اساس شایستگی</span
                       >
                     </li>
                     <li>
                       <span>
-                        2. Applicant must attend and pass essay writing
-                        test.</span
+                      2. متقاضی باید شرکت کند و مقاله نویسی را بگذراند
+                         تست.</span
                       >
                     </li>
                     <li>
                       <span
-                        >3. Applicants must maintain satisfactory academic
-                        progress throughout their program (minimum of 70% or 2.0
-                        SGPA in each semester)</span
+                        >3. متقاضیان باید سطح تحصیلی رضایت بخشی داشته باشند
+                         پیشرفت در طول برنامه آنها (حداقل 70٪ یا 2.0
+                         SGPA در هر ترم)</span
                       >
                     </li>
                     <li>
                       <span>
-                        4. Applicants must successfully complete a minimum of 34
-                        semester’s credits per year</span
+                      4. متقاضیان باید حداقل 34 را با موفقیت تکمیل کنند
+                         اعتبارات ترم در سال</span
                       >
                     </li>
                     <li>
                       <span
-                        >5. Scholarship amount doesn’t apply to repeated
-                        courses</span
+                        >5. مبلغ بورسیه برای مکرر اعمال نمی شود
+                         دوره های آموزشی</span
                       >
                     </li>
                     <li>
                       <span
-                        >6. Scholarship does not apply to dual degrees or other
-                        scholarship offered by BIHE.
+                        >6. بورس تحصیلی شامل مدرک دوگانه یا موارد دیگر نمی شود
+                         بورس تحصیلی ارائه شده توسط BIHE.
                       </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h6 class="title-head">
-                      Following scholarship awards included in Furkhunda Trust
-                      scholarships.
+                    پس از جوایز بورس تحصیلی که در Furkunda Trust گنجانده شده است
+                       بورسیه های تحصیلی
                     </h6>
                   </div>
                   <ul class="course-features">
                     <li>
-                      <span>1. Full tuition fee for the eight semesters.</span>
+                      <span>1. شهریه کامل برای هشت ترم.</span>
                     </li>
                     <li>
-                      <span> 2. Laptop computer for each scholar.</span>
+                      <span> 2. کامپیوتر لپ تاپ برای هر محقق.</span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
-                      Refund of Tuition Fee on Withdrawal
+                    بازپرداخت شهریه در صورت انصراف
                     </h2>
                   </div>
                   <p>
-                    Refund of Tuition Fee on Withdrawal A student who registers
-                    and decides not to attend the semester / course for any
-                    reason whatsoever, or chooses to withdraw during the
-                    semester must inform the Academic Administration office in
-                    writing that he / she is discontinuing the studies. Students
-                    discontinuing their studies without written intimation are
-                    not eligible for financial adjustment. The date on which
-                    vice chancellor receives the written intimation & determines
-                    the amount of Tuition fee to be refunded. Fees other than
-                    the Tuition fee are not refundable. Students who are
-                    rusticated, suspended or expelled from BIHE on account of a
-                    disciplinary action against them are not eligible for any
-                    refund of fee at any time.
+                  بازپرداخت شهریه در صورت انصراف دانشجویی که ثبت نام می کند
+                     و تصمیم می گیرد برای هیچ یک از ترم / دوره شرکت نکند
+                     به هر دلیلی، یا انتخاب می کند که در طول دوره کنار بکشد
+                     ترم باید به دفتر مدیریت دانشگاهی اطلاع دهد
+                     با نوشتن این که او تحصیل را متوقف می کند. دانش آموزان
+                     بدون اطلاع کتبی تحصیل خود را قطع می کنند
+                     برای تعدیل مالی واجد شرایط نیست. تاریخی که در آن
+                     معاون آموزشی پیام کتبی را دریافت می کند و تعیین می کند
+                     مبلغ شهریه ای که باید بازپرداخت شود. هزینه های غیر از
+                     شهریه قابل استرداد نیست دانش آموزانی که هستند
+                     روستایی، تعلیق یا اخراج از BIHE به دلیل الف
+                     اقدامات انضباطی علیه آنها واجد شرایط برای هیچ کدام نیست
+                     بازپرداخت هزینه در هر زمان
                   </p>
 
                   <div class="heading-bx left">
                     <h6 class="title-head">
-                      Tuition Fee Refund Schedule is as under:
+                    برنامه بازپرداخت شهریه به شرح زیر است:
                     </h6>
                   </div>
 
                   <ul class="course-features">
                     <li>
-                      <span>1. During 1st week ............... 80%</span>
+                      <span>1. در هفته 1 .............. 80%</span>
                     </li>
                     <li>
-                      <span>2. During 2nd week ............... 70%</span>
+                      <span>2. در هفته دوم ............... 70%</span>
                     </li>
                     <li>
-                      <span>3. During 3rd week ............... 60%</span>
+                      <span>3. در هفته سوم ................. 60%</span>
                     </li>
                     <li>
-                      <span>4. During 4th week ............... 50%</span>
+                      <span>4. در هفته چهارم ................. 50%</span>
                     </li>
                     <li>
-                      <span>No refund after 4th week of semester.</span>
+                      <span>پس از هفته 4 ترم هیچ بازپرداختی وجود ندارد.</span>
                     </li>
                   </ul>
                 </div>

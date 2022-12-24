@@ -28,30 +28,30 @@
                     <h2 class="title-head"> لیب کمپیوتر(لابراتوار)</h2>
                   </div>
                   <p>
-                    BIHE has high performance computer lab for computer science
-                    and engineering students. Computer lab is highly equipped
-                    with services required for student practical works.
-                    Additionally student feedbacks teacher’s assessments via
-                    computer labs.
+                  BIHE دارای آزمایشگاه کامپیوتر با کارایی بالا برای علوم کامپیوتر است
+                     و دانشجویان مهندسی آزمایشگاه کامپیوتر بسیار مجهز است
+                     با خدمات مورد نیاز برای کارهای عملی دانشجویی.
+                     علاوه بر این، دانش‌آموز ارزیابی‌های معلم را از طریق
+                     آزمایشگاه های کامپیوتر
                     <br />
                     <br />
-                    The Information Technology Department is responsible for
-                    providing the IT related services in BIHE. The major
-                    Services are BIHE Network, Database, Helpdesk, Computer Labs
-                    etc.
+                    بخش فناوری اطلاعات مسئولیت دارد
+                     ارائه خدمات مرتبط با فناوری اطلاعات در BIHE. سرگرد
+                     خدمات عبارتند از: شبکه BIHE، پایگاه داده، مرکز راهنمایی، آزمایشگاه کامپیوتر
+                     و غیره.
                     <br />
                     <br />
-                    The Information Technology Department is providing IT
-                    services to BIHE Employees including the faculty and staff
-                    members and the students of BIHE with which they can have
-                    access to the data, information, and the computing power
-                    that they need to do their job in an efficient manner. The
-                    Information Technology Department is to provide all BIHE
-                    departments with computing and information services support
-                    that meets their expectations. IT Services includes
-                    dedicated internet, Network and hardware support for MIS
-                    (Management Student Information), Hardware and Software
-                    support for students etc.
+                    بخش فناوری اطلاعات در حال ارائه فناوری اطلاعات است
+                     خدمات به کارکنان BIHE از جمله اعضای هیئت علمی و کارکنان
+                     اعضا و دانشجویان BIHE که می توانند با آنها همکاری داشته باشند
+                     دسترسی به داده ها، اطلاعات و قدرت محاسباتی
+                     که آنها باید کار خود را به شیوه ای کارآمد انجام دهند. را
+                     دپارتمان فناوری اطلاعات باید تمام BIHE را ارائه دهد
+                     بخش هایی با پشتیبانی خدمات محاسباتی و اطلاعاتی
+                     که انتظارات آنها را برآورده می کند. خدمات فناوری اطلاعات شامل
+                     اینترنت اختصاصی، شبکه و پشتیبانی سخت افزاری برای MIS
+                     (مدیریت اطلاعات دانشجویی)، سخت افزار و نرم افزار
+                     حمایت از دانش آموزان و غیره
                   </p>
                 </div>
               </div>

@@ -46,7 +46,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Kingster's Principle</h5>
+                      <h5 class="ttr-tilte">اصل کینگستر</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -78,7 +78,7 @@
                       /></a>
                     </div>
                     <div class="icon-content">
-                      <h5 class="ttr-tilte">Our Philosophy</h5>
+                      <h5 class="ttr-tilte">فلسفه ما</h5>
                       <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit, sed diam nonummy nibh euismod..
@@ -100,20 +100,20 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >Academic programmes are designed keeping in view the
-                        standards of internationally recognized universities.
-                        The courses are structured in such a way that students
-                        acquire sufficient analytical understanding and
-                        application skills to enable themselves for adaptation
-                        to changing technology. .</span
+                        >برنامه های آکادمیک با توجه به
+                         استانداردهای دانشگاه های معتبر بین المللی
+                         ساختار دوره ها به گونه ای است که دانشجویان
+                         کسب درک تحلیلی کافی و
+                         مهارت های کاربردی برای توانمندسازی خود برای سازگاری
+                         به تغییر تکنولوژی .</span
                       >
                     </li>
                     <li>
                       <span>
-                        The outlines of each course indicate the minimum
-                        coverage of the course. Advancements taking place in
-                        different areas of technology are reflected in the
-                        course contents as a regular addition. .</span
+                      رئوس مطالب هر دوره حداقل را نشان می دهد
+                         پوشش دوره پیشرفت هایی که در
+                         حوزه های مختلف فناوری در آن منعکس شده است
+                         محتوای دوره به عنوان یک افزودنی معمولی .</span
                       >
                     </li>
                   </ul>
@@ -123,9 +123,9 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >To develop professionals in the field of Computer
-                        Science having the abilities of solving national and
-                        international problems.
+                        >برای توسعه متخصصان در زمینه کامپیوتر
+                         علم دارای توانایی حل ملی و
+                         مشکلات بین المللی
                       </span>
                     </li>
                   </ul>
@@ -136,61 +136,61 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >Providing Educational Services to the new generation in
-                        the field of Computer Science and Research to serve for
-                        the betterment of Afghan Society.
+                        >ارائه خدمات آموزشی به نسل جدید در
+                         رشته علوم کامپیوتر و تحقیقات برای خدمت
+                         بهبود جامعه افغانستان
                       </span>
                     </li>
                     <li>
                       <span
-                        >A lecture breakup will be prepared by each course
-                        teacher and will be distributed to every student at the
-                        beginning of the session to help students plan their
-                        studies effectively.
+                        >برای هر دوره، یک جلسه سخنرانی آماده خواهد شد
+                         معلم و برای هر دانش آموز در
+                         شروع جلسه برای کمک به دانش آموزان برای برنامه ریزی خود
+                         به طور موثر مطالعه می کند.
                       </span>
                     </li>
                     <li>
                       <span
-                        >Presently the following programmes of study leading to
-                        Bachelor of Computer Science are offered at BIHE.
+                        >در حال حاضر برنامه های تحصیلی زیر منجر به
+                         لیسانس علوم کامپیوتر در BIHE ارائه می شود.
                       </span>
                     </li>
                     <li>
                       <span
-                        >1 - Bachelor of Computer Science (Software Engineering)
+                        >1 - لیسانس کامپیوتر (مهندسی نرم افزار)
                       </span>
                     </li>
                     <li>
                       <span
-                        >2 - Bachelor of Computer Science (Networking)
+                        >2 - لیسانس کامپیوتر (شبکه)
                       </span>
                     </li>
                     <li>
-                      <span> 3 - Bachelor of Computer Science (General) </span>
+                      <span> 3 - لیسانس کامپیوتر (عمومی) </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
-                      1 - Bachelor of Computer Science (Software Engineering)
+                    1 - لیسانس کامپیوتر (مهندسی نرم افزار)
                     </h2>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >Software engineers design, develop and test complex
-                        software that applies computer technology to specific
-                        practical ends such as booking an airline ticket
-                        on-line, downloading e-mail or scanning items through a
-                        check-out line at the grocery store. They perform many
-                        of the same functions as general computer programmers,
-                        but software engineers apply the principles and
-                        techniques of computer science, engineering, and
-                        mathematical analysis to the design, development,
-                        testing, and evaluation of the software that enables
-                        computers to perform their many applications. This
-                        program offers students the opportunity to focus their
-                        studies on the skills needed to design and develop
-                        complex software systems.
+                        >مهندسان نرم افزار مجتمع طراحی، توسعه و آزمایش می کنند
+                         نرم افزاری که فناوری کامپیوتر را در موارد خاص به کار می برد
+                         اهداف عملی مانند رزرو بلیط هواپیما
+                         به صورت آنلاین، بارگیری ایمیل یا اسکن موارد از طریق a
+                         خط خروج در خواربارفروشی بسیاری را اجرا می کنند
+                         با عملکردهای مشابه برنامه نویسان کامپیوتر عمومی،
+                         اما مهندسان نرم افزار اصول و
+                         فنون علوم کامپیوتر، مهندسی و
+                         تجزیه و تحلیل ریاضی برای طراحی، توسعه،
+                         تست و ارزیابی نرم افزاری که این امکان را فراهم می کند
+                         کامپیوترها برای اجرای بسیاری از برنامه های کاربردی خود. این
+                         این برنامه به دانش آموزان این فرصت را می دهد که تمرکز خود را داشته باشند
+                         مطالعات در مورد مهارت های مورد نیاز برای طراحی و توسعه
+                         سیستم های نرم افزاری پیچیده
                       </span>
                     </li>
                   </ul>
@@ -200,9 +200,9 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >To develop professionals in the field of Software
-                        Engineering having the abilities of solving national and
-                        international problems.
+                        >برای توسعه افراد حرفه ای در زمینه نرم افزار
+                         مهندسی با داشتن توانایی های حل ملی و
+                         مشکلات بین المللی
                       </span>
                     </li>
                   </ul>
@@ -213,32 +213,32 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >Providing Educational Services to the new generation in
-                        the field of Software Engineering and relevant Research
-                        to serve for the betterment of Afghan Society.
+                        >ارائه خدمات آموزشی به نسل جدید در
+                         رشته مهندسی نرم افزار و تحقیقات مربوطه
+                         برای بهبود جامعه افغانستان خدمت کند.
                       </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
-                      2 - Bachelor of Computer Science (Networking)
+                    2 - لیسانس کامپیوتر (شبکه)
                     </h2>
                   </div>
                   <ul class="course-features">
                     <li>
                       <span
-                        >Right from the day of computer automation, a computer
-                        has developed computer in each department. For example,
-                        the task can be to keep of track off inventories,
-                        monitor productivity and maintain accounts. Initially,
-                        this computer in different department works as an
-                        isolation from other computer. These provided the
-                        necessary computer assistance in the activities
-                        pertaining to the respective department. It was not
-                        possible to share information among the departments. As
-                        a result, the information was replicated wherever
-                        needed. This increased redundancy caused increased in
-                        storage space, less data consistency etc.
+                        >درست از روز اتوماسیون کامپیوتر، یک کامپیوتر
+                         کامپیوتر را در هر بخش توسعه داده است. مثلا،
+                         وظیفه می تواند ردیابی موجودی ها باشد،
+                         نظارت بر بهره وری و نگهداری حساب ها در ابتدا،
+                         این کامپیوتر در بخش های مختلف به عنوان یک
+                         جداسازی از کامپیوترهای دیگر اینها فراهم کردند
+                         کمک های کامپیوتری لازم در فعالیت ها
+                         مربوط به بخش مربوطه نبود
+                         امکان به اشتراک گذاری اطلاعات بین بخش ها وجود دارد. مانند
+                         در نتیجه، اطلاعات در هر کجا تکرار شد
+                         مورد نیاز است. این افزایش افزونگی باعث افزایش در
+                         فضای ذخیره سازی، سازگاری کمتر داده ها و غیره
                       </span>
                     </li>
                   </ul>
@@ -248,9 +248,9 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >To develop professionals in the field of Computer
-                        Networks having the abilities of solving national and
-                        international problems.
+                        >برای توسعه متخصصان در زمینه کامپیوتر
+                         شبکه های دارای توانایی حل ملی و
+                         مشکلات بین المللی
                       </span>
                     </li>
                   </ul>
@@ -260,40 +260,40 @@
                   <ul class="course-features">
                     <li>
                       <span
-                        >Providing Educational Services to the new generation in
-                        the field of Computer Networks and relevant Research to
-                        serve for the betterment of Afghan Society.
+                        >ارائه خدمات آموزشی به نسل جدید در
+                         زمینه شبکه های کامپیوتری و تحقیقات مربوطه به
+                         برای بهبود جامعه افغانستان خدمت کنند.
                       </span>
                     </li>
                     <li>
                       <span>
-                        Course Numbering System In a course number AB XYZ, AB
-                        are the alphabet and XYZ are the digits. AB denotes the
-                        academic discipline. .
+                      سیستم شماره گذاری دوره در یک دوره شماره AB XYZ, AB
+                         حروف الفبا و XYZ ارقام هستند. AB نشان دهنده
+                         رشته تحصیلی .
                       </span>
                     </li>
                     <li>
-                      <span>• EL Electrical Engineering </span>
+                      <span>• EL مهندسی برق </span>
                     </li>
                     <li>
-                      <span>• CE Civil Engineering </span>
+                      <span>• مهندسی عمران CE </span>
                     </li>
                     <li>
-                      <span>• MA Mathematical Subjects </span>
+                      <span>• رشته های کارشناسی ارشد ریاضی </span>
                     </li>
                     <li>
-                      <span>• IS Islamic Subjects </span>
+                      <span>•  موضوعات اسلامی </span>
                     </li>
                     <li>
-                      <span>• EN English Literature / Language </span>
+                      <span>•EN انگلیسی ادبیات / زبان </span>
                     </li>
                     <li>
-                      <span>• CS Computer Science </span>
+                      <span>• CS علوم کامپیوتر </span>
                     </li>
                   </ul>
                   <div class="heading-bx left">
                     <h2 class="title-head">
-                      1 - Bachelor of Computer Science (Software Engineering)
+                    1 - لیسانس کامپیوتر (مهندسی نرم افزار)
                     </h2>
                   </div>
                 </div>

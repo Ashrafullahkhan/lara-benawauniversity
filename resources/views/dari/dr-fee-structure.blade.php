@@ -7,7 +7,7 @@
         >
           <div class="container">
             <div class="page-banner-entry">
-              <h1 class="text-white">Fee Structure</h1>
+              <h1 class="text-white">ساختار فیس (هزینه)</h1>
             </div>
           </div>
         </div>
@@ -22,11 +22,11 @@
               <div class="row">
                 <div class="col-md-12 heading-bx text-center">
                   <h2 class="title-head text-uppercase m-b0">
-                    Bachelor of Computer Science and Engineering
+                  لیسانس علوم و مهندسی کامپیوتر
                   </h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's.
+                  Lorem Ipsum به سادگی متن ساختگی چاپ و
+                     صنعت حروفچینی Lorem Ipsum صنعت بوده است.
                   </p>
                 </div>
               </div>
@@ -39,23 +39,23 @@
                           <div class="pricingtable-price">
                             <span class="priceing-doller">$</span>
                             <span class="pricingtable-bx">10</span>
-                            <span class="pricingtable-type">3 Month</span>
+                            <span class="pricingtable-type">3 ماه</span>
                           </div>
                           <div class="pricingtable-title">
-                            <h2>Basic</h2>
-                            <p>We are just getting started</p>
+                            <h2>اساسی</h2>
+                            <p>حالا شروع می کنیم</p>
                           </div>
                         </div>
                         <ul class="pricingtable-features">
-                          <li>Admission Fee (Non-Refundable) – (Only Once)</li>
+                          <li>هزینه پذیرش (غیر قابل استرداد) - (فقط یک بار)</li>
                           <li>Af. 1000</li>
-                          <li>Non Featured</li>
-                          <li>30 days Listing</li>
-                          <li>24/7 Support</li>
-                          <li>Select</li>
+                          <li>غیر برجسته</li>
+                          <li>لیست 30 روزه</li>
+                          <li>پشتیبانی 24/7</li>
+                          <li>انتخاب کنید</li>
                         </ul>
                         <div class="pricingtable-footer">
-                          <a href="#" class="btn radius-xl">Get It Now</a>
+                          <a href="#" class="btn radius-xl">اکنون آن را دریافت کنید</a>
                         </div>
                       </div>
                     </div>
@@ -67,24 +67,24 @@
                           <div class="pricingtable-price">
                             <span class="priceing-doller">$</span>
                             <span class="pricingtable-bx">15</span>
-                            <span class="pricingtable-type">6 Month</span>
+                            <span class="pricingtable-type">6 ماه</span>
                           </div>
                           <div class="pricingtable-title">
-                            <h2>Medium</h2>
-                            <p>The most popular plan</p>
+                            <h2>متوسط</h2>
+                            <p>مشهور طرح</p>
                           </div>
                         </div>
                         <ul class="pricingtable-features">
-                          <li>One Time Fee</li>
-                          <li>3 User</li>
-                          <li>Lifetime Availability</li>
-                          <li>Non Featured</li>
-                          <li>30 days Listing</li>
-                          <li>24/7 Support</li>
-                          <li>Select</li>
+                          <li>یک بارهزینه</li>
+                          <li>3 کاربر</li>
+                          <li>در دسترس بودن مادام العمر</li>
+                          <li>غیر برجسته</li>
+                          <li>لیست 30 روزه</li>
+                          <li>پشتیبانی 24/7</li>
+                          <li>انتخاب کنید</li>
                         </ul>
                         <div class="pricingtable-footer">
-                          <a href="#" class="btn radius-xl">Get It Now</a>
+                          <a href="#" class="btn radius-xl">اکنون آن را دریافت کنید</a>
                         </div>
                       </div>
                     </div>
@@ -96,24 +96,24 @@
                           <div class="pricingtable-price">
                             <span class="priceing-doller">$</span>
                             <span class="pricingtable-bx">20</span>
-                            <span class="pricingtable-type">12 Month</span>
+                            <span class="pricingtable-type">12 ماه</span>
                           </div>
                           <div class="pricingtable-title">
-                            <h2>Advanced</h2>
-                            <p>Experience the best for e-learning</p>
+                            <h2>پیشرفته</h2>
+                            <p>بهترین ها را برای آموزش الکترونیکی تجربه کنید</p>
                           </div>
                         </div>
                         <ul class="pricingtable-features">
-                          <li>One Time Fee</li>
-                          <li>3 User</li>
-                          <li>Lifetime Availability</li>
-                          <li>Non Featured</li>
-                          <li>30 days Listing</li>
-                          <li>24/7 Support</li>
-                          <li>Select</li>
+                          <li>یک بارهزینه</li>
+                          <li>3 کاربر</li>
+                          <li>در دسترس بودن مادام العمر</li>
+                          <li>غیر برجسته</li>
+                          <li>لیست 30 روزه</li>
+                          <li>پشتیبانی 24/7</li>
+                          <li>انتخاب کنید</li>
                         </ul>
                         <div class="pricingtable-footer">
-                          <a href="#" class="btn radius-xl">Get It Now</a>
+                          <a href="#" class="btn radius-xl">اکنون آن را دریافت کنید</a>
                         </div>
                       </div>
                     </div>
@@ -130,7 +130,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12 text-center heading-bx text-white">
-                  <h2 class="title-head m-b0">Why Choose <span>Us</span></h2>
+                  <h2 class="title-head m-b0">چرا ما را انتخاب کنید</span></h2>
                   <p class="m-b0">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -149,7 +149,7 @@
                               class="collapsed"
                               data-parent="#faq1"
                             >
-                              Why won't my payment go through?
+                            چرا پرداخت من انجام نمی شود؟
                             </a>
                           </h6>
                         </div>
@@ -170,7 +170,7 @@
                               class="collapsed"
                               data-parent="#faq2"
                             >
-                              How do I get a refund?</a
+                            چگونه می توانم بازپرداخت دریافت کنم؟</a
                             >
                           </h6>
                         </div>
@@ -191,7 +191,7 @@
                               class="collapsed"
                               data-parent="#faq3"
                             >
-                              How do I redeem a coupon?
+                            چگونه یک کوپن را بازخرید کنم؟
                             </a>
                           </h6>
                         </div>
@@ -212,7 +212,7 @@
                               class="collapsed"
                               data-parent="#faq4"
                             >
-                              Why aren't my courses showing in my account?
+                            چرا دوره های من در حساب من نمایش داده نمی شود؟
                             </a>
                           </h6>
                         </div>
@@ -233,7 +233,7 @@
                               class="collapsed"
                               data-parent="#faq5"
                             >
-                              Changing account name
+                            تغییر نام حساب کاربری
                             </a>
                           </h6>
                         </div>
@@ -254,7 +254,7 @@
                               class="collapsed"
                               data-parent="#faq6"
                             >
-                              Why aren't my courses showing in my account?
+                            چرا دوره های من در حساب من نمایش داده نمی شود؟
                             </a>
                           </h6>
                         </div>
@@ -294,7 +294,7 @@
                     <div class="text-primary">
                       <span class="counter">3000</span><span>+</span>
                     </div>
-                    <span class="counter-text">Completed Projects</span>
+                    <span class="counter-text">پروژه های انجام شده</span>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -302,7 +302,7 @@
                     <div class="text-black">
                       <span class="counter">2500</span><span>+</span>
                     </div>
-                    <span class="counter-text">Happy Clients</span>
+                    <span class="counter-text">مشتریان خوشحال</span>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -310,7 +310,7 @@
                     <div class="text-primary">
                       <span class="counter">1500</span><span>+</span>
                     </div>
-                    <span class="counter-text">Questions Answered</span>
+                    <span class="counter-text">سوالات پاسخ داده شده</span>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
@@ -318,7 +318,7 @@
                     <div class="text-black">
                       <span class="counter">1000</span><span>+</span>
                     </div>
-                    <span class="counter-text">Ordered Coffee's</span>
+                    <span class="counter-text">قهوه سفارش داد</span>
                   </div>
                 </div>
               </div>
