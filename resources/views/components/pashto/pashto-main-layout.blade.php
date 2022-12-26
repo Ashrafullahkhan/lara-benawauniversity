@@ -316,14 +316,19 @@
                                         <li><a href="admin/add-listing" style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">لید ،تحول او موخی</a>
                                         </li>
-                                        <li><a href="founder-of-benawa" style="font-family:'Noto Naskh Arabic',serif;"
-                                                class="text-right">د بینوا بنسټ
+                                        <li><a href="pa-founder-of-benawa"
+                                                style="font-family:'Noto Naskh Arabic',serif;" class="text-right">د
+                                                بینوا بنسټ
                                                 ایښودنکی</a></li>
-                                        <li><a href="chacelor-message" style="font-family:'Noto Naskh Arabic',serif;"
-                                                class="text-right">د ریس پیغام</a></li>
+                                        <li><a href="pa-chancellor-message"
+                                                style="font-family:'Noto Naskh Arabic',serif;" class="text-right">د
+                                                ریس پیغام</a></li>
                                         <li><a href="/pa-management-team"
                                                 style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">اداری ټیم</a></li>
+                                        <li><a href="/pa_teachers" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">زموږ
+                                                ښوونکي</a></li>
                                         <li><a href="admin/teacher-profile"
                                                 style="font-family:'Noto Naskh Arabic',serif;" class="text-right">زموږ
                                                 زده کونکی</a></li>

@@ -200,12 +200,6 @@ Route::get('/pa-management-team', function () {
     return view('pashto/pa-management-team');
 });
 
-// Route::get('/pa-founder-of-benawa', function () {
-//     return view('pashto/pa-founder-of-benawa');
-// });
-
-// =======
-// >>>>>>> 3f1596847e5adbfafcefd8993bc5c1bd0f8e5394
 //main views
 Route::get('/', function () {
     return view('index', ['news' => News::all()->where('lang', 'en'), 'events' => Event::all()->where('lang', 'en')
@@ -277,6 +271,9 @@ Route::get('/library', function () {
 });
 Route::get('/cafeteria', function () {
     return view('cafeteria');
+});
+Route::get('/VMO', function () {
+    return view('vision_misson');
 });
 
 // about us

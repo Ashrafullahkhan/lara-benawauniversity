@@ -369,7 +369,7 @@
                                             class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="why-benawa">Why BIHE?</a></li>
-                                        <li><a href="admin/add-listing">Vision, Mission and
+                                        <li><a href="VMO">Vision, Mission and
                                                 Objectives</a></li>
                                         <li><a href="founder-of-benawa">Founder of BIHE</a></li>
                                         <li><a href="chacelor-message">Chancellor's Message</a></li>

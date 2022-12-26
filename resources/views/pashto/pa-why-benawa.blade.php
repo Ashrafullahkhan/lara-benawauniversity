@@ -205,37 +205,9 @@
             </div>
             <!-- Company Stats END ==== -->
             <!-- Our Story ==== -->
-            <div class="section-area bg-gray section-sp1 our-story">
+            <div class="section-area section-sp1 our-story">
                 <div class="container">
                     <div class="row align-items-center d-flex">
-                        <div class="col-lg-5 col-md-12 left heading-bx">
-                            <h2 class="m-b10 title-head">زموږ تاریخ چه</h2>
-
-                            <p>
-                                Benawa Institute of Higher Education (BIHE) remains the hub
-                                of Engineering and Computer Sciences Education in Kandahar,
-                                ever since its inception in 2013. Offering a truly
-                                transformative and evolved learning experience, it is an
-                                institution that truly redefines higher education in the
-                                country and its nearby regions.<br /><br />
-                                After 4 years of proven excellence, Benawa institute is now
-                                embarking on the journey to reach the next level of
-                                excellence. Some key features of BIHE are highlighted
-                                below:<br /><br />
-                                ⦁ High Quality Technical Education: Electrical Engineering
-                                and Computer Science Education at Bachelors Level with
-                                qualified and experienced Faculty <br /><br />⦁ Benawa
-                                Institute is proud of its faculty who are well qualified and
-                                experienced in their relevant fields. They play a very
-                                important role in the life of a student as teachers,
-                                mentors, counselors and advisors.<br /><br />
-                                ⦁ These dedicated teachers involve students in decision
-                                making at all levels with respect to academic, extra and
-                                co-curricular activities, help them in their projects and
-                                groom them to pursue their academic journey smoothly.
-                            </p>
-                            <a href="#" class="btn">نور ولولی</a>
-                        </div>
                         <div class="col-lg-7 col-md-12 heading-bx p-lr">
                             <div class="video-bx">
                                 <img src="assets/images/about/pic1.jpg" alt="" />
@@ -243,67 +215,39 @@
                                         class="fa fa-play"></i></a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Our Story END ==== -->
-            <!-- Testimonials ==== -->
-            <div class="section-area section-sp2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 heading-bx left">
-                            <h2 class="title-head text-uppercase">
-                                خلک <span>څه وایی</span>
-                            </h2>
-                            <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page
+                        <div class="col-lg-5 col-md-12 heading-bx right_line text-right ">
+                            <h2 class="m-b10 title-head pashto-font">زموږ تاریخ چه</h2>
+
+                            <p class="pashto-font">
+                                د بینوا د لوړو زده کړو موسسه (BIHE) مرکز پاتې دی
+                                په کندهار کی د انجینری او کمپیوټر ساینس پوهنځی
+                                په 2013 کې د پیل راهیسې. ریښتیا وړاندې کول
+                                بدلیدونکی او پرمختللی زده کړې تجربه، دا یو دی
+                                هغه اداره چې په ریښتیا سره د لوړو زده کړو تعریف کوي
+                                هیواد او نږدې سیمې.<br /><br />
+                                د بېنوا انسټیټیوټ د 4 کلونو ثابت وړتیا وروسته اوس دی
+                                راتلونکي کچې ته د رسیدو لپاره په سفر پیل کول
+                                غوره والی د BIHE ځینې مهمې ځانګړتیاوې په ګوته شوي
+                                لاندې:<br /><br />
+                                ⦁ لوړ کیفیت تخنیکي زده کړه: بریښنایی انجینري
+                                او د کمپیوټر ساینس زده کړه د لیسانس په کچه
+                                وړ او تجربه لرونکی پوهنځی <br /><br />⦁ بینوا
+                                انسټیټیوټ په خپلو پوهنځیو ویاړي چې ښه وړ او وړ دي
+                                په خپلو اړوندو برخو کې تجربه لري. دوی ډیره لوبه کوي
+                                د ښوونکي په توګه د زده کونکي په ژوند کې مهم رول،
+                                ښوونکي، مشاورین او مشاورین.<br /><br />
+                                ⦁ دا وقف شوي ښوونکي زده کونکي په پریکړه کې ښکیلوي
+                                د اکادمیک، اضافي او په اړه په ټولو کچو کې جوړول
+                                شریک نصاب فعالیتونه، د دوی په پروژو کې مرسته کول او
+                                هغوی ته د خپل اکاډمیک سفر په سمه توګه تعقیب کړي.
                             </p>
+                            <a href="#" class="btn pashto-font">نور ولولی</a>
                         </div>
-                    </div>
-                    <div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-                        <div class="item">
-                            <div class="testimonial-bx">
-                                <div class="testimonial-thumb">
-                                    <img src="assets/images/testimonials/pic1.jpg" alt="" />
-                                </div>
-                                <div class="testimonial-info">
-                                    <h5 class="name">Peter Packer</h5>
-                                    <p>-Art Director</p>
-                                </div>
-                                <div class="testimonial-content">
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the
-                                        industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a galley of type...
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-bx">
-                                <div class="testimonial-thumb">
-                                    <img src="assets/images/testimonials/pic2.jpg" alt="" />
-                                </div>
-                                <div class="testimonial-info">
-                                    <h5 class="name">Peter Packer</h5>
-                                    <p>-Art Director</p>
-                                </div>
-                                <div class="testimonial-content">
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the
-                                        industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a galley of type...
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
-            <!-- Testimonials END ==== -->
+
         </div>
         <!-- Page Content Box END ==== -->
     </div>
