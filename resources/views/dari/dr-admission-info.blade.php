@@ -5,7 +5,7 @@
           class="page-banner ovbl-dark"
           style="background-image: url(assets/images/banner/banner3.jpg)"
         >
-          <div class="container">
+          <div class="container title-head pashto-font text-right">
             <div class="page-banner-entry">
               <h1 class="text-white">سیستم پذیرش آنلاین</h1>
               <p class="text-white">
@@ -26,7 +26,7 @@
           <!-- Your Faq -->
           <!-- About Us -->
           <div class="section-area section-sp1 bg-gray">
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
                   <div class="feature-container">
@@ -97,13 +97,16 @@
           </div>
           <!-- Our Services -->
           <div class="section-area section-sp1">
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-lg-8 col-md-12">
-                  <div class="heading-bx left">
-                    <h2 class="title-head">شایستګی:</h2>
+                  <div class="heading-bx right_line">
+                  <h2 class="title-head pashto-font text-right"
+                                    style="  font-family:'Noto Naskh Arabic',serif;
+                                            direction: rtl">
+                    <h2 class="title-head pashto-font text-right">شایستګی:</h2>
                   </div>
-                  <ul class="course-features">
+                  <ul class="course-features heading-bx right_line title-head pashto-font text-right">
                     <li>
                       <span
                         >
@@ -117,13 +120,13 @@
                       >
                     </li>
                   </ul>
-                  <div class="heading-bx left">
+                  <div class="title-head pashto-font text-right">
                     <h2 class="title-head">
                       
                     مدارک مورد نیاز با فرم درخواست:
                     </h2>
                   </div>
-                  <ul class="course-features">
+                  <ul class="course-features right_line title-head pashto-font text-right">
                     <li>
                       <span> HSC سند</span>
                     </li>
@@ -145,10 +148,10 @@
                       <span> ۸دانه عکس</span>
                     </li>
                   </ul>
-                  <div class="heading-bx left">
+                  <div class="title-head pashto-font text-right">
                     <h2 class="title-head">مشخصات عکس </h2>
                   </div>
-                  <ul class="course-features">
+                  <ul class="course-features right_line title-head pashto-font text-right">
                     <li>
                       <span>تصویر باید به وضوح قابل مشاهده باشد.</span>
                     </li>
@@ -170,10 +173,10 @@
                       >
                     </li>
                   </ul>
-                  <div class="heading-bx left">
+                  <div class="title-head pashto-font text-right">
                     <h2 class="title-head">نمرات آزمون وردی</h2>
                   </div>
-                  <ul class="course-features">
+                  <ul class="course-features course-features right_line title-head pashto-font text-right">
                     <li>
                       <span
                         >
@@ -183,10 +186,10 @@
                       >
                     </li>
                   </ul>
-                  <div class="heading-bx left">
+                  <div class="title-head pashto-font text-right">
                     <h2 class="title-head">معیارهای شایستگی</h2>
                   </div>
-                  <ul class="course-features">
+                  <ul class="course-features  right_line title-head pashto-font text-right">
                     <li>
                       <span
                         >فهرست شایستگی بر اساس HSC و ورودی ساخته شده است
@@ -204,10 +207,10 @@
                       >
                     </li>
                   </ul>
-                  <div class="heading-bx left">
+                  <div class="title-head pashto-font text-right">
                     <h2 class="title-head">رد درخواست</h2>
                   </div>
-                  <ul class="course-features">
+                  <ul class="course-features right_line title-head pashto-font text-right">
                     <li>
                       <span
                         >رئیس کمیته پذیرش می تواند لغو یا انصراف دهد

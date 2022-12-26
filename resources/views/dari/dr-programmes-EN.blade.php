@@ -6,7 +6,7 @@
           class="page-banner ovbl-dark"
           style="background-image: url(assets/images/banner/BIHE\ Image.jpg)"
         >
-          <div class="container">
+          <div class="container title-head pashto-font text-right">
             <div class="page-banner-entry">
               <h1 class="text-white">پوهنځی انجینری</h1>
               <p class="text-white"></p>
@@ -92,7 +92,7 @@
           </div>
           <!-- Our Services -->
           <div class="section-area section-sp1">
-            <div class="container">
+            <div class="container title-head pashto-font text-right">
               <div class="row">
                 <div class="col-lg-8 col-md-12">
                   <div class="heading-bx left">
