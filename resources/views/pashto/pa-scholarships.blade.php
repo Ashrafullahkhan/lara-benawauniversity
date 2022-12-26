@@ -46,89 +46,91 @@
                                     په شمول:
                                 </h6>
                             </div>
-                            <ul class="course-features">
+                            <ul class="pashto-course-features">
                                 <li>
-                                    <span>1. غوښتونکی باید دکانکور د وړتیا په اساس پاس شی.</span>
+                                    <span class="pashto-font"> غوښتونکی باید دکانکور د وړتیا په اساس پاس
+                                        شی.</span>
                                 </li>
                                 <li>
-                                    <span>
-                                        2. Applicant must attend and pass essay writing
-                                        test.</span>
+                                    <span class="pashto-font">
+                                        غوښتونکی باید د مقالې لیکلو کې برخه واخلي او پاس کړي
+                                        ازموینه</span>
                                 </li>
                                 <li>
-                                    <span>3. Applicants must maintain satisfactory academic
-                                        progress throughout their program (minimum of 70% or 2.0
-                                        SGPA in each semester)</span>
+                                    <span class="pashto-font">3. غوښتونکي باید د قناعت وړ اکادمیک وساتي
+                                        د دوی د پروګرام په اوږدو کې پرمختګ (لږترلږه 70٪ یا 2.0
+                                        په هر سمستر کې SGPA)</span>
                                 </li>
                                 <li>
-                                    <span>
-                                        غوښتونکی باید لږترلږ ۳۴ کریډیټه په کال کی پاس کړی ۴</span>
+                                    <span class="pashto-font">
+                                        غوښتونکی باید لږترلږ ۳۴ کریډیټه په کال کی پاس کړی </span>
                                 </li>
                                 <li>
-                                    <span> د بورس اندازه په تکراری کورسونو کی نه پلی کیږی ۵</span>
+                                    <span class="pashto-font"> د بورس اندازه په تکراری کورسونو کی نه پلی کیږی </span>
                                 </li>
                                 <li>
-                                    <span>6. Scholarship does not apply to dual degrees or other
-                                        scholarship offered by BIHE.
+                                    <span class="pashto-font">بورسونه په دوه ګونی درجو یا نورو کې نه پلي کیږي
+                                        د BIHE لخوا وړاندیز شوی بورسونه.
                                     </span>
                                 </li>
                             </ul>
-                            <div class="heading-bx left">
-                                <h6 class="title-head">
-                                    Following scholarship awards included in Furkhunda Trust
-                                    scholarships.
+                            <div class="heading-bx right_line text-right">
+                                <h6 class="title-head pashto-font">
+                                    د فرخنده ټرسټ کې شامل شوي د تحصیلي بورسونو لاندې
+                                    بورسونه
                                 </h6>
                             </div>
-                            <ul class="course-features">
+                            <ul class="pashto-course-features ">
                                 <li>
-                                    <span>1. Full tuition fee for the eight semesters.</span>
+                                    <span class="pashto-font">د اتو سمسترونو لپاره د زده کړې بشپړ فیس.</span>
                                 </li>
                                 <li>
-                                    <span> 2. Laptop computer for each scholar.</span>
+                                    <span class="pashto-font">
+                                        د هر عالم لپاره لپ ټاپ کمپیوټر.</span>
                                 </li>
                             </ul>
-                            <div class="heading-bx left">
-                                <h2 class="title-head">
-                                    Refund of Tuition Fee on Withdrawal
+                            <div class="heading-bx right_line text-right">
+                                <h2 class="title-head pashto-font">
+                                    په وتلو کې د ښوونې فیس بیرته ورکول
                                 </h2>
                             </div>
-                            <p>
-                                Refund of Tuition Fee on Withdrawal A student who registers
-                                and decides not to attend the semester / course for any
-                                reason whatsoever, or chooses to withdraw during the
-                                semester must inform the Academic Administration office in
-                                writing that he / she is discontinuing the studies. Students
-                                discontinuing their studies without written intimation are
-                                not eligible for financial adjustment. The date on which
-                                vice chancellor receives the written intimation & determines
-                                the amount of Tuition fee to be refunded. Fees other than
-                                the Tuition fee are not refundable. Students who are
-                                rusticated, suspended or expelled from BIHE on account of a
-                                disciplinary action against them are not eligible for any
-                                refund of fee at any time.
+                            <p class="pashto-font text-right">
+                                د وتلو په اړه د زده کړې فیس بیرته ورکول یو زده کونکی چې نوم لیکنه کوي
+                                او پریکړه کوي چې د هیڅ لپاره سمستر / کورس کې ګډون ونه کړي
+                                د هر څه لامل، یا د وتلو په جریان کې غوره کول
+                                سمستر باید د اکادمیک ادارې دفتر ته خبر ورکړي
+                                لیکي چې هغه زده کړې بندوي. زده کوونکي
+                                د لیکلي خبرتیا پرته د دوی زده کړې بندول دي
+                                د مالي سمون لپاره وړ ندي. په هغه نیټه چې
+                                وائس چانسلر لیکلي خبرتیا ترلاسه کوي او ټاکي
+                                د ښوونې فیس اندازه چې بیرته ورکول کیږي. پرته بل فیس
+                                د ښوونې فیس بیرته نه ورکول کیږي. هغه زده کوونکي چې دي
+                                د BIHE څخه بې ځایه شوي، معطل شوي یا ایستل شوي دي
+                                د دوی په وړاندې د انضباطي ګامونو وړ نه دي
+                                په هر وخت کې د فیس بیرته ورکول.
                             </p>
 
-                            <div class="heading-bx left">
-                                <h6 class="title-head">
-                                    Tuition Fee Refund Schedule is as under:
+                            <div class="heading-bx right_line text-right">
+                                <h6 class="title-head pashto-font">
+                                    د ښوونې فیس بیرته ورکولو مهالویش په لاندې ډول دی:
                                 </h6>
                             </div>
 
-                            <ul class="course-features">
+                            <ul class="pashto-course-features">
                                 <li>
-                                    <span>1. During 1st week ............... 80%</span>
+                                    <span class="pashto-font">د لومړۍ اونۍ په ترڅ کې ............... %80</span>
                                 </li>
                                 <li>
-                                    <span>2. During 2nd week ............... 70%</span>
+                                    <span class="pashto-font">د دویمې اونۍ په ترڅ کې ............... %70</span>
                                 </li>
                                 <li>
-                                    <span>3. During 3rd week ............... 60%</span>
+                                    <span class="pashto-font">د دریمې اونۍ په جریان کې ............... 60٪</span>
                                 </li>
                                 <li>
-                                    <span>4. During 4th week ............... 50%</span>
+                                    <span class="pashto-font">د څلورمې اونۍ په ترڅ کې ............... %50</span>
                                 </li>
                                 <li>
-                                    <span>No refund after 4th week of semester.</span>
+                                    <span class="pashto-font">د سمستر د څلورمې اونۍ وروسته بیرته نه ورکول کیږي.</span>
                                 </li>
                             </ul>
                         </div>

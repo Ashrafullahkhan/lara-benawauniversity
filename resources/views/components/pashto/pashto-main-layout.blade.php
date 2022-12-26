@@ -183,7 +183,7 @@
                                                 سونه او بیرته ستنیدو پالیسی</a>
                                         </li>
                                         <li>
-                                            <a href="financial-assistant"
+                                            <a href="/pa-financial-assistant"
                                                 style="font-family:'Noto Naskh Arabic',serif;" class="text-right">مالی
                                                 مرسته</a>
                                         </li>
@@ -265,7 +265,7 @@
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
                                                         class="text-right">د زده کونکو
                                                         فورتال</a></li>
-                                                <li><a href="student-affairs"
+                                                <li><a href="/pa-student-affairs"
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
                                                         class="text-right">د زده کونکو
                                                         چارو</a></li>
@@ -277,7 +277,7 @@
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
                                                         class="text-right">علمی کتاب</a>
                                                 </li>
-                                                <li><a href="membership.html"
+                                                <li><a href="pa-academic_rules_and_regulation"
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
                                                         class="text-right">اکاډمیک رول او
                                                         مقررات</a></li>
@@ -292,17 +292,16 @@
                                 <li><a href="javascript:;" style="font-family:'Noto Naskh Arabic',serif;"
                                         class="text-right">اسانتیاوی<i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="computer-lab" style="font-family:'Noto Naskh Arabic',serif;"
+                                        <li><a href="pa-computer-lab" style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">د
                                                 کمپیوټر لابراتوار</a></li>
-                                        <li><a href="engineering-lab" style="font-family:'Noto Naskh Arabic',serif;"
-                                                class="text-right">
+                                        <li><a href="pa-engineering-lab"
+                                                style="font-family:'Noto Naskh Arabic',serif;" class="text-right">
                                                 د انجینری لابراتوار</a></li>
-                                        <li><a href="Library" style="font-family:'Noto Naskh Arabic',serif;"
-                                                class="text-right">کتاب
-                                                تون</a></li>
-                                        <li><a href="Cafeteria" style="font-family:'Noto Naskh Arabic',serif;"
-                                                class="text-right">Cafeteria</a></li>
+                                        <li><a href="pa-library" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">کتابتون</a></li>
+                                        <li><a href="pa-cafeteria" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">کیفیټیریا</a></li>
 
                                     </ul>
                                 </li>
@@ -311,9 +310,9 @@
                                         style="font-family:'Noto Naskh Arabic',serif;" class="text-right"> زموږ په اړه
                                         <i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="why-benawa" style="font-family:'Noto Naskh Arabic',serif;"
+                                        <li><a href="/pa-why-benawa" style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">ولی
-                                                بینوا؟</a></li>
+                                                بینوا ؟</a></li>
                                         <li><a href="admin/add-listing" style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">لید ،تحول او موخی</a>
                                         </li>

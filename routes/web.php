@@ -146,7 +146,7 @@ Route::get('/pa-scholarships', function () {
     return view('pashto/pa-scholarships');
 });
 
-Route::get('/pa-financial', function () {
+Route::get('/pa-financial-assistant', function () {
     return view('pashto/pa-financial-assistant');
 });
 
@@ -165,17 +165,23 @@ Route::get('/pa-courses', function () {
 Route::get('/pa-computer-lab', function () {
     return view('pashto/pa-computer-lab');
 });
-
-Route::get('/pa-Engineering-lab', function () {
-    return view('pashto/pa-Engineering-lab');
+Route::get('/pa-student-affairs', function () {
+    return view('pashto/pa-student-affairs');
+});
+Route::get('/pa-academic_rules_and_regulation', function () {
+    return view('pashto/pa-academic_rules_and_regulation');
 });
 
-Route::get('/pa-Library', function () {
-    return view('pashto/pa-Library');
+Route::get('/pa-engineering-lab', function () {
+    return view('pashto/pa-engineering-lab');
 });
 
-Route::get('/pa-Cafeteria', function () {
-    return view('pashto/pa-Cafeteria');
+Route::get('/pa-library', function () {
+    return view('pashto/pa-library');
+});
+
+Route::get('/pa-cafeteria', function () {
+    return view('pashto/pa-cafeteria');
 });
 
 Route::get('/pa-why-benawa', function () {
