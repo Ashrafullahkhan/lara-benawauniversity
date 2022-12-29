@@ -25,7 +25,9 @@ use Illuminate\Support\Facades\Route;
 // dari views
 
 Route::get('/dr', function () {
-    return view('dari/dr-index');
+    return view('dari/dr-index', ['news' => News::all()->where('lang', 'da'), 'events' => Event::all()->where('lang', 'da')
+        , 'teachers' => Teacher::take(4)->get()->where('lang', 'da'),
+    ]);
 });
 
 //dari admin ''''''''''''
@@ -86,7 +88,6 @@ Route::get('/dr-computer-lab', function () {
 Route::get('/dr/computer-lab', function () {
     return view('/dari/dr-computer-lab');
 });
-//>>>>>>> b308f93ccb418d86a3b22a54270303105c9494ee
 
 Route::get('/dr-engineering-lab', function () {
     return view('/dari/dr-engineering-lab');
@@ -97,13 +98,10 @@ Route::get('/dr-library', function () {
 Route::get('/dr-cafeteria', function () {
     return view('/dari/dr-cafeteria');
 });
-//<<<<<<< HEAD
+
 Route::get('/dr-student-affairs', function () {
     return view('/dari/dr-student-affairs');
 });
-
-//=======
-//>>>>>>> b308f93ccb418d86a3b22a54270303105c9494ee
 
 // about us
 
@@ -397,8 +395,8 @@ Route::get('list_of_news', function () {
 
 // admin/Events routes
 
-Route::get('/admin/events', [EventsController::class, "index"])->middleware('auth');
-Route::post('admin/event/insert_data', [EventsController::class, "insert_data"])->middleware('auth');
+Route::get('/admin/events', [EventsController::class, "index"]);
+Route::post('admin/event/insert_data', [EventsController::class, "insert_data"]);
 Route::get('/admin/create-event', function () {
     return view('admin/events/create-event');
 });

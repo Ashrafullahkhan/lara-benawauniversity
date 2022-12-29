@@ -157,7 +157,7 @@
                       cursor: pointer;
                       border-radius: 30px;
                     ">
-                                <a href="/contact" style="text-decoration: none"> CONTACT US</a>
+                                <a href="/contact" "> CONTACT US</a>
                             </div>
                         </li>
                         <li data-index="rs-200" data-transition="parallaxvertical" data-slotamount="default"
@@ -306,7 +306,7 @@
                       border-radius: 30px;
                  
                     ">
-                                <a href="/contact" style="text-decoration:none;"> CONTACT
+                                <a href="/contact"> CONTACT
                                     US</a>
 
                             </div>
@@ -326,7 +326,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="service-bx">
                                 <div class="action-box">
-                                    <img src="assets/images/lab.jpg" alt="" />
+                                    <img src="assets/images/our-services/pic2.jpg" alt="" />
                                 </div>
                                 <div class="info-bx text-center">
                                     <div class="feature-box-sm radius bg-white">
@@ -340,7 +340,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="service-bx">
                                 <div class="action-box">
-                                    <img src="assets/images/banner/E-lab.jpg" alt="" />
+                                    <img src="assets/images/our-services/pic2.jpg" alt="" />
                                 </div>
                                 <div class="info-bx text-center">
                                     <div class="feature-box-sm radius bg-white">
@@ -522,233 +522,234 @@
 
                         <div
                             class="upcoming-event-carousel owl-carousel owl-btn-center-lr owl-btn-1 col-12 p-lr0 m-b30">
-                            @foreach ($events as $row)
-                                <div class="item">
-                                    <div class="event-bx">
-                                        <div class="action-box">
-                                            <img src="/storage/{{ $row->main_pic }}" alt="" />
-                                        </div>
-                                        <div class="info-bx d-flex">
-                                            <div>
-                                                <div class="event-time">
-                                                    <div class="event-date">
-                                                        {{ \Carbon\Carbon::parse($row->start_date)->format('d') }}
+                             @foreach ($events as $row)
+                                    <div class="item">
+                                        <div class="event-bx">
+                                            <div class="action-box">
+                                                <img src="/storage/{{ $row->main_pic }}" alt="" />
+                                            </div>
+                                            <div class="info-bx d-flex">
+                                                <div>
+                                                    <div class="event-time">
+                                                        <div class="event-date">
+                                                            {{ \Carbon\Carbon::parse($row->start_date)->format('d') }}
+                                                        </div>
+                                                        <div class="event-month">
+                                                            {{ \Carbon\Carbon::parse($row->start_date)->format('F') }}
+                                                        </div>
                                                     </div>
-                                                    <div class="event-month">
-                                                        {{ \Carbon\Carbon::parse($row->start_date)->format('F') }}</div>
                                                 </div>
-                                            </div>
-                                            <div class="event-info">
-                                                <h4 class="event-title">
-                                                    <a
-                                                        href="/event_details/{{ $row->id }}">{{ $row->title }}</a>
-                                                </h4>
-                                                <ul class="media-post">
+                                                <div class="event-info">
+                                                    <h4 class="event-title">
+                                                        <a
+                                                            href="/event_details/{{ $row->id }}">{{ $row->title }}</a>
+                                                    </h4>
+                                                    <ul class="media-post">
 
-                                                    <li>
+                                                        <li>
 
-                                                        <a href="#"><i class="fa fa-calendar"></i>
-                                                            {{ $row->start_date }}
-                                                            &nbsp;
-                                                            <i class="fa fa-calendar"></i>
-                                                            {{ $row->end_date }}</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="/event_details/{{ $row->id }}"><i
-                                                                class="fa fa-map-marker"></i>
-                                                            {{ $row->location }}</a>
-                                                    </li>
-                                                </ul>
-                                                <p>
-                                                    {{ substr($row->body, 0, 100) }}
-                                                    <span>...</span>
-                                                </p>
+                                                            <a href="#"><i class="fa fa-calendar"></i>
+                                                                {{ $row->start_date }}
+                                                                &nbsp;
+                                                                <i class="fa fa-calendar"></i>
+                                                                {{ $row->end_date }}</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/event_details/{{ $row->id }}"><i
+                                                                    class="fa fa-map-marker"></i>
+                                                                {{ $row->location }}</a>
+                                                        </li>
+                                                    </ul>
+                                                    <p>
+                                                        {{ substr($row->body, 0, 100) }}
+                                                        <span>...</span>
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            @endforeach
-                        </div>
-
-                    </div>
-                    <div class="text-center">
-                        <a href="/list_of_events" class="btn">View All Event</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Testimonials -->
-            <div class="section-area section-sp2 bg-fix ovbl-dark"
-                style="background-image: url(assets/images/background/bg1.jpg)">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-white heading-bx left">
-                            <h2 class="title-head text-uppercase">
-                                what people <span>say</span>
-                            </h2>
-                            <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page
-                            </p>
-                        </div>
-                    </div>
-                    <div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-                        <div class="item">
-                            <div class="testimonial-bx">
-                                <div class="testimonial-thumb">
-                                    <img src="assets/images/testimonials/pic1.jpg" alt="" />
-                                </div>
-                                <div class="testimonial-info">
-                                    <h5 class="name">Peter Packer</h5>
-                                    <p>-Art Director</p>
-                                </div>
-                                <div class="testimonial-content">
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the
-                                        industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a galley of type...
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-bx">
-                                <div class="testimonial-thumb">
-                                    <img src="assets/images/testimonials/pic2.jpg" alt="" />
-                                </div>
-                                <div class="testimonial-info">
-                                    <h5 class="name">Peter Packer</h5>
-                                    <p>-Art Director</p>
-                                </div>
-                                <div class="testimonial-content">
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the
-                                        industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a galley of type...
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonials END -->
-
-            <!-- Recent News -->
-            <div class="section-area section-sp2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 heading-bx left">
-                            <h2 class="title-head">Recent <span>News</span></h2>
-                            <p>
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="recent-news-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-                        @foreach ($news as $row)
-                            <div class="item">
-                                <div class="recent-news">
-                                    <div class="action-box">
-                                        <img src="/storage/{{ $row->main_pic }}" alt="" />
-                                    </div>
-                                    <div class="info-bx">
-                                        <ul class="media-post">
-                                            <li>
-                                                <a href="/news_details/{{ $row->id }}"><i
-                                                        class="fa fa-calendar"></i>{{ $row->created_at }}</a>
-                                            </li>
-
-                                        </ul>
-                                        <h5 class="post-title">
-                                            <a href="/news_details/{{ $row->id }}">{{ $row->title }}</a>
-                                        </h5>
-                                        <p>
-                                            {{ substr($row->body, 0, 100) }}
-                                            <span>...</span>
-                                        </p>
-
-                                        <div class="post-extra">
-                                            <a href="/news_details/{{ $row->id }}" class="btn-link">READ
-                                                MORE</a>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        @endforeach
-                    </div>
-                    <div class="text-center" style="margin-top:40px">
-                        <a href="/list_of_news" class="btn">View All News</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Recent News End -->
-            <!--====== TEACHERS PART START ======-->
-
-            <section id="teachers-part" class="pt-70 pb-120">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="heading-bx left">
-                                <h5>Featured Teachers</h5>
-                                <h1 class="title-head">Meet Our teachers</h1>
-                            </div>
-                            <!-- section title -->
-                            <div class="teachers-cont">
-                                <p>
-                                    Lorem ipsum gravida nibh vel velit auctor aliquetn
-                                    sollicitudirem quibibendum auci elit cons equat ipsutis
-                                    sem nibh id elit. Duis sed odio sit amet nibh vulputate
-                                    cursus a sit amet . Morbi accumsan ipsum velit. Nam nec
-                                    tellus a odio tincidunt mauris. <br />
-                                    <br />
-                                    auci elit cons equat ipsutis sem nibh id elit. Duis sed
-                                    odio sit amet nibh vulputate cursus a sit amet . Morbi
-                                    accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                                    mauris
-                                </p>
-                                <a href="/teacher" class="btn">See More</a>
-                            </div>
-                            <!-- teachers cont -->
-                        </div>
-                        <div class="col-lg-6 offset-lg-1">
-                            <div class="teachers mt-20">
-                                <div class="row">
-                                    @foreach ($teachers as $row)
-                                        <div class="col-sm-6">
-                                            <div class="singel-teachers mt-30 text-center">
-                                                <div class="image">
-                                                    <img src="/storage/{{ $row->pic }}" alt="Teachers" />
-                                                </div>
-                                                <div class="cont">
-                                                    <a href="teachers-singel.html">
-                                                        <h6>{{ $row->name }}</h6>
-                                                        <span>{{ $row->job }}</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- singel teachers -->
-                                        </div>
                                     @endforeach
-                                </div>
-                                <!-- row -->
                             </div>
-                            <!-- teachers -->
+
+                </div>
+                <div class="text-center">
+                    <a href="/list_of_events" class="btn">View All Event</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="section-area section-sp2 bg-fix ovbl-dark"
+            style="background-image: url(assets/images/background/bg1.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-white heading-bx left">
+                        <h2 class="title-head text-uppercase">
+                            what people <span>say</span>
+                        </h2>
+                        <p>
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">
+                    <div class="item">
+                        <div class="testimonial-bx">
+                            <div class="testimonial-thumb">
+                                <img src="assets/images/testimonials/pic1.jpg" alt="" />
+                            </div>
+                            <div class="testimonial-info">
+                                <h5 class="name">Peter Packer</h5>
+                                <p>-Art Director</p>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type...
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <!-- row -->
+                    <div class="item">
+                        <div class="testimonial-bx">
+                            <div class="testimonial-thumb">
+                                <img src="assets/images/testimonials/pic2.jpg" alt="" />
+                            </div>
+                            <div class="testimonial-info">
+                                <h5 class="name">Peter Packer</h5>
+                                <p>-Art Director</p>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- container -->
-            </section>
-
-            <!--====== TEACHERS PART ENDS ======-->
+            </div>
         </div>
-        <!-- contact area END -->
+        <!-- Testimonials END -->
+
+        <!-- Recent News -->
+        <div class="section-area section-sp2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 heading-bx left">
+                        <h2 class="title-head">Recent <span>News</span></h2>
+                        <p>
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recent-news-carousel owl-carousel owl-btn-1 col-12 p-lr0">
+                    @foreach ($news as $row)
+                        <div class="item">
+                            <div class="recent-news">
+                                <div class="action-box">
+                                    <img src="/storage/{{ $row->main_pic }}" alt="" />
+                                </div>
+                                <div class="info-bx">
+                                    <ul class="media-post">
+                                        <li>
+                                            <a href="/news_details/{{ $row->id }}"><i
+                                                    class="fa fa-calendar"></i>{{ $row->created_at }}</a>
+                                        </li>
+
+                                    </ul>
+                                    <h5 class="post-title">
+                                        <a href="/news_details/{{ $row->id }}">{{ $row->title }}</a>
+                                    </h5>
+                                    <p>
+                                        {{ substr($row->body, 0, 100) }}
+                                        <span>...</span>
+                                    </p>
+
+                                    <div class="post-extra">
+                                        <a href="/news_details/{{ $row->id }}" class="btn-link">READ
+                                            MORE</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+                <div class="text-center" style="margin-top:40px">
+                    <a href="/list_of_news" class="btn">View All News</a>
+                </div>
+            </div>
+        </div>
+        <!-- Recent News End -->
+        <!--====== TEACHERS PART START ======-->
+
+        <section id="teachers-part" class="pt-70 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="heading-bx left">
+                            <h5>Featured Teachers</h5>
+                            <h1 class="title-head">Meet Our teachers</h1>
+                        </div>
+                        <!-- section title -->
+                        <div class="teachers-cont">
+                            <p>
+                                Lorem ipsum gravida nibh vel velit auctor aliquetn
+                                sollicitudirem quibibendum auci elit cons equat ipsutis
+                                sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                                cursus a sit amet . Morbi accumsan ipsum velit. Nam nec
+                                tellus a odio tincidunt mauris. <br />
+                                <br />
+                                auci elit cons equat ipsutis sem nibh id elit. Duis sed
+                                odio sit amet nibh vulputate cursus a sit amet . Morbi
+                                accumsan ipsum velit. Nam nec tellus a odio tincidunt
+                                mauris
+                            </p>
+                            <a href="/teacher" class="btn">See More</a>
+                        </div>
+                        <!-- teachers cont -->
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="teachers mt-20">
+                            <div class="row">
+                                @foreach ($teachers as $row)
+                                    <div class="col-sm-6">
+                                        <div class="singel-teachers mt-30 text-center">
+                                            <div class="image">
+                                                <img src="/storage/{{ $row->pic }}" alt="Teachers" />
+                                            </div>
+                                            <div class="cont">
+                                                <a href="teachers-singel.html">
+                                                    <h6>{{ $row->name }}</h6>
+                                                    <span>{{ $row->job }}</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- singel teachers -->
+                                    </div>
+                                @endforeach
+                            </div>
+                            <!-- row -->
+                        </div>
+                        <!-- teachers -->
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </section>
+
+        <!--====== TEACHERS PART ENDS ======-->
+    </div>
+    <!-- contact area END -->
     </div>
 
 

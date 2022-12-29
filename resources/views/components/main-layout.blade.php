@@ -78,8 +78,11 @@
                                     <select class="header-lang-bx" name="languages"
                                         id="languages"onchange="location = this.value;">
                                         <option data-icon="flag flag-uk" value="/">English</option>
-                                        <option data-icon="flag flag-afg" value="/pashto">pashto</option>
-                                        <option data-icon="flag flag-afg" value="/dr">Dari</option>
+                                        <option
+                                            style="font-family:'Noto Naskh Arabic',serif;
+                                                         direction: rtl"
+                                            data-icon="flag flag-afg" value="/pashto">پشتو</option>
+                                        <option data-icon="flag flag-afg" value="/dr">دری</option>
                                     </select>
                                 </li>
 
@@ -436,67 +439,50 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
                             <div class="widget">
-                                <h5 class="footer-title">Sign Up For A Newsletter</h5>
-                                <p class="text-capitalize m-b20">
-                                    Weekly Breaking news analysis and cutting edge advices on
-                                    job searching.
+                                <h5 class="footer-title">Institute Address:</h5>
+                                <p class="text-capitalize">
+                                    District-6, Near Sera Jama, New city, Kandahar, Afghanistan
                                 </p>
-                                <div class="subscribe-form m-b20">
-                                    <form class="subscription-form"
-                                        action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php"
-                                        method="post">
-                                        <div class="ajax-message"></div>
-                                        <div class="input-group">
-                                            <input name="email" required="required" class="form-control"
-                                                placeholder="Your Email Address" type="email" />
-                                            <span class="input-group-btn">
-                                                <button name="submit" value="Submit" type="submit" class="btn">
-                                                    <i class="fa fa-arrow-right"></i>
-                                                </button>
-                                            </span>
-                                        </div>
-                                    </form>
-                                </div>
+
+                            </div>
+                            <div>
+                                <h5 class="footer-title">Contact Numbers:</h5>
+                                <p class="text-capitalize ">
+                                    0093(0)7000(35-38)222
+                                </p>
+
                             </div>
                         </div>
-                        <div class="col-12 col-lg-5 col-md-7 col-sm-12">
+                        <div class="col-lg-3 col-md-12 col-sm-12 footer-col-4">
+                            <div class="widget">
+                                <h5 class="footer-title">Email Addresses:</h5>
+                                <p class="text-capitalize">
+                                    info@benawa.edu.af
+                                    hr@benawa.edu.af
+                                    admission@benawa.edu.af
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-7 col-sm-12">
                             <div class="row">
-                                <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                                <div class="col-4 col-lg-12 col-md-4 col-sm-4">
                                     <div class="widget footer_widget">
-                                        <h5 class="footer-title">Company</h5>
+                                        <h5 class="footer-title">Quick Links</h5>
                                         <ul>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-1.html">About</a></li>
-                                            <li><a href="faq-1.html">FAQs</a></li>
-                                            <li><a href="contact-1.html">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-4 col-lg-4 col-md-4 col-sm-4">
-                                    <div class="widget footer_widget">
-                                        <h5 class="footer-title">Get In Touch</h5>
-                                        <ul>
-                                            <li>
-                                                <a
-                                                    href="http://educhamp.themetrades.com/admin/index.html">Dashboard</a>
+                                            <li><a href="{{ url('files', ['pdf' => 'TimeTable.pdf']) }}">Time
+                                                    Table</a></li>
+                                            <li><a href="https://student.benawa.edu.af/Login.php">Student Portal</a>
                                             </li>
-                                            <li><a href="blog-classic-grid.html">Blog</a></li>
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="event.html">Event</a></li>
+                                            <li><a href="https://admission.benawa.edu.af/Result.php">Online
+                                                    Admission</a></li>
+                                            <li><a href="scholarships">Scholarships & Refund Policy</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-4 col-lg-4 col-md-4 col-sm-4">
-                                    <div class="widget footer_widget">
-                                        <h5 class="footer-title">Courses</h5>
-                                        <ul>
-                                            <li><a href="courses.html">Courses</a></li>
-                                            <li><a href="courses-details.html">Details</a></li>
-                                            <li><a href="membership.html">Membership</a></li>
-                                            <li><a href="profile.html">Profile</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">

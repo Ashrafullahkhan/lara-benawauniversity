@@ -78,11 +78,14 @@
                                 <li>
                                     <select class="header-lang-bx " name="languages"
                                         id="languages"onchange="location = this.value;">
-                                        <option data-icon="flag flag-afg" value="/pashto">Pashto
-                                        </option>
+                                        <option
+                                            style="font-family:'Noto Naskh Arabic',serif;
+                                                         direction: rtl"
+                                            data-icon="flag flag-afg" value="/pashto">پشتو</option>
                                         <option data-icon="flag flag-uk" value="/">English</option>
 
-                                        <option data-icon="flag flag-afg" value="/dari">Dari</option>
+                                        <option data-icon="flag flag-afg" value="/dr">دری</option>
+
                                     </select>
                                 </li>
 
@@ -216,36 +219,68 @@
                                                 class="text-right">پروسیجر او پالیسی<i
                                                     class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="faq-1.html"
+                                                <li><a href="{{ url('policies', ['pdf' => 'Academic_staff_recruitment_policy.pdf']) }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
                                                         class="text-right">داکاډمیک
                                                         کارمندانواړتیا پالیسی</a></li>
-                                                <li><a href="faq-2.html"
+                                                <li><a href="{{ url('policies', ['pdf' => 'Benawa_Research_Policy.pdf']) }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
                                                         class="text-right">د بینوا د
                                                         تحقیقاتو پالیسی</a></li>
-                                                <li><a href="faq-2.html"
+                                                <li><a href="{{ url('policies', ['pdf' => 'Compiliation_and_translation_Policy.pdf']) }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
                                                         class="text-right">درترجمی او تالیف
                                                         پالیسی</a></li>
-                                                <li><a href="faq-2.html"
+                                                <li><a href="{{ url('policies', ['pdf' => 'Conflicts_of_Intrest_in_Research_Policy.pdf']) }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
-                                                        class="text-right">Conflicts of
-                                                        Intrest in Research Policy</a>
+                                                        class="text-right">د شخړو
+                                                        د څیړنې په پالیسۍ کې لیوالتیا</a>
                                                 </li>
                                                 <li><a href="faq-2.html"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
                                                         class="text-right">د کارمندانو د
                                                         شکایاتو پالیسی</a></li>
-                                                <li><a href="faq-2.html"
+                                                <li><a href="{{ url('policies', ['pdf' => 'Ethics_in_Research_Policy.pdf']) }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
                                                         class="text-right">په څیړنه کی د
                                                         اخلاقو پالیسی</a></li>
-                                                <li><a href="faq-2.html"
+                                                <li><a href="{{ url('policies', ['pdf' => 'Ethics_policy.pdf']) }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
                                                         class="text-right">د اخلاقو
                                                         پالیسی</a></li>
+                                                <li><a href="{{ url('policies', ['pdf' => 'Gender_policy.pdf']) }}"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">جندر
+                                                        پالیسي</a></li>
+                                                <li><a href="{{ url('policies', ['pdf' => 'Juctice_Policy.pdf']) }}"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">عدالت
+                                                        پالیسي</a></li>
+                                                <li><a href="{{ url('policies', ['pdf' => 'Library_using_Mechanism.pdf']) }}"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">کتابتون
+                                                        د میکانیزم کارول</a></li>
+                                                <li><a href="{{ url('policies', ['pdf' => 'Ethics_policy.pdf']) }}"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">مسلکي
+                                                        د پراختیا پالیسي</a></li>
+                                                <li><a href="{{ url('policies', ['pdf' => 'Research_Guidline.pdf']) }}"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">څیړنه
+                                                        او لارښود</a></li>
+                                                <li><a href="{{ url('policies', ['pdf' => 'Sponsored_Research_Policy.pdf']) }}"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right">سپانسر شوی
+                                                        د څیړنې پالیسي
+                                                    </a></li>
+                                                <li><a href="{{ url('policies', ['pdf' => 'Academic_Freedom.pdf']) }}"
+                                                        style="font-family:'Noto Naskh Arabic',serif;"
+                                                        class="text-right"> علمي
+                                                        ازادي
+
+                                                    </a></li>
                                             </ul>
+
                                         </li>
                                     </ul>
 
@@ -373,7 +408,7 @@
                                 </ul>
                             </div>
                             <div class="pt-btn-join">
-                                <a href="#" class="btn">همدااوس یوځای شی</a>
+                                <a href="#" class="btn">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -382,71 +417,55 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
                             <div class="widget">
-                                <h5 class="footer-title">د خبرلیکونو لپاره یی ووایاست</h5>
-                                <p class="text-capitalize m-b20">
-                                    Weekly Breaking news analysis and cutting edge advices on
-                                    job searching.
+                                <h5 class="footer-title pashto-font">د انستیتوت پته:</h5>
+                                <p class="text-capitalize">
+                                    District-6, Near Sera Jama, New city, Kandahar, Afghanistan
                                 </p>
-                                <div class="subscribe-form m-b20">
-                                    <form class="subscription-form"
-                                        action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php"
-                                        method="post">
-                                        <div class="ajax-message"></div>
-                                        <div class="input-group">
-                                            <input name="email" required="required" class="form-control"
-                                                placeholder="Your Email Address" type="email" />
-                                            <span class="input-group-btn">
-                                                <button name="submit" value="Submit" type="submit" class="btn">
-                                                    <i class="fa fa-arrow-right"></i>
-                                                </button>
-                                            </span>
-                                        </div>
-                                    </form>
-                                </div>
+
+                            </div>
+                            <div>
+                                <h5 class="footer-title pashto-font">د اړیکو شمیرې:</h5>
+                                <p class="text-capitalize ">
+                                    0093(0)7000(35-38)222
+                                </p>
+
                             </div>
                         </div>
-                        <div class="col-12 col-lg-5 col-md-7 col-sm-12">
+                        <div class="col-lg-3 col-md-12 col-sm-12 footer-col-4">
+                            <div class="widget">
+                                <h5 class="footer-title pashto-font">ایمیل ادرسونه:</h5>
+                                <p class="text-capitalize">
+                                    info@benawa.edu.af
+                                    hr@benawa.edu.af
+                                    admission@benawa.edu.af
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-7 col-sm-12">
                             <div class="row">
-                                <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                                <div class="col-4 col-lg-12 col-md-4 col-sm-4">
                                     <div class="widget footer_widget">
-                                        <h5 class="footer-title">شرکت</h5>
+                                        <h5 class="footer-title pashto-font">چټک لینکونه</h5>
                                         <ul>
-                                            <li><a href="index.html">کور</a></li>
-                                            <li><a href="about-1.html">په اړه</a></li>
-                                            <li><a href="faq-1.html">FAQs</a></li>
-                                            <li><a href="contact-1.html">اړیکه</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-4 col-lg-4 col-md-4 col-sm-4">
-                                    <div class="widget footer_widget">
-                                        <h5 class="footer-title">اړیکه ونیسی</h5>
-                                        <ul>
-                                            <li>
-                                                <a href="http://educhamp.themetrades.com/admin/index.html">دشبورد</a>
+                                            <li><a href="{{ url('files', ['pdf' => 'TimeTable.pdf']) }}">Time
+                                                    Table</a></li>
+                                            <li><a href="https://student.benawa.edu.af/Login.php">Student Portal</a>
                                             </li>
-                                            <li><a href="blog-classic-grid.html">بلاګ</a></li>
-                                            <li><a href="portfolio.html">فورفایل</a></li>
-                                            <li><a href="event.html">پیښه</a></li>
+                                            <li><a href="https://admission.benawa.edu.af/Result.php">Online
+                                                    Admission</a></li>
+                                            <li><a href="scholarships">Scholarships & Refund Policy</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-4 col-lg-4 col-md-4 col-sm-4">
-                                    <div class="widget footer_widget">
-                                        <h5 class="footer-title">کورسونه</h5>
-                                        <ul>
-                                            <li><a href="courses.html">کورسونه</a></li>
-                                            <li><a href="courses-details.html">تفصسلات</a></li>
-                                            <li><a href="membership.html">عضویت</a></li>
-                                            <li><a href="profile.html">فورفایل</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                             <div class="widget widget_gallery gallery-grid-4">
-                                <h5 class="footer-title">ګالری</h5>
+                                <h5 class="footer-title">Our Gallery</h5>
                                 <ul class="magnific-image">
                                     <li>
                                         <a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img

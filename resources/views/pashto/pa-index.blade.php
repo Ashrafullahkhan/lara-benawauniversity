@@ -588,7 +588,7 @@
                                                                 <h4 class="event-title pashto-font text-right">
                                                                     <a href="/pa_event_details/{{ $row->id }}"
                                                                         style="font-family:'Noto Naskh Arabic',serif;
-                                    direction: rtl">{{ $row->title }}</a>
+                                                                              direction: rtl">{{ $row->title }}</a>
                                                                 </h4>
                                                                 <ul class="media-post">
 
@@ -604,14 +604,14 @@
                                                                     <li>
                                                                         <a href="/pa_event_details/{{ $row->id }}"
                                                                             style="font-family:'Noto Naskh Arabic',serif;
-                                    direction: rtl"><i
+                                                                   direction: rtl"><i
                                                                                 class="fa fa-map-marker"></i>
                                                                             {{ $row->location }}</a>
                                                                     </li>
                                                                 </ul>
                                                                 <p
                                                                     style="font-family:'Noto Naskh Arabic',serif;
-                                    direction: rtl">
+                                                                         direction: rtl">
                                                                     {{ substr($row->body, 0, 100) }}
                                                                     <span>...</span>
                                                                 </p>
