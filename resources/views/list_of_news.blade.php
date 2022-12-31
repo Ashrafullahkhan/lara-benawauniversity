@@ -30,7 +30,9 @@
                                         </ul>
                                         <h5 class="post-title"><a href="blog-details.html">{{ $row->title }}</a>
                                         </h5>
-                                        <p>{{ $row->body }}</p>
+                                        <p>
+                                            {{ substr($row->body, 0, 150) }}
+                                        </p>
                                         <div class="post-extra">
                                             <a href="/news_details/{{ $row->id }}" class="btn-link">READ
                                                 MORE</a>

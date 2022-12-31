@@ -43,7 +43,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 
     <!-- PAGE TITLE HERE ============================================= -->
-    <title>موسیسه تحصیلات عالی بینوا</title>
+    <title
+        style="  font-family:'Noto Naskh Arabic',serif;
+                                        direction: rtl;margin-top:40px">
+        موسیسه تحصیلات عالی بینوا</title>
 
     <!-- MOBILE SPECIFIC ============================================= -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />

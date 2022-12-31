@@ -103,7 +103,7 @@
                                             <div class="col-md-12">
                                                 <h6 class="m-b10">News Description</h6>
                                                 <p>
-                                                    {{ $row->body }}
+                                                    {{ substr($row->body, 0, 150) }}
                                                 </p>
                                             </div>
 
