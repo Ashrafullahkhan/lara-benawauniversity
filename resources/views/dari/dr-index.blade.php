@@ -539,7 +539,7 @@
                             @foreach ($events as $row)
                                 <div class="item">
                                     <div class="event-bx">
-                                        <div class="action-box ">
+                                        <div class="action-box " style="height:250px">
                                             <img src="/storage/{{ $row->main_pic }}" alt="" />
                                         </div>
                                         <div class="info-bx d-flex">
@@ -555,7 +555,7 @@
                                             </div>
                                             <div class="event-info">
                                                 <h4 class="event-title pashto-font text-right">
-                                                    <a href="/pa_event_details/{{ $row->id }}"
+                                                    <a href="/dr-event-details/{{ $row->id }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;
                                                                               direction: rtl">{{ $row->title }}</a>
                                                 </h4>
@@ -570,7 +570,7 @@
                                                             {{ $row->end_date }}</a>
                                                     </li>
                                                     <li>
-                                                        <a href="/pa_event_details/{{ $row->id }}"
+                                                        <a href="/dr-event-details/{{ $row->id }}"
                                                             style="font-family:'Noto Naskh Arabic',serif;
                                                                    direction: rtl"><i
                                                                 class="fa fa-map-marker"></i>
@@ -591,10 +591,11 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a href="/pa_list_of_events" class="btn pashto-font"
+                        <a href="/dr-list-of-events" class="btn pashto-font"
                             style="  font-family:'Noto Naskh Arabic',serif;
-                                        direction: rtl;">ټولی
-                            پیښې وګورۍ</a>
+                                        direction: rtl;">مشاهده
+                            همه رویدادها
+                        </a>
                     </div>
                 </div>
             </div>
@@ -674,22 +675,23 @@
                         @foreach ($news as $row)
                             <div class="item">
                                 <div class="recent-news">
-                                    <div class="action-box">
+                                    <div class="action-box" style="height:200px">
                                         <img src="/storage/{{ $row->main_pic }}" alt="" />
                                     </div>
                                     <div class="info-bx">
                                         <ul class="media-post">
                                             <li>
-                                                <a href="/pa_news_details/{{ $row->id }}"><i
+                                                <a href="/dr-news-details/{{ $row->id }}"><i
                                                         class="fa fa-calendar"></i>{{ $row->created_at }}</a>
                                             </li>
 
                                         </ul>
                                         <h5 class="post-title text-right">
-                                            <a href="/pa_news_details/{{ $row->id }}"
+                                            <a href="/dr-news-details/{{ $row->id }}"
                                                 style="font-family:'Noto Naskh Arabic',serif;
                                                          direction: rtl">{{ $row->title }}</a>
                                         </h5>
+
                                         <p style="font-family:'Noto Naskh Arabic',serif;
                                                           direction: rtl"
                                             class="text-right">
@@ -698,7 +700,7 @@
                                         </p>
 
                                         <div class="post-extra">
-                                            <a href="/pa_news_details/{{ $row->id }}"
+                                            <a href="/dr-news-details/{{ $row->id }}"
                                                 class="btn-link pashto-font">نورولولۍ</a>
 
                                         </div>
@@ -708,10 +710,10 @@
                         @endforeach
                     </div>
                     <div class="text-center">
-                        <a href="/pa_list_of_news" class="btn pashto-font"
+                        <a href="/dr-list-of-news" class="btn pashto-font"
                             style="  font-family:'Noto Naskh Arabic',serif;
-                                        direction: rtl;margin-top:40px">ټول
-                            خبرونه وګورئ</a>
+                                            direction: rtl;margin-top:40px">اراده
+                            اخبار را بررسی کنید</a>
                     </div>
                 </div>
             </div>
@@ -740,7 +742,7 @@
                                     accumsan ipsum velit. Nam nec tellus a odio tincidunt
                                     mauris
                                 </p>
-                                <a href="#" class="btn">Career with us</a>
+                                <a href="/dr-teacher" class="btn pashto-font">با معلمان ما آشنا شوید</a>
                             </div>
                             <!-- teachers cont -->
                         </div>

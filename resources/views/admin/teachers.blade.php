@@ -67,9 +67,6 @@
             <div class="row">
                 <!-- Your Profile Views Chart -->
                 <div class="col-lg-12 m-b30">
-
-
-
                     @if ($errors->any())
                         <div class="alert alert-danger">
                             <ul>
@@ -124,7 +121,8 @@
                                         <div class="form-group col-12">
                                             <label>Select Profile Image</label>
                                             <div>
-                                                <input type="file" name="pic" />
+                                                <input type="file" name="pic"
+                                                    accept="image/x-png,image/jpeg,image/jpg" />
                                             </div>
 
                                         </div>
@@ -183,17 +181,27 @@
                                                 <td>{{ $row->job }}</td>
 
                                                 <td>
-                                                    <div> <a href="/admin/teachers/{{ $row->id }}"><i
-                                                                class="fa fa-edit"></i></a>
-                                                    </div>
+                                                    <div style="display: flex  "> <a
+                                                            href="/admin/teachers/{{ $row->id }}"><i
+                                                                class="fa fa-pencil"
+                                                                style="font-size: larger;color:green;margin-right:5px"
+                                                                aria-hidden="true"></i>
+                                                        </a>
 
-                                                    <form float="right" action="/teachers/delete/{{ $row->id }}"
-                                                        method="POST">
-                                                        @csrf
-                                                        @method('DELETE')
-                                                        <button class="delete"> <i class="fa fa-close"></i></button>
-                                                    </form>
+
+                                                        <form float="right"
+                                                            action="/teachers/delete/{{ $row->id }}"
+                                                            method="POST">
+                                                            @csrf
+                                                            @method('DELETE')
+                                                            <button style="border:none;background:none"> <i
+                                                                    class="fa fa-trash"
+                                                                    style="font-size:larger;color:red"aria-hidden="true"></i>
+                                                            </button>
+                                                        </form>
+                                                    </div>
                                                 </td>
+
 
                                             </tr>
                                         @endforeach

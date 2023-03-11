@@ -75,14 +75,17 @@
                         <div class="topbar-right">
                             <ul>
                                 <li>
-                                    <select class="header-lang-bx" name="languages"
-                                        id="languages"onchange="location = this.value;">
-                                        <option data-icon="flag flag-uk" value="/">English</option>
+                                    <select class="header-lang-bx" name="languages" id="languages"
+                                        onchange="location = this.value;">
+                                        <option data-icon="flag flag-uk" value="{{ url('') . '/-' . Request::path() }}">
+                                            English</option>
                                         <option
                                             style="font-family:'Noto Naskh Arabic',serif;
                                                          direction: rtl"
-                                            data-icon="flag flag-afg" value="/pashto">پشتو</option>
-                                        <option data-icon="flag flag-afg" value="/dr">دری</option>
+                                            data-icon="flag flag-afg" value="{{ url('') . '/pa-' . Request::path() }}">
+                                            پشتو</option>
+                                        <option data-icon="flag flag-afg"
+                                            value="{{ url('') . '/dr-' . Request::path() }}">دری</option>
                                     </select>
                                 </li>
 
@@ -187,11 +190,7 @@
                                         </li>
 
                                         <li><a href="javascript:;">Faculty</a>
-                                            <!--	<ul class="sub-menu">
-        <li><a href="event.html">Event</a></li>
-        <li><a href="events-details.html">Events Details</a></li>
-       </ul>
-       -->
+
                                         </li>
                                         <li><a href="javascript:;">Proc.& Policies<i
                                                     class="fa fa-angle-right"></i></a>
@@ -207,28 +206,7 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <!-- <li class="add-mega-menu">
-                    <a href="javascript:;"
-                      >Our Courses <i class="fa fa-chevron-down"></i
-                    ></a>
-                    <ul class="sub-menu add-menu">
-                      <li class="add-menu-left">
-                        <h5 class="menu-adv-title">Our Courses</h5>
-                        <ul>
-                          <li><a href="courses.html">Courses </a></li>
-                          <li>
-                            <a href="courses-details.html">Courses Details</a>
-                          </li>
-                          <li><a href="profile.html">Instructor Profile</a></li>
-                          <li><a href="event.html">Upcoming Event</a></li>
-                          <li><a href="membership.html">Membership</a></li>
-                        </ul>
-                      </li>
-                      <li class="add-menu-right">
-                        <img src="assets/images/adv/adv.jpg" alt="" />
-                      </li>
-                    </ul>
-                  </li> -->
+
                                 <li class="add-mega-menu"><a href="javascript:;">Students <i
                                             class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu add-menu">
@@ -268,55 +246,6 @@
 
                                     </ul>
                                 </li>
-                                <!-- <li class="nav-dashboard">
-                    <a href="javascript:;"
-                      >Dashboard <i class="fa fa-chevron-down"></i
-                    ></a>
-                    <ul class="sub-menu">
-                      <li><a href="admin/index.html">Dashboard</a></li>
-                      <li><a href="admin/add-listing.html">Add Listing</a></li>
-                      <li><a href="admin/bookmark.html">Bookmark</a></li>
-                      <li><a href="admin/courses.html">Courses</a></li>
-                      <li><a href="admin/review.html">Review</a></li>
-                      <li>
-                        <a href="admin/teacher-profile.html">Teacher Profile</a>
-                      </li>
-                      <li>
-                        <a href="admin/user-profile.html">User Profile</a>
-                      </li>
-                      <li>
-                        <a href="javascript:;"
-                          >Calendar<i class="fa fa-angle-right"></i
-                        ></a>
-                        <ul class="sub-menu">
-                          <li>
-                            <a href="admin/basic-calendar.html"
-                              >Basic Calendar</a
-                            >
-                          </li>
-                          <li>
-                            <a href="admin/list-view-calendar.html"
-                              >List View Calendar</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="javascript:;"
-                          >Mailbox<i class="fa fa-angle-right"></i
-                        ></a>
-                        <ul class="sub-menu">
-                          <li><a href="admin/mailbox.html">Mailbox</a></li>
-                          <li>
-                            <a href="admin/mailbox-compose.html">Compose</a>
-                          </li>
-                          <li>
-                            <a href="admin/mailbox-read.html">Mail Read</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li> -->
                                 <li class="nav-dashboard"><a href="javascript:;">About Us <i
                                             class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
@@ -493,18 +422,21 @@
     <!-- External JavaScripts -->
 
     <!-- Revolution JavaScripts Files -->
-    <script src="assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script src="{{ asset('assets/vendors/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
     <!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}">
+    </script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script src="" src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.parallax.min.js') }}">
+    </script>
+    <script src="{{ asset('assets/vendors/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
     <script>
         jQuery(document).ready(function() {
             var ttrevapi;
@@ -516,7 +448,8 @@
                     .show()
                     .revolution({
                         sliderType: "standard",
-                        jsFileLocation: "assets/vendors/revolution/js/",
+                        jsFileLocation: {{ asset('assets/vendors/revolution/js/') }},
+
                         sliderLayout: "fullwidth",
                         dottedOverlay: "none",
                         delay: 9000,

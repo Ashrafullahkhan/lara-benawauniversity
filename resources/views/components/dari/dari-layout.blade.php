@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <!-- META ============================================= -->
     <meta charset="utf-8" />
@@ -18,35 +19,12 @@
     <meta property="og:image" content="" />
     <meta name="format-detection" content="telephone=no" />
 
-    <!--font style-->
-    <style type="text/css">
-        @font-face {
-            font-family: OptimusPrinceps;
-            src: url('{{ public_path('fonts/OptimusPrinceps.tff') }}');
-
-            @font-face {
-                font-family: 'proxima-nova';
-                font-style: normal;
-                font-weight: 900;
-                src: url('../public/css/fonts/proxima-nova-light-59f99460e7b28.otf');
-            }
-        }
-    </style>
-
-    <link href="{{ asset('bootstrap.rtl.min.css') }}" rel="stylesheet">
-
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
     <!-- FAVICONS ICON ============================================= -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 
     <!-- PAGE TITLE HERE ============================================= -->
-    <title
-        style="  font-family:'Noto Naskh Arabic',serif;
-                                        direction: rtl;margin-top:40px">
-        موسیسه تحصیلات عالی بینوا</title>
+    <title>Benawa Institute of Higher Studies</title>
 
     <!-- MOBILE SPECIFIC ============================================= -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -57,24 +35,25 @@
     <![endif]-->
 
     <!-- All PLUGINS CSS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/assets.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/assets.css') }}">
 
     <!-- TYPOGRAPHY ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/typography.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/typography.css') }}">
 
     <!-- SHORTCODES ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/shortcodes/shortcodes.css') }}">
 
     <!-- STYLESHEETS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{ asset('assets/css/color/color-1.css') }}">
 
     <!-- REVOLUTION SLIDER CSS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/layers.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/settings.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/layers.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/settings.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/navigation.css') }}" />
     <!-- REVOLUTION SLIDER END -->
 </head>
+
 
 <body id="bg">
     <div class="page-wraper">
@@ -103,8 +82,13 @@
                                     <select class="header-lang-bx" name="languages"
                                         id="languages"onchange="location = this.value;">
                                         <option data-icon="flag flag-afg" value="/dr">دری</option>
-                                        <option data-icon="flag flag-uk" value="/">انگلیسی</option>
-                                        <option data-icon="flag flag-afg" value="/pashto">پشتو</option>
+
+                                        <option data-icon="flag flag-afg"
+                                            value="{{ url('') . '/pa-' . substr(Request::path(), 3) }}">پشتو</option>
+                                        <option data-icon="flag flag-uk"
+                                            value="{{ url('') . '/' . substr(Request::path(), 3) }}">
+                                            English</option>
+
 
                                     </select>
                                 </li>
@@ -119,7 +103,7 @@
                     <div class="container clearfix">
                         <!-- Header Logo ==== -->
                         <div class="menu-logo">
-                            <a href="/"><img src="assets/images/logo-white.png" alt="" /></a>
+                            <a href="/"><img src="{{ asset('assets/images/logo-white.png') }}" />
                         </div>
                         <!-- Mobile Nav Button ==== -->
                         <button class="navbar-toggler collapsed menuicon justify-content-end" type="button"
@@ -240,7 +224,8 @@
                                             <ul class="sub-menu">
                                                 <li><a href="{{ url('policies', ['pdf' => 'Academic_staff_recruitment_policy.pdf']) }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
-                                                        class="text-right"> استخدام کارمندان علمی و اکادمیک</a></li>
+                                                        class="text-right"> استخدام کارمندان علمی و اکادمیک</a>
+                                                </li>
                                                 <li><a href="{{ url('policies', ['pdf' => 'Benawa_Research_Policy.pdf']) }}"
                                                         style="font-family:'Noto Naskh Arabic',serif;"
                                                         class="text-right">پالیسی تحقیقاتی بینوا</a></li>
@@ -433,8 +418,8 @@
                       </li>
                     </ul>
                   </li> -->
-                                <li class="nav-dashboard"><a href="javascript:;" class="pashto-font">دربارهً ما <i
-                                            class="fa fa-chevron-down"></i></a>
+                                <li class="nav-dashboard"><a href="javascript:;" class="pashto-font">دربارهً
+                                        ما <i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="/dr-why-benawa" style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">?چرا بینوا</a></li>
@@ -455,12 +440,14 @@
                                                 style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">شاگردان ما</a></li>
                                     </ul>
+                                <li class="nav-dashboard clearfix"><a style="font-family:'Noto Naskh Arabic',serif;"
+                                        href="/dr-contact">با ما تماس بگیرید</a></li>
 
-                                    <div class="nav-social-link">
-                                        <a href="javascript:;"><i class="fa fa-facebook"></i></a>
-                                        <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-                                        <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-                                    </div>
+                                <div class="nav-social-link">
+                                    <a href="javascript:;"><i class="fa fa-facebook"></i></a>
+                                    <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+                                    <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+                                </div>
                         </div>
                         <!-- Navigation Menu END ==== -->
                     </div>
@@ -555,36 +542,49 @@
                                 <h5 class="footer-title">Our Gallery</h5>
                                 <ul class="magnific-image">
                                     <li>
-                                        <a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic1.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic1.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic1.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic2.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic2.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic2.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic3.jpg" alt="" /></a>
+                                        <a
+                                            href="{{ asset('assets/images/gallery/pic4.jpg') }}"class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic4.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic4.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic3.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic3.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic5.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic5.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic5.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic6.jpg" alt="" /></a>
+                                        <a
+                                            href="{{ asset('assets/images/gallery/pic6.jpg') }}"class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic6.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic7.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic7.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic7.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic8.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic8.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic8.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                 </ul>
                             </div>
@@ -598,22 +598,25 @@
         <button class="back-to-top fa fa-chevron-up"></button>
     </div>
 
+    <script src="{{ asset('admin/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/waypoints-min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/counterup.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/masonry.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/filter.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/scroll/scrollbar.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/functions.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/chart/chart.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/admin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/switcher/switcher.js  ') }}"></script>
     <!-- External JavaScripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-    <script src="assets/vendors/magnific-popup/magnific-popup.js"></script>
-    <script src="assets/vendors/counter/waypoints-min.js"></script>
-    <script src="assets/vendors/counter/counterup.min.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.js"></script>
-    <script src="assets/vendors/masonry/masonry.js"></script>
-    <script src="assets/vendors/masonry/filter.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
-    <script src="assets/js/functions.js"></script>
-    <script src="assets/js/contact.js"></script>
-    <script src="assets/vendors/switcher/switcher.js"></script>
+
     <!-- Revolution JavaScripts Files -->
     <script src="assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>

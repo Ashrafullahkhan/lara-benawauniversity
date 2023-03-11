@@ -17,7 +17,16 @@ class NewsController extends Controller
             $data->where('title', 'like', '%' . request('search') . '%');
 
         }
+
         return view('/admin/news/news', ['data' => $data->paginate(5)]);
+    }
+
+    public function select()
+    {
+        $data = News::latest();
+
+        return view('/admin/news/news');
+
     }
 
     public function insert_data(Request $request)

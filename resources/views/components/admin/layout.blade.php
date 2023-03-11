@@ -39,9 +39,24 @@
                                  height="32"></span></a>
                      <div class="ttr-header-submenu">
                          <ul>
-                             <li><a href="user-profile.html">My profile</a></li>
+                             <form method="POST" action="{{ route('logout') }}">
+                                 @csrf
 
-                             <li><a href="../login.html">Logout</a></li>
+                                 <li>
+                                     <a href="{{ route('logout') }}"
+                                         onclick="event.preventDefault();
+                        this.closest('form').submit(); "
+                                         role="button">
+                                         <i class="fas fa-sign-out-alt"></i>
+
+                                         {{ __('Log Out') }}
+                                     </a>
+                                 </li>
+
+
+                             </form>
+
+
                          </ul>
                      </div>
                  </li>

@@ -223,11 +223,11 @@
                                                     <div class="ttr-post-info">
                                                         <div class="ttr-post-header">
                                                             <h6 class="post-title pashto-font text-right"><a
-                                                                    href="blog-details.html">{{ $row->title }}</a>
+                                                                    href="/pa-event-details/{{ $event->id }}">{{ $row->title }}</a>
                                                             </h6>
                                                         </div>
                                                         <ul class="media-post">
-                                                            <li><a href="#"><i
+                                                            <li><a href="/pa-event-details/{{ $event->id }}"><i
                                                                         class="fa fa-calendar"></i>{{ $row->created_at }}
                                                                 </a></li>
 

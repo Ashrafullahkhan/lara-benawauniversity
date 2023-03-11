@@ -367,13 +367,17 @@
                                         <li><a href="admin/teacher-profile"
                                                 style="font-family:'Noto Naskh Arabic',serif;" class="text-right">زموږ
                                                 زده کونکی</a></li>
-                                    </ul>
+                                </li>
 
-                                    <div class="nav-social-link">
-                                        <a href="javascript:;"><i class="fa fa-facebook"></i></a>
-                                        <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-                                        <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-                                    </div>
+                            </ul>
+                            <li class="nav-dashboard clearfix"><a style="font-family:'Noto Naskh Arabic',serif;"
+                                    href="/contact">موږ سره اړیکه ونیسئ</a>
+
+                                <div class="nav-social-link">
+                                    <a href="javascript:;"><i class="fa fa-facebook"></i></a>
+                                    <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+                                    <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+                                </div>
                         </div>
                         <!-- Navigation Menu END ==== -->
                     </div>
@@ -468,36 +472,49 @@
                                 <h5 class="footer-title">Our Gallery</h5>
                                 <ul class="magnific-image">
                                     <li>
-                                        <a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic1.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic1.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic1.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic2.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic2.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic2.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic3.jpg" alt="" /></a>
+                                        <a
+                                            href="{{ asset('assets/images/gallery/pic4.jpg') }}"class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic4.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic4.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic3.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic3.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic5.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic5.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic5.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic6.jpg" alt="" /></a>
+                                        <a
+                                            href="{{ asset('assets/images/gallery/pic6.jpg') }}"class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic6.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic7.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic7.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic7.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic8.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic8.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic8.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                 </ul>
                             </div>
@@ -512,21 +529,25 @@
     </div>
 
     <!-- External JavaScripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-    <script src="assets/vendors/magnific-popup/magnific-popup.js"></script>
-    <script src="assets/vendors/counter/waypoints-min.js"></script>
-    <script src="assets/vendors/counter/counterup.min.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.js"></script>
-    <script src="assets/vendors/masonry/masonry.js"></script>
-    <script src="assets/vendors/masonry/filter.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
-    <script src="assets/js/functions.js"></script>
-    <script src="assets/js/contact.js"></script>
-    <script src="assets/vendors/switcher/switcher.js"></script>
+    <script src="{{ asset('admin/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/waypoints-min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/counterup.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/masonry.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/filter.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/scroll/scrollbar.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/functions.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/chart/chart.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/admin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/switcher/switcher.js  ') }}"></script>
+    <!-- External JavaScripts -->
+
     <!-- Revolution JavaScripts Files -->
     <script src="assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
