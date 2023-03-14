@@ -106,11 +106,12 @@
                                                 value="{{ $staff->job }}">
                                         </div>
                                     </div>
-
+                                    <p>asdfa{{ $staff->name }}</p>
                                     <div class="form-group col-12">
                                         <label>Select Profile Image</label>
                                         <div>
-                                            <input type="file" name="pic" value="{{ $staff->pic }}" />
+                                            <input type="file" name="pic" value="{{ $staff->pic }}"
+                                                accept="image/x-png,image/jpeg,image/jpg" />
                                         </div>
                                         <img src="/storage/{{ $staff->pic }}" class="img-thumbnail" width="75" />
                                     </div>
@@ -121,9 +122,7 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
-
-
+                        </div>y
                     </div>
                 </div>
             </div>

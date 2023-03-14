@@ -114,7 +114,8 @@
                                     <div class="form-group col-4">
                                         <label>Select Main Image</label>
                                         <div>
-                                            <input type="file" name="main_pic" value="{{ $alumuni->main_pic }} " />
+                                            <input type="file" name="main_pic" value="{{ $alumuni->main_pic }}"
+                                                accept="image/x-png,image/jpeg,image/jpg" />
                                         </div>
 
                                     </div>

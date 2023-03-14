@@ -570,7 +570,7 @@
                                             @foreach ($events as $row)
                                                 <div class="item">
                                                     <div class="event-bx">
-                                                        <div class="action-box ">
+                                                        <div class="action-box" style="height:250px">
                                                             <img src="/storage/{{ $row->main_pic }}" alt="" />
                                                         </div>
                                                         <div class="info-bx d-flex">
@@ -586,7 +586,7 @@
                                                             </div>
                                                             <div class="event-info">
                                                                 <h4 class="event-title pashto-font text-right">
-                                                                    <a href="/pa_event_details/{{ $row->id }}"
+                                                                    <a href="/pa-event-details/{{ $row->id }}"
                                                                         style="font-family:'Noto Naskh Arabic',serif;
                                                                               direction: rtl">{{ $row->title }}</a>
                                                                 </h4>
@@ -602,7 +602,7 @@
                                                                             {{ $row->end_date }}</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="/pa_event_details/{{ $row->id }}"
+                                                                        <a href="/pa-event-details/{{ $row->id }}"
                                                                             style="font-family:'Noto Naskh Arabic',serif;
                                                                    direction: rtl"><i
                                                                                 class="fa fa-map-marker"></i>
@@ -623,7 +623,7 @@
                                         </div>
                                     </div>
                                     <div class="text-center">
-                                        <a href="/pa_list_of_events" class="btn pashto-font"
+                                        <a href="/pa-list-of-events" class="btn pashto-font"
                                             style="  font-family:'Noto Naskh Arabic',serif;
                                         direction: rtl;">ټولی
                                             پیښې وګورۍ</a>
@@ -631,7 +631,61 @@
                                 </div>
                             </div>
 
+                            {{-- start alumni  --}}
+                            <div class="section-area section-sp2">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12 heading-bx text-right">
+                                            <h2 class="title-head pashto-font"> پخواني <span> زده کوونکي </span></h2>
 
+                                        </div>
+                                    </div>
+                                    <div class="recent-news-carousel owl-carousel owl-btn-1 col-12 p-lr0"
+                                        style="margin-top:20px ">
+                                        @foreach ($alumni as $row)
+                                            <div class="item">
+                                                <div class="recent-news">
+                                                    <div class="action-box" style="height:200px">
+                                                        <img src="/storage/{{ $row->main_pic }}" alt="" />
+                                                    </div>
+                                                    <div class="info-bx">
+                                                        <ul class="media-post">
+
+
+                                                        </ul>
+                                                        <h5 class="post-title text-right">
+                                                            <a href="/pa-alumni-details/{{ $row->id }}"
+                                                                style="font-family:'Noto Naskh Arabic',serif;
+                                                         direction: rtl">{{ substr($row->name, 0, 100) }}</a>
+                                                        </h5>
+
+
+                                                        <p style="font-family:'Noto Naskh Arabic',serif;
+                                                          direction: rtl"
+                                                            class="text-right">
+                                                            {{ substr($row->body, 0, 100) }}
+                                                            <span>...</span>
+                                                        </p>
+
+                                                        <div class="post-extra">
+                                                            <a href="/pa-alumni-details/{{ $row->id }}"
+                                                                class="btn-link pashto-font">نورولولۍ</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        @endforeach
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="/pa-list-of-alumuni" class="btn pashto-font"
+                                            style="  font-family:'Noto Naskh Arabic',serif;
+                                        direction: rtl;margin-top:40px">ټول
+                                            المونی وګورئ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- end of alumni --}}
                             <!-- Recent News -->
                             <div class="section-area section-sp2">
                                 <div class="container">
@@ -646,7 +700,7 @@
                                         @foreach ($news as $row)
                                             <div class="item">
                                                 <div class="recent-news">
-                                                    <div class="action-box">
+                                                    <div class="action-box" style="height:200px">
                                                         <img src="/storage/{{ $row->main_pic }}" alt="" />
                                                     </div>
                                                     <div class="info-bx">
@@ -658,10 +712,16 @@
 
                                                         </ul>
                                                         <h5 class="post-title text-right">
+
                                                             <a href="/pa_news_details/{{ $row->id }}"
                                                                 style="font-family:'Noto Naskh Arabic',serif;
-                                                         direction: rtl">{{ $row->title }}</a>
+                                                         direction: rtl">{{ substr($row->title, 0, 100) }}
+                                                            </a>
+
                                                         </h5>
+
+
+
                                                         <p style="font-family:'Noto Naskh Arabic',serif;
                                                           direction: rtl"
                                                             class="text-right">
@@ -680,7 +740,7 @@
                                         @endforeach
                                     </div>
                                     <div class="text-center">
-                                        <a href="/pa_list_of_news" class="btn pashto-font"
+                                        <a href="/pa-list-of-news" class="btn pashto-font"
                                             style="  font-family:'Noto Naskh Arabic',serif;
                                         direction: rtl;margin-top:40px">ټول
                                             خبرونه وګورئ</a>

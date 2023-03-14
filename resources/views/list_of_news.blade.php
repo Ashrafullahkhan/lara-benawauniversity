@@ -28,7 +28,8 @@
                                             </li>
 
                                         </ul>
-                                        <h5 class="post-title"><a href="blog-details.html">{{ $row->title }}</a>
+                                        <h5 class="post-title"><a
+                                                href="/news_details/{{ $row->id }}">{{ $row->title }}</a>
                                         </h5>
                                         <p>
                                             {{ substr($row->body, 0, 150) }}
@@ -73,8 +74,8 @@
                                                         width="200" height="143" alt=""> </div>
                                                 <div class="ttr-post-info">
                                                     <div class="ttr-post-header">
-                                                        <h6 class="post-title"><a
-                                                                href="blog-details.html">{{ $row->title }}</a></h6>
+                                                        <h6 class="post-title"><a href="/list-of-news">
+                                                                {{ substr($row->title, 0, 100) }}</a></h6>
                                                     </div>
                                                     <ul class="media-post">
                                                         <li><a href="#"><i

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <!-- META ============================================= -->
     <meta charset="utf-8" />
@@ -34,24 +35,25 @@
     <![endif]-->
 
     <!-- All PLUGINS CSS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/assets.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/assets.css') }}">
 
     <!-- TYPOGRAPHY ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/typography.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/typography.css') }}">
 
     <!-- SHORTCODES ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/shortcodes/shortcodes.css') }}">
 
     <!-- STYLESHEETS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{ asset('assets/css/color/color-1.css') }}">
 
     <!-- REVOLUTION SLIDER CSS ============================================= -->
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/layers.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/settings.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/layers.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/settings.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/navigation.css') }}" />
     <!-- REVOLUTION SLIDER END -->
 </head>
+
 
 <body id="bg">
     <div class="page-wraper">
@@ -79,9 +81,12 @@
                                     <select class="header-lang-bx " name="languages"
                                         id="languages"onchange="location = this.value;">
                                         <option data-icon="flag flag-afg" value="/pashto">پشتو</option>
-                                        <option data-icon="flag flag-uk" value="/">English</option>
+                                        <option data-icon="flag flag-uk"
+                                            value="{{ url('') . '/' . substr(Request::path(), 3) }}">
+                                            English</option>
 
-                                        <option data-icon="flag flag-afg" value="/dr">دری</option>
+                                        <option data-icon="flag flag-afg"
+                                            value="{{ url('') . '/dr-' . substr(Request::path(), 3) }}">دری</option>
 
                                     </select>
                                 </li>
@@ -96,7 +101,7 @@
                     <div class="container clearfix">
                         <!-- Header Logo ==== -->
                         <div class="menu-logo">
-                            <a href="index.html"><img src="assets/images/logo-white.png" alt="" /></a>
+                            <a href="/"><img src="{{ asset('assets/images/logo-white.png') }}" />
                         </div>
                         <!-- Mobile Nav Button ==== -->
                         <button class="navbar-toggler collapsed menuicon justify-content-end" type="button"
@@ -364,13 +369,15 @@
                                         <li><a href="admin/teacher-profile"
                                                 style="font-family:'Noto Naskh Arabic',serif;" class="text-right">زموږ
                                                 زده کونکی</a></li>
-                                    </ul>
-
-                                    <div class="nav-social-link">
-                                        <a href="javascript:;"><i class="fa fa-facebook"></i></a>
-                                        <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-                                        <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-                                    </div>
+                                </li>
+                            </ul>
+                            <li class="nav-dashboard clearfix"><a style="font-family:'Noto Naskh Arabic',serif;"
+                                    href="/pa-contact">موږ سره اړیکه ونیسئ</a>
+                                <div class="nav-social-link">
+                                    <a href="javascript:;"><i class="fa fa-facebook"></i></a>
+                                    <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+                                    <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+                                </div>
                         </div>
                         <!-- Navigation Menu END ==== -->
                     </div>
@@ -465,36 +472,49 @@
                                 <h5 class="footer-title">Our Gallery</h5>
                                 <ul class="magnific-image">
                                     <li>
-                                        <a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic1.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic1.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic1.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic2.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic2.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic2.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic3.jpg" alt="" /></a>
+                                        <a
+                                            href="{{ asset('assets/images/gallery/pic4.jpg') }}"class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic4.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic4.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic3.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic3.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic5.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic5.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic5.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic6.jpg" alt="" /></a>
+                                        <a
+                                            href="{{ asset('assets/images/gallery/pic6.jpg') }}"class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic6.jpg') }}"alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic7.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic7.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic7.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img
-                                                src="assets/images/gallery/pic8.jpg" alt="" /></a>
+                                        <a href="{{ asset('assets/images/gallery/pic8.jpg') }}"
+                                            class="magnific-anchor"><img
+                                                src="{{ asset('assets/images/gallery/pic8.jpg') }}"
+                                                alt="" /></a>
                                     </li>
                                 </ul>
                             </div>
@@ -509,34 +529,39 @@
     </div>
 
     <!-- External JavaScripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-    <script src="assets/vendors/magnific-popup/magnific-popup.js"></script>
-    <script src="assets/vendors/counter/waypoints-min.js"></script>
-    <script src="assets/vendors/counter/counterup.min.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.js"></script>
-    <script src="assets/vendors/masonry/masonry.js"></script>
-    <script src="assets/vendors/masonry/filter.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
-    <script src="assets/js/functions.js"></script>
-    <script src="assets/js/contact.js"></script>
-    <script src="assets/vendors/switcher/switcher.js"></script>
+    <script src="{{ asset('admin/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/waypoints-min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/counter/counterup.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/masonry.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/masonry/filter.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/scroll/scrollbar.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/functions.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/chart/chart.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/js/admin.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendors/switcher/switcher.js  ') }}"></script>
+    <!-- External JavaScripts -->
+
     <!-- Revolution JavaScripts Files -->
-    <script src="assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
     <!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="assets/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}">
+    </script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
     <script>
         jQuery(document).ready(function() {
             var ttrevapi;

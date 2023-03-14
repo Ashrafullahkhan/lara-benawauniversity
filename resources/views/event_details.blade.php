@@ -172,15 +172,18 @@
 
                                         <div class="ttr-divider bg-gray"><i class="icon-dot c-square"></i></div>
                                         <h6>SHARE </h6>
-                                        <ul class="list-inline contact-social-bx">
-                                            <li><a href="#" class="btn outline radius-xl"><i
-                                                        class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#" class="btn outline radius-xl"><i
-                                                        class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#" class="btn outline radius-xl"><i
-                                                        class="fa fa-linkedin"></i></a></li>
-                                            <li><a href="#" class="btn outline radius-xl"><i
-                                                        class="fa fa-google-plus"></i></a></li>
+                                        <ul class="list-inline contact-social-bx ">
+                                            <li><a href="#" style="padding-top:12px"
+                                                    class="btn outline radius-xl"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li><a href="#" style="padding-top:12px"
+                                                    class="btn outline radius-xl"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#" style="padding-top:12px"
+                                                    class="btn outline radius-xl"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                            <li><a href="#"style="padding-top:12px"
+                                                    class="btn outline radius-xl"><i class="fa fa-google-plus"></i></a>
+                                            </li>
                                         </ul>
                                         <div class="ttr-divider bg-gray"><i class="icon-dot c-square"></i></div>
                                     </div>
@@ -219,7 +222,7 @@
                                                     <div class="ttr-post-info">
                                                         <div class="ttr-post-header">
                                                             <h6 class="post-title"><a
-                                                                    href="blog-details.html">{{ $row->title }}</a>
+                                                                    href="/list_of_events">{{ $row->title }}</a>
                                                             </h6>
                                                         </div>
                                                         <ul class="media-post">

@@ -114,21 +114,24 @@
                                     <div class="form-group col-4">
                                         <label>Select Main Image</label>
                                         <div>
-                                            <input type="file" name="main_pic" value="{{ $news->main_pic }} " />
+                                            <input type="file" name="main_pic" value="{{ $news->main_pic }} "
+                                                accept="image/x-png,image/jpeg,image/jpg" />
                                         </div>
 
                                     </div>
                                     <div class="form-group col-4">
                                         <label>Select Second Image</label>
                                         <div>
-                                            <input type="file" name="pic2" value="{{ $news->pic2 }}" />
+                                            <input type="file" name="pic2" value="{{ $news->pic2 }}"
+                                                accept="image/x-png,image/jpeg,image/jpg" />
                                         </div>
 
                                     </div>
                                     <div class="form-group col-4">
                                         <label>Select Third Image</label>
                                         <div>
-                                            <input type="file" name="pic3" value="{{ $news->pic3 }}" />
+                                            <input type="file" name="pic3" value="{{ $news->pic3 }}"
+                                                accept="image/x-png,image/jpeg,image/jpg" />
                                         </div>
 
                                     </div>
@@ -142,7 +145,8 @@
                                         <img src="/storage/{{ $news->pic2 }}" class="img-thumbnail" width="100" />
                                     </div>
                                     <div class="form-group col-4">
-                                        <img src="/storage/{{ $news->pic3 }}" class="img-thumbnail" width="100" />
+                                        <img src="/storage/{{ $news->pic3 }}" class="img-thumbnail"
+                                            width="100" />
 
                                     </div>
                                     <div class="form-group col-12">

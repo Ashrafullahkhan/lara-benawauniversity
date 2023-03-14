@@ -228,7 +228,7 @@
                                                     <div class="ttr-post-info">
                                                         <div class="ttr-post-header">
                                                             <h6 class="post-title text-right"><a class="pashto-font"
-                                                                    href="blog-details.html">{{ $row->title }}</a>
+                                                                    href="/pa-list-of-news">{{ substr($row->title, 0, 100) }}</a>
                                                             </h6>
                                                         </div>
                                                         <ul class="media-post">

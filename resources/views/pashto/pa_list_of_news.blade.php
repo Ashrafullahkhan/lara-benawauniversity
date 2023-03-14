@@ -22,21 +22,20 @@
                                     </div>
                                     <div class="ttr-post-info">
                                         <ul class="media-post">
-                                            <li><a href="/pa_event_details/{{ $row->id }}"><i
+                                            <li><a href="/pa_news_details/{{ $row->id }}"><i
                                                         class="fa fa-calendar"></i>{{ $row->created_at }}</a>
                                             </li>
 
                                         </ul>
-                                        <h5 class="post-title text-right"><a
-                                                href="/pa_event_details/{{ $row->id }}"
-                                                class="pashto-font">{{ $row->title }}</a>
+                                        <h5 class="post-title text-right"><a href="/pa_news_details/{{ $row->id }}"
+                                                class="pashto-font">{{ substr($row->title, 0, 100) }}</a>
                                         </h5>
                                         <p class="pashto-font text-right">
                                             {{ substr($row->body, 0, 100) }}
                                             <span>...</span>
                                         </p>
                                         <div class="post-extra">
-                                            <a href="/pa_event_details/{{ $row->id }}"
+                                            <a href="/pa_news_details/{{ $row->id }}"
                                                 class="btn-link pashto-font">نور یی
                                                 ولوله</a>
 
@@ -76,8 +75,8 @@
                                                         width="200" height="143" alt=""> </div>
                                                 <div class="ttr-post-info">
                                                     <div class="ttr-post-header">
-                                                        <h6 class="post-title pashto-font text-right"><a
-                                                                href="">{{ $row->title }}</a></h6>
+                                                        <h6 class="post-title pashto-font text-right"><a href="">
+                                                                {{ substr($row->title, 0, 100) }}</a></h6>
                                                     </div>
                                                     <ul class="media-post">
                                                         <li><a href="#"><i

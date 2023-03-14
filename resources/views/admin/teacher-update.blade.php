@@ -114,7 +114,8 @@
                                     <div class="form-group col-12">
                                         <label>Select Profile Image</label>
                                         <div>
-                                            <input type="file" name="pic" value="{{ $teacher->pic }}" />
+                                            <input type="file" name="pic" value="{{ $teacher->pic }}"
+                                                accept="image/x-png,image/jpeg" />
                                         </div>
                                         <img src="/storage/{{ $teacher->pic }}" class="img-thumbnail" width="75" />
                                     </div>

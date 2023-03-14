@@ -23,96 +23,76 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <div class="heading-bx left">
-                                <h2 class="title-head">Contact Information</h2>
+                                <h4 class="title-head">
+                                    Admission Office</h4>
                             </div>
 
-                            <ul class="course-features">
+                            <ul class="course-features" style="margin-top: -25px">
                                 <li>
-                                    <span>• All students of the Institute shall conform to the Rules and Regulations of
-                                        the Institute and are under overall disciplinary control of the Chancellor.
+                                    <span>Mr. Nadir Shaha Nusrath<br />
+                                        Vice-Chancellor of Students Affairs<br />
+                                        Email: admission@benawa.edu.af , student.affair@benawa.edu.af
+                                        <br />
+                                        0093(0)700036222
                                     </span>
                                 </li>
+                            </ul>
+                            <div class="heading-bx left">
+                                <h4 class="title-head">
+                                    Admin & Finance</h4>
+                            </div>
+
+                            <ul class="course-features" style="margin-top: -25px">
                                 <li>
-                                    <span> • Breach of rules, misconduct, irregularity in time keeping, idleness, lack
-                                        or un-reasonable progress in studies etc., will render a student liable to
-                                        disciplinary action including expulsion or rustication from the Institute. In
-                                        this regard, the Chancellor is the sole and final authority.</span>
-                                </li>
-                                <li>
-                                    <span>• Students who abstain themselves (for seven days at a stretch without notice)
-                                        either from lectures or from laboratory work will not be allowed to resume their
-                                        study until satisfactory explanation is submitted and accepted.
+                                    <span>Eng. Qudrathullah Nusrath<br />
+                                        Vice-Chancellor of Admin & Finance<br />
+                                        Email: hr@benawa.edu.af<br />
+                                        0093(0)700035222
                                     </span>
                                 </li>
+                            </ul>
+                            <div class="heading-bx left">
+                                <h4 class="title-head">
+                                    Computer Science Department</h4>
+                            </div>
+
+                            <ul class="course-features" style="margin-top: -25px">
                                 <li>
-                                    <span> • Students are strictly forbidden from forwarding applications, appeals or
-                                        any other communication direct to any authority other than the Head. Any
-                                        contravention of this rule shall make the student liable for disciplinary
-                                        action.
+                                    <span>Mr. Muhammad Ilyas Karimi<br />
+                                        Dean of Computer Science Faculty<br />
+                                        Email: hod.cs@benawa.edu.af<br />
+                                        0093(0)705704813
                                     </span>
                                 </li>
+                            </ul>
+                            <div class="heading-bx left">
+                                <h4 class="title-head">
+                                    Engineering Department</h4>
+                            </div>
+
+                            <ul class="course-features" style="margin-top: -25px">
                                 <li>
-                                    <span>• Students may be permitted to form or carry on only such associations or
-                                        clubs as are provided under the Rules. Such associations or clubs must be open
-                                        for membership regardless of religion, community or political opinion. In no
-                                        circumstances will any association, the object or membership of which is
-                                        directly or indirectly sectarian, ethnic or political, be permitted. No member
-                                        of the association or club can invite any outsider in Institute without prior
-                                        permission in writing from the vice chancellor.
+                                    <span>Eng. Ahmad Shah Salamzai<br />
+                                        Dean of Engineering Department<br />
+                                        Email: hod.en@benawa.edu.af
                                     </span>
                                 </li>
+                            </ul>
+                            <div class="heading-bx left">
+                                <h4 class="title-head">
+                                    Information Technology Department</h4>
+                            </div>
+
+                            <ul class="course-features" style="margin-top: -25px">
                                 <li>
-                                    <span>• No functions are permitted to be held by the students in the Institute
-                                        without prior permission in writing from the Chancellor.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>• Involvement in any political/ ethnic/religious disputes within Institute
-                                        premises.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>• Creating law and order situation in the Institute premises.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>• Threatening /pressurizing faculty members and/or officers of the Institute
-                                        inside or outside the Institute premises.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>• Damaging or destroying Institute property.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>• Teasing or harassing or molesting of students inside or outside Campus
-                                        especially the opposite gender.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>• Creating disturbances in class rooms/ laboratories
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>• Attempting to bring any external pressures for passing examinations,
-                                        exemption from attendance or any other purpose.
+                                    <span>Mr. Muhammad Idress<br />
+                                        Manager IT<br />
+                                        Email: it@benawa.edu.af<br />
+                                        0093(0)700739775
                                     </span>
                                 </li>
                             </ul>
 
-                            <div class="heading-bx left">
-                                <h2 class="title-head">Leave of Absence</h2>
-                            </div>
-                            <p>
-                                Under exceptional circumstances, students may apply for leave of absence to the Head of
-                                the Department who may sanction such leave for short periods but the grant of such leave
-                                will not be acceptable as a plea for not putting in 75% of the attendance which is a
-                                pre-requisite for being eligible to appear in the examinations.
-                            </p>
-                            <p>
-                                No student is eligible to sit for the Examination unless he/she has at least 75%
-                                attendance at the Theory, Laboratory and Practical classes.
-                            </p>
                         </div>
                     </div>
                 </div>
