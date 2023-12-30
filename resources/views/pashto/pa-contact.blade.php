@@ -4,7 +4,7 @@
         <div class="page-banner ovbl-dark" style="background-image: url(assets/images/banner/banner3.jpg)">
             <div class="container">
                 <div class="page-banner-entry">
-                    <h1 class="text-white pashto-font">د اړیکې معلومات</h1>
+                    <h1 class="text-white pashto-font">زموږ سره اړيکه</h1>
                     <p class="text-white"></p>
                 </div>
             </div>
@@ -24,71 +24,75 @@
                         <div class="col-lg-12 col-md-12">
                             <div class="heading-bx right_line text-right">
                                 <h4 class="title-head pashto-font">
-                                    د داخلې دفتر</h4>
+                                     داخلې څانګه</h4>
                             </div>
 
                             <ul class="pashto-course-features text-right" style="margin-top: -25px">
                                 <li class="pashto-font">
-                                    <span>ښاغلی نادرشاه نصرت<br />
-                                        د محصلینو چارو مرستیال<br />
-                                        ایمیل : admission@benawa.edu.af , student.affair@benawa.edu.af
+                                    <span>نادر شاه نصرت<br />
+                                         محصلانو چارو مرستيال<br />
+                                        ایمیل : admission@benawa.edu.af <br>student.affair@benawa.edu.af
                                         <br />
-                                        0093(0)700036222
+                                        <div style="direction: ltr">
+
+                                            0093(0)700036222
+                                        </div>
                                     </span>
                                 </li>
                             </ul>
                             <div class="heading-bx right_line text-right">
                                 <h4 class="title-head pashto-font">
-                                    اداره او مالیه</h4>
+                                    مالي او اداري</h4>
                             </div>
 
                             <ul class="pashto-course-features text-right" style="margin-top: -25px">
                                 <li class="pashto-font">
-                                    <span>انج. قدرت الله نصرت<br />
-                                        د اداري او مالي چارو مرستیال<br />
+                                    <span>قدرت الله نصرت
+                                        <br />
+                                         اداري او مالي چارو مرستیال<br />
                                         ایمیل : hr@benawa.edu.af<br />
+                                        <div style="direction: ltr">
                                         0093(0)700035222
+                                        </div>
                                     </span>
                                 </li>
                             </ul>
                             <div class="heading-bx right_line text-right">
                                 <h4 class="title-head pashto-font">
-                                    د کمپیوټر ساینس څانګه</h4>
+                                     کمپيوټر ساينس پوهنځی</h4>
                             </div>
 
                             <ul class="pashto-course-features text-right" style="margin-top: -25px">
                                 <li class="pashto-font">
-                                    <span>ښاغلی محمد الیاس کریمي<br />
-                                        د کمپیوټر ساینس پوهنځي رییس<br />
+                                    <span>
+                                
                                         ایمیل : hod.cs@benawa.edu.af<br />
-                                        0093(0)705704813
                                     </span>
                                 </li>
                             </ul>
                             <div class="heading-bx right_line text-right">
                                 <h4 class="title-head pashto-font">
-                                    د انجینرۍ څانګه</h4>
+                                     انجینري پوهنځی</h4>
                             </div>
 
                             <ul class="pashto-course-features text-right" style="margin-top: -25px">
                                 <li class="pashto-font">
-                                    <span>انج. احمدشاه سلامزی<br />
-                                        د انجینرۍ څانګې رییس<br />
+                                    <span>
+                                    
                                         ایمیل : hod.en@benawa.edu.af
                                     </span>
                                 </li>
                             </ul>
                             <div class="heading-bx right_line text-right">
                                 <h4 class="title-head pashto-font">
-                                    د معلوماتي ټکنالوجۍ څانګه</h4>
+                                     معلوماتي ټکنالوژي څانګه</h4>
                             </div>
 
                             <ul class="pashto-course-features text-right" style="margin-top: -25px">
                                 <li class="pashto-font">
-                                    <span>ښاغلی محمد ادریس<br />
-                                        د IT مدیر<br />
-                                        ایمیل : it@benawa.edu.af<br />
-                                        0093(0)700739775
+                                    <span>
+                                        ایمیل : it@benawa.edu.af
+                                       
                                     </span>
                                 </li>
                             </ul>

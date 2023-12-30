@@ -66,7 +66,7 @@
                       font-family:'Noto Naskh Arabic',serif;
                       direction: rtl;
                     ">
-                                بینوا د لوړو زده کړو موسسه
+                                 بېنوا د لوړو زده کړو مؤسسه
                             </div>
 
                             <!-- LAYER NR. 3 -->
@@ -89,7 +89,7 @@
                       font-family:'Noto Naskh Arabic',serif;
                       direction: rtl;
                     ">
-                                چیري چي ستاسو راتلونکی شروع کیژي
+                              چيري چي ستاسي راتلونکی جوړيږي
                             </div>
 
                             <!-- LAYER NR. 3 -->
@@ -115,7 +115,7 @@
                       direction: rtl;
 
                     ">
-                                چیري چي ستاسو راتلونکی شروع کیژي
+                                د نوښتونو کور
                             </div>
                             <!-- LAYER NR. 4 -->
                             <div class="tp-caption Newspaper-Button rev-btn" id="slide-100-layer-5"
@@ -168,7 +168,7 @@
                       font-family:'Noto Naskh Arabic',serif;
                       direction: rtl;
                     ">
-                                موږ سره اړیکه ونیسئ
+                            زموږ سره اړيکه
                             </div>
                         </li>
                         <li data-index="rs-200" data-transition="parallaxvertical" data-slotamount="default"
@@ -407,8 +407,9 @@
                                             <h2 class="title-head pashto-font  text-right"> مشهور <span>
                                                     کورسونه</span></h2>
                                             <p class="pashto-font text-right">
-                                                دا یو اوږد تاسیس شوی حقیقت دی چې یو لوستونکی به وي
-                                                د یوې پاڼې د لوستلو وړ منځپانګې له امله ا
+                                               
+                                                دا يو حقيقت دی چي د نن زده کړيالان د سبا رهبران دي
+                                               
                                             </p>
                                         </div>
                                     </div>
@@ -558,10 +559,14 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-12 text-center heading-bx">
-                                            <h2 class="title-head m-b0 pashto-font"> راتلونکی <span> پیښې</span>
+                                            <h2 class="title-head m-b0 pashto-font"> راتلونکی <span> پلانونه </span>
                                             </h2>
-                                            <p class="m-b0 pashto-font"> د مغز تغذیه کولو لپاره راتلونکي تعلیمي
-                                                پیښې.</p>
+                                            <p class="m-b0 pashto-font"> 
+
+                                              د ذهني پياوړتيا لپاره لاندي پروګرامونه په نظر کي لرو
+                                            
+                                            
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -636,7 +641,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-12 heading-bx text-right">
-                                            <h2 class="title-head pashto-font"> پخواني <span> زده کوونکي </span></h2>
+                                            <h2 class="title-head pashto-font"> فارغ <span> محصلان </span></h2>
 
                                         </div>
                                     </div>
@@ -680,8 +685,11 @@
                                     <div class="text-center">
                                         <a href="/pa-list-of-alumuni" class="btn pashto-font"
                                             style="  font-family:'Noto Naskh Arabic',serif;
-                                        direction: rtl;margin-top:40px">ټول
-                                            المونی وګورئ</a>
+                                        direction: rtl;margin-top:40px">
+
+                                        فارغ محصلان
+                                        
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -691,7 +699,8 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-12 heading-bx text-right">
-                                            <h2 class="title-head pashto-font"> وروستي <span> خبرونه</span></h2>
+                                            {{-- ________________________________________       starty form here ________________________________ --}}
+                                            <h2 class="title-head pashto-font">    <span>    </span></h2>
 
                                         </div>
                                     </div>

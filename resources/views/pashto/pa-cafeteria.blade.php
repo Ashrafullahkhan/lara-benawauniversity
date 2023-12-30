@@ -4,7 +4,7 @@
         <div class="page-banner ovbl-dark" style="background-image: url(assets/images/banner/Cafeteria.jpg)">
             <div class="container">
                 <div class="page-banner-entry">
-                    <h1 class="text-white pashto-font">کیفیټیریا</h1>
+                    <h1 class="text-white pashto-font">خوړنځای</h1>
                 </div>
             </div>
         </div>
@@ -22,16 +22,13 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <div class="heading-bx right_line text-right">
-                                <h2 class="title-head pashto-font">کیفیټیریا</h2>
+                                <h2 class="title-head pashto-font">خوړنځای
+                                </h2>
                             </div>
                             <p class="pashto-font text-right">
-                                د انسټیټیوټ کیفیټیریا زده کونکو ته د درنې زده کړې مهالویشونو څخه د وقفې لپاره لاره چمتو
-                                کوي ، او د ملګرو زده کونکو سره د مینځلو لپاره ځای چمتو کوي.
-
-                                <br />
-                                <br />
-                                د BIHE د څارنې کمیټه د روغتیا او حفظ الصحې مقرراتو سره سم د کافېټیریا مدیریت لخوا چمتو
-                                شوي خدمات نظارت کوي.
+                                د درسي تسلسل څخه وروسته محصلين خوړنځای ته ځي او د خسته ګي د رفع کولو لپاره څښاک او خوراکي توکي ترلاسه کوي او د ناستي
+                                 په مشخصو ځايونو کي کښيني او ارام کوي. د بېنوا لوړو زده کړو مؤسسې خوړنځای
+                                 د روغتيا، حفظ الصحي اصولو او مقرراتو مطابق خپلي چاري مخته وړي.
                             </p>
                         </div>
                     </div>

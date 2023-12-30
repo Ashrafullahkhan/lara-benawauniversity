@@ -288,7 +288,7 @@
                                         <li class="add-menu-left">
                                             <!--	<h5 class="menu-adv-title">Our Courses</h5> -->
                                             <ul>
-                                                <li><a href="{{ url('files', ['pdf' => 'TimeTable.pdf']) }}">Time
+                                                <li><a href="{{ url('files', ['pdf' => 'Acadimic_Calender.pdf']) }}">Time
                                                         Table
                                                     </a></li>
                                                 <li><a href="https://student.benawa.edu.af/Login.php">Student
@@ -472,7 +472,7 @@
                                     <div class="widget footer_widget">
                                         <h5 class="footer-title">Quick Links</h5>
                                         <ul>
-                                            <li><a href="{{ url('files', ['pdf' => 'TimeTable.pdf']) }}">Time
+                                            <li><a href="{{ url('files', ['pdf' => 'Acadimic_Calender.pdf']) }}">Time
                                                     Table</a></li>
                                             <li><a href="https://student.benawa.edu.af/Login.php">Student Portal</a>
                                             </li>

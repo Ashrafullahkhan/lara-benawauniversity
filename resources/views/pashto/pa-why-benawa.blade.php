@@ -17,88 +17,7 @@
         <!-- Page Content Box ==== -->
         <div class="content-block">
             <!-- About Us ==== -->
-            <div class="section-area section-sp1">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-                                    <div class="feature-container">
-                                        <div class="feature-md text-white m-b20">
-                                            <a href="#" class="icon-cell"><img src="assets/images/icon/icon1.png"
-                                                    alt="" /></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="ttr-tilte">Our Philosophy</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-                                    <div class="feature-container">
-                                        <div class="feature-md text-white m-b20">
-                                            <a href="#" class="icon-cell"><img src="assets/images/icon/icon2.png"
-                                                    alt="" /></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="ttr-tilte">Kingster's Principle</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-                                    <div class="feature-container">
-                                        <div class="feature-md text-white m-b20">
-                                            <a href="#" class="icon-cell"><img src="assets/images/icon/icon3.png"
-                                                    alt="" /></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="ttr-tilte">د کامیابی راز</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-                                    <div class="feature-container">
-                                        <div class="feature-md text-white m-b20">
-                                            <a href="#" class="icon-cell"><img src="assets/images/icon/icon4.png"
-                                                    alt="" /></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="ttr-tilte">Our Philosophy</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 m-b30">
-                            <h2 class="title-head pashto-font text-right">
-                                د یو نوی مهارت زدکړه<br />
-                                <span class="text-primary pashto-font">په خپل وخت</span>
-                            </h2>
-                            <h4 class="pashto-font text-right"><span class="counter pashto-font">5400</span> زده کونکی
-                            </h4>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been the industry's
-                                standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type.
-                            </p>
-                            <a href="#" class="btn button-md">Join Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <!-- About Us END ==== -->
             <!-- Why Choose ==== -->
             <div class="section-area bg-gray section-sp2 choose-bx">
@@ -106,12 +25,10 @@
                     <div class="row">
                         <div class="col-md-12 heading-bx text-center">
                             <h2 class="title-head text-uppercase m-b0 pashto-font">
-                                ولی مو انتخاب کړ <span> زموږ انستیتوت</span>
+                             <span> ولي مو بېنوا د لوړو زده کړو مؤسسه غوره کړه؟</span>
                             </h2>
                             <p class="pashto-font">
-                                د لوړ کیفیت تخنیکي زده کړې: بریښنایی انجنیري او
-                                د کمپیوټر ساینس زده کړه د لیسانس په کچه د وړتیا سره
-                                او تجربه لرونکی پوهنځی
+                                مسلکي پوهنځی، باکيفيته تدريس، ارام چاپيريال او مجرب استادان
                             </p>
                         </div>
                     </div>
@@ -126,7 +43,7 @@
                                         <i class="fa fa-bank text-primary"></i>
                                     </div>
                                     <h4 class="pashto-font"><a href="#">کمپیوټرلیب</a></h4>
-                                    <a href="#" class="btn radius-xl pashto-font3">نور وګوری</a>
+                                    <a href="#" class="btn radius-xl pashto-font3">نور وګورئ</a>
                                 </div>
                             </div>
                         </div>
@@ -139,8 +56,8 @@
                                     <div class="feature-box-sm radius bg-white">
                                         <i class="fa fa-book text-primary"></i>
                                     </div>
-                                    <h4><a href="#">د اجینری لابراتوار</a></h4>
-                                    <a href="#" class="btn radius-xl">نور وګوری</a>
+                                    <h4><a href="#">د اجینري لابراتوار</a></h4>
+                                    <a href="#" class="btn radius-xl">نور وګورئ</a>
                                 </div>
                             </div>
                         </div>
@@ -153,8 +70,8 @@
                                     <div class="feature-box-sm radius bg-white">
                                         <i class="fa fa-file-text-o text-primary"></i>
                                     </div>
-                                    <h4><a href="#">کتاب تون</a></h4>
-                                    <a href="#" class="btn radius-xl">نور وګوری</a>
+                                    <h4><a href="#">کتابتون</a></h4>
+                                    <a href="#" class="btn radius-xl">نور وګورئ</a>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +80,7 @@
             </div>
             <!-- Why Choose END ==== -->
             <!-- Company Status ==== -->
-            <div class="section-area content-inner section-sp1">
+            {{-- <div class="section-area content-inner section-sp1">
                 <div class="container">
                     <div class="section-content">
                         <div class="row">
@@ -202,7 +119,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- Company Stats END ==== -->
             <!-- Our Story ==== -->
             <div class="section-area section-sp1 our-story">
@@ -210,37 +127,37 @@
                     <div class="row align-items-center d-flex">
                         <div class="col-lg-7 col-md-12 heading-bx p-lr">
                             <div class="video-bx">
-                                <img src="assets/images/about/pic1.jpg" alt="" />
-                                <a href="https://www.youtube.com/watch?v=x_sJzVe9P_8" class="popup-youtube video"><i
-                                        class="fa fa-play"></i></a>
+                                <video  height="100%" width="100%" controls  style="box-shadow: 5px 5px 10px black ; margin-bottom:40px ;border:1px solid black; border-radius: 10px">
+                                    <source src="{{asset('assets/video/video 001 BU.mp4')}}" type="video/mp4">
+                                  
+                               
+                                  
+                        
+                                 
+                               
+                                  </video>
                             </div>
                         </div>
                         <div class="col-lg-5 col-md-12 heading-bx right_line text-right ">
-                            <h2 class="m-b10 title-head pashto-font">زموږ تاریخ چه</h2>
+                            <h2 class="m-b10 title-head pashto-font">زموږ تاريخي مخينه
+                            </h2>
 
                             <p class="pashto-font">
-                                د بینوا د لوړو زده کړو موسسه (BIHE) مرکز پاتې دی
-                                په کندهار کی د انجینری او کمپیوټر ساینس پوهنځی
-                                په 2013 کې د پیل راهیسې. ریښتیا وړاندې کول
-                                بدلیدونکی او پرمختللی زده کړې تجربه، دا یو دی
-                                هغه اداره چې په ریښتیا سره د لوړو زده کړو تعریف کوي
-                                هیواد او نږدې سیمې.<br /><br />
-                                د بېنوا انسټیټیوټ د 4 کلونو ثابت وړتیا وروسته اوس دی
-                                راتلونکي کچې ته د رسیدو لپاره په سفر پیل کول
-                                غوره والی د BIHE ځینې مهمې ځانګړتیاوې په ګوته شوي
-                                لاندې:<br /><br />
-                                ⦁ لوړ کیفیت تخنیکي زده کړه: بریښنایی انجینري
-                                او د کمپیوټر ساینس زده کړه د لیسانس په کچه
-                                وړ او تجربه لرونکی پوهنځی <br /><br />⦁ بینوا
-                                انسټیټیوټ په خپلو پوهنځیو ویاړي چې ښه وړ او وړ دي
-                                په خپلو اړوندو برخو کې تجربه لري. دوی ډیره لوبه کوي
-                                د ښوونکي په توګه د زده کونکي په ژوند کې مهم رول،
-                                ښوونکي، مشاورین او مشاورین.<br /><br />
-                                ⦁ دا وقف شوي ښوونکي زده کونکي په پریکړه کې ښکیلوي
-                                د اکادمیک، اضافي او په اړه په ټولو کچو کې جوړول
-                                شریک نصاب فعالیتونه، د دوی په پروژو کې مرسته کول او
-                                هغوی ته د خپل اکاډمیک سفر په سمه توګه تعقیب کړي.
-                            </p>
+                                بېنوا د لوړو زده کړو مؤسسې د ۲۰۱۳ ميلادي کال راهيسي خپل خدمات د انجينري او کمپيوټر ساينس پوهنځيو په برخه کي په بي ساري توګه راپيل کړيدي. د پيل څخه تر اوسه پوري بېنوا د لوړو زده کړو مؤسسه يو مخکښ او ثابت علمي ماحول پاته 
+                                سويدی. بېنوا
+                                 د لوړو زده
+                                  کړو مؤسسه نوښتونو، پرمختګ او د ټولني ارتقاء ته يوه ژمنه مؤسسه ده.<br /><br />
+                                  د بېنوا د لوړو زده کړو مؤسسې ځانګړتياوي: 
+                                  <br /><br />
+                                ⦁  لوړ کيفيت، تخنيکي او مسلکي زده کړه: انجينري او کمپيوټر ساينس پوهنځی د
+                                 مجربو او مسلکي استادانو پواسطه تدرسيږي.
+                                <br /><br />
+                                ⦁ د پيل څخه تر اوسه پوري د بېنوا د لوړو زده کړو مؤسسې کارمندان د محصلانو د ښه روزني وياړ د ځان سره لري؛ د پوهنځيو استادان نه يوازي
+                                 دا چي محصلانو ته تدريس کوي ورسره په څنګ کي د مسلک اړوند زياتي مشوري هم ور کوي.
+                                <br /><br />
+                                ⦁ استادان د محصلانو سره په بيلابيلو علمي برنامو کي مرسته او همکاري 
+                                کوي. د مثال په توګه: کله چي محصلان په اتم سمسټر کي پر پروژو باندي کار راپيلوي، نو د شروع څخه تر ختم پوري د لا رښود استاد تر لارښووني 
+                                او مشورو لانندي پرژه مخته وړی.                            </p>
                             <a href="#" class="btn pashto-font">نور ولولی</a>
                         </div>
 

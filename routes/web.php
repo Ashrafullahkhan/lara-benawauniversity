@@ -157,6 +157,12 @@ Route::get('/pa-admission-info', function () {
   return view('pashto/pa-admission-info');
 });
 
+Route::get('/pa-mession_vesion', function () {
+  return view('pashto/pa-mession_vesion');
+});
+
+
+
 Route::get('/pa-fee-structure', function () {
   return view('pashto/pa-fee-structure');
 });

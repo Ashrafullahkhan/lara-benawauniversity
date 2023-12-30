@@ -6,7 +6,7 @@
         <div class="page-banner ovbl-dark" style="background-image: url(assets/images/banner/BIHE\ Image.jpg)">
             <div class="container">
                 <div class="page-banner-entry">
-                    <h1 class="text-white pashto-font">انجینری پوهنځی</h1>
+                    <h1 class="text-white pashto-font"> د انجينري پوهنځی</h1>
                     <p class="text-white"></p>
                 </div>
             </div>
@@ -25,30 +25,78 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-12">
                             <div class="bg-primary text-white contact-info-bx">
-                                <h2 class="m-b10 title-head">
-                                    Contact <span>Information</span>
+                                <h2   style="text-align: center" class="m-b10 title-head">
+                                   <span >اړيکه</span>
                                 </h2>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry.
+                                <p style="text-align: right">
+                                    تاسي کولای سئ چي د لاندنيو شبکو پواسطه زموږ سره اړيکه ونيسئ
                                 </p>
                                 <div class="widget widget_getintuch">
-                                    <ul>
-                                        <li>
-                                            <i class="ti-location-pin"></i>District-11, Aino Meena
-                                            Near Ministry of Business, Kandahar, Afghanistan
+                                    <ul  style="" >
+                                        <li  style="text-align: right">
+                                            
+
+                                            <span style="float: right ; margin-left:10px ">
+                                                <i class="ti-location-pin" style="position: relative"></i>
+                                             </span>
+                                                 
+                                            <div style="margin-right: 30px">
+                                                
+                                                عينو مېنه، دوهمه فواره، اطاق تجارت شاته، کندهار افغانستان
+                                            </div>    
+                                                
+                                         
+                                                
                                         </li>
-                                        <li>
-                                            <i class="ti-mobile"></i>0093(0)7000(35-38)222 (24/7
-                                            Support Line)
+                                        <li class="" style="text-align: right">
+
+                                            <span style="float: right ; margin-left:10px ">
+                                            <i class="ti-mobile" style="position: relative"></i>
+                                            
+                                        </span>
+
+
+                                        <div style="margin-right: 30px">
+                                              <div>
+                                                +93700035222
+                                              </div>
+                                              <div>
+                                                +93700036222
+                                              </div>
+                                              <div>
+                                                +93700038222
+                                              </div>
+                                              </div>
+                                              <hr>
+                                             
+
+
                                         </li>
-                                        <li><i class="ti-email"></i>info@benawa.edu.af</li>
+                                        <li style="text-align: right">
+                                            <span style="float: right ; margin-left:10px ">
+                                            <i class="fa fa-whatsapp" style="position: relative"></i>
+                                            </span>
+                                            <div style="margin-right: 3px">
+                                         
+                                              +93700035222
+                                              +93700036222
+                                    
+                                        
+                                            </div>
+                                        </li>
+                                        <li style="text-align: right">
+                                            <span style="float: right ; margin-left:10px ">
+                                            <i class="ti-email" style="position: relative"></i>
+                                            </span>
+                                            info@benawa.edu.af
+                                        
+                                        </li>
                                     </ul>
                                 </div>
-                                <h5 class="m-t0 m-b20">Follow Us</h5>
-                                <ul class="list-inline contact-social-bx">
+                                <h5 class="m-t0 m-b20" style="text-align: right">زموږ ټولنيزي شبکې</h5>
+                                <ul class="list-inline contact-social-bx" style="text-align: right">
                                     <li>
-                                        <a href="#" class="btn outline radius-xl"><i
+                                        <a href="https://www.facebook.com/benawa.uni" class="btn outline radius-xl"><i
                                                 class="fa fa-facebook"></i></a>
                                     </li>
                                     <li>
@@ -65,212 +113,137 @@
                                     </li>
                                 </ul>
                             </div>
+
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.1298878182047!2d-81.38369578541523!3d30.204840081824198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e437ac927a996b%3A0x799695b1a2b970ab!2sNona+Blue+Modern+Tavern!5e0!3m2!1sen!2sin!4v1548177305546"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.351873482488!2d65.7662506!3d31.6245956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdc41593ec72d9cd2!2sBenawa%20institute%20of%20higher%20education!5e0!3m2!1sen!2s!4v1671548438930!5m2!1sen!2s"
                                 class="align-self-stretch d-flex"
                                 style="width: 100%; min-width: 100%; min-height: 400px" allowfullscreen></iframe>
                         </div>
                         <div class="col-lg-8 col-md-12">
                             <div class="heading-bx right_line text-right">
-                                <h2 class="title-head pashto-font">د انجینرۍ پروګرامونه</h2>
+                                <h2 class="title-head pashto-font"> د انجينري پوهنځی</h2>
                             </div>
                             <ul class="pashto-course-features">
                                 <li>
-                                    <span class="pashto-font text-right">د بریښنا او ملکي چارو ریاست ته ښه راغلاست
-                                        د بینوا د لوړو زده کړو انستیتیوت انجینري
-                                        (BIHE). څانګه د انجینرۍ لیسانس وړاندیز کوي
-                                        د ملکي انجینرۍ تخصصونو سره برنامه او
-                                        برقي انجینري.
-                                    </span>
+                                    <span class="pashto-font text-right" style="text-align: justify">دانجنیری پوهنځی دهیواد په سطحه له مهمو 
+                                        پوهنځیو څخه شمیرل کیږی، خوشبختانه بینوا دلوړوزده کړو مؤسسه په دی توانیدلی ده چه د انجنیری په
+                                         برخه کی د لیسانس په کچه محصلین جذب او ټولنی ته وړاندی کړی. بینوا
+                                         د لوړوزده کړو مؤسسه چه په ۱۳۹۴ هـ ش کال کی
+                                         یی په فعالیت شروع کړيدی،برقي انجینري.
+                                   
+                                         انجنیری پوهنځی هم له هماغه وخت څخه محصلين جذبوي. بینوا دلوړو زده کړو مؤسسه افتخار کوی چه د انجنیری پوهنځی یی په دوو سیول او برق ډیپارټمنټونو سمباله ده او په دواړو
+                                         ډیپارټمنټونو کی مجرب استادان تدریس کوي چي تردا مهاله (۱۳۹۹هـ ش کال) پوری يي  (111)  
+                                         تنه انجنیران فارغ التحصیل کړيدي. فارغ محصلین تر ډیره حده د هیواد په مختلفو سیمو کی په کارونو بوخت دي چي د هیواد په ښیرازي کی له خپلو هم مسلکانو سره اوږه په اوږه کار کوي.
+                                   
+                                        </span>
                                 </li>
-                                <li>
-                                    <span class="pashto-font text-right">
-                                        نن ورځ په ساینس او ​​انجینرۍ کې، د پوهې سرحدونه
-                                        په زړه پورې سرعت غزول کیږي. په دې توګه، په
-                                        په دې سیمو کې د زده کړې د ورکولو لپاره یوه اداره
-                                        باید خپل ځان د کورس په نصاب کې تازه وساتي،
-                                        لابراتوار سرچینې او پوهنځی. الحمدلله، موږ
-                                        BIHE د لوړ کیفیت په څیر د کټ په څنډه کې دي
-                                        د انجینرۍ زده کړې اندیښمن دي. زموږ انجینرۍ او
-                                        د کمپیوټري لابراتوارونو سمبال دي
-                                        عصري اسانتیاوې. زموږ نصاب تیریږي
-                                        د نوي پرمختګونو د شاملولو لپاره منظم بیاکتنې.
-                                        موږ وړ پوهنځی لرو چې لیسانس لري
-                                        ماسټری بری لیک.
-                                    </span>
-                                </li>
+        
                             </ul>
                             <div class="heading-bx right_line text-right">
-                                <h3 class="title-head pashto-font">لید</h3>
+                                <h3 class="title-head pashto-font">لرلید</h3>
                             </div>
                             <ul class="course-features pashto-font">
                                 <li>
-                                    <span>د انجینرۍ په برخه کې د متخصصینو وده
-                                        د ملي حل کولو وړتیا لري او
-                                        نړیوالې ستونزې.
+                                    <span>
+                                        د انجينري په برخه کي د داسي مسلکي اشخاصو روزل، چي په ملي کچه د ستونزو حلولو وړتيا ولري.
                                     </span>
                                 </li>
                             </ul>
 
                             <div class="heading-bx right_line text-right">
-                                <h3 class="title-head pashto-font">هدف</h3>
+                                <h3 class="title-head pashto-font">رسالت
+                                </h3>
                             </div>
                             <ul class="pashto-course-features">
                                 <li>
-                                    <span class="pashto-font">نوي نسل ته د تعلیمي خدمتونو وړاندې کول
-                                        د انجینرۍ او څیړنې ساحه د خدمت لپاره
-                                        د افغاني ټولنې ښه والی.
+                                    <span class="pashto-font">د انجينري او څيړنو په برخو کي نوي نسل ته 
+                                        داسي علمي خدمات وړاندي کوي،
+                                         چي د ټولني د پرمختګ او ښېرازي سبب وګرځي.
                                     </span>
                                 </li>
-                                <li>
-                                    <span class="pashto-font text-right">د هر کورس لخوا به د لیکچر وقفه چمتو ش
-                                        ښوونکی او په هر زده کونکي به وویشل شي
-                                        د غونډې پیل د زده کونکو سره مرسته کوي ترڅو خپل پلان جوړ کړي
-                                        په مؤثره توګه مطالعه.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">اوس مهال د مطالعې لاندې پروګرامونه رهبري کوي
-                                        د انجینرۍ لیسانس په BIHE کې وړاندیز کیږي.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">1 - د انجینرۍ لیسانس (مدني)</span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">2 - د انجینرۍ لیسانس (برقی)</span>
-                                </li>
+                               
                             </ul>
                             <div class="heading-bx right_line text-right">
-                                <h2 class="title-head pashto-font">
-                                    1 - د انجینرۍ لیسانس (مدني)
+                                <h3 class="title-head pashto-font">موخي
+
+                                </h3>
+                            </div>
+                            <ul class="pashto-course-features">
+                                <li>
+                                    <span class="pashto-font" style="text-align: justify">
+                                        <br>د د ټولنيزو، اخلاقي او د چاپيريال پوهي په درلودلو سره د باور وړ اشخاص فارغه کول؛
+                                       <br> د ليسانس په کچه د ساختماني او برق انجينري په برخو کي د مسلکي اشخاصو روزل؛
+                                       <br> د ليسانس په کچه د معياري لوړو زده کړو ارايه کول؛ 
+                                       <br> د سيمي، هيواد او نړۍ په هر اړخيز پرمختګ کي ونډه اخيستل؛
+                                        <br>د ساختماني او برق انجينري په څانګو کي په ملي او نړیواله کچه د نوښتونو او بدلونونو رامنځته کول؛
+                                        <br>په ټولنه کي د ساختماني او برق انجينري اړوند مشکلاتو حلول او له دې لاري د خلکو هوساينه تضمينول؛
+                                    </span>
+                                </li>
+                               
+                            </ul>
+
+
+                         
+
+
+
+
+                            <div class="heading-bx right_line text-right">
+                                <h2 class=" pashto-font" style="text-align: center">
+                                    
+                                     څانګي
+
+
                                 </h2>
-                            </div>
-                            <ul class="pashto-course-features">
-                                <li>
-                                    <span class="pashto-font text-right">د ملکي انجینرۍ څانګه په کې تاسیس شوه
-                                        2014 او ځینې لوی انجینرۍ ته لاسرسی لري
-                                        دلته په کندهار کې اسانتیاوې. څانګه ټول اړین دي
-                                        سرچینې او اسانتیاوې، کوم چې کولی شي کیفیت منعکس کړي
-                                        په ملکي انجینرۍ کې زده کړې. د نن ورځې ملکي انجینران
-                                        په عمده توګه د عامه او خصوصي زیربناوو سره معامله
-                                        او د چاپیریال سره د هغې تړاو، چې پکې شامل دي
-                                        پلان جوړونه، ډیزاین، ساختمان، او ساتنه
-                                        د ترانسپورت سیسټمونه، پلونه، بندونه، ودانۍ، اوبه
-                                        د اکمالاتو/توزیع/درملنې سیستمونه، فاضله اوبه او
-                                        د طوفان د اوبو د راټولولو/درملنې/سپړلو سیستمونه،
-                                        د اوبو لګولو سیسټمونه، او د سیلاب کنټرول. ملکي انجینران
-                                        همدارنګه عامه او خصوصي کارونه، او ډیزاین ترسره کوي
-                                        د اوبو، هوا او ځمکې لپاره د چاپیریال ساتنه.
-                                        په تحلیل او ډیزاین کې د عصري حالت تعریف
-                                        جوړښتونه د کمپیوټر په کارولو سره. څانګه لاندې لري
-                                        ماموریت او لید او د دوی اهداف.
-                                    </span>
-                                </li>
-                            </ul>
-                            <div class="heading-bx right_line text-right">
-                                <h3 class="title-head pashto-font">لید</h3>
-                            </div>
-                            <ul class="pashto-course-features">
-                                <li>
-                                    <span class="pashto-font">په ملکي برخه کې د مسلکي کسانو وده
-                                        انجنیري د ملي حل کولو وړتیا لري او
-                                        نړیوالې ستونزې.
-                                    </span>
-                                </li>
-                            </ul>
-                            <div class="heading-bx right_line">
-                                <h3 class="title-head text-right pashto-font">:هدف</h3>
                             </div>
 
-                            <ul class="pashto-course-features ">
-                                <li>
-                                    <span class="pashto-font">نوي نسل ته د تعلیمي خدمتونو وړاندې کول
-                                        د ملکي انجینرۍ او اړونده څیړنې ساحه
-                                        د افغاني ټولنې د پرمختګ لپاره خدمت وکړي.
-                                    </span>
-                                </li>
-                            </ul>
                             <div class="heading-bx right_line text-right">
-                                <h2 class="title-head pashto-font">
-                                    2 - د انجینرۍ لیسانس (برقی)
-                                </h2>
+                                <h3 class="title-head pashto-font"> ساختماني انجينري څانګه
+
+                                </h3>
                             </div>
                             <ul class="pashto-course-features">
                                 <li>
-                                    <span class="pashto-font text-right">دا د انجینرۍ څانګه ده چې ورسره معامله کوي
-                                        د بریښنا ټیکنالوژي. د بریښنا انجنیران کار کوي
-                                        د برخو، وسایلو او سیسټمونو پراخه لړۍ، څخه
-                                        د بریښنا لوی سټیشن جنراتورونو ته کوچني مایکروچپس.
-                                        د بریښنا په څانګه کې د فراغت زده کړې له لارې
-                                        په BIHE کې انجنیري، تاسو به یو متحرک سره یوځای شئ
-                                        د محصلینو، پوهنځیو، کارمندانو، او اکاډمیک ټولنه
-                                        پخواني زده کوونکي دا ټولنه پیاوړې کوي، نښلوي،
-                                        ډیجیټل کول، او د ښه راتلونکي له لارې اتومات کول
-                                        په دې برخه کې د پرمختللې څیړنې او سوداګرۍ کول
-                                        د BIHE د ځانګړي ماموریت شرایط. BIHE یوازینی دی
-                                        په کندهار ولایت کې د انستیتوت، چې چمتو کوي
-                                        د بریښنایی انجینرۍ کیفیت زده کړه. د
-                                        څانګه د وزارت لخوا تصویب او پیژندل شوې ده
-                                        لوړو زده کړو په ۲۰۱۴ کال کې د تاسیس پر مهال
-                                        انستیتوت څانګه لاندې ماموریت او لید لري
-                                        او د هغوی موخې.
+                                    <span class="pashto-font" style="text-align: justify">
+                                        بېنوا د لوړو زده کړو مؤسسې انجنیری پوهنځی سیول څانګه  د فعالیت (۲۰۱۳) کال له پیله بيا تر اوسه پوري محصلين جذبوي. د واقعي بدلون راوستونکو لوړو زده کړو په وړاندي کولو سره یاده څانګه  د هیواد او نژدې ګاونډیو په سطحه لوړي زده کړي وړاندي کوي. تر څو د کلني ثابت غوره والي وروسته یاده څانګه  اوس تلاښ کوي چي د غوره والی بله مرحله طی کړي. ياده څانګه په لوړه سطحه د باکيفيته او تخنيکي پوهي لپاره خپلي بشپړي هڅي کوي، په اړونده برخه کي په کافي اندازه مسلکي استاذان لري چي نه يوازي دا چي په درسي لحاظ 
+                                        د محصلينو پر ژوند باندي 
+                                        اغيزه لري بلکه د هغو پر ټولنيز ژوند باندي هم په کافي اندازه تاثير او اغيزه لري.
                                     </span>
                                 </li>
+                               
                             </ul>
+
+
+
                             <div class="heading-bx right_line text-right">
-                                <h3 class="title-head pashto-font">لید:</h3>
+                                <h3 class="title-head pashto-font">برق څانګه 
+
+
+
+                                </h3>
                             </div>
                             <ul class="pashto-course-features">
                                 <li>
-                                    <span class="pashto-font">د بریښنا په برخه کې د متخصصینو وده
-                                        انجنیري د ملي حل کولو وړتیا لري او
-                                        نړیوالې ستونزې.
+                                    <span class="pashto-font" style="text-align: justify">
+                                        داچی اوس مهال زموږ ګران هیواد پریمانه اوبه او همدارنګه د ښکلی 
+                                         جغرافيايي جوړښت لرونکی دی اوکولای سو په لږو امکاناتو د برق انجنیری اړوند ساختمانونه او تأسیسات ورباندي جوړ کړو نو برق څانګه هم کوښښ کوي چي داسی د برق متخصصین ټولنې ته دخدمت په موخه وړاندی کړي چی داړوند امکاناتو څخه اعظمي ګټه واخلي اوخپله پوهه د ګران هیواد په بیا رغونه او آبادی کی وکاروي. د يادي څانګي کوښښ دا دی چي د برق په څانګه داسي فارغين ټولني ته وړاندي کړي چي د امکان تر حده د ټولني د برق ستونزو ته د پای ټکي کښيږدي او د خپلو استاذانو څخه داسي پوهه او تخنيکونه زده کړي چي سبا ورځ د ټولني 
+                                         د درد لپاره ملهم جوړ سي او د هيواد په بیا رغونه کي رغنده رول ولري.
                                     </span>
                                 </li>
+                               
                             </ul>
-                            <div class="heading-bx right_line text-right">
-                                <h2 class="title-head pashto-font"> :هدف</h2>
-                            </div>
-                            <ul class="pashto-course-features">
-                                <li>
-                                    <span class="pashto-font">نوي نسل ته د تعلیمي خدمتونو وړاندې کول
-                                        د بریښنایی انجینرۍ ساحه او اړونده
-                                        څیړنه د افغاني ټولنې د ښه والي لپاره.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">
-                                        د کورس شمیرې سیسټم د کورس شمیره AB XYZ، AB کې
-                                        الفبا دي او XYZ عددونه دي. AB په نښه کوي
-                                        اکادمیک نظم.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">• EL بریښنایی انجینرۍ</span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">• CE ملکي انجینري </span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">• د MA ریاضي مضامین </span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">• IS اسلامي مضامین</span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">• EN انګلیسي ادبيات / ژبه</span>
-                                </li>
-                                <li>
-                                    <span class="pashto-font">• CS کمپیوټر ساینس</span>
-                                </li>
-                            </ul>
-                            <div class="heading-bx right_line text-right">
-                                <h2 class="title-head pashto-font">
-                                    1 - د انجینرۍ لیسانس (مدني)
-                                </h2>
-                            </div>
+
+
                         </div>
+
+
+
+
+
+
+
+
+                                {{-- __________________________________________ --}}
                         <table>
                             <tbody>
                                 <tr>
@@ -1035,47 +1008,7 @@
             </div>
             <!-- Your Faq End -->
             <!-- Company Stats -->
-            <div class="section-area content-inner section-sp1 bg-gray">
-                <div class="container">
-                    <div class="section-content">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-                                    <div class="text-primary">
-                                        <span class="counter" class="text-center">350</span><span>+</span>
-                                    </div>
-                                    <span class="counter-text">Graduates Students</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-                                    <div class="text-black">
-                                        <span class="counter">2500</span><span>+</span>
-                                    </div>
-                                    <span class="counter-text">Students</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-                                    <div class="text-primary">
-                                        <span class="counter">150</span><span>+</span>
-                                    </div>
-                                    <span class="counter-text">Teachers</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-                                    <div class="text-black">
-                                        <span class="counter">1000</span><span>+</span>
-                                    </div>
-                                    <span class="counter-text">Alumni</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Company Stats END -->
+                        <!-- Company Stats END -->
         </div>
         <!-- contact area END -->
     </div>

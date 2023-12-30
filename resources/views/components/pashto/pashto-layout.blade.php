@@ -53,9 +53,20 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/revolution/css/navigation.css') }}" />
     <!-- REVOLUTION SLIDER END -->
 </head>
+<style>
 
+
+    .df{
+        color: red
+    }
+        </style>
 
 <body id="bg">
+
+
+    
+
+
     <div class="page-wraper">
         <div id="loading-icon-bx"></div>
         <!-- Header Top ==== -->
@@ -75,12 +86,19 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="topbar-right">
-                            <ul>
-                                <li>
-                                    <select class="header-lang-bx " name="languages"
+                        <div class="topbar-right df">
+                            <ul class="df">
+                                <li class="df" >
+                                    <select class="header-lang-bx df" name="languages"
                                         id="languages"onchange="location = this.value;">
-                                        <option data-icon="flag flag-afg" value="/pashto">پشتو</option>
+                                        <option class="df"  data-icon="flag flag-afg" value="/pashto">
+                                          
+                                           
+                                            پښتو
+                                        
+                                          
+                                           
+                                        </option>
                                         <option data-icon="flag flag-uk"
                                             value="{{ url('') . '/' . substr(Request::path(), 3) }}">
                                             English</option>
@@ -196,7 +214,10 @@
                                 </li>
 
                                 <li><a href="javascript:;" style="font-family:'Noto Naskh Arabic',serif;"
-                                        class="text-right"> علمی <i class="fa fa-chevron-down"></i></a>
+                                        class="text-right"> 
+                                        علمي پروګرامونه
+                                        
+                                        <i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="javascript:;"
                                                 style="font-family:'Noto Naskh Arabic',serif; margin-right:17px"class="text-right">پروګرامونه<i
@@ -288,91 +309,103 @@
 
 
                                 <li class="add-mega-menu"><a href="javascript:;"
-                                        style="font-family:'Noto Naskh Arabic',serif;">زده کونکی <i
+                                        style="font-family:'Noto Naskh Arabic',serif;">
+                                        محصلین
+ <i
                                             class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu add-menu">
                                         <li class="add-menu-left">
 
                                             <ul>
-                                                <li><a href="courses.html"
-                                                        style="font-family:'Noto Naskh Arabic',serif; margin-right:17px"
+                                                <li>
+                                                    <a href="{{ url('files', ['pdf' => 'Acadimic_Calender.pdf']) }}"
+                                                        
                                                         class="text-right">مهال ویش </a>
                                                 </li>
                                                 <li><a href="https://student.benawa.edu.af/Login.php"
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
-                                                        class="text-right">د زده کونکو
-                                                        فورتال</a></li>
+                                                        class="text-right">د  محصلینو
+                                                        پورټل</a></li>
                                                 <li><a href="/pa-student-affairs"
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
-                                                        class="text-right">د زده کونکو
-                                                        چارو</a></li>
+                                                        class="text-right">  
+                                                        محصلانو معاونیت
+                                                    
+                                                    </a></li>
                                                 <li><a href="event.html"
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
                                                         class="text-right">د ازموینی مهال
                                                         ویش</a></li>
                                                 <li><a href="membership.html"
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
-                                                        class="text-right">علمی کتاب</a>
+                                                        class="text-right"> د محصلانو لارښود</a>
                                                 </li>
                                                 <li><a href="pa-academic_rules_and_regulation"
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
-                                                        class="text-right">اکاډمیک رول او
+                                                        class="text-right">اکاډمیک اصول او
                                                         مقررات</a></li>
                                                 <li><a href="membership.html"
                                                         style="font-family:'Noto Naskh Arabic',serif;  margin-right:17px"
-                                                        class="text-right">د زده کونکی سند
+                                                        class="text-right">د  محصلینو د سند
                                                         تصدیق</a></li>
                                             </ul>
                                         </li>
                                     </ul>
 
                                 <li><a href="javascript:;" style="font-family:'Noto Naskh Arabic',serif;"
-                                        class="text-right">اسانتیاوی<i class="fa fa-chevron-down"></i></a>
+                                        class="text-right">اسانتیاوي<i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="pa-computer-lab" style="font-family:'Noto Naskh Arabic',serif;"
-                                                class="text-right">د
-                                                کمپیوټر لابراتوار</a></li>
+                                                class="text-right">
+                                                کمپیوټر لېب</a></li>
                                         <li><a href="pa-engineering-lab"
                                                 style="font-family:'Noto Naskh Arabic',serif;" class="text-right">
-                                                د انجینری لابراتوار</a></li>
+                                                د انجینري لابراتوار</a></li>
                                         <li><a href="pa-library" style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">کتابتون</a></li>
                                         <li><a href="pa-cafeteria" style="font-family:'Noto Naskh Arabic',serif;"
-                                                class="text-right">کیفیټیریا</a></li>
+                                                class="text-right">خوړنځای</a></li>
 
                                     </ul>
                                 </li>
 
                                 <li class="nav-dashboard"><a href="javascript:;"
-                                        style="font-family:'Noto Naskh Arabic',serif;" class="text-right"> زموږ په اړه
+                                        style="font-family:'Noto Naskh Arabic',serif;" class="text-right">
+                                        زموږ په اړه
                                         <i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="/pa-why-benawa" style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">ولی
                                                 بینوا ؟</a></li>
-                                        <li><a href="admin/add-listing" style="font-family:'Noto Naskh Arabic',serif;"
-                                                class="text-right">لید ،تحول او موخی</a>
+                                        <li><a href="/pa-mession_vesion" style="font-family:'Noto Naskh Arabic',serif;"
+                                                class="text-right">لرليد، رسالت او موخي</a>
                                         </li>
                                         <li><a href="pa-founder-of-benawa"
-                                                style="font-family:'Noto Naskh Arabic',serif;" class="text-right">د
-                                                بینوا بنسټ
-                                                ایښودنکی</a></li>
+                                                style="font-family:'Noto Naskh Arabic',serif;" class="text-right">
+                                                  د مؤسس
+                                                پیغام
+                                            </a></li>
                                         <li><a href="pa-chancellor-message"
                                                 style="font-family:'Noto Naskh Arabic',serif;" class="text-right">د
-                                                ریس پیغام</a></li>
+                                              
+                                               
+                                                رئيس پیغام
+                                            </a></li>
                                         <li><a href="/pa-management-team"
                                                 style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">اداری ټیم</a></li>
                                         <li><a href="/pa_teachers" style="font-family:'Noto Naskh Arabic',serif;"
                                                 class="text-right">زموږ
-                                                ښوونکي</a></li>
+                                                استادان</a></li>
                                         <li><a href="admin/teacher-profile"
                                                 style="font-family:'Noto Naskh Arabic',serif;" class="text-right">زموږ
-                                                زده کونکی</a></li>
+                                                محصلن</a></li>
                                 </li>
                             </ul>
                             <li class="nav-dashboard clearfix"><a style="font-family:'Noto Naskh Arabic',serif;"
-                                    href="/pa-contact">موږ سره اړیکه ونیسئ</a>
+                                    href="/pa-contact">
+                                    زموږ سره اړيکه
+                                </a>
                                 <div class="nav-social-link">
                                     <a href="javascript:;"><i class="fa fa-facebook"></i></a>
                                     <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
@@ -400,7 +433,7 @@
                             <div class="pt-social-link">
                                 <ul class="list-inline m-a0">
                                     <li>
-                                        <a href="#" class="btn-link"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.facebook.com/benawa.uni" class="btn-link"><i class="fa fa-facebook"></i></a>
                                     </li>
                                     <li>
                                         <a href="#" class="btn-link"><i class="fa fa-twitter"></i></a>
@@ -417,28 +450,55 @@
                         </div>
                     </div>
                 </div>
+                {{-- footer --}}
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
-                            <div class="widget">
-                                <h5 class="footer-title">Institute Address:</h5>
-                                <p class="text-capitalize">
-                                    District-6, Near Sera Jama, New city, Kandahar, Afghanistan
+                            <div class="widget" >
+                                <h5 class="footer-title pashto-font">د مؤسسې پته</h5>
+                                <p class="text-capitalize" style="text-align: right;margin-right:100px">
+                                    عينو مېنه، دوهمه فواره، اطاق تجارت شاته، کندهار افغانستان
                                 </p>
 
                             </div>
-                            <div>
-                                <h5 class="footer-title">Contact Numbers:</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                <h5 class="footer-title pashto-font">د اړیکو شمیرې</h5>
                                 <p class="text-capitalize ">
-                                    0093(0)7000(35-38)222
+                                    <div style="margin-right: 30px">
+                                        <div>
+                                          +93700035222
+                                        </div>
+                                        <div>
+                                          +93700036222
+                                        </div>
+                                        <div>
+                                          +93700038222
+                                        </div>
+                                        </div>
                                 </p>
+                            </div>
 
+                            <div class="col-6">
+                                <h5 class="footer-title pashto-font">د واټسپ شمیرې</h5>
+                                <p class="text-capitalize ">
+                                    <div style="margin-right: 30px">
+                                        <div>
+                                            +93700035222
+                                        </div>
+                                        <div>
+                                            +93700036222
+                                        </div>
+                                        
+                                        </div>
+                                </p>
+                            </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-12 col-sm-12 footer-col-4">
                             <div class="widget">
-                                <h5 class="footer-title">Email Addresses:</h5>
-                                <p class="text-capitalize">
+                                <h5 class="footer-title pashto-font">ایمیل ادرسونه</h5>
+                                <p class="">
                                     info@benawa.edu.af
                                     hr@benawa.edu.af
                                     admission@benawa.edu.af
@@ -452,7 +512,7 @@
                             <div class="row">
                                 <div class="col-4 col-lg-12 col-md-4 col-sm-4">
                                     <div class="widget footer_widget">
-                                        <h5 class="footer-title">Quick Links</h5>
+                                        <h5 class="footer-title pashto-font">چټک لینکونه</h5>
                                         <ul>
                                             <li><a href="{{ url('files', ['pdf' => 'TimeTable.pdf']) }}">Time
                                                     Table</a></li>

@@ -53,7 +53,19 @@
     <!-- REVOLUTION SLIDER END -->
 </head>
 
+
+
+
 <body id="bg">
+
+
+    <style>
+.ffg{
+    color: red
+}
+
+
+    </style>
     <div class="page-wraper">
         <div id="loading-icon-bx"></div>
         <!-- Header Top ==== -->
@@ -72,18 +84,19 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="topbar-right">
-                            <ul>
+                        <div class="topbar-right ffg" >
+                            <ul style="font-family: Bahij Titr">
                                 <li>
                                     <select class="header-lang-bx" name="languages" id="languages"
                                         onchange="location = this.value;">
                                         <option data-icon="flag flag-uk" value="{{ url('') . '/-' . Request::path() }}">
                                             English</option>
                                         <option
-                                            style="font-family:'Noto Naskh Arabic',serif;
-                                                         direction: rtl"
+                                        
+                                            style="font-family:'Bahij Titr'
+                                                         direction: ltr"
                                             data-icon="flag flag-afg" value="{{ url('') . '/pa-' . Request::path() }}">
-                                            پشتو</option>
+                                            پښتو</option>
                                         <option data-icon="flag flag-afg"
                                             value="{{ url('') . '/dr-' . Request::path() }}">دری</option>
                                     </select>
@@ -213,7 +226,7 @@
                                         <li class="add-menu-left">
 
                                             <ul>
-                                                <li><a href="{{ url('files', ['pdf' => 'TimeTable.pdf']) }}">Time
+                                                <li><a href="{{ url('files', ['pdf' => 'Acadimic_Calender.pdf']) }}">Time
                                                         Table
                                                     </a></li>
                                                 <li><a href="https://student.benawa.edu.af/Login.php">Student

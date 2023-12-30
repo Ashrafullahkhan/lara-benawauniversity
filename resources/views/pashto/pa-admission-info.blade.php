@@ -13,6 +13,14 @@
                 </div>
             </div>
         </div>
+
+        <style>
+            
+           
+        /* To set icon at the right side of the div*/ 
+       
+            
+        </style>
         <!-- Breadcrumb row -->
 
         <!-- Breadcrumb row END -->
@@ -28,30 +36,78 @@
 
                         <div class="col-lg-4 col-md-12">
                             <div class="bg-primary text-white contact-info-bx">
-                                <h2 class="m-b10 title-head">
-                                    Contact <span>Information</span>
+                                <h2   style="text-align: center" class="m-b10 title-head">
+                                   <span >اړيکه</span>
                                 </h2>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry.
+                                <p style="text-align: right">
+                                    تاسي کولای سئ چي د لاندنيو شبکو پواسطه زموږ سره اړيکه ونيسئ
                                 </p>
                                 <div class="widget widget_getintuch">
-                                    <ul>
-                                        <li>
-                                            <i class="ti-location-pin"></i>District-11, Aino Meena
-                                            Near Ministry of Business, Kandahar, Afghanistan
+                                    <ul  style="" >
+                                        <li  style="text-align: right">
+                                            
+
+                                            <span style="float: right ; margin-left:10px ">
+                                                <i class="ti-location-pin" style="position: relative"></i>
+                                             </span>
+                                                 
+                                            <div style="margin-right: 30px">
+                                                
+                                                عينو مېنه، دوهمه فواره، اطاق تجارت شاته، کندهار افغانستان
+                                            </div>    
+                                                
+                                         
+                                                
                                         </li>
-                                        <li>
-                                            <i class="ti-mobile"></i>0093(0)7000(35-38)222 (24/7
-                                            Support Line)
+                                        <li class="" style="text-align: right">
+
+                                            <span style="float: right ; margin-left:10px ">
+                                            <i class="ti-mobile" style="position: relative"></i>
+                                            
+                                        </span>
+
+
+                                        <div style="margin-right: 30px">
+                                              <div>
+                                                +93700035222
+                                              </div>
+                                              <div>
+                                                +93700036222
+                                              </div>
+                                              <div>
+                                                +93700038222
+                                              </div>
+                                              </div>
+                                              <hr>
+                                             
+
+
                                         </li>
-                                        <li><i class="ti-email"></i>info@benawa.edu.af</li>
+                                        <li style="text-align: right">
+                                            <span style="float: right ; margin-left:10px ">
+                                            <i class="fa fa-whatsapp" style="position: relative"></i>
+                                            </span>
+                                            <div style="margin-right: 3px">
+                                         
+                                              +93700035222
+                                              +93700036222
+                                    
+                                        
+                                            </div>
+                                        </li>
+                                        <li style="text-align: right">
+                                            <span style="float: right ; margin-left:10px ">
+                                            <i class="ti-email" style="position: relative"></i>
+                                            </span>
+                                            info@benawa.edu.af
+                                        
+                                        </li>
                                     </ul>
                                 </div>
-                                <h5 class="m-t0 m-b20">Follow Us</h5>
-                                <ul class="list-inline contact-social-bx">
+                                <h5 class="m-t0 m-b20" style="text-align: right">زموږ ټولنيزي شبکې</h5>
+                                <ul class="list-inline contact-social-bx" style="text-align: right">
                                     <li>
-                                        <a href="#" class="btn outline radius-xl"><i
+                                        <a href="https://www.facebook.com/benawa.uni" class="btn outline radius-xl"><i
                                                 class="fa fa-facebook"></i></a>
                                     </li>
                                     <li>
@@ -79,40 +135,47 @@
                                 <h2 class="title-head pashto-font text-right"
                                     style="  font-family:'Noto Naskh Arabic',serif;
                                             direction: rtl">
-                                    وړتوب</h2>
+                                  
+                                  د نوم ليکني لپاره د ضرورت وړ اسنادونه
+                                
+                                </h2>
                             </div>
                             <ul class="pashto-course-features text-right">
                                 <li>
-                                    <span class="pashto-font text-right">زده
-                                        کوونکی لږ تر لږه
-                                        د
-                                        ثانوي ثانوي ښوونځی پاس
-                                        کړی
-                                        په سلو کې 60.</span>
+                                    <span class="pashto-font text-right">
+                                       
+                                        محصل بايد لږ تر لږه د بکلوريا سند د ځان سره ولري چي د نمرو فيصدي يي د ۶۰ څخه کمه نه وي.
+                                    </span>
                                 </li>
                                 <li>
                                     <span class="pashto-font text-right">
-                                        زده کوونکی باید د داخلیدو دمخه ټول طبي ازموینه پاکه کړي
-                                        په BIHE کې.</span>
+                                       
+                                        په ازموينه کي د شامليدو څخه مخکي بايد صحي استعلامونه ځواب کړي.
+                                       
+                                    
+                                    </span>
                                 </li>
                             </ul>
 
                             <div class="heading-bx right_line">
                                 <h2 class="title-head pashto-font text-right">
-                                    د غوښتنلیک فورمه سره اړین اسناد:
+                                    د غوښتنليک د جمعه کولو پرمهال ضروري توکي
+                                    
                                 </h2>
                             </div>
                             <ul class="pashto-course-features ">
                                 <li>
-                                    <span class="pashto-font text-right"> HSC سند</span>
+                                    <span class="pashto-font text-right"> 
+                                        د بکلوريا سند (High School Certificate) يا دري کلني نمري
+                                    </span>
                                 </li>
                                 <li>
-                                    <span class="pashto-font text-right">د HSC نښه پاڼه</span>
+                                    <span class="pashto-font text-right">۸ قطعي عکسونه</span>
                                 </li>
                                 <li>
-                                    <span class="pashto-font text-right">د بورډ څخه د تایید لیک</span>
+                                    <span class="pashto-font text-right">اصلي تذکره</span>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <span class="pashto-font text-right"> ملي تذکره (تسکره)</span>
                                 </li>
                                 <li>
@@ -120,42 +183,44 @@
                                 </li>
                                 <li>
                                     <span class="pashto-font text-right"> 8 عکسونه</span>
-                                </li>
+                                </li> --}}
                             </ul>
                             <div class="heading-bx right_line">
                                 <h2 class="title-head pashto-font text-right">د عکس مشخصات</h2>
                             </div>
                             <ul class="pashto-course-features ">
                                 <li>
-                                    <span class="pashto-font text-right">نځور باید روښانه ښکاره شي.</span>
+                                    <span class="pashto-font text-right">عکس بايد روښانه او د ښه ليدني قابليت ولري.</span>
                                 </li>
                                 <li>
                                     <span class="pashto-font text-right">
-                                        پس منظر باید په ساده یا سپین سپین وي.
+                                       د عکس بکراونډ بايد ساده يا سپين وي.
                                     </span>
                                 </li>
                                 <li>
-                                    <span class="pashto-font text-right">په عکس کې برعکس او رڼا باید وي
-                                        نورمال</span>
+                                    <span class="pashto-font text-right">
+                                       د عکس روښنايي بايد نارمل وي ( نه ډېر روښانه او نه ډېر تاريک).                                      
+                                    </span>
                                 </li>
                                 <li>
                                     <span class="pashto-font text-right">
-                                        انځور باید لږترلږه 600 ریزولوشن ولري
-                                        pixels x 450 pixels</span>
+                                    د عکس اندازه بايد 3×4 mm وي.                                      
+                                    
+                                    </span>
                                 </li>
                             </ul>
                             <div class="heading-bx right_line">
-                                <h2 class="title-head pashto-font text-right">د داخلې ازموینې نمرې:</h2>
+                                <h2 class="title-head pashto-font text-right">د داخلې ازمویني نمرې:</h2>
                             </div>
                             <ul class="pashto-course-features  right_line">
                                 <li>
-                                    <span class="pashto-font text-right">غوښتن لیک ورکوونکي اړ دي چې د انسټیټیوټ داخله
-                                        پاس کړي
-                                        د کانکور ازموینه په ټوله کې لږ تر لږه ۵۰٪ نمرې ولري
-                                        برخې</span>
+                                    <span class="pashto-font text-right">
+                                        غوښتنليک ورکوونکی مکلف دی ترڅو په کانکور ازموينه کي لږ تر لږه ۷۰ سلنه نمري پوره کړي.
+                                    
+                                    </span>
                                 </li>
                             </ul>
-                            <div class="heading-bx right_line">
+                            {{-- <div class="heading-bx right_line">
                                 <h2 class="title-head pashto-font text-right">د وړتیا معیارونه:</h2>
                             </div>
                             <ul class="pashto-course-features ">
@@ -171,20 +236,27 @@
                                     <span class="pashto-font text-right">د داخلې په ازموینه کې د ترلاسه شویو نمرو ونډه
                                         %80 </span>
                                 </li>
-                            </ul>
+                            </ul> --}}
                             <div class="heading-bx right_line">
-                                <h2 class="title-head pashto-font text-right">د غوښتنلیک ردول</h2>
+                                <h2 class="title-head pashto-font text-right">
+                                 د غوښتنليک ردول
+
+                                
+                                </h2>
                             </div>
                             <ul class="pashto-course-features  ">
                                 <li>
-                                    <span class="pashto-font text-right">د داخلې کمیټې مشر کولی شي لغوه یا بیرته واخلي
-                                        د هر کاندید داخله</span>
+                                    <span class="pashto-font text-right">
+                                    
+                                        مسؤل کس د غوښتنليک د قبلولو او ردولو بشپړ صلاحيت لري. 
+                                        
+                                    </span>
                                 </li>
                                 <li>
                                     <span class="pashto-font text-right">
-                                        غوښتنلیک باید په لنډ ډول رد شي که چیرې
-                                        غوښتنلیک ورکوونکی د هر ډول فشار یا فشار په تور مجرم پیژندل شوی
-                                        په هره مرحله کې د مادي حقایقو غلط بیان.</span>
+                                    که د مراحلو څخه په يوه مرحله کي دا ثابته سي چي غوښتنليک ورکوونکی په جرم تورن دی، نو سمدستي يي غوښتنليک رد کيږي.
+                                    
+                                    </span>
                                 </li>
 
                             </ul>
@@ -194,46 +266,7 @@
             </div>
             <!-- Your Faq End -->
             <!-- Company Stats -->
-            <div class="section-area content-inner section-sp1 bg-gray">
-                <div class="container">
-                    <div class="section-content">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-                                    <div class="text-primary">
-                                        <span class="counter" class="text-center">350</span><span>+</span>
-                                    </div>
-                                    <span class="counter-text">Graduates Students</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-                                    <div class="text-black">
-                                        <span class="counter">2500</span><span>+</span>
-                                    </div>
-                                    <span class="counter-text">Students</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-                                    <div class="text-primary">
-                                        <span class="counter">150</span><span>+</span>
-                                    </div>
-                                    <span class="counter-text">Teachers</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-                                    <div class="text-black">
-                                        <span class="counter">1000</span><span>+</span>
-                                    </div>
-                                    <span class="counter-text">Alumni</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             <!-- Company Stats END -->
         </div>
         <!-- contact area END -->
